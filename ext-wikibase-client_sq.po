@@ -1,0 +1,909 @@
+# Translation of Wikibase Client messages - all to Albanian (shqip)
+# Exported from translatewiki.net
+#
+# Author: Arianit
+# Author: Bjakupi
+# Author: Liridon
+# Author: Olsi
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2018-12-23 17:22:00+0000\n"
+"POT-Creation-Date: 2018-12-23 17:22:00+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"X-Generator: MediaWiki 1.33.0-alpha; Translate 2018-11-05\n"
+"X-Language-Code: sq\n"
+"X-Message-Group: ext-wikibase-client\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. [Wiki] {{desc|name=Wikibase Client|url=https://www.mediawiki.org/wiki/Extension:Wikibase_Client}}
+#. [Wiki] See also [[d:Wikidata:Glossary#Wikidata|Wikidata]].
+msgctxt "wikibase-client-desc"
+msgid "Client for the Wikibase extension"
+msgstr "Klient për ekstensionin Wikibase"
+
+#. [Wiki] Tooltip for toolbox link to connected Wikibase data repository item
+msgctxt "tooltip-t-wikibase"
+msgid "Link to connected data repository item"
+msgstr "Link deri tek artikulli i depos të të dhënave të lidhura"
+
+#. [Wiki] Message on [[Special:MovePage]] on submit and successfully move, inviting user to update associated Wikibase repository item to maintain language links on the moved page on the client.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the link for the associated Wikibase item.
+msgctxt "wikibase-after-page-move"
+msgid "Your move should now be [$1 reflected in the {{WBREPONAME}} item] language link. We ask that you check this has occurred."
+msgstr ""
+
+#. [Wiki] Message after a successful page move, telling the user that the Wikidata item belonging to the page will be automatically updated soon.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the link for the associated Wikibase item.
+msgctxt "wikibase-after-page-move-queued"
+msgid "The [$1 {{WBREPONAME}} item] associated with this page will be automatically updated. Please note that this might not happen instantaneously."
+msgstr ""
+
+#. [Wiki] Message after a successful page deletion, inviting the user to remove the link to the deleted page from the associated Wikibase repository item.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the link for the associated Wikibase item.
+msgctxt "wikibase-after-page-delete"
+msgid "Link to this page should have been removed from [$1 the associated {{WBREPONAME}} item]. We ask that you check this has occurred."
+msgstr ""
+
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the link for the associated Wikibase item.
+msgctxt "wikibase-after-page-delete-queued"
+msgid "The [$1 {{WBREPONAME}} item] associated with this page will be automatically updated. Please note that this might not happen instantaneously."
+msgstr ""
+
+#. [Wiki] Autocomment message in the client for when an item is created (and then is linked to the client page).
+msgctxt "wikibase-comment-add"
+msgid "A {{WBREPONAME}} item has been created."
+msgstr ""
+
+#. [Wiki] Autocomment message for client (e.g. Wikipedia) recent changes when a Wikidata item connected to a page gets deleted. This results in all the language links being removed from the page on the client.
+msgctxt "wikibase-comment-remove"
+msgid "Associated {{WBREPONAME}} item deleted. Language links removed."
+msgstr ""
+
+#. [Wiki] Autocomment message in the client for when a Wikidata item is linked to a page in the client.
+msgctxt "wikibase-comment-linked"
+msgid "A {{WBREPONAME}} item has been linked to this page."
+msgstr ""
+
+#. [Wiki] Autocomment message for client (e.g. Wikipedia) recent changes when a sitelink to a page gets removed. This results in the associated item being disconnected from the client page and all the language links being removed.
+msgctxt "wikibase-comment-unlink"
+msgid "This page has been unlinked from {{WBREPONAME}} item. Language links removed."
+msgstr ""
+
+#. [Wiki] Autocomment message for client (e.g. Wikipedia) recent changes when a Wikidata item gets undeleted and has a sitelink to this page. Language links get re-added to the client page.
+msgctxt "wikibase-comment-restore"
+msgid "Associated {{WBREPONAME}} item undeleted. Language links restored."
+msgstr ""
+
+#. [Wiki] Autocomment message for client (e.g. Wikipedia) recent changes when a linked Wikidata item gets changed. This can include label changes and statements.
+msgctxt "wikibase-comment-update"
+msgid "{{WBREPONAME}} item changed"
+msgstr "Artikulli {{WBREPONAME}} u ndryshua"
+
+#. [Wiki] Autocomment message for client (e.g. Wikipedia) when a particular sitelink gets added on the repository. This change appears on the client as a new language link in the sidebar.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the wikilink that was added, in form of [[:de:Berlin|de:Berlin]]
+msgctxt "wikibase-comment-sitelink-add"
+msgid "Language link added: $1"
+msgstr ""
+
+#. [Wiki] Autocomment message for client (e.g. Wikipedia) when a particular sitelink gets changed on the repository.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the wikilink for the old link
+#. [Wiki] * $2 - the new wikilink
+#. [Wiki] Format of wikilink is [[:de:Berlin|de:Berlin]].
+msgctxt "wikibase-comment-sitelink-change"
+msgid "Language link changed from $1 to $2"
+msgstr ""
+
+#. [Wiki] Autocomment message for client (e.g. Wikipedia) when a particular sitelink gets removed on the repository. $1 is the wikilink for the link removed, in format [[:de:Berlin|de:Berlin]].
+msgctxt "wikibase-comment-sitelink-remove"
+msgid "Language link removed: $1"
+msgstr ""
+
+#. [Wiki] Summary shown in [[Special:RecentChanges]] and on [[Special:WatchList]] for an entry that represents multiple changes on the Wikibase repository.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the number of changes; is always at least 2.
+#. [Wiki] {{Identical|Change}}
+msgctxt "wikibase-comment-multi"
+msgid "$1 {{PLURAL:$1|change|changes}}"
+msgstr ""
+
+#. [Wiki] Toolbox link text for link to connected Wikibase data item
+#. [Wiki] {{Identical|Item}}
+msgctxt "wikibase-dataitem"
+msgid "{{WBREPONAME}} item"
+msgstr "Artikulli {{WBREPONAME}}"
+
+#. [Wiki] [[Image:InterlanguageLinks-Sidebar-Monobook.png|right]]
+#. [Wiki] 	This is a link to the page on Wikidata where interlanguage links of the current page can be edited. See the image on the right for how it looks.
+#. [Wiki] {{Identical|Edit link}}
+msgctxt "wikibase-editlinks"
+msgid "Edit links"
+msgstr "Redakto lidhjet"
+
+#. [Wiki] This is the '''tooltip''' text on a link in the sidebar that opens a wizard to edit interlanguage links.
+#. [Wiki] 
+#. [Wiki] The link text is {{msg-mw|Wikibase-editlinks}}.
+msgctxt "wikibase-editlinkstitle"
+msgid "Edit interlanguage links"
+msgstr "Redakto lidhjet ndërgjuhësore"
+
+#. [Wiki] This is the '''tooltip''' text on a link in the sidebar that opens a wizard to edit interlanguage links.
+#. [Wiki] 
+#. [Wiki] The link text is {{msg-mw|Wikibase-linkitem-addlinks}}.
+msgctxt "wikibase-addlinkstitle"
+msgid "Add interlanguage links"
+msgstr "Shto lidhjet ndërgjuhësore"
+
+#. [Wiki] Link in the sidebar asking to add language links and link the current page with pages on other sites. Only visible in case the current page has no langlinks.
+#. [Wiki] {{Identical|Add link}}
+msgctxt "wikibase-linkitem-addlinks"
+msgid "Add links"
+msgstr "Shto lidhjet"
+
+#. [Wiki] Tells that the page which the user wanted to link with the current one is already attached to an item on the central data repository. That item already links to an article on this site while items can only have one page per site attached.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - a link to the item
+#. [Wiki] * $2 - the name of the page in the current wiki the item already links to
+msgctxt "wikibase-linkitem-alreadylinked"
+msgid "The page you wanted to link with is already attached to an [$1 item] on the central data repository which links to $2 on this site. Items can only have one page per site attached. Please choose a different page to link with."
+msgstr ""
+
+#. [Wiki] Button text asking to close the current dialog and to reload the page.
+msgctxt "wikibase-linkitem-close"
+msgid "Close dialog and reload page"
+msgstr "Mbyll dialogun dhe ringarko faqen"
+
+#. [Wiki] Shown in case an error occurred which is not an API error (like a linking conflict)
+msgctxt "wikibase-linkitem-failure"
+msgid "An unknown error occurred while trying to link the given page."
+msgstr ""
+
+#. [Wiki] Title for the dialog which allows linking the current page with a page on another site.
+msgctxt "wikibase-linkitem-title"
+msgid "Link with page"
+msgstr "Lidhu me faqen"
+
+#. [Wiki] Button in the dialog which allows linking the current page with a page on another site. Usable after the user inserted a site and a page to link.
+msgctxt "wikibase-linkitem-linkpage"
+msgid "Link with page"
+msgstr ""
+
+#. [Wiki] Explaining the user that he can choose a site and a page that should be linked with the one he's currently on.
+msgctxt "wikibase-linkitem-selectlink"
+msgid "Please select a site and a page that you want to link to this page."
+msgstr ""
+
+#. [Wiki] Label for the (autocompleted) inputbox asking for a site/ language.
+#. [Wiki] {{Identical|Language}}
+msgctxt "wikibase-linkitem-input-site"
+msgid "Language:"
+msgstr ""
+
+#. [Wiki] Label for the (autocompleted) inputbox asking for a page.
+#. [Wiki] {{Identical|Page}}
+msgctxt "wikibase-linkitem-input-page"
+msgid "Page:"
+msgstr ""
+
+#. [Wiki] Text shown above a table containing links to other pages. Asks the user to confirm that the links are correct and should be linked with the current page.
+#. [Wiki] 	The message string will only be used when there are multiple pages, still it has a count argument so it can use a correct plural parser function.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the URL to the item which links to the shown pages
+#. [Wiki] * $2 - the number of links to associated pages
+msgctxt "wikibase-linkitem-confirmitem-text"
+msgid "The page you have chosen is already associated to an [$1 item on our central data repository]. Please confirm that the {{PLURAL:$2|page|pages}} shown below {{PLURAL:$2|is|are}} the {{PLURAL:$2|one|ones}} that you want to link to this page."
+msgstr ""
+
+#. [Wiki] Button label below a table containing links to other pages. Asks the user to confirm that he wants to link them with the current page.
+#. [Wiki] {{Identical|Confirm}}
+msgctxt "wikibase-linkitem-confirmitem-button"
+msgid "Confirm"
+msgstr ""
+
+#. [Wiki] Title of the dialog telling the user that he needs to login on both the repo and client to use this feature.
+msgctxt "wikibase-linkitem-not-loggedin-title"
+msgid "You need to be logged in"
+msgstr ""
+
+#. [Wiki] This messages informs the user that he needs to be logged in on both this wiki and the repository to use this feature.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the URI to the login form of the repository
+msgctxt "wikibase-linkitem-not-loggedin"
+msgid "You need to be logged in on this wiki and in the [$1 central data repository] to use this feature."
+msgstr ""
+
+#. [Wiki] Success message after the page the user currently is on has been linked with an item. $1 holds a URL pointing to the item.
+msgctxt "wikibase-linkitem-success-link"
+msgid "The pages have been linked. You can find the item containing the links in our [$1 central data repository]."
+msgstr ""
+
+#. [Wiki] Label shown in the Parser limit report telling the user how many Wikibase entities have been loaded during the parse of the current page.
+msgctxt "limitreport-entityaccesscount"
+msgid "Number of Wikibase entities loaded"
+msgstr ""
+
+#. [Wiki] Value in the Parser limit report telling the user how many Wikibase entities have been loaded during the parse of the current page.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - Number of entities loaded
+#. [Wiki] * $2 - Number of entities that can be loaded.
+#, optional
+msgctxt "limitreport-entityaccesscount-value"
+msgid "$1/$2"
+msgstr ""
+
+#. [Wiki] Message for property parser function when a property is not found. Parameters:
+#. [Wiki] * $1 - the name of the property
+msgctxt "wikibase-property-notfound"
+msgid "$1 property not found."
+msgstr ""
+
+#. [Wiki] This refers to a toggle to hide or show edits (revisions) that come from Wikidata. If set to "hide", it hides edits made to the connected item in the Wikidata repository.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - a link with the text {{msg-mw|wikibase-rc-hide-wikidata-show}} or {{msg-mw|wikibase-rc-hide-wikidata-hide}}
+#. [Wiki] * <nowiki>{{WBREPONAME}}</nowiki> - expanded to {{msg-mw|wikibase-repo-name}}
+msgctxt "wikibase-rc-hide-wikidata"
+msgid "$1 {{WBREPONAME}}"
+msgstr "$1 {{WBREPONAME}}"
+
+#. [Wiki] {{doc-actionlink}}
+#. [Wiki] Option text in [[Special:RecentChanges]] in conjunction with {{msg-mw|wikibase-rc-hide-wikidata}}.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|wikibase-rc-hide-wikidata-show}}
+#. [Wiki] {{Identical|Hide}}
+msgctxt "wikibase-rc-hide-wikidata-hide"
+msgid "Hide"
+msgstr "Fshih"
+
+#. [Wiki] {{doc-actionlink}}
+#. [Wiki] Option text in [[Special:RecentChanges]] in conjunction with {{msg-mw|wikibase-rc-hide-wikidata}}.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|wikibase-rc-hide-wikidata-hide}}
+#. [Wiki] {{Identical|Show}}
+msgctxt "wikibase-rc-hide-wikidata-show"
+msgid "Show"
+msgstr "Shfaq"
+
+#. [Wiki] Option in the recent changes section of preferences to show wikibase changes by default in recent changes.
+msgctxt "wikibase-rc-show-wikidata-pref"
+msgid "Show {{WBREPONAME}} edits in recent changes"
+msgstr ""
+
+#. [Wiki] Very short form of "'''wikidata edit'''". Used in [[Special:RecentChanges]] and [[Special:Watchlist]].
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Newpageletter}}
+#. [Wiki] * {{msg-mw|Minoreditletter}}
+#. [Wiki] * {{msg-mw|Boteditletter}}
+#. [Wiki] * {{msg-mw|Unpatrolledletter}}
+msgctxt "wikibase-rc-wikibase-edit-letter"
+msgid "D"
+msgstr "D"
+
+#. [Wiki] Tooltip for {{msg-mw|wikibase-rc-wikibase-edit-letter}}.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Recentchanges-label-newpage}}
+#. [Wiki] * {{msg-mw|Recentchanges-label-minor}}
+#. [Wiki] * {{msg-mw|Recentchanges-label-bot}}
+#. [Wiki] * {{msg-mw|Recentchanges-label-unpatrolled}}
+#. [Wiki] {{Identical|Edit}}
+msgctxt "wikibase-rc-wikibase-edit-title"
+msgid "{{WBREPONAME}} edit"
+msgstr "Redaktim {{WBREPONAME}}"
+
+#. [Wiki] Label for "Wikidata edits" filter on ChangesList pages (such as RecentChanges).
+msgctxt "wikibase-rcfilters-hide-wikibase-label"
+msgid "{{WBREPONAME}} edits"
+msgstr ""
+
+#. [Wiki] Description for 'Wikidata edits' filter on ChangesList pages (such as RecentChanges)
+msgctxt "wikibase-rcfilters-hide-wikibase-description"
+msgid "Edits that originate on {{WBREPONAME}}."
+msgstr ""
+
+#. [Wiki] Tooltip shown when hovering over a 'Wikidata edits' filter tag, when a ORES filter is also selected.
+#. [Wiki] * 'Contribution quality' is based on {{msg-mw|Ores-rcfilters-damaging-title}}.
+#. [Wiki] * 'User intent' is based on {{msg-mw|Ores-rcfilters-goodfaith-title}}.
+msgctxt "wikibase-rcfilters-hide-wikibase-conflicts-ores"
+msgid "This filter conflicts with one or more Contribution Quality or User Intent filters. Quality and Intent predictions are not available for {{WBREPONAME}} edits."
+msgstr ""
+
+#. [Wiki] Message shown in the result area when both an ORES filter and the 'Wikidata edits' filter are selected.  This indicates that no results will be shown because propagated Wikidata edits do not have ORES scores available.
+#. [Wiki] 
+#. [Wiki] * "Wikidata edits" is {{msg-mw|wikibase-rcfilters-hide-wikibase-label}}.
+#. [Wiki] * "Contribution quality" is based on {{msg-mw|Ores-rcfilters-damaging-title}}.
+#. [Wiki] * "User intent" is based on {{msg-mw|Ores-rcfilters-goodfaith-title}}.
+#. [Wiki] * "Active Filters" is based on {{msg-mw|rcfilters-activefilters}}.
+msgctxt "wikibase-rcfilters-hide-wikibase-conflicts-ores-global"
+msgid "The \"{{WBREPONAME}} edits\" filter is conflicting with one or more Contribution Quality or User Intent filters. Quality and Intent predictions are not available for {{WBREPONAME}} edits. The conflicting filters are marked in the Active Filters area, above."
+msgstr ""
+
+#. [Wiki] Tooltip shown when hovering over a 'Contribution quality predictions' filter tag, when the 'Wikidata edits' filter is selected and there is a conflict.  Propagated Wikidata edits do not have ORES scores avaialble.  Parameters:
+#. [Wiki] * $1 - Comma-separated string of selected Type of Change filters, e.g. "Wikidata edits"
+#. [Wiki] * $2 - Count of selected Type of Change filters, for PLURAL
+msgctxt "wikibase-rcfilters-damaging-conflicts-hide-wikibase"
+msgid "Contribution Quality predictions are not available for certain types of change, so this filter conflicts with the following Type of Change {{PLURAL:$2|filter|filters}}: $1"
+msgstr ""
+
+#. [Wiki] Tooltip shown when hovering over a 'User intent predictions' filter tag, when the 'Wikidata edits' filter is selected and there is a conflict.  'Wikidata edits' are not scored by ORES.  Parameters:
+#. [Wiki] * $1 - Comma-separated string of selected Type of Change filters, e.g. "Wikidata edits"
+#. [Wiki] * $2 - Count of selected Type of Change filters, for PLURAL
+msgctxt "wikibase-rcfilters-goodfaith-conflicts-hide-wikibase"
+msgid "User Intent predictions are not available for certain types of change, so this filter conflicts with the following Type of Change {{PLURAL:$2|filter|filters}}: $1"
+msgstr ""
+
+#. [Wiki] Message shown in the result area when both the Non-minor filter and 'Wikidata edits' filter are selected.  This indicates that no results will be shown.
+#. [Wiki] 
+#. [Wiki] "Non-minor edits" is {{msg-mw|rcfilters-filter-major-label}}.
+#. [Wiki] 
+#. [Wiki] "Wikidata edits" is {{msg-mw|wikibase-rcfilters-hide-wikibase-label}}.
+msgctxt "wikibase-rcfilters-hide-wikibase-conflicts-major-global"
+msgid "All {{WBREPONAME}} edits are designated as \"minor\", so the \"{{WBREPONAME}} edits\" filter conflicts with the \"Non-minor edits\" filter."
+msgstr ""
+
+#. [Wiki] Tooltip shown when hovering over the Non-minor edits tag when 'Wikidata edits' filter is also selected.
+#. [Wiki] 
+#. [Wiki] "Non-minor edits" is {{msg-mw|rcfilters-filter-major-label}}.
+#. [Wiki] 
+#. [Wiki] ""Wikidata edits" is {{msg-mw|wikibase-rcfilters-hide-wikibase-label}}.
+#. [Wiki] 
+#. [Wiki] This indicates that no results will be shown.
+msgctxt "wikibase-rcfilters-major-conflicts-hide-wikibase"
+msgid "All {{WBREPONAME}} edits are designated as \"minor\", so the \"{{WBREPONAME}} edits\" filter conflicts with the \"Non-minor edits\" filter."
+msgstr ""
+
+#. [Wiki] Tooltip shown when hovering over a 'Wikidata edits' filter tag when the Non-minor edits filter is also selected.
+#. [Wiki] 
+#. [Wiki] "Non-minor edits" is {{msg-mw|rcfilters-filter-major-label}}.
+#. [Wiki] 
+#. [Wiki] "Wikidata edits" is {{msg-mw|wikibase-rcfilters-hide-wikibase-label}}.
+#. [Wiki] 
+#. [Wiki] This indicates that no results will be shown.
+msgctxt "wikibase-rcfilters-hide-wikibase-conflicts-major"
+msgid "All {{WBREPONAME}} edits are designated as \"minor\", so the \"{{WBREPONAME}} edits\" filter conflicts with the \"Non-minor edits\" filter."
+msgstr ""
+
+#. [Wiki] Note telling the user that it can take a few minutes until the made changes are visible on all wikis.
+#. [Wiki] Preceded by message {{msg-mw|Wikibase-linkitem-success-link}}
+msgctxt "wikibase-replicationnote"
+msgid "Please notice that it can take several minutes until the changes are visible on all wikis."
+msgstr ""
+
+#. [Wiki] Option in the watchlist section of preferences to always show wikibase edits by default in the watchlist. Appears as a checkbox in the same list with options such as:
+#. [Wiki] * {{msg-mw|tog-watchdefault}}
+#. [Wiki] * {{msg-mw|tog-watchmoves}}
+#. [Wiki] And so on.
+msgctxt "wikibase-watchlist-show-changes-pref"
+msgid "Show {{WBREPONAME}} edits in your watchlist"
+msgstr ""
+
+#. [Wiki] Generic error when invalid (undeserializable) data has been given.
+msgctxt "wikibase-error-deserialize-error"
+msgid "Failed to deserialize data."
+msgstr ""
+
+#. [Wiki] Generic error for when entity data failed to serialize or cannot be handled.
+msgctxt "wikibase-error-serialize-error"
+msgid "Failed to serialize data."
+msgstr ""
+
+#. [Wiki] Generic error message when an invalid entity ID was entered. Parameters:
+#. [Wiki] * $1 unused
+#. [Wiki] * $2 - the entered but invalid ID
+msgctxt "wikibase-error-invalid-entity-id"
+msgid "The ID \"$2\" is unknown to the system. Please use a valid entity ID."
+msgstr ""
+
+#. [Wiki] Error message shown in rendered page output when too many entities are accessed on the page. The limit on the number of full entities that can be loaded on any given page, via Scribunto and/or the property parser function, is controlled by the <tt>entityAccessLimit</tt> configuration setting.
+msgctxt "wikibase-error-exceeded-entity-access-limit"
+msgid "Too many {{WBREPONAME}} entities accessed."
+msgstr ""
+
+#. [Wiki] {{doc-important|Do not translate "mw.wikibase.getReferencedEntityId"}}
+#. [Wiki] 
+#. [Wiki] Error message shown in rendered page output when too many "mw.wikibase.getReferencedEntityId" calls are on a page. The limit on the number of function calls per page is controlled by the <tt>referencedEntityIdAccessLimit</tt> configuration setting.
+#, fuzzy
+msgctxt "wikibase-error-exceeded-referenced-entity-id-limit"
+msgid "Too many \"mw.wikibase.getReferencedEntityId\" calls, only up to $2 {{PLURAL:$2|allowed}}."
+msgstr "Teper thirrje\"mw.wikibase.getReferencedEntityId\", vetem deri ne $2 jane te lejuara."
+
+#. [Wiki] {{doc-special|UnconnectedPages}}
+msgctxt "unconnectedpages"
+msgid "Pages not connected to items"
+msgstr ""
+
+#. [Wiki] Introductory text used on Special:UnconnectedPages.
+msgctxt "unconnectedpages-summary"
+msgid "This page lists pages with no connected data item (in namespaces that support connected items). The list is sorted by descending page ID, so that newer pages are listed first."
+msgstr ""
+
+#. [Wiki] Formatting of the additional data for each row in the result set on the special page for pages not connected to sitelinks.
+#. [Wiki] 
+#. [Wiki] This message follows the page title (with link).
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - number of inter-language links
+msgctxt "wikibase-unconnectedpages-format-row"
+msgid "($1 {{PLURAL:$1|interlanguage link|interlanguage links}} on the page)"
+msgstr ""
+
+#. [Wiki] Label for the button that activates the action
+msgctxt "wikibase-unconnectedpages-submit"
+msgid "Show pages"
+msgstr ""
+
+#. [Wiki] {{doc-special|PagesWithBadges}}
+msgctxt "pageswithbadges"
+msgid "Pages with badges"
+msgstr ""
+
+#. [Wiki] Introductory text used on Special:PagesWithBadges.
+msgctxt "pageswithbadges-summary"
+msgid "This page lists pages with badges (e.g. good article or featured article). The list is sorted by descending page ID, so that newer pages are listed first."
+msgstr ""
+
+#. [Wiki] Error message when an invalid id is passed to the special page. Parameters:
+#. [Wiki] * $1 - the invalid ID
+msgctxt "wikibase-pageswithbadges-invalid-id"
+msgid "$1 is not a valid item ID"
+msgstr ""
+
+#. [Wiki] Legend for the PagesWithBadges special page
+msgctxt "wikibase-pageswithbadges-legend"
+msgid "List of pages with a given badge"
+msgstr ""
+
+#. [Wiki] Label for the input field to select the badge to filter by.
+#. [Wiki] {{Identical|Badge}}
+msgctxt "wikibase-pageswithbadges-badge"
+msgid "Badge:"
+msgstr ""
+
+#. [Wiki] Label for the button that activates the action
+msgctxt "wikibase-pageswithbadges-submit"
+msgid "Show pages"
+msgstr ""
+
+#. [Wiki] {{doc-special|EntityUsage}}
+msgctxt "entityusage"
+msgid "Entity usage"
+msgstr ""
+
+#. [Wiki] Introductory text used on Special:EntityUsage.
+msgctxt "entityusage-summary"
+msgid "This page lists pages that use the given entity (e.g. Q42). The list is sorted by descending page ID, so that newer pages are listed first."
+msgstr ""
+
+#. [Wiki] Error message when an invalid id is passed to the special page. Parameters:
+#. [Wiki] * $1 - the invalid ID
+msgctxt "wikibase-entityusage-invalid-id"
+msgid "$1 is not a valid entity ID"
+msgstr ""
+
+#. [Wiki] Legend for the EntityUsage special page
+msgctxt "wikibase-entityusage-legend"
+msgid "List of pages that use a given entity"
+msgstr ""
+
+#. [Wiki] Label for the input field to select the entity to show.
+#. [Wiki] {{Identical|Entity}}
+msgctxt "wikibase-entityusage-entity"
+msgid "Entity:"
+msgstr ""
+
+#. [Wiki] Label for the button that activates the action
+msgctxt "wikibase-entityusage-submit"
+msgid "Show pages"
+msgstr ""
+
+#. [Wiki] A link to the corresponding Wikibase Item
+msgctxt "wikibase-pageinfo-entity-id"
+msgid "{{WBREPONAME}} item ID"
+msgstr ""
+
+#. [Wiki] The page is not linked with a wikibase item.
+#. [Wiki] {{Identical|None}}
+msgctxt "wikibase-pageinfo-entity-id-none"
+msgid "None"
+msgstr ""
+
+#. [Wiki] Name for local description.
+msgctxt "wikibase-pageinfo-description-local"
+msgid "Local description"
+msgstr ""
+
+#. [Wiki] Name for central description.
+msgctxt "wikibase-pageinfo-description-central"
+msgid "Central description"
+msgstr ""
+
+#. [Wiki] Desciption in action=info and action=edit about entities used in the page
+#. [Wiki] {{Related|Wikibase-pageinfo-entity-usage}}
+msgctxt "wikibase-pageinfo-entity-usage"
+msgid "{{WBREPONAME}} entities used in this page"
+msgstr ""
+
+#. [Wiki] Name for ''sitelink'' entity usage
+#. [Wiki] {{Identical|Sitelink}}
+#. [Wiki] {{Related|Wikibase-pageinfo-entity-usage}}
+msgctxt "wikibase-pageinfo-entity-usage-S"
+msgid "Sitelink"
+msgstr ""
+
+#. [Wiki] Name for ''label'' entity usage
+#. [Wiki] {{Related|Wikibase-pageinfo-entity-usage}}
+msgctxt "wikibase-pageinfo-entity-usage-L"
+msgid "Some labels"
+msgstr ""
+
+#. [Wiki] Name for ''label'' entity usage when the language is specified
+#. [Wiki] {{Identical|Label}}
+#. [Wiki] {{Related|Wikibase-pageinfo-entity-usage}}
+msgctxt "wikibase-pageinfo-entity-usage-L-with-modifier"
+msgid "Label: $1"
+msgstr ""
+
+#. [Wiki] Name for ''description'' entity usage
+#. [Wiki] {{Related|Wikibase-pageinfo-entity-usage}}
+msgctxt "wikibase-pageinfo-entity-usage-D"
+msgid "Some descriptions"
+msgstr ""
+
+#. [Wiki] Name for ''description'' entity usage when the language is specified
+#. [Wiki] {{Identical|Description}}
+#. [Wiki] {{Related|Wikibase-pageinfo-entity-usage}}
+msgctxt "wikibase-pageinfo-entity-usage-D-with-modifier"
+msgid "Description: $1"
+msgstr ""
+
+#. [Wiki] Name for ''title'' entity usage
+#. [Wiki] * see [[:wikidata:Wikidata:Glossary#Title]]
+#. [Wiki] {{Identical|Title}}
+#. [Wiki] {{Related|Wikibase-pageinfo-entity-usage}}
+msgctxt "wikibase-pageinfo-entity-usage-T"
+msgid "Title"
+msgstr ""
+
+#. [Wiki] Name for ''statement'' entity usage
+#. [Wiki] {{Related|Wikibase-pageinfo-entity-usage}}
+msgctxt "wikibase-pageinfo-entity-usage-C"
+msgid "Some statements"
+msgstr ""
+
+#. [Wiki] Name for ''statement'' entity usage when the property ID is specified
+#. [Wiki] {{Identical|Statement}}
+#. [Wiki] {{Related|Wikibase-pageinfo-entity-usage}}
+msgctxt "wikibase-pageinfo-entity-usage-C-with-modifier"
+msgid "Statement: $1"
+msgstr ""
+
+#. [Wiki] Name for ''all'' entity usage
+#. [Wiki] {{Related|Wikibase-pageinfo-entity-usage}}
+msgctxt "wikibase-pageinfo-entity-usage-X"
+msgid "All entity data"
+msgstr ""
+
+#. [Wiki] Name for ''other'' entity usage
+#. [Wiki] {{Related|Wikibase-pageinfo-entity-usage}}
+msgctxt "wikibase-pageinfo-entity-usage-O"
+msgid "Other (Statements)"
+msgstr ""
+
+#. [Wiki] Error message shown when the #property parser function fails to render a property value.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the property ID or name
+#. [Wiki] * $2 - the original error message (this is typically in English and may be rather technical)
+msgctxt "wikibase-property-render-error"
+msgid "Failed to render property $1: $2"
+msgstr ""
+
+#. [Wiki] Label of the sidebar section containing links to other projects.
+#. [Wiki] 
+#. [Wiki] Also used in {{msg-mw|Wikibase-otherprojects-beta-description}}
+#. [Wiki] {{Identical|Other project}}
+#. [Wiki] {{related|Wikibase-otherprojects}}
+msgctxt "wikibase-otherprojects"
+msgid "In other projects"
+msgstr "Në projekte të tjera"
+
+#. [Wiki] Used as checkbox label for the "other projects" beta feature.
+#. [Wiki] 
+#. [Wiki] The description for this label is {{msg-mw|wikibase-otherprojects-beta-description}}
+#. [Wiki] {{related|Wikibase-otherprojects}}
+msgctxt "wikibase-otherprojects-beta-message"
+msgid "Other projects sidebar"
+msgstr ""
+
+#. [Wiki] Description for the "other projects" beta feature.
+#. [Wiki] 
+#. [Wiki] This description is for the checkbox label {{msg-mw|wikibase-otherprojects-beta-label}}.
+#. [Wiki] 
+#. [Wiki] Refers to {{msg-mw|Wikibase-otherprojects}}.
+#. [Wiki] {{related|Wikibase-otherprojects}}
+msgctxt "wikibase-otherprojects-beta-description"
+msgid "Adds an \"{{int:wikibase-otherprojects}}\" section to the sidebar that provides links to the other Wikimedia projects based on {{WBREPONAME}} data."
+msgstr ""
+
+#. [Wiki] {{doc-echo-category-title|tooltip=Echo-pref-tooltip-wikibase-action}}
+msgctxt "echo-category-title-wikibase-action"
+msgid "{{PLURAL:$1|Connection|Connections}} with {{WBREPONAME}}"
+msgstr ""
+
+#. [Wiki] {{doc-echo-pref-tooltip|title=Echo-category-title-wikibase-action}}
+msgctxt "echo-pref-tooltip-wikibase-action"
+msgid "Notify me when someone connects a page {{GENDER:|I created}} to a {{WBREPONAME}} item."
+msgstr ""
+
+#. [Wiki] Header text for a notification when your article is connected to a Wikibase repository. Parameters:
+#. [Wiki] * $1 – formatted username of the person who connected the page
+#. [Wiki] * $2 – raw username of the person who connected the page, can be used for GENDER
+#. [Wiki] * $3 – title of the page that was connected
+#. [Wiki] * $4 – ID of the item the article is now connected to (or -1 on old notifications that did not specify the item)
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Notification-subject-page-connection}}
+#. [Wiki] * {{msg-mw|Notification-header-page-linked}}
+msgctxt "notification-header-page-connection"
+msgid "The page <strong>$3</strong> was {{GENDER:$2|connected}} to {{PLURAL:$4|-1=a {{WBREPONAME}} item|the {{WBREPONAME}} item $4}}, which contains data relevant to the topic."
+msgstr ""
+
+#. [Wiki] Bundled message for the page connection notification. Parameters:
+#. [Wiki] * $1 – formatted username of the person who connected the first page
+#. [Wiki] * $2 – raw username of the person who connected the first page, for GENDER support
+#. [Wiki] * $3 – title of the first page that was connected
+#. [Wiki] * $4 – the number of other pages that were connected, except that if the count is greater than 99, this value will be 100; uses standard number formatting and used for PLURAL
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Notification-header-page-connection}}
+#. [Wiki] * {{msg-mw|Notification-bundle-header-page-linked}}
+#. [Wiki] {{Related|Notification-bundle}}
+msgctxt "notification-bundle-header-page-connection"
+msgid "<strong>$3</strong> and {{PLURAL:$4|one other page|$4 other pages|100=99+ other pages}} were {{GENDER:$2|connected}} to {{WBREPONAME}} items."
+msgstr ""
+
+#. [Wiki] Label for button that links to the item your article was connected to. Parameters:
+#. [Wiki] * $1 – raw username of the person who is viewing the notification, can be used for GENDER
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Notification-link-text-view-page}}
+msgctxt "notification-link-text-view-item"
+msgid "{{GENDER:$1|View}} item"
+msgstr ""
+
+#. [Wiki] Email subject. Parameters:
+#. [Wiki] * $1 – formatted username of the person who connected the page
+#. [Wiki] * $2 – raw username of the person who connected the page, can be used for GENDER.
+#. [Wiki] * $3 – raw username of the notified user, can be used for GENDER
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Notification-header-page-connection}}
+#. [Wiki] * {{msg-mw|Notification-page-linked-email-subject}}
+msgctxt "notification-subject-page-connection"
+msgid "A page on {{SITENAME}} you {{GENDER:$3|created}} was {{GENDER:$2|connected}} to a {{WBREPONAME}} item"
+msgstr ""
+
+#. [Wiki] Name for a [[mw:Special:MyLanguage/Help:Tracking categories|tracking category]] where pages are placed automatically if they reference properties that cannot be resolved.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Unresolved-property-category-desc}}
+msgctxt "unresolved-property-category"
+msgid "Pages with unresolved properties"
+msgstr ""
+
+#. [Wiki] Unresolved property category description. Shown on [[Special:TrackingCategories]].
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Unresolved-property-category}}
+msgctxt "unresolved-property-category-desc"
+msgid "This category lists pages that reference {{WBREPONAME}} properties that cannot be found neither by their property ID nor label."
+msgstr ""
+
+#. [Wiki] Name for a [[mw:Special:MyLanguage/Help:Tracking categories|tracking category]] where redirect pages are placed automatically if they are connected to a data item.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Connected-redirect-category-desc}}
+msgctxt "connected-redirect-category"
+msgid "Redirects connected to a {{WBREPONAME}} item"
+msgstr ""
+
+#. [Wiki] Connected redirect category description. Shown on [[Special:TrackingCategories]].
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Connected-redirect-category}}
+msgctxt "connected-redirect-category-desc"
+msgid "This category lists redirect pages that are connected to a {{WBREPONAME}} item."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-description|query+wbentityusage}}
+msgctxt "apihelp-query+wbentityusage-description"
+msgid "Returns all entity IDs used in the given pages."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-summary|query+wbentityusage}}
+msgctxt "apihelp-query+wbentityusage-summary"
+msgid "Returns all entity IDs used in the given pages."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|query+wbentityusage|aspect}}
+msgctxt "apihelp-query+wbentityusage-param-aspect"
+msgid "Only return entity IDs that used this aspect."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|query+wbentityusage|prop}}
+msgctxt "apihelp-query+wbentityusage-param-prop"
+msgid "Properties to add to the result."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-paramvalue|query+wbentityusage|prop|url}}
+msgctxt "apihelp-query+wbentityusage-paramvalue-prop-url"
+msgid "If enabled url of entity will be added"
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|query+wbentityusage|entities}}
+msgctxt "apihelp-query+wbentityusage-param-entities"
+msgid "Only return page that used these entities."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|query+wbentityusage|limit}}
+msgctxt "apihelp-query+wbentityusage-param-limit"
+msgid "How many entity usages to return."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-example|query+wbentityusage}}
+msgctxt "apihelp-query+wbentityusage-example-simple"
+msgid "Get entities used in the page <kbd>Main Page</kbd>."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-description|query+wblistentityusage}}
+msgctxt "apihelp-query+wblistentityusage-description"
+msgid "Returns all pages that use the given entity IDs."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-summary|query+wblistentityusage}}
+msgctxt "apihelp-query+wblistentityusage-summary"
+msgid "Returns all pages that use the given entity IDs."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|query+wblistentityusage|prop}}
+msgctxt "apihelp-query+wblistentityusage-param-prop"
+msgid "Properties to add to the result."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-paramvalue|query+wblistentityusage|prop|url}}
+msgctxt "apihelp-query+wblistentityusage-paramvalue-prop-url"
+msgid "If enabled the url of the entity will be added to the result."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|query+wblistentityusage|aspect}}
+msgctxt "apihelp-query+wblistentityusage-param-aspect"
+msgid "Only return entity IDs that used this aspect."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|query+wblistentityusage|entities}}
+msgctxt "apihelp-query+wblistentityusage-param-entities"
+msgid "Entities that have been used."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|query+wblistentityusage|limit}}
+msgctxt "apihelp-query+wblistentityusage-param-limit"
+msgid "How many entity usages to return."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-example|query+wblistentityusage}}
+msgctxt "apihelp-query+wblistentityusage-example-simple"
+msgid "Get pages that use the entity <kbd>Q2</kbd>."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-example|query+wblistentityusage}}
+msgctxt "apihelp-query+wblistentityusage-example-url"
+msgid "Get pages that use the entity <kbd>Q2</kbd> with URL included."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-example|query+wblistentityusage}}
+msgctxt "apihelp-query+wblistentityusage-example-aspect"
+msgid "Get pages that use the entity <kbd>Q2</kbd> and the aspect was sitelink or statement."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-description|query+pageterms}}
+msgctxt "apihelp-query+pageterms-description"
+msgid "Get the {{WBREPONAME}} terms (typically labels, descriptions and aliases) associated with a page via a sitelink. On the entity page itself, the terms are used directly. Caveat: On a repo wiki, this module only works directly on entity pages, not on pages connected to an entity via a sitelink. This may change in the future."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-summary|query+pageterms}}
+msgctxt "apihelp-query+pageterms-summary"
+msgid "Get the {{WBREPONAME}} terms (typically labels, descriptions and aliases) associated with a page via a sitelink. On the entity page itself, the terms are used directly. Caveat: On a repo wiki, this module only works directly on entity pages, not on pages connected to an entity via a sitelink. This may change in the future."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-example|query+pageterms}}
+msgctxt "apihelp-query+pageterms-example-simple"
+msgid "Get all terms associated with the page 'London', in the user language."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-example|query+pageterms}}
+msgctxt "apihelp-query+pageterms-example-label-en"
+msgid "Get labels and aliases associated with the page 'London', in English."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-example|query+pageterms}}
+msgctxt "apihelp-query+pageterms-example-item"
+msgid "Get labels and aliases of item Q84."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|query+pageterms|terms}}
+msgctxt "apihelp-query+pageterms-param-terms"
+msgid "The types of terms to get, e.g. 'description', each returned as an array of strings keyed by their type, e.g. {\"description\": [\"foo\"]}. If not specified, all types are returned."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-summary|query+description}}
+msgctxt "apihelp-query+description-summary"
+msgid "Get a short description a.k.a. subtitle explaining what the target page is about."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-extended-description|query+description}}
+msgctxt "apihelp-query+description-extended-description"
+msgid "The description is plain text, on a single line, but otherwise arbitrary (potentially including raw HTML tags, which also should be interpreted as plain text). It must not be used in HTML unescaped!"
+msgstr "Pershkrimi eshte tekst i plote, ne nje linje te vetme, mirepo ne te kunderten arbitrarisht (ne menyre potenciale duke perfshire HTML shenja identifikim te paperpunuara, te cilat gjithashtu duhet te interpretohen si tekst i plote). Nuk duhet te perdoret si ne HTML te pa-largueshme!"
+
+#. [Wiki] {{doc-apihelp-param|query+description|prefersource}}
+msgctxt "apihelp-query+description-param-prefersource"
+msgid "Which description source to prefer if present:"
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-paramvalue|query+description|prefersource|local}}
+msgctxt "apihelp-query+description-paramvalue-prefersource-local"
+msgid "Local descriptions via <code><nowiki>{{SHORTDESC:...}}</nowiki></code> parser function in the wikitext of the page."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-paramvalue|query+description|prefersource|central}}
+msgctxt "apihelp-query+description-paramvalue-prefersource-central"
+msgid "Central descriptions from the associated {{WBREPONAME}} item."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-example|query+description}}
+msgctxt "apihelp-query+description-example"
+msgid "Get the description for the page 'London'."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-example|query+description}}
+msgctxt "apihelp-query+description-example-central"
+msgid "Get the description for the page 'London', preferring the central description if it exists."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-description|query+wikibase}}
+msgctxt "apihelp-query+wikibase-description"
+msgid "Get information about the Wikibase client and the associated Wikibase repository."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-summary|query+wikibase}}
+msgctxt "apihelp-query+wikibase-summary"
+msgid "Get information about the Wikibase client and the associated Wikibase repository."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-example|query+wikibase}}
+msgctxt "apihelp-query+wikibase-example"
+msgid "Get URL path and other information about Wikibase client and repository."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|query+wikibase|prop}}
+msgctxt "apihelp-query+wikibase-param-prop"
+msgid "Which properties to get:\n;<kbd>url</kbd>: Base URL, script path and article path of the Wikibase repository.\n;<kbd>siteid</kbd>: The siteid of this site."
+msgstr ""
+

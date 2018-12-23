@@ -1,0 +1,1182 @@
+# Translation of Wikibase - Lib to Albanian (shqip)
+# Exported from translatewiki.net
+#
+# Author: Arianit
+# Author: GretaDoci
+# Author: Liridon
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2018-12-23 17:21:10+0000\n"
+"POT-Creation-Date: 2018-12-23 17:21:10+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"X-Generator: MediaWiki 1.33.0-alpha; Translate 2018-11-05\n"
+"X-Language-Code: sq\n"
+"X-Message-Group: ext-wikibase-lib\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. [Wiki] {{desc|name=Wikibase Lib|url=https://www.mediawiki.org/wiki/Extension:WikibaseLib}}
+msgctxt "wikibase-lib-desc"
+msgid "Holds common functionality for the Wikibase and Wikibase Client extensions"
+msgstr ""
+
+#. [Wiki] {{doc-special-group|that=are related to the Wikibase extension|like=[[Special:NewItem]], [[Special:UnconnectedPages]], [[Special:NewProperty]], [[Special:ItemByTitle]], [[Special:ItemDisambiguation]], [[Special:ItemsWithoutSitelinks]], [[Special:SetLabel]], [[Special:SetDescription]], [[Special:SetAliases]], [[Special:EntitiesWithoutLabel]], [[Special:EntityData]], [[Special:ListDatatypes]], [[Special:DispatchStats]]}}
+#. [Wiki] See example: [[d:Special:SpecialPages#mw-specialpagesgroup-wikibase|d:Special:SpecialPages]]
+#. [Wiki] {{Identical|Wikibase}}
+msgctxt "specialpages-group-wikibase"
+msgid "Wikibase"
+msgstr "Wikibase"
+
+#. [Wiki] Message displayed instead of an Item's label if the Item has been deleted (see [[d:Wikidata:Glossary]]).
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Wikibase-entity-item}}
+#. [Wiki] * {{msg-mw|Wikibase-deletedentity-property}}
+#. [Wiki] * {{msg-mw|Wikibase-deletedentity-query}}
+msgctxt "wikibase-deletedentity-item"
+msgid "Deleted Item"
+msgstr "Njësi e fshirë"
+
+#. [Wiki] Message displayed instead of a Property's label if the Property has been deleted (see [[d:Wikidata:Glossary]]).
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Wikibase-entity-property}}
+#. [Wiki] * {{msg-mw|Wikibase-deletedentity-item}}
+#. [Wiki] * {{msg-mw|Wikibase-deletedentity-query}}
+msgctxt "wikibase-deletedentity-property"
+msgid "Deleted Property"
+msgstr "Tipar i fshirë"
+
+#. [Wiki] Message displayed instead of a Query's label if the Query has been deleted (see [[d:Wikidata:Glossary]]).
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Wikibase-entity-query}}
+#. [Wiki] * {{msg-mw|Wikibase-deletedentity-item}}
+#. [Wiki] * {{msg-mw|Wikibase-deletedentity-property}}
+msgctxt "wikibase-deletedentity-query"
+msgid "Deleted query"
+msgstr ""
+
+#. [Wiki] Generic error messaged used for reporting unknown exception.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the raw, unlocalized error message
+#. [Wiki] {{Identical|Error}}
+msgctxt "wikibase-error-unexpected"
+msgid "Error: $1."
+msgstr ""
+
+#. [Wiki] Generic error message for an error happening during a save operation.
+msgctxt "wikibase-error-save-generic"
+msgid "Could not save due to an error."
+msgstr ""
+
+#. [Wiki] Generic error message for an error happening during a remove operation
+msgctxt "wikibase-error-remove-generic"
+msgid "Could not remove due to an error."
+msgstr ""
+
+#. [Wiki] Error message for an error happening during a save operation. The error might most likely be caused by a connection problem.
+msgctxt "wikibase-error-save-connection"
+msgid "Could not save due to a connection error. Please check your Internet connection."
+msgstr ""
+
+#. [Wiki] Error message for an error happening during a remove operation. The error might most likely be caused by a connection problem.
+msgctxt "wikibase-error-remove-connection"
+msgid "Could not remove due to a connection error. Please check your Internet connection."
+msgstr ""
+
+#. [Wiki] Error message for an error happening during a save operation. The error was caused by a request time out.
+msgctxt "wikibase-error-save-timeout"
+msgid "We are experiencing technical difficulties. Please try again."
+msgstr ""
+
+#. [Wiki] Error message for an error happening during a remove operation. The error was caused by a request time out.
+msgctxt "wikibase-error-remove-timeout"
+msgid "We are experiencing technical difficulties. Please try again."
+msgstr ""
+
+#. [Wiki] Error message for page auto-complete input box; displayed when API could not be reached.
+msgctxt "wikibase-error-autocomplete-connection"
+msgid "Could not query site API. Please try again later."
+msgstr ""
+
+#. [Wiki] When querying the API for auto-completion fails, this message contains more detailed information about the error. $1 is the actual server error response or jQuery error code (e.g. when the server did not respond).
+msgctxt "wikibase-error-autocomplete-response"
+msgid "Server responded: $1"
+msgstr ""
+
+#. [Wiki] This is a human readable version of the API error "wikibase-api-no-external-page" which is shown in the UI.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - global site ID, known to be valid
+#. [Wiki] * $2 - requested page name that could not be found on the site
+#. [Wiki] {{related|Wikibase-no-external-page}}
+msgctxt "wikibase-error-ui-no-external-page"
+msgid "A page \"$2\" could not be found on \"$1\"."
+msgstr ""
+
+#. [Wiki] This is a human readable version of the API error "edit-conflict" which is shown in the UI.
+#. [Wiki] Note that the default message says the user shall "reload and save", but after a reload the content that should be saved will be lost.
+msgctxt "wikibase-error-ui-edit-conflict"
+msgid "The same value was edited in the meantime, causing an edit conflict. Please reload the page."
+msgstr ""
+
+#. [Wiki] Message shown instead of a language name to indicate that a language fallback involved transliteration.
+#. [Wiki] * $1 - the name of the source language
+#. [Wiki] * $2 - the name of the resulting language
+msgctxt "wikibase-language-fallback-transliteration-hint"
+msgid "$1 (transliterated)"
+msgstr ""
+
+#. [Wiki] Label used for the "amount" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
+#. [Wiki] {{Identical|Amount}}
+msgctxt "wikibase-quantitydetails-amount"
+msgid "Amount"
+msgstr ""
+
+#. [Wiki] Label used for the "upper bound" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
+msgctxt "wikibase-quantitydetails-upperbound"
+msgid "Upper bound"
+msgstr ""
+
+#. [Wiki] Label used for the "lower bound" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
+msgctxt "wikibase-quantitydetails-lowerbound"
+msgid "Lower bound"
+msgstr ""
+
+#. [Wiki] Label used for the "unit" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
+#. [Wiki] {{Identical|Unit}}
+msgctxt "wikibase-quantitydetails-unit"
+msgid "Unit"
+msgstr ""
+
+#. [Wiki] Label used for the rendered version of a time value when showing a detailed representation of the time, e.g. in a diff.
+#. [Wiki] {{Identical|Time}}
+msgctxt "wikibase-timedetails-time"
+msgid "Time"
+msgstr "Koha"
+
+#. [Wiki] Label used for the "isotime" field of a time value when showing a detailed representation of the time, e.g. in a diff.
+#. [Wiki] {{Identical|Timestamp}}
+msgctxt "wikibase-timedetails-isotime"
+msgid "Timestamp"
+msgstr ""
+
+#. [Wiki] Label used for the "timezone" field of a time value when showing a detailed representation of the time, e.g. in a diff.
+#. [Wiki] {{Identical|Time zone}}
+msgctxt "wikibase-timedetails-timezone"
+msgid "Timezone"
+msgstr "Zona kohore:"
+
+#. [Wiki] Label used for the "calendar" field of a time value when showing a detailed representation of the time, e.g. in a diff.
+#. [Wiki] {{Identical|Calendar}}
+msgctxt "wikibase-timedetails-calendar"
+msgid "Calendar"
+msgstr "Kalendari"
+
+#. [Wiki] Label used for the "precision" field of a time value when showing a detailed representation of the time, e.g. in a diff.
+#. [Wiki] {{Identical|Precision}}
+msgctxt "wikibase-timedetails-precision"
+msgid "Precision"
+msgstr "Saktësi"
+
+#. [Wiki] Label used for the "before" field of a time value when showing a detailed representation of the time, e.g. in a diff.
+#. [Wiki] {{Identical|Before}}
+msgctxt "wikibase-timedetails-before"
+msgid "Before"
+msgstr "Para"
+
+#. [Wiki] Label used for the "after" field of a time value when showing a detailed representation of the time, e.g. in a diff.
+#. [Wiki] {{Identical|After}}
+msgctxt "wikibase-timedetails-after"
+msgid "After"
+msgstr "Pas"
+
+#. [Wiki] Label used for the "longitude" field of a globecoordinate value when showing a detailed representation of the time, e.g. in a diff.
+#. [Wiki] {{Identical|Longitude}}
+msgctxt "wikibase-globedetails-longitude"
+msgid "Longitude"
+msgstr "Gjatësia gjeografike"
+
+#. [Wiki] Label used for the "latitude" field of a globecoordinate value when showing a detailed representation of the time, e.g. in a diff.
+#. [Wiki] {{Identical|Latitude}}
+msgctxt "wikibase-globedetails-latitude"
+msgid "Latitude"
+msgstr "Gjerësia gjeografike"
+
+#. [Wiki] Label used for the "precision" field of a globecoordinate value when showing a detailed representation of the time, e.g. in a diff.
+#. [Wiki] {{Identical|Precision}}
+msgctxt "wikibase-globedetails-precision"
+msgid "Precision"
+msgstr "Saktësi"
+
+#. [Wiki] Label used for the "globe" field of a globecoordinate value when showing a detailed representation of the time, e.g. in a diff.
+msgctxt "wikibase-globedetails-globe"
+msgid "Globe"
+msgstr "Globit"
+
+#. [Wiki] Generic error used by the API (in particular, by wbparsevalue) to indicate that some user input was malformed and could not be parsed
+msgctxt "wikibase-parse-error"
+msgid "Malformed value."
+msgstr ""
+
+#. [Wiki] An error used by the API (in particular, by wbparsevalue) to indicate that the user input could not be parsed as a globe coordinate
+msgctxt "wikibase-parse-error-coordinate"
+msgid "The coordinate value is malformed."
+msgstr ""
+
+#. [Wiki] An error used by the API (in particular, by wbparsevalue) to indicate that the user input could not be parsed as an entity id
+msgctxt "wikibase-parse-error-entity-id"
+msgid "The entity ID is malformed."
+msgstr ""
+
+#. [Wiki] An error used by the API (in particular, by wbparsevalue) to indicate that the user input could not be parsed as a quantity
+msgctxt "wikibase-parse-error-quantity"
+msgid "The quantity value is malformed."
+msgstr ""
+
+#. [Wiki] An error used by the API (in particular, by wbparsevalue) to indicate that the user input could not be parsed as a time
+msgctxt "wikibase-parse-error-time"
+msgid "The time value is malformed."
+msgstr ""
+
+#. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 A.png|right|0x150px]]
+#. [Wiki] Header messages for pages on different Wikipedias linked to this item. Similar messages can be created for each group of target sites, depending on configuration.
+#. [Wiki] See also the Wikidata glossary for [[d:Wikidata:Glossary#sitelinks|sitelinks]] and [[d:Wikidata:Glossary#Item|item]].
+#. [Wiki] {{Related|Wikibase-sitelinks}}
+#. [Wiki] {{Identical|Wikipedia}}
+msgctxt "wikibase-sitelinks-wikipedia"
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#. [Wiki] Sitelinks table column heading for the column containing the language names.
+#. [Wiki] {{Identical|Language}}
+msgctxt "wikibase-sitelinks-sitename-columnheading"
+msgid "Language"
+msgstr ""
+
+#. [Wiki] Sitelinks table column heading for the column containing the title/link of/to the referenced (wiki) page.
+#. [Wiki] {{Identical|Linked page}}
+msgctxt "wikibase-sitelinks-link-columnheading"
+msgid "Linked page"
+msgstr ""
+
+#. [Wiki] Short descriptive title of a some-value snak (see [[d:Wikidata:Glossary]]) used in a drop-down menu allowing to select the snak type when adding or editing a snak. The drop-down menu can be opened by clicking an anchor right next to the input element(s) used to specify a claim's value. Although this is regarded a 'special', seldom used feature, the term 'snak' should be avoided here since the concept of snaks is a technical abstraction that does not give any additional meaning within the user interface. The basic meaning of this option is that a value exists but it is unknown.
+msgctxt "wikibase-snakview-snaktypeselector-somevalue"
+msgid "unknown value"
+msgstr ""
+
+#. [Wiki] A short descriptive title of a no-value snak (see [[d:Wikidata:Glossary]]) used in a drop-down menu allowing to select the snak type when adding or editing a snak. The drop-down menu can be opened by clicking an anchor right next to the input element(s) used to specify a claim's value. Although this is regarded a 'special', seldom used feature, the term 'snak' should be avoided here since the concept of snaks is a technical abstraction that does not give any additional meaning within the user interface. The basic meaning of this option is that no value exists.
+#. [Wiki] 
+#. [Wiki] See also {{msg-mw|Wikibase-snakview-variations-novalue-label}}
+msgctxt "wikibase-snakview-snaktypeselector-novalue"
+msgid "no value"
+msgstr ""
+
+#. [Wiki] Link within an error tooltip that will unfold additional information regarding the error (i.e. the more specific error message returned from the underlying API).
+#. [Wiki] {{Identical|Detail}}
+msgctxt "wikibase-tooltip-error-details"
+msgid "Details"
+msgstr ""
+
+#. [Wiki] Message to display for any data values that are invalid and cannot be deserialized.  The message is displayed in such places as when users view a diff.
+msgctxt "wikibase-undeserializable-value"
+msgid "The value is invalid and cannot be displayed."
+msgstr ""
+
+#. [Wiki] Generic input validation error shown when the input is invalid but no further information is provided by the validator.
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-invalid"
+msgid "Invalid value"
+msgstr ""
+
+#. [Wiki] Input validation error shown when a field is missing from the input.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the required field
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-missing-field"
+msgid "Missing required field \"$1\""
+msgstr ""
+
+#. [Wiki] Input validation error shown when the input has the wrong type.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the expected type
+#. [Wiki] * $2 - the actual type
+#. [Wiki] {{Related|Wikibase-validator}}
+#. [Wiki] {{Identical|Instead of}}
+msgctxt "wikibase-validator-bad-type"
+msgid "$2 instead of $1"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the input is too long. Parameters:
+#. [Wiki] * $1 - the maximum length
+#. [Wiki] * $2 - (Unused) the actual length
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-too-long"
+msgid "Must be no more than {{PLURAL:$1|one character|$1 characters}} long"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the label is too long. Parameters:
+#. [Wiki] * $1 - the maximum length
+#. [Wiki] * $2 - (Unused) the actual length
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-label-too-long"
+msgid "Label must be no more than {{PLURAL:$1|one character|$1 characters}} long"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the description is too long. Parameters:
+#. [Wiki] * $1 - the maximum length
+#. [Wiki] * $2 - (Unused) the actual length
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-description-too-long"
+msgid "Description must be no more than {{PLURAL:$1|one character|$1 characters}} long"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the alias is too long. Parameters:
+#. [Wiki] * $1 - the maximum length
+#. [Wiki] * $2 - (Unused) the actual length
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-alias-too-long"
+msgid "Alias must be no more than {{PLURAL:$1|one character|$1 characters}} long"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the input is too short. Parameters:
+#. [Wiki] * $1 - the minimum length
+#. [Wiki] * $2 - (Unused) the actual length
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-too-short"
+msgid "Must be at least {{PLURAL:$1|one character|$1 characters}} long"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the input is too high. Parameters:
+#. [Wiki] * $1 - the maximum value
+#. [Wiki] * $2 - (Unused) the actual length
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-too-high"
+msgid "Out of range, must be no higher than $1"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the input is too low. Parameters:
+#. [Wiki] * $1 - the minimum value
+#. [Wiki] * $2 - (Unused) the actual length
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-too-low"
+msgid "Out of range, must be no lower than $1"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the user's input was malformed in some way.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the malformed input
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-malformed-value"
+msgid "Malformed input: $1"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the entity ID given by the user is malformed.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the malformed entity ID
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-bad-entity-id"
+msgid "Malformed ID: $1"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the entity specified by the user was not of the correct type.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the actual type
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-bad-entity-type"
+msgid "Unexpected entity type $1"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the entity specified by the user was not found.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the entity ID
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-no-such-entity"
+msgid "$1 not found"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the property used for a statement could not be found.
+#. [Wiki] 
+#. [Wiki] This kind of error is unlikely to occur during normal operation, since the user interface should prevent illegal values from being entered.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the property ID
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-no-such-property"
+msgid "Property $1 not found"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the value is syntactically invalid or structurally corrupt.
+#. [Wiki] 
+#. [Wiki] This kind of error is unlikely to occur during normal operation, since the user interface should prevent illegal values from being entered.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the technical error message describing the problem
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-bad-value"
+msgid "Data value corrupt: $1"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the value has the wrong type for the property it is applied to.
+#. [Wiki] 
+#. [Wiki] This kind of error is unlikely to occur during normal operation, since the user interface should prevent illegal values from being entered.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the actual value type
+#. [Wiki] * $2 - the expected value type
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-bad-value-type"
+msgid "Bad value type $1, expected $2"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the snak has an invalid data type.
+#. [Wiki] 
+#. [Wiki] This kind of error is unlikely to occur during normal operation, since the user interface should prevent illegal values from being entered.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the invalid data type
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-bad-data-type"
+msgid "Bad data type: $1"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the value does not look like a valid URL, e.g. contains characters that are not allowed in a URL.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the malformed URL
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-bad-url"
+msgid "URLs are not allowed to contain certain characters like spaces or square brackets: $1"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the value does not start with a protocol (scheme).
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the malformed URL
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-url-scheme-missing"
+msgid "This URL misses a scheme like \"https://\": $1"
+msgstr ""
+
+#. [Wiki] Input validation error shown when the value is a URL using an unsupported protocol (scheme).
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the scheme name
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-bad-url-scheme"
+msgid "An URL scheme \"$1\" is not supported."
+msgstr ""
+
+#. [Wiki] Input validation error when the value has an unknown unit.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the unknown unit
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-unknown-unit"
+msgid "Unknown unit: $1"
+msgstr ""
+
+#. [Wiki] Input validation error when the given value is not found in the known list of allowed values.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the illegal value
+#. [Wiki] {{Related|Wikibase-validator}}
+msgctxt "wikibase-validator-not-allowed"
+msgid "Illegal value: $1"
+msgstr ""
+
+#. [Wiki] Input validation error when there are no validators that can pass (that is, the validation always fails, per configuration).
+#. [Wiki] 
+#. [Wiki] {{Related|Wikibase-validator}}
+#. [Wiki] {{Identical|Forbidden}}
+msgctxt "wikibase-validator-no-validators"
+msgid "Forbidden"
+msgstr ""
+
+#. [Wiki] The name of a data type.
+#. [Wiki] {{related|Datatypes-type}}
+#. [Wiki] {{Identical|String}}
+msgctxt "datatypes-type-string"
+msgid "String"
+msgstr ""
+
+#. [Wiki] The name of a data type for quantities (proper name, capitalised in English; first letter capitalised anyway in this message and relatives).
+#. [Wiki] {{related|Datatypes-type}}
+#. [Wiki] {{Identical|Quantity}}
+msgctxt "datatypes-type-quantity"
+msgid "Quantity"
+msgstr ""
+
+#. [Wiki] The name of a data type.
+#. [Wiki] {{related|Datatypes-type}}
+#. [Wiki] {{Identical|Monolingual text}}
+msgctxt "datatypes-type-monolingualtext"
+msgid "Monolingual text"
+msgstr ""
+
+#. [Wiki] The name of a data type.
+#. [Wiki] {{related|Datatypes-type}}
+#. [Wiki] {{Identical|Multilingual text}}
+msgctxt "datatypes-type-multilingualtext"
+msgid "Multilingual text"
+msgstr ""
+
+#. [Wiki] The name of a data type.
+#. [Wiki] {{related|Datatypes-type-number}}
+#. [Wiki] {{Identical|Number}}
+msgctxt "datatypes-type-number"
+msgid "Number"
+msgstr ""
+
+#. [Wiki] The name of a data type
+#. [Wiki] {{related|Datatypes-type}}
+msgctxt "datatypes-type-mediawiki-title"
+msgid "MediaWiki title"
+msgstr ""
+
+#. [Wiki] The name of a data type
+#. [Wiki] {{related|Datatypes-type}}
+#. [Wiki] {{Identical|Unspecified}}
+msgctxt "datatypes-type-unknown"
+msgid "Unspecified"
+msgstr ""
+
+#. [Wiki] The name of a data type
+#. [Wiki] {{related|Datatypes-type}}
+#. [Wiki] {{Identical|Boolean}}
+msgctxt "datatypes-type-boolean"
+msgid "Boolean"
+msgstr ""
+
+#. [Wiki] The name of a data type
+#. [Wiki] {{related|Datatypes-type}}
+msgctxt "datatypes-type-globe-coordinate"
+msgid "Geographic coordinates"
+msgstr ""
+
+#. [Wiki] The name of a data type.
+#. [Wiki] {{related|Datatypes-type}}
+msgctxt "datatypes-type-time"
+msgid "Point in time"
+msgstr ""
+
+#. [Wiki] The name of a data type for items in Wikibase.
+#. [Wiki] {{related|Datatypes-type}}
+#. [Wiki] {{Identical|Item}}
+msgctxt "datatypes-type-wikibase-item"
+msgid "Item"
+msgstr ""
+
+#. [Wiki] The name of a data type for properties in Wikibase.
+#. [Wiki] {{related|Datatypes-type}}
+#. [Wiki] {{Identical|Property}}
+msgctxt "datatypes-type-wikibase-property"
+msgid "Property"
+msgstr ""
+
+#. [Wiki] The name of a data type for media files on Wikimedia Commons (proper name, capitalised in English; first letter capitalised anyway in this message and relatives).
+#. [Wiki] 
+#. [Wiki] {{related|Datatypes-type}}
+msgctxt "datatypes-type-commonsMedia"
+msgid "Commons media file"
+msgstr ""
+
+#. [Wiki] The name of a data type for geo-shapes
+#. [Wiki] {{related|Datatypes-type}}
+msgctxt "datatypes-type-geo-shape"
+msgid "Geographic shape"
+msgstr ""
+
+#. [Wiki] The name of a data type for tabular-data
+#. [Wiki] {{related|Datatypes-type}}
+#. [Wiki] {{Identical|Tabular data}}
+msgctxt "datatypes-type-tabular-data"
+msgid "Tabular data"
+msgstr ""
+
+#. [Wiki] The name of a data type for external identifiers in Wikibase.
+#. [Wiki] {{related|Datatypes-type}}
+msgctxt "datatypes-type-external-id"
+msgid "External identifier"
+msgstr ""
+
+#. [Wiki] Name of the Wikibase extension collection, used on [[Special:Version]]
+msgctxt "version-wikibase"
+msgid "Wikibase"
+msgstr ""
+
+#. [Wiki] Label displayed with the formatted dates referring to the Gregorian calendar model.
+#. [Wiki] {{Identical|Gregorian}}
+msgctxt "wikibase-time-calendar-gregorian"
+msgid "Gregorian"
+msgstr ""
+
+#. [Wiki] Label displayed with the formatted dates referring to the Julian calendar model.
+#. [Wiki] {{Identical|Julian}}
+msgctxt "wikibase-time-calendar-julian"
+msgid "Julian"
+msgstr ""
+
+#. [Wiki] Used to present a point in time with the precession of 1 billion of years. $1 is the point in time in billion years, rounded to billion years.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-Gannum"
+msgid "$1 billion years CE"
+msgstr ""
+
+#. [Wiki] Used to present a point in time with the precession of 1 million of years. $1 is the point in time in million years, rounded to million years.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-Mannum"
+msgid "$1 million years CE"
+msgstr ""
+
+#. [Wiki] Used to present a point in time with the precession of 10000 years to 100000 years. $1 is the point in time in years, rounded to 10000 or 100000 years.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-annum"
+msgid "{{PLURAL:$1|$1 year|$1 years}} CE"
+msgstr ""
+
+#. [Wiki] Used to present a point in time with the precession of 1000 years. $1 is the millennium, given as year rounded up to the next 1000 and divided by 1000.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-millennium"
+msgid "$1. millennium"
+msgstr ""
+
+#. [Wiki] Used to present a point in time with the precession of 100 years. $1 is the century, given as year rounded up the next hundred and divided by 100.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-century"
+msgid "$1. century"
+msgstr ""
+
+#. [Wiki] Used to present a point in time with the precession of 10 years. $1 is the point in time in years, rounded down to the nearest ten.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-10annum"
+msgid "$1s"
+msgstr ""
+
+#. [Wiki] Used to present a point in time BCE (before current era) with the precession of 1 billion of years. $1 is the point in time in billion years, rounded to billion years.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-BCE-Gannum"
+msgid "$1 billion years BCE"
+msgstr ""
+
+#. [Wiki] Used to present a point in time BCE (before current era) with the precession of 1 million of years. $1 is the point in time in million years, rounded to million years.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-BCE-Mannum"
+msgid "$1 million years BCE"
+msgstr ""
+
+#. [Wiki] Used to present a point in time BCE (before current era) with the precession of 10000 years to 100000 years. $1 is the point in time in years, rounded to 10000 or 100000 years.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-BCE-annum"
+msgid "{{PLURAL:$1|$1 year|$1 years}} BCE"
+msgstr ""
+
+#. [Wiki] Used to present a point in time BCE (before current era) with the precession of 1000 years. $1 is the millennium, given as year rounded up to the next 1000 and divided by 1000.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-BCE-millennium"
+msgid "$1. millennium BCE"
+msgstr ""
+
+#. [Wiki] Used to present a point in time BCE (before current era) with the precession of 100 years. $1 is the century, given as year rounded up the next hundred and divided by 100.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-BCE-century"
+msgid "$1. century BCE"
+msgstr ""
+
+#. [Wiki] Used to present a point in time BCE (before current era) with the precession of 10 years. $1 is the point in time in years, rounded down to the nearest ten.
+#. [Wiki] {{Related|Wikibase-time-precision}}
+msgctxt "wikibase-time-precision-BCE-10annum"
+msgid "$1s BCE"
+msgstr ""
+
+#. [Wiki] Format for displaying monolingual text (along with a language name).
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the text
+#. [Wiki] * $2 - the code of the language of the text
+#. [Wiki] * $3 - the name of the language of the text, in the user's language.
+#, optional
+msgctxt "wikibase-monolingualtext"
+msgid "<span lang=\"$2\" class=\"wb-monolingualtext-value\">$1</span> <span class=\"wb-monolingualtext-language-name\" dir=\"auto\">($3)</span>"
+msgstr ""
+
+#. [Wiki] Warning shown when if the data value type used by a Snak's (see [[d:Wikidata:Glossary]]) property's data type is different from the type of the Snak's actual value.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - data value type of the property-value Snak's value.
+#. [Wiki] * $2 - data value type used by the data type used in the property which is used by the property-value Snak
+msgctxt "wikibase-snakformatter-valuetype-mismatch"
+msgid "The value's type \"$1\" does not match Property's type \"$2\"."
+msgstr ""
+
+#. [Wiki] Warning shown when a Snak's (see [[d:Wikidata:Glossary]]) data type could not be determined based on the Snak's property ID.
+msgctxt "wikibase-snakformatter-property-not-found"
+msgid "Property $1 not found, cannot determine the data type to use."
+msgstr ""
+
+#. [Wiki] Warning shown when a Snak (see [[d:Wikidata:Glossary]]) could not be rendered due to an internal error (a FormattingException).
+#. [Wiki] * $1 - the error message from the FormattingException, in English, possibly including technical details.
+msgctxt "wikibase-snakformatter-formatting-exception"
+msgid "Formatting error: $1."
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when creating a new item. This is a legacy message. Note that some item-specific messages need to be defined with the generic wikibase-entity-summary prefix for use on client wikis.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetitem"
+msgid "Created a new Item"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when creating a new entity. This is for backwards compatibility for edits already made and in the database with this message.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbcreate-new"
+msgid "Created a new entity"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when changing an entity into a redirect to another entity.}}
+#. [Wiki] {{Identical|Redirect}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbcreateredirect"
+msgid "Redirected to $4"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when creating a new entity. This is a legacy message.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbeditentity"
+msgid "Created a new entity"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when creating a new entity.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbeditentity-create"
+msgid "Created a new entity"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when updating an existing entity.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbeditentity-update"
+msgid "Changed an entity"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when overriding an existing item. This is when a user specifically marks an edit in such a way that the data they provide will override any current data on the item.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbeditentity-override"
+msgid "Cleared an entity"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when creating a reference or setting the value of an existing one.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetreference"
+msgid "Set a reference"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when adding a reference.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetreference-add"
+msgid "Added reference to claim"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when editing a reference.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetreference-set"
+msgid "Changed reference of claim"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when creating an entity label, which appears in the ''h1'' heading at top of the item-page. Example of a full edit summary is "Added [en] label:  Egypt".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetlabel-add"
+msgid "Added [$2] label"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when editing an entity label, which appears in the ''h1'' heading at top of the item-page. Example of a full edit summary is "Updated [en] label:  Egypt".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetlabel-set"
+msgid "Changed [$2] label"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when removing an entity label. Example edit summary is "Removed [en] label".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetlabel-remove"
+msgid "Removed [$2] label"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when creating an entity description. Example edit summary is "Added [en] description:  a country in Africa".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetdescription-add"
+msgid "Added [$2] description"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when editing an entity description. Example edit summary is "Updated [en] description:  a country in Africa".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetdescription-set"
+msgid "Changed [$2] description"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when removing an entity description. Example edit summary is "Removed [en] description".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetdescription-remove"
+msgid "Removed [$2] description"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when adding or editing entity aliases. Example for adding aliases on the English entity page for Italy: "Set [en] aliases: Italian Republic, Repubblica italiana".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetaliases-set"
+msgid "Set [$2] {{PLURAL:$1|alias|aliases}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when adding and removing entity aliases. A user can be in edit mode for aliases and can remove one or more aliases, while adding others in the same edit.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetaliases-add-remove"
+msgid "Added and removed [$2] {{PLURAL:$1|alias|aliases}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when adding one or more aliases.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetaliases-add"
+msgid "Added [$2] {{PLURAL:$1|alias|aliases}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when a user removes one or more aliases.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetaliases-remove"
+msgid "Removed [$2] {{PLURAL:$1|alias|aliases}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when a user removes one or more aliases.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetaliases-update"
+msgid "Updated [$2] {{PLURAL:$1|alias|aliases}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when editing an entity label, description and aliases. Example of a full edit summary is "Changed [en] label, description and aliases: Label, Description, Alias 1, Alias 2".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetlabeldescriptionaliases"
+msgid "Changed [$2] label, description and aliases"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when adding a language link. Such a summary could appear in English as "Added link to [itwiki]:  Italia".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetsitelink-add"
+msgid "Added link to [$2]"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when adding a language link with badges. Such a summary could appear in English as "Added link to [itwiki]:  Italia, Q2, Q3".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetsitelink-add-both"
+msgid "Added link with badges to [$2]"
+msgstr ""
+
+#. [Wiki] {{doc-important|Translate this as "Changed link which points to <nowiki>[$2]</nowiki>".}}
+#. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when editing a language link. Such a summary could appear in English as "Changed link to [itwiki]:  Italia".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetsitelink-set"
+msgid "Changed link to [$2]"
+msgstr ""
+
+#. [Wiki] {{doc-important|Translate this as "Changed badges for link which points to <nowiki>[$2]</nowiki>".}}
+#. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when editing badges of a language link. Such a summary could appear in English as "Changed badges for [itwiki]:  Q2, Q3".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetsitelink-set-badges"
+msgid "Changed badges for [$2]"
+msgstr ""
+
+#. [Wiki] {{doc-important|Translate this as "Changed link which points to <nowiki>[$2]</nowiki> and its badges".}}
+#. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when editing a language link and its badges. Such a summary could appear in English as "Changed link and badges for [itwiki]:  Italia, Q2, Q3".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetsitelink-set-both"
+msgid "Changed link and badges for [$2]"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when removing a language link from a Wikidata entity (page). Such a summary could appear in English as "Removed link to [itwiki]".}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetsitelink-remove"
+msgid "Removed link to [$2]"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when connecting page(s) by creating a new data entity.}}
+#. [Wiki] 
+#. [Wiki] This module generates a slightly different summary (autocomment) than the other ones. Note that some item-specific messages need to be defined with the generic wikibase-entity-summary prefix for use on client wikis.
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wblinktitles-create"
+msgid "Created this entity to connect pages"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when connecting page(s).}}
+#. [Wiki] 
+#. [Wiki] This module generates a slightly different summary (autocomment) than the other ones. Note that some item-specific messages need to be defined with the generic wikibase-entity-summary prefix for use on client wikis.
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wblinktitles-connect"
+msgid "Added a language link to connect pages"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity-claims|Automatic edit summary when a claim is created and a value is used. The values can be of various types, including but not limited to defined properties. This is a LEGACY value, needed for old log entries!}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbcreateclaim-value"
+msgid "Created {{PLURAL:$1|a claim|claims}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity-claims|Automatic edit summary when ''no value'' is supplied to the claim. A ''no value'' means that there are no valid value to be set for this claim, or that there are no existing value. This is a LEGACY value, needed for old log entries!}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbcreateclaim-novalue"
+msgid "Created {{PLURAL:$1|a claim|claims}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity-claims|Automatic edit summary when there should be a value but it is unknown. This is different from the case where there are no valid or existing value. This is a LEGACY value, needed for old log entries!}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbcreateclaim-somevalue"
+msgid "Created {{PLURAL:$1|a claim|claims}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity-claims|Automatic edit summary when a claim is created.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbcreateclaim"
+msgid "Created {{PLURAL:$1|a claim|claims}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity-claims|Automatic edit summary when the main value of one or more claim is changed.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetclaimvalue"
+msgid "Set {{PLURAL:$1|a claim value|claim values}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity-claims|Automatic edit summary when one or more claim is removed.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbremoveclaims"
+msgid "Removed {{PLURAL:$1|a claim|claims}}"
+msgstr ""
+
+#. [Wiki] Automatic edit summary generated when removing claims. Parameters:
+#. [Wiki] * $1 - number of claims that got removed
+#. [Wiki] {{identical|Removed claim}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbremoveclaims-remove"
+msgid "Removed {{PLURAL:$1|claim|claims}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity-claims|Automatic edit summary when two or more claims are removed.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbremoveclaims-update"
+msgid "Removed {{PLURAL:$1|claim|claims}}"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when creating an item, and supplying one or more values. This page can take an additional sitelink, but this does not reflect in the autocomment. Note that some item-specific messages need to be defined with the generic wikibase-entity-summary prefix for use on client wikis.}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-special-create-item"
+msgid "Created an [$2] Item with {{PLURAL:$1|value|values}}"
+msgstr ""
+
+#. [Wiki] Automatic edit summary generated when creating a new claim.
+#. [Wiki] {{identical|Created claim}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbcreateclaim-create"
+msgid "Created claim"
+msgstr ""
+
+#. [Wiki] Automatic edit summary generated when modifying a claim using setclaim. Parameters:
+#. [Wiki] * $3 - number of claims changed
+#. [Wiki] {{identical|Changed claim}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetclaim-update"
+msgid "Changed {{PLURAL:$3|claim|claims}}"
+msgstr ""
+
+#. [Wiki] Automatic edit summary generated when creating a new claim using setclaim. Parameters:
+#. [Wiki] * $3 - number of claims changed
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetclaim-create"
+msgid "Created {{PLURAL:$3|claim|claims}}"
+msgstr ""
+
+#. [Wiki] Automatic edit summary generated when modifying the qualifiers of a claim using setclaim. Parameters:
+#. [Wiki] * $3 - number of claims changed
+#. [Wiki] * $4 - number of qualifiers changed
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetclaim-update-qualifiers"
+msgid "Changed {{PLURAL:$4|one qualifier|$4 qualifiers}} of {{PLURAL:$3|claim|claims}}"
+msgstr ""
+
+#. [Wiki] Automatic edit summary generated when modifying the references of a claim using setclaim. Parameters:
+#. [Wiki] * $3 - number of claims changed
+#. [Wiki] * $4 - number of references changed
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetclaim-update-references"
+msgid "Changed {{PLURAL:$4|one reference|$4 references}} of {{PLURAL:$3|claim|claims}}"
+msgstr ""
+
+#. [Wiki] Automatic edit summary generated when modifying the rank of a claim using setclaim. Parameters:
+#. [Wiki] * $3 - number of claims changed
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetclaim-update-rank"
+msgid "Changed rank of {{PLURAL:$3|claim|claims}}"
+msgstr ""
+
+#. [Wiki] Automatic edit summary (autocomment) when a language link has been automatically updated after a page move. Parameters:
+#. [Wiki] * $3 - siteid and name of the old page name (like enwiki:Foo)
+#. [Wiki] * $4 - siteid and name of the new page name (like enwiki:Bar)
+#. [Wiki] {{wikibase summary messages|sitelinks}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-clientsitelink-update"
+msgid "Page moved from [$3] to [$4]"
+msgstr ""
+
+#. [Wiki] Automatic edit summary (autocomment) when a language link has been automatically removed after a page deletion. Parameters:
+#. [Wiki] * $3 - siteid
+#. [Wiki] {{wikibase summary messages|sitelinks}}
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-clientsitelink-remove"
+msgid "Page on [$3] deleted"
+msgstr ""
+
+#. [Wiki] Automatic edit summary when adding qualifiers. Parameters:
+#. [Wiki] * $1 is the number of qualifiers added.
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetqualifier-add"
+msgid "Added {{PLURAL:$1|qualifier|qualifiers}}"
+msgstr ""
+
+#. [Wiki] Automatic edit summary when setting qualifiers. Parameters:
+#. [Wiki] * $1 is the number of qualifiers updated.
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbsetqualifier-update"
+msgid "Changed {{PLURAL:$1|qualifier|qualifiers}}"
+msgstr ""
+
+#. [Wiki] Automatic edit summary when removing qualifiers. Parameters:
+#. [Wiki] * $1 is the number of qualifiers removed.
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbremovequalifiers-remove"
+msgid "Removed {{PLURAL:$1|qualifier|qualifiers}}"
+msgstr ""
+
+#. [Wiki] Automatic edit summary when removing references. Parameters:
+#. [Wiki] * $3 is the number of references removed.
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbremovereferences-remove"
+msgid "Removed {{PLURAL:$3|reference|references}} from claim"
+msgstr ""
+
+#. [Wiki] Automatic edit summary when merging items. This summary is for the edit made to the item being merged TO.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - (Unused)
+#. [Wiki] * $2 - (Unused)
+#. [Wiki] * $3 - the item id of the item being merged from
+#. [Wiki] 
+#. [Wiki] Note that some item-specific messages need to be defined with the generic wikibase-entity-summary prefix for use on client wikis.
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbmergeitems-from"
+msgid "Merged Item from $3"
+msgstr ""
+
+#. [Wiki] Automatic edit summary when merging items. This summary is for the edit made to the item being merged FROM.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - (Unused)
+#. [Wiki] * $2 - (Unused)
+#. [Wiki] * $3 - the item id of the item being merged to
+#. [Wiki] 
+#. [Wiki] Note that some item-specific messages need to be defined with the generic wikibase-entity-summary prefix for use on client wikis.
+#. [Wiki] {{Related|Wikibase-entity-summary}}
+msgctxt "wikibase-entity-summary-wbmergeitems-to"
+msgid "Merged Item into $3"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when creating a new item. This is for backwards compatibility for edits already made and in the database with this message.}}
+#. [Wiki] {{Related|Wikibase-item-summary}}
+msgctxt "wikibase-item-summary-wbcreate-new"
+msgid "Created a new Item"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when creating a new item. This is a legacy message.}}
+#. [Wiki] {{Related|Wikibase-item-summary}}
+msgctxt "wikibase-item-summary-wbeditentity"
+msgid "Created a new Item"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when creating a new item.}}
+#. [Wiki] {{Related|Wikibase-item-summary}}
+msgctxt "wikibase-item-summary-wbeditentity-create"
+msgid "Created a new Item"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when creating a new item.}}
+#. [Wiki] {{Identical|Wikibase-item-summary-wbeditentity-create}}
+msgctxt "wikibase-item-summary-wbeditentity-create-item"
+msgid "Created a new Item"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when updating an existing item.}}
+#. [Wiki] {{Related|Wikibase-item-summary}}
+msgctxt "wikibase-item-summary-wbeditentity-update"
+msgid "Changed an Item"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when overriding an existing item. This is when a user specifically marks an edit in such a way that the data they provide will override any current data on the item.}}
+#. [Wiki] {{Related|Wikibase-item-summary}}
+msgctxt "wikibase-item-summary-wbeditentity-override"
+msgid "Cleared an Item"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|item|Automatic edit summary when connecting page(s) by creating a new data item.}}
+#. [Wiki] 
+#. [Wiki] This module generates a slightly different summary (autocomment) than the other ones.
+#. [Wiki] {{Related|Wikibase-item-summary}}
+msgctxt "wikibase-item-summary-wblinktitles-create"
+msgid "Created this Item to connect pages"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|item|Automatic edit summary when connecting page(s).}}
+#. [Wiki] 
+#. [Wiki] This module generates a slightly different summary (autocomment) than the other ones.
+#. [Wiki] {{Related|Wikibase-item-summary}}
+msgctxt "wikibase-item-summary-wblinktitles-connect"
+msgid "Added a language link to connect pages"
+msgstr ""
+
+#. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when creating a new item. This is for backwards compatibility for edits already made and in the database with this message.}}
+#. [Wiki] {{Related|Wikibase-property-summary}}
+msgctxt "wikibase-property-summary-wbcreate-new"
+msgid "Created a new Property"
+msgstr ""
+
+#. [Wiki] Automatic edit summary generated when creating a new property.
+#. [Wiki] {{Related|Wikibase-property-summary}}
+msgctxt "wikibase-property-summary-wbeditentity-create"
+msgid "Created a new Property"
+msgstr ""
+
+#. [Wiki] Automatic edit summary generated when creating a new property.
+#. [Wiki] {{Identical|Wikibase-property-summary-wbeditentity-create}}
+msgctxt "wikibase-property-summary-wbeditentity-create-property"
+msgid "Created a new Property"
+msgstr ""
+
+#. [Wiki] Automatic edit summary generated when updating an existing property.
+#. [Wiki] {{Related|Wikibase-property-summary}}
+msgctxt "wikibase-property-summary-wbeditentity-update"
+msgid "Changed a Property"
+msgstr ""
+
+#. [Wiki] Automatic edit summary generated when overriding an existing property.
+#. [Wiki] {{Related|Wikibase-property-summary}}
+msgctxt "wikibase-property-summary-wbeditentity-override"
+msgid "Cleared a Property"
+msgstr ""
+
+#. [Wiki] Automatic edit summary when creating a property, and supplying one or more values. Parameters:
+#. [Wiki] * $1 - the number of values set (that is 0 - zero)
+#. [Wiki] * $2 - the language code of the entity page during creation
+#. [Wiki] {{Related|Wikibase-property-summary}}
+msgctxt "wikibase-property-summary-special-create-property"
+msgid "Created a [$2] Property with {{PLURAL:$1|value|values}}"
+msgstr ""
+

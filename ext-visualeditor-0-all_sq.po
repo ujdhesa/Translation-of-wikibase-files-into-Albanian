@@ -1,0 +1,4531 @@
+# Translation of VisualEditor messages - all to Albanian (shqip)
+# Exported from translatewiki.net
+#
+# Author: Agonqurdina
+# Author: Amire80
+# Author: Ammartivari
+# Author: Arianit
+# Author: Elioqoshi
+# Author: Euriditi
+# Author: Gertakapllani
+# Author: GretaDoci
+# Author: Kosovastar
+# Author: Kushtrim
+# Author: Liridon
+# Author: Techlik
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2018-12-23 17:21:37+0000\n"
+"POT-Creation-Date: 2018-12-23 17:21:37+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"X-Generator: MediaWiki 1.33.0-alpha; Translate 2018-11-05\n"
+"X-Language-Code: sq\n"
+"X-Message-Group: ext-visualeditor-0-all\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. [Wiki] Error message for when citoid service returns a 520 error
+msgctxt "citoid-520-error"
+msgid "Unable to retrieve information from the provided identifier."
+msgstr "E pamundur të mirren informacionet prej identifikuesit të ofruar."
+
+#. [Wiki] [[File:Citoid insert button.png]]
+#. [Wiki] ----
+#. [Wiki] Label for the button to insert a chosen reference.
+#. [Wiki] {{Identical|Insert}}
+msgctxt "citoid-citation-widget-insert-button"
+msgid "Insert"
+msgstr "Vendos"
+
+#. [Wiki] [[File:Citoid back button.png]]
+#. [Wiki] ----
+#. [Wiki] Label for the button to go back to the generate panel in the inspector.
+#. [Wiki] {{Identical|Back}}
+msgctxt "citoid-citefromiddialog-back"
+msgid "Back"
+msgstr "Prapa"
+
+#. [Wiki] [[File:Citoid credit text.png]]
+#. [Wiki] ----
+#. [Wiki] Text giving credit for the source of the retrieved citation; variable is name of source, i.e. 'Zotero'.
+msgctxt "citoid-citefromiddialog-credit"
+msgid "Powered by $1"
+msgstr "Fuqizuar nga $1"
+
+#. [Wiki] Label for the generate button for citation inputs. Unlike "search", "generate" is a process in which there is certainty that a particular result will be found, for example, matching a valid ISBN to a book title.
+#. [Wiki] {{Identical|Generate}}
+msgctxt "citoid-citefromiddialog-lookup-button"
+msgid "Generate"
+msgstr "Gjenero"
+
+#. [Wiki] Label of tab in citation dialog ({{msg-mw|Citoid-citefromiddialog-title}}), used to select mode. The other tabs are {{msg-mw|Citoid-citefromiddialog-mode-manual}} and {{msg-mw|Citoid-citefromiddialog-mode-reuse}}.
+#. [Wiki] {{Identical|Automatic}}
+msgctxt "citoid-citefromiddialog-mode-auto"
+msgid "Automatic"
+msgstr "Automatik"
+
+#. [Wiki] Label of tab in citation dialog, used to select mode. An adjective describing {{msg-mw|Citoid-citefromidtool-title}}. The other tabs are {{msg-mw|Citoid-citefromiddialog-mode-auto}} and {{msg-mw|Citoid-citefromiddialog-mode-reuse}}.
+#. [Wiki] {{Identical|Manual}}
+msgctxt "citoid-citefromiddialog-mode-manual"
+msgid "Manual"
+msgstr "Manual"
+
+#. [Wiki] Label of tab in citation dialog, used to select mode. The other tabs are {{msg-mw|Citoid-citefromiddialog-mode-auto}} and {{msg-mw|Citoid-citefromiddialog-mode-manual}}.
+#. [Wiki] {{Identical|Re-use}}
+msgctxt "citoid-citefromiddialog-mode-reuse"
+msgid "Re-use"
+msgstr "Ri-shfrytëzo"
+
+#. [Wiki] Text for the search button.
+#. [Wiki] {{Identical|Search}}
+msgctxt "citoid-citefromiddialog-search"
+msgid "Search"
+msgstr "Kērko"
+
+#. [Wiki] Label for the search field where users can enter a URL, DOI, ISBN, PMCID, PMID, title of the work, or plain text citation.
+msgctxt "citoid-citefromiddialog-search-label"
+msgid "URL, DOI, ISBN, PMC/PMID, title, or citation"
+msgstr "URL, DOI, ISBN, PMC/PMID, titulli ose citimi"
+
+#. [Wiki] {{doc-important|Do not translate example.com as it is a domain name specifically reserved by IANA for examples.}}
+#. [Wiki] 
+#. [Wiki] Placeholder for the URL/DOI/PMCID/PMID/ISBN search field.
+msgctxt "citoid-citefromiddialog-search-placeholder"
+msgid "e.g. http://www.example.com"
+msgstr "p.sh. http://www.shembull.com"
+
+#. [Wiki] Message for when the search is in progress
+msgctxt "citoid-citefromiddialog-search-progress"
+msgid "Searching, please wait..."
+msgstr "Po kërkojmë, ju lutem prisni..."
+
+#. [Wiki] The title displayed on the dialog
+msgctxt "citoid-citefromiddialog-title"
+msgid "Add a citation"
+msgstr "Shtoni një burim"
+
+#. [Wiki] Label notifying the user there was a problem creating their reference, and offering to use the full citation tool.
+msgctxt "citoid-citefromiddialog-use-general-error-message"
+msgid "We couldn't make a citation for you. You can create one manually using the \"{{int:citoid-citefromiddialog-mode-manual}}\" tab above."
+msgstr "Nuk mundem të krijojmë një burim për ju. Ju mund të krijoni një manualisht, duke përdorur \"{{int:citoid-citefromiddialog-mode-manual}}\" më sipër."
+
+#. [Wiki] Label for the button to add a citation in the toolbar
+#. [Wiki] {{Identical|Cite}}
+msgctxt "citoid-citefromidtool-title"
+msgid "Cite"
+msgstr "Burim"
+
+#. [Wiki] Label for the button to add a citation in the insert menu
+#. [Wiki] {{Identical|Citation}}
+msgctxt "citoid-citefromidtool-title-othergroup"
+msgid "Citation"
+msgstr "Citimet"
+
+#. [Wiki] {{desc|name=Citoid|url=https://www.mediawiki.org/wiki/Citoid}}
+msgctxt "citoid-desc"
+msgid "Provides access points between the citoid service and MediaWiki"
+msgstr "Ofroni qasje mes pikave të burimeve të cituara dhe MediaWiki"
+
+#. [Wiki] Label for the button to convert a plain reference to a Citoid reference.
+#. [Wiki] {{Identical|Convert}}
+msgctxt "citoid-referencecontextitem-convert-button"
+msgid "Convert"
+msgstr "Konverto"
+
+#. [Wiki] Message explaining the functionality of the button to convert a plain reference to a Citoid reference.
+msgctxt "citoid-referencecontextitem-convert-message"
+msgid "This reference consists of just an external link. You can use the \"{{int:citoid-referencecontextitem-convert-button}}\" button below to generate a properly formatted reference."
+msgstr "Kjo referencë përbëhet nga vetëm një lidhje e jashtme. Ju mund të përdorni butonin \"{{int:citoid-referencecontextitem-convert-button}}\" më poshtë për të gjeneruar një referencë të formatit të duhur."
+
+#. [Wiki] Error message indicating that the service to create citations has returned an error or is temporarily malfunctioning, asking the user to try again later.
+msgctxt "citoid-unknown-error"
+msgid "An unknown error has occured that prevented us from creating a citation. Please try again later."
+msgstr "Një gabim i panjohur ka ndodhur dhe na ka penguar që krijojmë një burim. Ju lutemi të provoni sërish më vonë."
+
+#. [Wiki] Title of tool that inserts a citation for a book.
+#. [Wiki] {{Identical|Book}}
+msgctxt "visualeditor-cite-tool-name-book"
+msgid "Book"
+msgstr "Libra"
+
+#. [Wiki] Title of tool that inserts a citation for a journal
+#. [Wiki] {{Identical|Journal}}
+msgctxt "visualeditor-cite-tool-name-journal"
+msgid "Journal"
+msgstr "Gazeta"
+
+#. [Wiki] Title of tool that inserts a citation for a news.
+#. [Wiki] {{Identical|News}}
+msgctxt "visualeditor-cite-tool-name-news"
+msgid "News"
+msgstr "Lajme"
+
+#. [Wiki] Title of tool that inserts a citation for a website.
+#. [Wiki] {{Identical|Website}}
+msgctxt "visualeditor-cite-tool-name-web"
+msgid "Website"
+msgstr "Faqja Web"
+
+#. [Wiki] Description of a reference changing group
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 – the name of the group it was before
+#. [Wiki] * $2 – the name of the group it is now
+msgctxt "cite-ve-changedesc-ref-group-both"
+msgid "Reference group changed from \"$1\" to \"$2\""
+msgstr "Grupi i referencimit ka ndryshuar nga \"$1\" në \"$2\""
+
+#. [Wiki] Description of a reference changing group to the general group
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 – the name of the group it was before
+msgctxt "cite-ve-changedesc-ref-group-from"
+msgid "Reference group changed from \"$1\" to the general group"
+msgstr "Grupi i referencimit ka ndryshuar nga \"$1\" to grupi i përgjithshëm"
+
+#. [Wiki] Description of a reference changing group from the general group
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 – the name of the group it is now
+msgctxt "cite-ve-changedesc-ref-group-to"
+msgid "Reference group changed from the general group to \"$1\""
+msgstr "Grupi i referencimit ka ndryshuar nga grupi i përgjithshëm në \"$1\""
+
+#. [Wiki] Description of a references list changing group
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 – the name of the group it was before
+#. [Wiki] * $2 – the name of the group it is now
+msgctxt "cite-ve-changedesc-reflist-group-both"
+msgid "References list group changed from \"$1\" to \"$2\""
+msgstr "Grupi i listës së referencave ka ndryshuar nga \"$1\" në \"$2\""
+
+#. [Wiki] Description of a references list changing group to the general group
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 – the name of the group it was before
+msgctxt "cite-ve-changedesc-reflist-group-from"
+msgid "References list group changed from \"$1\" to the general group"
+msgstr "Grupi i listë së referencave ka ndryshuar nga \"$1\" në grupin e përgjithshëm"
+
+#. [Wiki] Description of a references list changing group from the general group
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 – the name of the group it is now
+msgctxt "cite-ve-changedesc-reflist-group-to"
+msgid "References list group changed from the general group to \"$1\""
+msgstr "Grupi i listë së referencave ka ndryshuar nga grupi i përgjithshëm në \"$1\""
+
+#. [Wiki] Description of a references list changing responsiveness to on
+msgctxt "cite-ve-changedesc-reflist-responsive-set"
+msgid "References list changed to display in responsive columns"
+msgstr "Lista e referencave ka ndryshuar për t'u shfaqur në kolona responsive"
+
+#. [Wiki] Description of a references list changing responsiveness to off
+msgctxt "cite-ve-changedesc-reflist-responsive-unset"
+msgid "References list changed to display in only one column"
+msgstr "Lista e referencave ka ndryshuar për t'u shfaqur në vetëm një kolonë"
+
+#. [Wiki] Description of the visible index of a reference changing
+msgctxt "cite-ve-changedesc-reflist-item-id"
+msgid "Reference index changed"
+msgstr "Indeksi i referencës ka ndryshuar"
+
+#. [Wiki] Text shown at the top of the reference dialog when editing a reference that is used multiple times.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - Number of times used. This is always greater than 1.
+#. [Wiki] 
+#. [Wiki] Note that the explicit '2' value is useful in English, but not necessarily for other languages. Don't translate the 2 value if it's not useful for your language.
+msgctxt "cite-ve-dialog-reference-editing-reused"
+msgid "This reference is used {{PLURAL:$1|once|2=twice|$1 times}} on this page."
+msgstr "Kjo referencë është përdorur $1 {{PLURAL:$1|një herë|2=dy herë|$1 herë}} në këtë faqe."
+
+#. [Wiki] Label for the reference group input
+msgctxt "cite-ve-dialog-reference-options-group-label"
+msgid "Use this group"
+msgstr "Përdor këtë grup"
+
+#. [Wiki] Placeholder for the reference group input
+msgctxt "cite-ve-dialog-reference-options-group-placeholder"
+msgid "General references"
+msgstr "Referenca të përgjithshme"
+
+#. [Wiki] Label for the reference name input
+msgctxt "cite-ve-dialog-reference-options-name-label"
+msgid "Re-use by this name"
+msgstr "Ripërdor këtë emër"
+
+#. [Wiki] Label for the responsive layout checkbox
+msgctxt "cite-ve-dialog-reference-options-responsive-label"
+msgid "Use responsive column layout"
+msgstr "Përdor radhitjen me kolona responsive"
+
+#. [Wiki] Label for the reference options sub-section.
+#. [Wiki] {{Identical|Options}}
+msgctxt "cite-ve-dialog-reference-options-section"
+msgid "Options"
+msgstr "Opsionet"
+
+#. [Wiki] Placeholder text shown in a basic reference when no text has yet been entered.
+msgctxt "cite-ve-dialog-reference-placeholder"
+msgid "Write or paste your reference here, or insert a citation template."
+msgstr "Shkruaj ose kopjo referencën tuaj këtu, ose fut një shabllon të citimit."
+
+#. [Wiki] {{Identical|Reference}}
+msgctxt "cite-ve-dialog-reference-title"
+msgid "Reference"
+msgstr "Referenca"
+
+#. [Wiki] Full length label for the button to choose an existing reference
+msgctxt "cite-ve-dialog-reference-useexisting-full-label"
+msgid "Re-use a citation that already exists on this page"
+msgstr "Ri-përdor një burim që tashmë ekziston në këtë faqe"
+
+#. [Wiki] Label for button in reference dialog to insert a re-use of an existing reference
+msgctxt "cite-ve-dialog-reference-useexisting-label"
+msgid "Use an existing reference"
+msgstr "Përdor një referencë ekzistuese"
+
+#. [Wiki] Used as label for the button to let the user pick an existing reference from a list to insert a duplicate
+#. [Wiki] {{Identical|Re-use}}
+msgctxt "cite-ve-dialog-reference-useexisting-tool"
+msgid "Re-use"
+msgstr "Ri-shfrytëzo"
+
+#. [Wiki] Message shown to an editor when they click on a reference list without a group, explaining to them that the item will list all "general" references on the page.
+msgctxt "cite-ve-dialog-referenceslist-contextitem-description-general"
+msgid "List of general references"
+msgstr "Lisa e përgjithshme e referencave"
+
+#. [Wiki] Message shown to an editor when they click on a reference list with a group, explaining to them that the item will list all references on the page with that particular group.
+#. [Wiki] 
+#. [Wiki] * $1 – the name of the group of references (user-entered)
+msgctxt "cite-ve-dialog-referenceslist-contextitem-description-named"
+msgid "List of references for group \"$1\""
+msgstr "Lista e referencave për grupin \"$1\""
+
+#. [Wiki] {{Identical|References list}}
+msgctxt "cite-ve-dialog-referenceslist-title"
+msgid "References list"
+msgstr "Lista e referencave"
+
+#. [Wiki] Text shown in education popup for the citation dialog tool.
+msgctxt "cite-ve-dialogbutton-citation-educationpopup-text"
+msgid "Improves your content by adding sources of information. You can cite from books, newspapers and websites."
+msgstr "Përmirëso përmbajtjen tuaj duke shtuar burimet e informacionit. Ju mund të citoni nga librat, gazetat dhe faqet e internetit."
+
+#. [Wiki] Title shown at the top of education popup for the citation dialog tool.
+#. [Wiki] {{Identical|Citation}}
+msgctxt "cite-ve-dialogbutton-citation-educationpopup-title"
+msgid "Citations"
+msgstr "Citimet"
+
+#. [Wiki] Full length label for the button to choose the basic reference
+#. [Wiki] 
+#. [Wiki] '''NOTE: "form" refers to the type/appearance of reference, not to the kind of form that you can fill in.'''
+msgctxt "cite-ve-dialogbutton-reference-full-label"
+msgid "Basic form"
+msgstr "Forma bazike"
+
+#. [Wiki] Full title for a context item showing a basic reference. As this does not have the context of other reference types it should just be the word for "reference".
+#. [Wiki] {{Identical|Reference}}
+msgctxt "cite-ve-dialogbutton-reference-title"
+msgid "Reference"
+msgstr "Referenca"
+
+#. [Wiki] An item in the citation menu for a plain reference without any citation template. This should be an adjective for the word "citation" or "reference". The term should be in contrast to the easier and more powerful citations available when using a template.
+#. [Wiki] 
+#. [Wiki] {{Identical|Basic}}
+msgctxt "cite-ve-dialogbutton-reference-tooltip"
+msgid "Basic"
+msgstr "Bazike"
+
+#. [Wiki] Tooltip for button for dialog that inserts the references list object (<code><nowiki>References list</nowiki></code>).
+#. [Wiki] {{Identical|References list}}
+msgctxt "cite-ve-dialogbutton-referenceslist-tooltip"
+msgid "References list"
+msgstr "Lista e referencave"
+
+#. [Wiki] Placeholder text for reference search field: searches existing on-page references.
+msgctxt "cite-ve-reference-input-placeholder"
+msgid "Search within current citations"
+msgstr "Kërkoni brenda burimeve të tanishme."
+
+#. [Wiki] Message that appears in the references list when there are no references on the page of that group.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - reference-group name
+msgctxt "cite-ve-referenceslist-isempty"
+msgid "There are no references with the group \"$1\" on this page to include in this list."
+msgstr "Nuk ka referenca në grupin \"$1\" në këtë faqe që mund të shtojmë në këtë listë."
+
+#. [Wiki] Message that appears in the references list when there are no references on the page in the default group.
+msgctxt "cite-ve-referenceslist-isempty-default"
+msgid "There are no references on this page to include in this list."
+msgstr "Në këtë faqe nuk ka referenca që të përfshihen në këtë listë."
+
+#. [Wiki] Message that appears as a tooltip on the reference, for references that are generated by a template or are otherwise uneditable.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|visualeditor-dialog-meta-languages-readonlynote}}
+msgctxt "cite-ve-referenceslist-missingref"
+msgid "This reference is defined in a template or other generated block, and for now can only be edited in source mode."
+msgstr "Kjo referencë është e përcaktuar në një stampë apo bllok tjetër të gjeneruar dhe për momentin mund të redaktohet vetëm në modalitetin burimor."
+
+#. [Wiki] Message that appears in the references list for references that are generated by a template or are otherwise uneditable.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|visualeditor-dialog-meta-languages-readonlynote}}
+msgctxt "cite-ve-referenceslist-missingref-in-list"
+msgid "This reference is defined in a template or other generated block, and for now can only be previewed in source mode."
+msgstr "Kjo referencë është përcaktuar në një shabllon ose bllok tjetër të gjeneruar, dhe për tani mund të parashihet vetëm në editorin burimor."
+
+#. [Wiki] Message that appears as a tooltip on the reference list for lists that are generated by a template.
+msgctxt "cite-ve-referenceslist-missingreflist"
+msgid "This reference list is generated by a template, and for now can only be edited in source mode."
+msgstr "Kjo listë e referencave është krijuar nga një shabllon, dhe për tani mund të editohet vetëm në formën burimore."
+
+#. [Wiki] Label text for the toolbar button for inserting customized references.
+#. [Wiki] {{Identical|Cite}}
+msgctxt "cite-ve-toolbar-group-label"
+msgid "Cite"
+msgstr "Burim"
+
+#. [Wiki] Label text for the toolbar items under the 'Insert' (other) group if VisualEditor is configured that way.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 – citation type label
+#. [Wiki] ** {{msg-mw|cite-ve-dialogbutton-reference-tooltip}}
+#. [Wiki] ** {{msg-mw|cite-ve-dialog-reference-useexisting-tool}})
+#. [Wiki] {{Identical|Reference}}
+msgctxt "cite-ve-othergroup-item"
+msgid "$1 reference"
+msgstr "$1 referencë"
+
+#. [Wiki] Heading in the visual diff for the default reference group.
+#. [Wiki] {{Identical|Reference}}
+msgctxt "visualeditor-internal-list-diff-default-group-name-mwreference"
+msgid "References"
+msgstr "Referencat"
+
+#. [Wiki] Heading in the visual diff to indicate the reference group name, when the reference group is not the default group.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - reference-group name
+msgctxt "visualeditor-internal-list-diff-group-name-mwreference"
+msgid "Reference group name: \"$1\""
+msgstr "Emri i grupit të referencave: \"$1\""
+
+#. [Wiki] Tooltip for a button that moves items in a list down one place
+msgctxt "ooui-outline-control-move-down"
+msgid "Move item down"
+msgstr "Zhvendose artikullin më poshtë"
+
+#. [Wiki] Tooltip for a button that moves items in a list up one place
+msgctxt "ooui-outline-control-move-up"
+msgid "Move item up"
+msgstr "Zhvendose artikullin më lart"
+
+#. [Wiki] Tooltip for a button that removes items from a list.
+#. [Wiki] {{Identical|Remove item}}
+msgctxt "ooui-outline-control-remove"
+msgid "Remove item"
+msgstr "Hiq artikullin"
+
+#. [Wiki] Label for the toolbar group that contains a list of all other available tools.
+#. [Wiki] {{Identical|More}}
+msgctxt "ooui-toolbar-more"
+msgid "More"
+msgstr "Më tepër..."
+
+#. [Wiki] Label for the fake tool that expands the full list of tools in a toolbar group.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Ooui-toolgroup-collapse}}
+#. [Wiki] {{Identical|More}}
+msgctxt "ooui-toolgroup-expand"
+msgid "More"
+msgstr "Më tepër..."
+
+#. [Wiki] Label for the fake tool that collapses the full list of tools in a toolbar group.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Ooui-toolgroup-expand}}
+#. [Wiki] {{Identical|Fewer}}
+msgctxt "ooui-toolgroup-collapse"
+msgid "Fewer"
+msgstr "Më pak"
+
+#. [Wiki] Text for the action of removing an item
+#. [Wiki] {{Identical|Remove}}
+msgctxt "ooui-item-remove"
+msgid "Remove"
+msgstr "Hiqe"
+
+#. [Wiki] Default label for the accept button of a message dialog
+#. [Wiki] {{Identical|OK}}
+msgctxt "ooui-dialog-message-accept"
+msgid "OK"
+msgstr "Në rregull"
+
+#. [Wiki] Default label for the reject button of a message dialog
+#. [Wiki] {{Identical|Cancel}}
+msgctxt "ooui-dialog-message-reject"
+msgid "Cancel"
+msgstr "Anullo"
+
+#. [Wiki] Title for process dialog error description
+msgctxt "ooui-dialog-process-error"
+msgid "Something went wrong"
+msgstr "Diçka shkoi keq"
+
+#. [Wiki] Label for process dialog dismiss error button, visible when describing errors
+#. [Wiki] {{Identical|Dismiss}}
+msgctxt "ooui-dialog-process-dismiss"
+msgid "Dismiss"
+msgstr "Largoje"
+
+#. [Wiki] Label for process dialog retry action button, visible when describing recoverable errors
+#. [Wiki] {{Identical|Try again}}
+msgctxt "ooui-dialog-process-retry"
+msgid "Try again"
+msgstr "Provo përsëri"
+
+#. [Wiki] Label for process dialog retry action button, visible when describing only warnings
+#. [Wiki] {{Identical|Continue}}
+msgctxt "ooui-dialog-process-continue"
+msgid "Continue"
+msgstr "Vazhdo"
+
+#. [Wiki] Label for button in combobox input that triggers its dropdown
+msgctxt "ooui-combobox-button-label"
+msgid "Dropdown for combobox"
+msgstr "Menyja rënse për combobox"
+
+#. [Wiki] Label for the file selection widget's select file button
+msgctxt "ooui-selectfile-button-select"
+msgid "Select a file"
+msgstr "Përzgjidhni një skedë"
+
+#. [Wiki] Label for the file selection widget if file selection is not supported
+msgctxt "ooui-selectfile-not-supported"
+msgid "File selection is not supported"
+msgstr "Skedari i përzgjedhur nuk përkrahet"
+
+#. [Wiki] Label for the file selection widget when no file is currently selected
+msgctxt "ooui-selectfile-placeholder"
+msgid "No file is selected"
+msgstr "Nuk është zgjedhur asnjë skedar"
+
+#. [Wiki] Label for the file selection widget's drop target
+msgctxt "ooui-selectfile-dragdrop-placeholder"
+msgid "Drop file here"
+msgstr "Vendose skedën këtu"
+
+#. [Wiki] Label for the help icon attached to a form field
+#. [Wiki] {{Identical|Help}}
+msgctxt "ooui-field-help"
+msgid "Help"
+msgstr "Ndihmë"
+
+#. [Wiki] The name of the VisualEditor extension.
+#. [Wiki] {{Identical|VisualEditor}}
+msgctxt "visualeditor"
+msgid "VisualEditor"
+msgstr "VisualEditor"
+
+#. [Wiki] Title for the context item for unidentifiable nodes
+#. [Wiki] {{Identical|Item}}
+msgctxt "visualeditor-aliencontextitem-title"
+msgid "Item"
+msgstr "Artikulli"
+
+#. [Wiki] Tooltip for items that VisualEditor cannot edit
+msgctxt "visualeditor-aliennode-tooltip"
+msgid "Sorry, this element can only be edited in source mode for now."
+msgstr "Na vjen keq, ky element mund të redaktohet vetëm duke përdorur tekstin burimor."
+
+#. [Wiki] Description of aligning text to center, used in describing change.
+#. [Wiki] {{Identical|Center}}
+msgctxt "visualeditor-align-desc-center"
+msgid "center"
+msgstr "qendër"
+
+#. [Wiki] Description of aligning text to default direction, used in describing change.
+#. [Wiki] {{Identical|Default}}
+msgctxt "visualeditor-align-desc-default"
+msgid "default"
+msgstr "e paracaktuar"
+
+#. [Wiki] Description of aligning text to left, used in describing change.
+#. [Wiki] {{Identical|Left}}
+msgctxt "visualeditor-align-desc-left"
+msgid "left"
+msgstr "majtas"
+
+#. [Wiki] Description of no text alignment, used in describing change.
+#. [Wiki] {{Identical|None}}
+msgctxt "visualeditor-align-desc-none"
+msgid "none"
+msgstr "asnjë"
+
+#. [Wiki] Description of aligning text to right, used in describing change.
+#. [Wiki] {{Identical|Right}}
+msgctxt "visualeditor-align-desc-right"
+msgid "right"
+msgstr "djathtas"
+
+#. [Wiki] Label for aligning text to the center.
+#. [Wiki] {{Related|Visualeditor-align-widget}}
+#. [Wiki] {{Identical|Center}}
+msgctxt "visualeditor-align-widget-center"
+msgid "Center"
+msgstr "Qendër"
+
+#. [Wiki] Label for aligning text to the default direction.
+#. [Wiki] {{Related|Visualeditor-align-widget}}
+#. [Wiki] {{Identical|Default}}
+msgctxt "visualeditor-align-widget-default"
+msgid "Default"
+msgstr "Të paracaktuara"
+
+#. [Wiki] Label for aligning text to the left.
+#. [Wiki] {{Related|Visualeditor-align-widget}}
+#. [Wiki] {{Identical|Left}}
+msgctxt "visualeditor-align-widget-left"
+msgid "Left"
+msgstr "Majtas"
+
+#. [Wiki] Label for aligning text to the right.
+#. [Wiki] 
+#. [Wiki] {{Related|Visualeditor-align-widget}}
+#. [Wiki] {{Identical|Right}}
+msgctxt "visualeditor-align-widget-right"
+msgid "Right"
+msgstr "Djathtas"
+
+#. [Wiki] Title for the context item for alignable nodes
+#. [Wiki] {{Identical|Alignment}}
+msgctxt "visualeditor-alignablecontextitem-title"
+msgid "Alignment"
+msgstr "Përshtatje"
+
+#. [Wiki] Tooltip text for big text button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+#. [Wiki] {{Identical|Big}}
+msgctxt "visualeditor-annotationbutton-big-tooltip"
+msgid "Big"
+msgstr "Të madh"
+
+#. [Wiki] Tooltip text for bold button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+#. [Wiki] {{Identical|Bold}}
+msgctxt "visualeditor-annotationbutton-bold-tooltip"
+msgid "Bold"
+msgstr "Bold"
+
+#. [Wiki] Tooltip text for code button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+msgctxt "visualeditor-annotationbutton-code-tooltip"
+msgid "Computer code"
+msgstr "Kodi i kompjuterit"
+
+#. [Wiki] Tooltip text for italic button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+#. [Wiki] {{Identical|Italic}}
+msgctxt "visualeditor-annotationbutton-italic-tooltip"
+msgid "Italic"
+msgstr "Italike"
+
+#. [Wiki] Tooltip text for language button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+#. [Wiki] {{Identical|Language}}
+msgctxt "visualeditor-annotationbutton-language-tooltip"
+msgid "Language"
+msgstr "Gjuha"
+
+#. [Wiki] Tooltip text for link button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+#. [Wiki] {{Identical|Link}}
+msgctxt "visualeditor-annotationbutton-link-tooltip"
+msgid "Link"
+msgstr "Vegëz"
+
+#. [Wiki] Tooltip text for small text button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+#. [Wiki] {{Identical|Small}}
+msgctxt "visualeditor-annotationbutton-small-tooltip"
+msgid "Small"
+msgstr "Të vogël"
+
+#. [Wiki] Tooltip text for strikethrough button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+#. [Wiki] {{Identical|Strikethrough}}
+msgctxt "visualeditor-annotationbutton-strikethrough-tooltip"
+msgid "Strikethrough"
+msgstr "Mesvizuar"
+
+#. [Wiki] Tooltip text for subscript button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+msgctxt "visualeditor-annotationbutton-subscript-tooltip"
+msgid "Subscript"
+msgstr "Poshtshkrim"
+
+#. [Wiki] Tooltip text for superscript button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+#. [Wiki] {{Identical|Superscript}}
+msgctxt "visualeditor-annotationbutton-superscript-tooltip"
+msgid "Superscript"
+msgstr "Lartshkrim"
+
+#. [Wiki] Tooltip text for underline button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+#. [Wiki] {{Identical|Underline}}
+msgctxt "visualeditor-annotationbutton-underline-tooltip"
+msgid "Underline"
+msgstr "I nënvijëzuar"
+
+#. [Wiki] Fallback description of an item's 'align' attribute value change for visual diffing, if no specific i18n exists for that kind of item.
+#. [Wiki] 
+#. [Wiki] Values:
+#. [Wiki] * $1 – Previous align value, like 'left'. {{Raw parameter}}
+#. [Wiki] * $2 – New align value, like 'center'. {{Raw parameter}}
+msgctxt "visualeditor-changedesc-align"
+msgid "Alignment changed from $1 to $2"
+msgstr "Renditja ka ndryshuar nga $1 në $2"
+
+#. [Wiki] Fallback description of an attribute value change for visual diffing, if no specific i18n exists for that kind of change.
+#. [Wiki] 
+#. [Wiki] Values:
+#. [Wiki] * $1 – Attribute name, like 'lang' or 'dir'
+#. [Wiki] * $2 – Previous attribute value, like 'ar' or 'rtl'. {{Raw parameter}}
+#. [Wiki] * $3 – New attribute value, like 'fa' or 'auto'. {{Raw parameter}}
+msgctxt "visualeditor-changedesc-changed"
+msgid "$1 changed from $2 to $3"
+msgstr "$1 ka ndryshuar nga $2 në $3"
+
+#. [Wiki] Description of a comment's change for visual diffing.
+#. [Wiki] 
+#. [Wiki] Values:
+#. [Wiki] * $1 – Previous comment. {{Raw parameter}}
+#. [Wiki] * $2 – New comment. {{Raw parameter}}
+msgctxt "visualeditor-changedesc-comment"
+msgid "Comment changed from $1 to $2"
+msgstr "Komenti ka ndryshuar nga $1 në $2"
+
+#. [Wiki] Description of a language annotation's direction change for visual diffing.
+#. [Wiki] 
+#. [Wiki] Values:
+#. [Wiki] * $1 – Previous direction, like 'ltr' or 'rtl'. {{Raw parameter}}
+#. [Wiki] * $2 – New direction, like 'rtl' or 'ltr'. {{Raw parameter}}
+msgctxt "visualeditor-changedesc-direction"
+msgid "Direction override changed from $1 to $2"
+msgstr "Mbisundimi i drejtimit u ndërrua nga $1 në $2"
+
+#. [Wiki] Description of an image's size change for visual diffing.
+#. [Wiki] 
+#. [Wiki] Values:
+#. [Wiki] * $1 – Previous size, like '200x133px'. {{Raw parameter}}
+#. [Wiki] * $2 – New size, like '300x200px'. {{Raw parameter}}
+msgctxt "visualeditor-changedesc-image-size"
+msgid "Size changed from $1 to $2"
+msgstr "Madhësia u ndërrua nga $1 në $2"
+
+#. [Wiki] Description of a language annotation's language change for visual diffing.
+#. [Wiki] 
+#. [Wiki] Values:
+#. [Wiki] * $1 – Previous language, like 'ar' or 'fr'. {{Raw parameter}}
+#. [Wiki] * $2 – New language, like 'de' or 'fa'. {{Raw parameter}}
+msgctxt "visualeditor-changedesc-language"
+msgid "Language changed from $1 to $2"
+msgstr "Gjuha u ndërrua nga $1 në $2"
+
+#. [Wiki] Description of a links's target change for visual diffing.
+#. [Wiki] 
+#. [Wiki] Values:
+#. [Wiki] * $1 – Previous target, like 'Hello world' or 'https://www.wikimedia.org/'. {{Raw parameter}}
+#. [Wiki] * $2 – New target, like 'Hello Earth' or 'https://www.mediawiki.org/'. {{Raw parameter}}
+msgctxt "visualeditor-changedesc-link-href"
+msgid "Link target changed from $1 to $2"
+msgstr "Caku i hiperlidhjes u ndërrua nga $1 në $2"
+
+#. [Wiki] Fallback description of an value change for visual diffing, if no specific i18n exists for that attribute.
+#. [Wiki] 
+#. [Wiki] Values:
+#. [Wiki] * $1 – Previous attribute value, like 'header' or 'rtl'. {{Raw parameter}}
+#. [Wiki] * $2 – New attribute value, like 'content' or 'ltr'. {{Raw parameter}}
+msgctxt "visualeditor-changedesc-no-key"
+msgid "$1 changed to $2"
+msgstr "$1 u ndërrua në $2"
+
+#. [Wiki] Fallback description of an attribute value being set for visual diffing, if no specific i18n exists for that kind of change.
+#. [Wiki] 
+#. [Wiki] Values:
+#. [Wiki] * $1 – Attribute name, like 'lang' or 'dir'
+#. [Wiki] * $2 – New attribute value, like 'fa' or 'auto'. {{Raw parameter}}
+msgctxt "visualeditor-changedesc-set"
+msgid "$1 set to $2"
+msgstr "$1 u bë $2"
+
+#. [Wiki] Fallback description of an attribute value change for visual diffing which can't be otherwise described, if no specific i18n exists for that kind of change.
+#. [Wiki] 
+#. [Wiki] Values:
+#. [Wiki] * $1 – Attribute name, like 'lang' or 'dir'
+msgctxt "visualeditor-changedesc-unknown"
+msgid "$1 changed"
+msgstr "$1 u ndryshua"
+
+#. [Wiki] Fallback description of an attribute value being unset for visual diffing, if no specific i18n exists for that kind of change.
+#. [Wiki] 
+#. [Wiki] Values:
+#. [Wiki] * $1 – Attribute name, like 'lang' or 'dir'
+#. [Wiki] * $2 – Previous attribute value, like 'ar' or 'rtl'. {{Raw parameter}}
+msgctxt "visualeditor-changedesc-unset"
+msgid "$1 unset from $2"
+msgstr "$1 u shkëput nga $2"
+
+#. [Wiki] Label for tool to change directionality
+msgctxt "visualeditor-changedir"
+msgid "Change directionality"
+msgstr "U ndryshua drejtimi"
+
+#. [Wiki] Label for tool to change rendered directionality to LTR
+msgctxt "visualeditor-changedir-tool-ltr"
+msgid "View as left-to-right"
+msgstr "Shiko nga e majta në të djathtë"
+
+#. [Wiki] Label for tool to change rendered directionality to RTL
+msgctxt "visualeditor-changedir-tool-rtl"
+msgid "View as right-to-left"
+msgstr "Shiko nga e djathta në të majtë"
+
+#. [Wiki] Tooltip text for the remove button. Clears whatever formatting is associated with the context popup.
+#. [Wiki] {{Identical|Remove}}
+msgctxt "visualeditor-clearbutton-tooltip"
+msgid "Remove"
+msgstr "Hiqe"
+
+#. [Wiki] Label for copy command.
+#. [Wiki] {{Identical|Copy}}
+msgctxt "visualeditor-clipboard-copy"
+msgid "Copy"
+msgstr "Kopjo"
+
+#. [Wiki] Label for cut command.
+#. [Wiki] {{Identical|Cut}}
+msgctxt "visualeditor-clipboard-cut"
+msgid "Cut"
+msgstr "Prej"
+
+#. [Wiki] Label for paste command.
+#. [Wiki] {{Identical|Paste}}
+msgctxt "visualeditor-clipboard-paste"
+msgid "Paste"
+msgstr "Ngjit"
+
+#. [Wiki] Label for paste as plain text command
+msgctxt "visualeditor-clipboard-paste-special"
+msgid "Paste as plain text"
+msgstr "Vendose si tekst të thjeshtë"
+
+#. [Wiki] Label for the command to close a window and discard its changes
+msgctxt "visualeditor-command-dialog-cancel"
+msgid "Close / cancel change"
+msgstr "Mbylle / anulo ndryshimin"
+
+#. [Wiki] Label for the command to close a window and make its changes
+msgctxt "visualeditor-command-dialog-confirm"
+msgid "Confirm change"
+msgstr "Konfirmo ndryshimin"
+
+#. [Wiki] Label for the edit button in the comment inspector.
+#. [Wiki] See [https://i.imgur.com/OFQvrZo.png screenshot].
+msgctxt "visualeditor-commentinspector-edit"
+msgid "Edit comment"
+msgstr "Edito komentin"
+
+#. [Wiki] Label for the title in the comment inspector.
+#. [Wiki] See [https://i.imgur.com/OFQvrZo.png screenshot].
+#. [Wiki] {{Identical|Comment}}
+msgctxt "visualeditor-commentinspector-title"
+msgid "Comment"
+msgstr "Koment"
+
+#. [Wiki] Tooltip text for comment button.
+#. [Wiki] {{Related|Visualeditor-annotationbutton}}
+#. [Wiki] {{Identical|Comment}}
+msgctxt "visualeditor-commentinspector-tooltip"
+msgid "Comment"
+msgstr "Komentoni"
+
+#. [Wiki] Label for select all command.
+#. [Wiki] {{Identical|Select all}}
+msgctxt "visualeditor-content-select-all"
+msgid "Select all"
+msgstr "Përzgjidh të gjitha"
+
+#. [Wiki] Label for the remove action on a context item.
+#. [Wiki] {{Identical|Delete}}
+msgctxt "visualeditor-contextitemwidget-label-remove"
+msgid "Delete"
+msgstr "Fshi"
+
+#. [Wiki] Label for the edit action on a context item.
+#. [Wiki] {{Identical|Edit}}
+msgctxt "visualeditor-contextitemwidget-label-secondary"
+msgid "Edit"
+msgstr "Redakto"
+
+#. [Wiki] Label for the button to dismiss the debug toolbar.
+#. [Wiki] {{Identical|Close}}
+msgctxt "visualeditor-debugbar-close"
+msgid "Close"
+msgstr "Mbylle"
+
+#. [Wiki] Label for the button in the debug toolbar to run keyboard input in debug mode.
+msgctxt "visualeditor-debugbar-inputdebug"
+msgid "Input debugging"
+msgstr ""
+
+#. [Wiki] Label for the button in the debug toolbar to output the current selection to the JavaScript console.
+#. [Wiki] {{doc-important|"Log" is a verb here. Translate as "log the selected (text)", and NOT as "the log (that was) selected".}}
+msgctxt "visualeditor-debugbar-logrange"
+msgid "Log selected"
+msgstr "Regjistri u zgjodh"
+
+#. [Wiki] Label for the button in the debug toolbar to show the document model.
+msgctxt "visualeditor-debugbar-showmodel"
+msgid "Show model"
+msgstr "Trego modelin"
+
+#. [Wiki] Label for the button in the debug toolbar to show the transaction history.
+msgctxt "visualeditor-debugbar-showtransactions"
+msgid "Show transactions"
+msgstr "Trego transaksionet"
+
+#. [Wiki] Label for the button in the debug toolbar to test the transaction squasher.
+#. [Wiki] 
+#. [Wiki] Alternative words for "squasher" could be "compactor" or "combiner". See [[phab:T202465#4557136]] for an explanation of what the transaction squasher does.
+msgctxt "visualeditor-debugbar-testsquasher"
+msgid "Test squasher"
+msgstr "Testo kombinuesin"
+
+#. [Wiki] Label for the button in the debug toolbar to begin the input response trace debugger (extremely detailed logging of the editor's behavior).
+msgctxt "visualeditor-debugbar-startfilibuster"
+msgid "Filibuster"
+msgstr ""
+
+#. [Wiki] Label for the button in the debug toolbar to stop the input response trace debugger.
+msgctxt "visualeditor-debugbar-stopfilibuster"
+msgid "Stop Filibuster"
+msgstr ""
+
+#. [Wiki] Label for the button in the debug toolbar to update the shown document model as it changes.
+msgctxt "visualeditor-debugbar-updatemodel"
+msgid "Update on changes"
+msgstr "Fresko pas ndryshimit"
+
+#. [Wiki] Label text for button to apply changes made in dialog.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-cancel}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-done}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-goback}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-insert}}
+#. [Wiki] {{Identical|Apply change}}
+msgctxt "visualeditor-dialog-action-apply"
+msgid "Apply changes"
+msgstr "Kryej ndryshimet"
+
+#. [Wiki] Label text for button to exit from dialog without making changes.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-apply}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-done}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-goback}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-insert}}
+#. [Wiki] {{Identical|Cancel}}
+msgctxt "visualeditor-dialog-action-cancel"
+msgid "Cancel"
+msgstr "Anulo"
+
+#. [Wiki] Label text for button to finish using a dialog.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-apply}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-cancel}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-goback}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-insert}}
+#. [Wiki] {{Identical|Done}}
+msgctxt "visualeditor-dialog-action-done"
+msgid "Done"
+msgstr "Përfunduar"
+
+#. [Wiki] Label text for button to go back in a dialog.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-apply}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-cancel}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-done}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-insert}}
+#. [Wiki] {{Identical|Go back}}
+msgctxt "visualeditor-dialog-action-goback"
+msgid "Go back"
+msgstr "Kthehu"
+
+#. [Wiki] Label text for button to insert an item in a dialog.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-apply}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-cancel}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-done}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-action-goback}}
+#. [Wiki] {{Identical|Insert}}
+msgctxt "visualeditor-dialog-action-insert"
+msgid "Insert"
+msgstr "Vendos"
+
+#. [Wiki] Title for keyboard shortcuts help dialog.
+#. [Wiki] {{Identical|Keyboard shortcut}}
+msgctxt "visualeditor-dialog-command-help-title"
+msgid "Keyboard shortcuts"
+msgstr "Shkurtesat e tastatierës"
+
+#. [Wiki] Title text in a dialog error screen
+msgctxt "visualeditor-dialog-error"
+msgid "Something went wrong…"
+msgstr "Diçka shkoi keq..."
+
+#. [Wiki] Label text for button to dismiss an error message in a dialog.
+#. [Wiki] {{Identical|Go back}}
+msgctxt "visualeditor-dialog-error-dismiss"
+msgid "Go back"
+msgstr "Kthehu"
+
+#. [Wiki] Label text for button to make language direction automatic.
+#. [Wiki] {{Identical|Automatic}}
+msgctxt "visualeditor-dialog-language-auto-direction"
+msgid "Auto"
+msgstr "Auto"
+
+#. [Wiki] Title for language search dialog
+#. [Wiki] {{Identical|Select language}}
+msgctxt "visualeditor-dialog-language-search-title"
+msgid "Select language"
+msgstr "Zgjidh gjuhën"
+
+#. [Wiki] Label for caption toggle in table dialog.
+#. [Wiki] {{Identical|Caption}}
+msgctxt "visualeditor-dialog-table-caption"
+msgid "Caption"
+msgstr "Titulli"
+
+#. [Wiki] Title for the table dialog.
+msgctxt "visualeditor-dialog-table-title"
+msgid "Table properties"
+msgstr "Tiparet e tabelës"
+
+#. [Wiki] Label displayed in the diff view when no net changes have been made.
+msgctxt "visualeditor-diff-no-changes"
+msgid "No changes"
+msgstr "Nuk ka ndryshime"
+
+#. [Wiki] Label displayed in the diff view if the diff took too long to compute accurately.
+msgctxt "visualeditor-diff-timed-out"
+msgid "It took too long to compute your changes, so the description below may not be optimal."
+msgstr "Mori shumë kohë për të llogaritur ndryshimet, kështu që përshkrimi më poshtë mund të mos jetë optimal."
+
+#. [Wiki] {{optional}}
+#. [Wiki] Label for the dimensions properties denoting pixel units.
+#, optional
+msgctxt "visualeditor-dimensionswidget-px"
+msgid "px"
+msgstr ""
+
+#. [Wiki] {{optional}}
+#. [Wiki] Label for the dimensions properties denoting 'by', as in width x height.
+#, optional
+msgctxt "visualeditor-dimensionswidget-times"
+msgid "×"
+msgstr ""
+
+#. [Wiki] Label for diacritic insensitive toggle in find and replace
+msgctxt "visualeditor-find-and-replace-diacritic"
+msgid "Diacritic insensitive"
+msgstr "I pandjeshëm në shenjat diakritike"
+
+#. [Wiki] Label for diabled diacritic insensitive toggle in find and replace when not supported by browser
+msgctxt "visualeditor-find-and-replace-diacritic-unavailable"
+msgid "Diacritic insensitive search not available in this browser"
+msgstr "Kërkimi i pandjeshëm në shenja diakritike nuk është në dispozicion në këtë shfletues"
+
+#. [Wiki] Label for button to finish using the find and replace dialog
+#. [Wiki] {{Identical|Done}}
+msgctxt "visualeditor-find-and-replace-done"
+msgid "Done"
+msgstr "Përfunduar"
+
+#. [Wiki] Label for find text in find and replace
+#. [Wiki] {{Identical|Find}}
+msgctxt "visualeditor-find-and-replace-find-text"
+msgid "Find"
+msgstr "Gjej"
+
+#. [Wiki] Inline error message shown for an invalid regular expression
+msgctxt "visualeditor-find-and-replace-invalid-regex"
+msgid "Invalid regular expression"
+msgstr "Shprehje e zakonshme jovalide"
+
+#. [Wiki] Label for match case toggle in find and replace
+msgctxt "visualeditor-find-and-replace-match-case"
+msgid "Match case"
+msgstr "Ndeshje rasti"
+
+#. [Wiki] Label for find next result button in find and replace
+#. [Wiki] {{Identical|Find next}}
+msgctxt "visualeditor-find-and-replace-next-button"
+msgid "Find next"
+msgstr "Gjej të radhës"
+
+#. [Wiki] Label for find previous result button in find and replace
+msgctxt "visualeditor-find-and-replace-previous-button"
+msgid "Find previous"
+msgstr "Gjej të mëparshmen"
+
+#. [Wiki] Label for regular expression toggle in find and replace
+#. [Wiki] {{Identical|Regular expression}}
+msgctxt "visualeditor-find-and-replace-regular-expression"
+msgid "Regular expression"
+msgstr "Shprehje e zakonshme"
+
+#. [Wiki] Label for replace all button in find and replace
+msgctxt "visualeditor-find-and-replace-replace-all-button"
+msgid "Replace all"
+msgstr "Zëvendëso të gjitha"
+
+#. [Wiki] Label for replace button in find and replace
+#. [Wiki] {{Identical|Replace}}
+msgctxt "visualeditor-find-and-replace-replace-button"
+msgid "Replace"
+msgstr "Zëvendëso"
+
+#. [Wiki] Label for replace text in find and replace
+#. [Wiki] {{Identical|Replace}}
+msgctxt "visualeditor-find-and-replace-replace-text"
+msgid "Replace"
+msgstr "Zëvendëso"
+
+#. [Wiki] Label for find results showing how many results were found ($2), and which one is currently highlighted ($1)
+#. [Wiki] {{Identical|Of}}
+msgctxt "visualeditor-find-and-replace-results"
+msgid "$1 of $2"
+msgstr "$1 prej $2"
+
+#. [Wiki] Title for find and replace
+msgctxt "visualeditor-find-and-replace-title"
+msgid "Find and replace"
+msgstr "Gjej dhe zëvendëso"
+
+#. [Wiki] Label for whole word toggle in find and replace
+msgctxt "visualeditor-find-and-replace-word"
+msgid "Whole word"
+msgstr "Gjithë fjala"
+
+#. [Wiki] Item in the formatting dropdown for block quote text. A block quote is a quotation which is a whole paragraph, or several paragraphs.
+msgctxt "visualeditor-formatdropdown-format-blockquote"
+msgid "Block quote"
+msgstr "Citat bllok"
+
+#. [Wiki] Label for heading level commands.
+#. [Wiki] {{Identical|Heading}}
+msgctxt "visualeditor-formatdropdown-format-heading-label"
+msgid "Heading (1-6)"
+msgstr "Titujt"
+
+#. [Wiki] Item in the generic formatting dropdown for a level 1 heading.
+#. [Wiki] {{Identical|Heading}}
+msgctxt "visualeditor-formatdropdown-format-heading1"
+msgid "Heading 1"
+msgstr "Mbishkrimi 1"
+
+#. [Wiki] Item in the generic formatting dropdown for a level 2 heading.
+#. [Wiki] {{Identical|Heading}}
+msgctxt "visualeditor-formatdropdown-format-heading2"
+msgid "Heading 2"
+msgstr "Mbishkrimi 2"
+
+#. [Wiki] Item in the generic formatting dropdown for a level 3 heading.
+#. [Wiki] {{Identical|Heading}}
+msgctxt "visualeditor-formatdropdown-format-heading3"
+msgid "Heading 3"
+msgstr "Mbishkrimi 3"
+
+#. [Wiki] Item in the generic formatting dropdown for a level 4 heading.
+#. [Wiki] {{Identical|Heading}}
+msgctxt "visualeditor-formatdropdown-format-heading4"
+msgid "Heading 4"
+msgstr "Mbishkrimi 4"
+
+#. [Wiki] Item in the generic formatting dropdown for a level 5 heading.
+#. [Wiki] {{Identical|Heading}}
+msgctxt "visualeditor-formatdropdown-format-heading5"
+msgid "Heading 5"
+msgstr "Mbishkrimi 5"
+
+#. [Wiki] Item in the generic formatting dropdown for a level 6 heading.
+#. [Wiki] {{Identical|Heading}}
+msgctxt "visualeditor-formatdropdown-format-heading6"
+msgid "Heading 6"
+msgstr "Mbishkrimi 6"
+
+#. [Wiki] Item in the formatting dropdown for paragraphs (normal text).
+#. [Wiki] {{Related|Visualeditor-formatdropdown}}
+#. [Wiki] {{Identical|Paragraph}}
+msgctxt "visualeditor-formatdropdown-format-paragraph"
+msgid "Paragraph"
+msgstr "Paragraf"
+
+#. [Wiki] Item in the formatting dropdown for preformatted text
+#. [Wiki] 
+#. [Wiki] "Pre-formatted" is the formal term for this kind of formatting - see [http://www.w3.org/MarkUp/html3/literal.html this page from W3C] from 1997; roughly, it means "mono-spaced font, white space is listened to". The text retains all its other styling, though, and if you change it to a format that is more regular (like paragraph or eventually blockquote) you should still get all the styling retained as before.
+#. [Wiki] {{Related|Visualeditor-formatdropdown}}
+#. [Wiki] {{Identical|Preformatted}}
+msgctxt "visualeditor-formatdropdown-format-preformatted"
+msgid "Preformatted"
+msgstr "Paraformatuar"
+
+#. [Wiki] Tooltip text for the drop-down box for choosing the formatting style of the selected text, such as "Heading 1", "Heading 2" or "Plain text". (This is not related to "file format" or "data format", such as "Wikitext", "HTML", "PDF" etc.)
+msgctxt "visualeditor-formatdropdown-title"
+msgid "Change format"
+msgstr "Ndrysho formatimin"
+
+#. [Wiki] Title of popup tool in toolbar that provides help information.
+#. [Wiki] {{Identical|Help}}
+msgctxt "visualeditor-help-tool"
+msgid "Help"
+msgstr "Ndihmë"
+
+#. [Wiki] Tooltip text for the redo button.
+#. [Wiki] {{Identical|Redo}}
+msgctxt "visualeditor-historybutton-redo-tooltip"
+msgid "Redo"
+msgstr "Ribëj"
+
+#. [Wiki] Tooltip text for the undo button.
+#. [Wiki] {{Identical|Undo}}
+msgctxt "visualeditor-historybutton-undo-tooltip"
+msgid "Undo"
+msgstr "Zhbëj"
+
+#. [Wiki] Tooltip text for the horizontal rule button.
+msgctxt "visualeditor-horizontalrule-tooltip"
+msgid "Horizontal rule"
+msgstr "Vijë horizontale"
+
+#. [Wiki] Tooltip text for list indent button
+msgctxt "visualeditor-indentationbutton-indent-tooltip"
+msgid "Increase indentation"
+msgstr "Zmadho kryerradhën"
+
+#. [Wiki] Tooltip text for list outdent button
+msgctxt "visualeditor-indentationbutton-outdent-tooltip"
+msgid "Decrease indentation"
+msgstr "Zvogëlo kryerradhën"
+
+#. [Wiki] {{Identical|Close}}
+msgctxt "visualeditor-inspector-close-tooltip"
+msgid "Close"
+msgstr "Mbylle"
+
+#. [Wiki] Tooltip text for the button to remove an annotation in an inspector.
+#. [Wiki] {{Identical|Remove}}
+msgctxt "visualeditor-inspector-remove-tooltip"
+msgid "Remove"
+msgstr "Fshije"
+
+#. [Wiki] The common identifier of the alt key
+#. [Wiki] {{Related|Visualeditor-key}}
+msgctxt "visualeditor-key-alt"
+msgid "Alt"
+msgstr "Alt"
+
+#. [Wiki] The common identifier of the backspace key
+#. [Wiki] {{Related|Visualeditor-key}}
+msgctxt "visualeditor-key-backspace"
+msgid "Backspace"
+msgstr "Backspace"
+
+#. [Wiki] The common identifier of the control key
+#. [Wiki] {{Related|Visualeditor-key}}
+msgctxt "visualeditor-key-ctrl"
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#. [Wiki] The common identifier of the delete key
+#. [Wiki] {{Related|Visualeditor-key}}
+#. [Wiki] {{Identical|Delete}}
+msgctxt "visualeditor-key-delete"
+msgid "Delete"
+msgstr "Delete"
+
+#. [Wiki] The common identifier of the down arrow key
+#. [Wiki] {{Related|Visualeditor-key}}
+#. [Wiki] {{Identical|Down}}
+msgctxt "visualeditor-key-down"
+msgid "Down"
+msgstr "Poshtë"
+
+#. [Wiki] The common identifier of the end key
+#. [Wiki] {{Related|Visualeditor-key}}
+#. [Wiki] {{Identical|End}}
+msgctxt "visualeditor-key-end"
+msgid "End"
+msgstr "Fund"
+
+#. [Wiki] The common identifier of the enter key
+#. [Wiki] {{Related|Visualeditor-key}}
+#. [Wiki] {{Identical|Enter}}
+msgctxt "visualeditor-key-enter"
+msgid "Enter"
+msgstr "Enter"
+
+#. [Wiki] The common identifier of the escape key
+#. [Wiki] {{Related|Visualeditor-key}}
+msgctxt "visualeditor-key-escape"
+msgid "Escape"
+msgstr "Escape"
+
+#. [Wiki] The common identifier of the home key
+#. [Wiki] {{Related|Visualeditor-key}}
+#. [Wiki] {{Identical|Home}}
+msgctxt "visualeditor-key-home"
+msgid "Home"
+msgstr "Lart"
+
+#. [Wiki] The common identifier of the insert key
+#. [Wiki] {{Related|Visualeditor-key}}
+#. [Wiki] {{Identical|Insert}}
+msgctxt "visualeditor-key-insert"
+msgid "Insert"
+msgstr "Insert"
+
+#. [Wiki] The common identifier of the left arrow key
+#. [Wiki] {{Related|Visualeditor-key}}
+#. [Wiki] {{Identical|Left}}
+msgctxt "visualeditor-key-left"
+msgid "Left"
+msgstr "Majtas"
+
+#. [Wiki] The common identifier of the meta key
+#. [Wiki] {{Related|Visualeditor-key}}
+#. [Wiki] {{Identical|Meta}}
+msgctxt "visualeditor-key-meta"
+msgid "Meta"
+msgstr "Meta"
+
+#. [Wiki] The common identifier of the page down key
+#. [Wiki] {{Related|Visualeditor-key}}
+msgctxt "visualeditor-key-page-down"
+msgid "Page Down"
+msgstr "Page Down"
+
+#. [Wiki] The common identifier of the page up key
+#. [Wiki] {{Related|Visualeditor-key}}
+msgctxt "visualeditor-key-page-up"
+msgid "Page Up"
+msgstr "Page Up"
+
+#. [Wiki] The common identifier of the right arrow key
+#. [Wiki] {{Related|Visualeditor-key}}
+msgctxt "visualeditor-key-right"
+msgid "Right"
+msgstr "Djathtas"
+
+#. [Wiki] The common identifier of the shift key
+#. [Wiki] {{Related|Visualeditor-key}}
+msgctxt "visualeditor-key-shift"
+msgid "Shift"
+msgstr "Shift"
+
+#. [Wiki] The common identifier of the space bar
+#. [Wiki] {{Related|Visualeditor-key}}
+msgctxt "visualeditor-key-space"
+msgid "Space"
+msgstr "Hapësirë"
+
+#. [Wiki] The common identifier of the tab key
+#. [Wiki] {{Related|Visualeditor-key}}
+msgctxt "visualeditor-key-tab"
+msgid "Tab"
+msgstr "Tab"
+
+#. [Wiki] The common identifier of the up arrow key
+#. [Wiki] {{Related|Visualeditor-key}}
+msgctxt "visualeditor-key-up"
+msgid "Up"
+msgstr "Lartë"
+
+#. [Wiki] Placeholder text for language search widget.
+msgctxt "visualeditor-language-search-input-placeholder"
+msgid "Search by language name or code"
+msgstr "Kërko sipas emrit të gjuhës ose kodit"
+
+#. [Wiki] Description of a language annotation with overridden directionality
+#. [Wiki] 
+#. [Wiki] * $1 - Language autonym
+#. [Wiki] * $2 - Overridden direction (either LTR or RTL)
+#, optional
+msgctxt "visualeditor-languageannotation-description-with-dir"
+msgid "$1 ($2)"
+msgstr ""
+
+#. [Wiki] Title for the remove language button on the language context popup
+msgctxt "visualeditor-languagecontext-remove"
+msgid "Remove language"
+msgstr "Hiq gjuhën"
+
+#. [Wiki] Title of the language inspector dialog.
+#. [Wiki] {{Identical|Language}}
+msgctxt "visualeditor-languageinspector-title"
+msgid "Language"
+msgstr "Gjuha"
+
+#. [Wiki] Label for the language change button in the language inspector widget.
+msgctxt "visualeditor-languageinspector-widget-changelang"
+msgid "Find language"
+msgstr "Gjeni gjuhën"
+
+#. [Wiki] Label for the language inspector widget, to denote the text direction of the current element (left-to-right or right-to-left).
+#. [Wiki] {{Identical|Direction}}
+msgctxt "visualeditor-languageinspector-widget-label-direction"
+msgid "Direction"
+msgstr "Drejtimi"
+
+#. [Wiki] Label for the language inspector widget, to denote the current block language code.
+#. [Wiki] {{Identical|Language code}}
+msgctxt "visualeditor-languageinspector-widget-label-langcode"
+msgid "Language code"
+msgstr "Kodi i gjuhës"
+
+#. [Wiki] Label for the language inspector widget, to denote the current block language.
+#. [Wiki] {{Identical|Language}}
+msgctxt "visualeditor-languageinspector-widget-label-language"
+msgid "Language"
+msgstr "Gjuha"
+
+#. [Wiki] Text for the change label button. This sets the current selection to the entire contents of the link, so it can be easily edited.
+msgctxt "visualeditor-linkcontext-label-change"
+msgid "Change label"
+msgstr "Ndysho etiketën"
+
+#. [Wiki] Fallback for the preview of a link label if it's not displayable as text
+msgctxt "visualeditor-linkcontext-label-fallback"
+msgid "No preview"
+msgstr "S'ka parapamje"
+
+#. [Wiki] Label for the "label" field of a link
+#. [Wiki] {{Identical|Label}}
+msgctxt "visualeditor-linkcontext-label-label"
+msgid "Label"
+msgstr "Etiketa"
+
+#. [Wiki] Title for the remove link button on the link context popup
+msgctxt "visualeditor-linkcontext-remove"
+msgid "Remove link"
+msgstr "Heq linkun"
+
+#. [Wiki] Title of the link inspector dialog.
+#. [Wiki] {{Identical|Link}}
+msgctxt "visualeditor-linkinspector-title"
+msgid "Link"
+msgstr "Ndërlidhje"
+
+#. [Wiki] Tooltip text for the bullet list button
+msgctxt "visualeditor-listbutton-bullet-tooltip"
+msgid "Bullet list"
+msgstr "Listë e renditur"
+
+#. [Wiki] Tooltip text for the check list button. A "check list" is todo-style list with checkboxes.
+msgctxt "visualeditor-listbutton-check-tooltip"
+msgid "Check list"
+msgstr "Kontrollo listën"
+
+#. [Wiki] Tooltip text for the numbered list button
+msgctxt "visualeditor-listbutton-number-tooltip"
+msgid "Numbered list"
+msgstr "Listë e numëruar"
+
+#. [Wiki] An error label notifying the user the size inputs are invalid.
+msgctxt "visualeditor-mediasizewidget-label-defaulterror"
+msgid "Size values are invalid."
+msgstr "Vlerat e madhësisë janë të pavlefshme"
+
+#. [Wiki] Label for the media size widget scale size section.
+#. [Wiki] {{Identical|Scale}}
+#. [Wiki] 
+#. [Wiki] Translated in conjunction with {{msg-mw|Visualeditor-mediasizewidget-label-scale-percent}}: "Scale ____ % of thumbnail size", meaning the scale of the displayed image shall be x% of the default thumbnail size.
+msgctxt "visualeditor-mediasizewidget-label-scale"
+msgid "Scale"
+msgstr "Shkallë"
+
+#. [Wiki] Label for the media size widget scale section indicating a scaling of an image based on thumbnail size.
+#. [Wiki] 
+#. [Wiki] Translated in conjunction with {{msg-mw|Visualeditor-mediasizewidget-label-scale}}: "Scale ____ % of thumbnail size", meaning the scale of the displayed image shall be x% of the default thumbnail size.
+msgctxt "visualeditor-mediasizewidget-label-scale-percent"
+msgid "% of thumbnail size"
+msgstr "% e madhësisë së thumbnail"
+
+#. [Wiki] Label for the media size widget size select for custom size.
+#. [Wiki] {{Identical|Custom}}
+msgctxt "visualeditor-mediasizewidget-sizeoptions-custom"
+msgid "Custom"
+msgstr "E veçantë"
+
+#. [Wiki] Label for the media size widget size select for default size.
+#. [Wiki] {{Identical|Default}}
+msgctxt "visualeditor-mediasizewidget-sizeoptions-default"
+msgid "Default"
+msgstr "Të paracaktuara"
+
+#. [Wiki] Label for the media size widget size select for scaled size. The expected input is a percentage - see [[MediaWiki:Visualeditor-mediasizewidget-label-scale/en]].
+#. [Wiki] {{Identical|Scale}}
+msgctxt "visualeditor-mediasizewidget-sizeoptions-scale"
+msgid "Scale"
+msgstr "Shkallë"
+
+#. [Wiki] Error message shown when a document is missing on the rebase server
+msgctxt "visualeditor-missing-document-error"
+msgid "Document missing on server. To avoid data loss, copy and paste the contents."
+msgstr "Dokumenti nuk është në server. Për të evituar humbjen e të dhënave, kopjo dhe ngjit përmbajtjen."
+
+#. [Wiki] Title for the missing document alert
+msgctxt "visualeditor-missing-document-title"
+msgid "Missing document"
+msgstr "Dokumenti mungon"
+
+#. [Wiki] Label for the input to set or change the user's account display name.
+#. [Wiki] {{Identical|Name}}
+msgctxt "visualeditor-rebase-client-author-name"
+msgid "Name"
+msgstr "Emri"
+
+#. [Wiki] Title of progress bar shown while waiting to connect to the rebase server
+msgctxt "visualeditor-rebase-client-connecting"
+msgid "Connecting..."
+msgstr "Duke u lidhur..."
+
+#. [Wiki] Label for document name input
+msgctxt "visualeditor-rebase-client-document-name"
+msgid "Document name (optional)"
+msgstr "Emri i dokumentit (opcional)"
+
+#. [Wiki] Label for button to create or edit a document by name
+msgctxt "visualeditor-rebase-client-document-create-edit"
+msgid "Create/edit"
+msgstr "Krijo/edito"
+
+#. [Wiki] Heading for clipboard shortcuts
+msgctxt "visualeditor-shortcuts-clipboard"
+msgid "Clipboard"
+msgstr "Kujtesë"
+
+#. [Wiki] Heading for dialog window control shortcuts
+msgctxt "visualeditor-shortcuts-dialog"
+msgid "Window controls"
+msgstr "Kontrolla e dritares"
+
+#. [Wiki] Heading for paragraph formatting shortcuts
+msgctxt "visualeditor-shortcuts-formatting"
+msgid "Paragraph formatting"
+msgstr "Formatimi i paragrafit"
+
+#. [Wiki] Heading for history shortcuts.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-historybutton-redo-tooltip}}
+#. [Wiki] * {{msg-mw|Visualeditor-historybutton-undo-tooltip}}
+#. [Wiki] {{Identical|History}}
+msgctxt "visualeditor-shortcuts-history"
+msgid "History"
+msgstr "Historiku"
+
+#. [Wiki] Heading for insertion shortcuts
+#. [Wiki] {{Identical|Insert}}
+msgctxt "visualeditor-shortcuts-insert"
+msgid "Insert"
+msgstr "Shto"
+
+#. [Wiki] Heading for other shortcuts.
+#. [Wiki] {{Identical|Other}}
+msgctxt "visualeditor-shortcuts-other"
+msgid "Other"
+msgstr "Tjetër"
+
+#. [Wiki] {{Doc-important|This means "type on a keyboard" - not "type" in the sense of "category" or "manner".}}
+#. [Wiki] Notice before a text-sequence shortcut that it should be typed out instead of being several keys to press at once
+#. [Wiki] {{Identical|Type}}
+msgctxt "visualeditor-shortcuts-sequence-notice"
+msgid "Type"
+msgstr "Shkruaj"
+
+#. [Wiki] Heading for text formatting shortcuts
+msgctxt "visualeditor-shortcuts-text-style"
+msgid "Text styling"
+msgstr "Formatimi i tekstit"
+
+#. [Wiki] Label for slug to insert paragraph on an otherwise unreachable line
+msgctxt "visualeditor-slug-insert"
+msgid "Insert paragraph"
+msgstr "Vendos paragrafin"
+
+#. [Wiki] Tooltip text for the insert character button.
+#. [Wiki] {{Identical|Special character}}
+msgctxt "visualeditor-specialcharacter-button-tooltip"
+msgid "Special character"
+msgstr "Karakter i veçantë"
+
+#. [Wiki] Used as title for special character inspector.
+#. [Wiki] {{Identical|Special character}}
+msgctxt "visualeditor-specialcharacterinspector-title"
+msgid "Special character"
+msgstr "Karakter i veçantë"
+
+#. [Wiki] This is a JSON string defining the special characters that can be inserted using the special character insertion tool. It is not used in the MediaWiki version of VisualEditor.
+#. [Wiki] {{doc-important|Please make sure it is a valid JSON string.}}
+#. [Wiki] {{Optional}}
+#, optional
+msgctxt "visualeditor-specialcharinspector-characterlist-insert"
+msgid "{\n	\"Symbols\": {\n		\"−\": \"−\",\n		\"—\": \"—\",\n		\"°\": \"°\",\n		\"′\": \"′\",\n		\"″\": \"″\",\n		\"←\": \"←\",\n		\"→\": \"→\",\n		\"« »\" : \"« »\",\n		\"“”\" : \"“”\",\n		\"#\" : \"#\",\n		\"@\" : \"@\",\n		\"|\" : \"|\",\n		\"~\" : \"~\",\n		\"§\": \"§\",\n		\"•\" : \"•\",\n		\"·\": \"·\",\n		\"…\" : \"…\",\n		\"€\" : \"€\"\n	},\n	\"Accents\": {\n		\"Æ\" : \"Æ\",\n		\"æ\" : \"æ\",\n		\"À\" : \"À\",\n		\"à\" : \"à\",\n		\"Â\" : \"Â\",\n		\"â\" : \"â\",\n		\"Ä\" : \"Ä\",\n		\"ä\" : \"ä\",\n		\"Å\" : \"Å\",\n		\"å\" : \"å\",\n		\"Ç\" : \"Ç\",\n		\"ç\" : \"ç\",\n		\"È\" : \"È\",\n		\"è\" : \"è\",\n		\"É\" : \"É\",\n		\"é\" : \"é\",\n		\"Ê\" : \"Ê\",\n		\"ê\" : \"ê\",\n		\"Ë\" : \"Ë\",\n		\"ë\" : \"ë\",\n		\"Î\" : \"Î\",\n		\"î\" : \"î\",\n		\"Ï\" : \"Ï\",\n		\"ï\" : \"ï\",\n		\"Ô\" : \"Ô\",\n		\"ô\" : \"ô\",\n		\"Ö\" : \"Ö\",\n		\"ö\" : \"ö\",\n		\"Ø\" : \"Ø\",\n		\"ø\" : \"ø\",\n		\"Ù\" : \"Ù\",\n		\"ù\" : \"ù\",\n		\"Û\" : \"Û\",\n		\"û\" : \"û\",\n		\"Ü\" : \"Ü\",\n		\"ü\" : \"ü\",\n		\"Ÿ\" : \"Ÿ\",\n		\"ÿ\" : \"ÿ\",\n		\"Œ\" : \"Œ\",\n		\"œ\" : \"œ\"\n	},\n	\"Mathematical\": {\n		\"−\": \"−\",\n		\"×\": \"×\",\n		\"÷\": \"÷\",\n		\"≈\": \"≈\",\n		\"≠\": \"≠\",\n		\"≤\": \"≤\",\n		\"≥\": \"≥\",\n		\"±\": \"±\",\n		\"¹\" : \"¹\",\n		\"²\" : \"²\",\n		\"³\" : \"³\",\n		\"⁴\" : \"⁴\",\n		\"⁵\" : \"⁵\",\n		\"⁶\" : \"⁶\",\n		\"⁷\" : \"⁷\",\n		\"⁸\" : \"⁸\",\n		\"⁹\" : \"⁹\",\n		\"⁰\" : \"⁰\",\n		\"½\" : \"½\"\n	}\n}"
+msgstr ""
+
+#. [Wiki] Label for table caption tool
+#. [Wiki] {{Identical|Caption}}
+msgctxt "visualeditor-table-caption"
+msgid "Caption"
+msgstr "Përshkrim"
+
+#. [Wiki] Label for the properties button in the table context
+#. [Wiki] {{Identical|Property}}
+msgctxt "visualeditor-table-contextitem-properties"
+msgid "Properties"
+msgstr "Tiparet"
+
+#. [Wiki] Label for delete column tool
+#. [Wiki] 
+#. [Wiki] * $1 is the number of columns
+msgctxt "visualeditor-table-delete-col"
+msgid "Delete {{PLURAL:$1|column|columns}}"
+msgstr "Fshini {{PLURAL:$1|kolona|kolona}}"
+
+#. [Wiki] Label for delete row tool
+#. [Wiki] 
+#. [Wiki] * $1 is the number of rows
+msgctxt "visualeditor-table-delete-row"
+msgid "Delete {{PLURAL:$1|row|rows}}"
+msgstr "Fshini {{PLURAL:$1|rresht|radhë}}"
+
+#. [Wiki] Label for table cell data tool
+msgctxt "visualeditor-table-format-data"
+msgid "Content cell"
+msgstr "Përmbajtja e celulave"
+
+#. [Wiki] Label for table cell header tool
+msgctxt "visualeditor-table-format-header"
+msgid "Header cell"
+msgstr "Celula titull"
+
+#. [Wiki] Label for insert column after tool
+#. [Wiki] {{related|Visualeditor-table-insert}}
+msgctxt "visualeditor-table-insert-col-after"
+msgid "Insert after"
+msgstr "Vendos pas"
+
+#. [Wiki] Label for insert column before tool
+#. [Wiki] {{related|Visualeditor-table-insert}}
+msgctxt "visualeditor-table-insert-col-before"
+msgid "Insert before"
+msgstr "Vendos para"
+
+#. [Wiki] Label for insert row below tool
+#. [Wiki] {{related|Visualeditor-table-insert}}
+msgctxt "visualeditor-table-insert-row-after"
+msgid "Insert below"
+msgstr "Vendos nën"
+
+#. [Wiki] Label for insert row above tool
+#. [Wiki] {{related|Visualeditor-table-insert}}
+msgctxt "visualeditor-table-insert-row-before"
+msgid "Insert above"
+msgstr "Vendos sipër"
+
+#. [Wiki] Label for table insertion menu in the toolbar, for inserting parts of a table
+#. [Wiki] {{Identical|Table}}
+#. [Wiki] {{related|Visualeditor-table-insert}}
+msgctxt "visualeditor-table-insert-table"
+msgid "Table"
+msgstr "Tabela"
+
+#. [Wiki] Label for merge cells context item
+msgctxt "visualeditor-table-merge-cells"
+msgid "Merge cells"
+msgstr "Bashko celulat"
+
+#. [Wiki] Label for the merge cells button
+#. [Wiki] {{Identical|Merge}}
+msgctxt "visualeditor-table-merge-cells-merge"
+msgid "Merge"
+msgstr "Ngjiti"
+
+#. [Wiki] :Label for the unmerge cells button
+msgctxt "visualeditor-table-merge-cells-unmerge"
+msgid "Unmerge"
+msgstr "Ndaji"
+
+#. [Wiki] Label for move column after tool
+msgctxt "visualeditor-table-move-col-after"
+msgid "Move after"
+msgstr "Lëvizi pas"
+
+#. [Wiki] Label for move column before tool
+msgctxt "visualeditor-table-move-col-before"
+msgid "Move before"
+msgstr "Lëvizi para"
+
+#. [Wiki] Label for move row below tool
+msgctxt "visualeditor-table-move-row-after"
+msgid "Move below"
+msgstr "Lëvizi posht"
+
+#. [Wiki] Label for move row above tool
+msgctxt "visualeditor-table-move-row-before"
+msgid "Move above"
+msgstr "Lëvizi lart"
+
+#. [Wiki] Context item title for a table cell
+msgctxt "visualeditor-tablecell-contextitem"
+msgid "Table cell"
+msgstr "Fushat e tabelës"
+
+#. [Wiki] Tooltip rendered while hovering a table cell
+msgctxt "visualeditor-tablecell-tooltip"
+msgid "Double click to edit cell"
+msgstr "Kliko dy herë për të edituar celulën"
+
+#. [Wiki] Tooltip text for the paragraph formatting menu which contains the following items:
+#. [Wiki] * {{msg-mw|Visualeditor-formatdropdown-format-paragraph}}
+#. [Wiki] * {{msg-mw|Visualeditor-formatdropdown-format-mw-heading1}}
+#. [Wiki] * {{msg-mw|Visualeditor-formatdropdown-format-mw-heading2}}
+#. [Wiki] * {{msg-mw|Visualeditor-formatdropdown-format-mw-heading3}}
+#. [Wiki] * {{msg-mw|Visualeditor-formatdropdown-format-mw-heading4}}
+#. [Wiki] * {{msg-mw|Visualeditor-formatdropdown-format-mw-heading5}}
+#. [Wiki] * {{msg-mw|Visualeditor-formatdropdown-format-mw-heading6}}
+#. [Wiki] * {{msg-mw|Visualeditor-formatdropdown-format-preformatted}}
+msgctxt "visualeditor-toolbar-format-tooltip"
+msgid "Format paragraph"
+msgstr "Formati i paragrafit"
+
+#. [Wiki] Label text for the 'history' menu in the toolbar of the undo and redo tools.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-insert}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-paragraph-format}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-structure}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-text-style}}
+#. [Wiki] {{Identical|History}}
+msgctxt "visualeditor-toolbar-history"
+msgid "History"
+msgstr "Historia"
+
+#. [Wiki] Label text for the 'insert' menu in the toolbar of tools that let you add items, like images.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-history}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-paragraph-format}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-structure}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-text-style}}
+#. [Wiki] {{Identical|Insert}}
+msgctxt "visualeditor-toolbar-insert"
+msgid "Insert"
+msgstr "Vendos"
+
+#. [Wiki] Label text for the 'formatting' menu in the toolbar of the tools to set the format of the whole paragraph, like heading or pre-formatted.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-history}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-insert}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-structure}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-text-style}}
+msgctxt "visualeditor-toolbar-paragraph-format"
+msgid "Formatting"
+msgstr "Formatimi"
+
+#. [Wiki] Label text for the 'structure' menu in the toolbar of the tools to set or adjust a content structure, like lists or indenting.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-history}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-insert}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-paragraph-format}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-text-style}}
+msgctxt "visualeditor-toolbar-structure"
+msgid "Structure"
+msgstr "Struktura"
+
+#. [Wiki] Tooltip text for the text styling menu which has the following items:
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-bold-tooltip}}
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-code-tooltip}}
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-italic-tooltip}}
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-language-tooltip}}
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-link-tooltip}}
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-strikethrough-tooltip}}
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-subscript-tooltip}}
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-superscript-tooltip}}
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-underline-tooltip}}
+msgctxt "visualeditor-toolbar-style-tooltip"
+msgid "Style text"
+msgstr "Stili i tekstit"
+
+#. [Wiki] Label text for the 'table' menu in the toolbar of the tools to perform table operations.
+#. [Wiki] {{Identical|Table}}
+msgctxt "visualeditor-toolbar-table"
+msgid "Table"
+msgstr "Tabela"
+
+#. [Wiki] Label text for the 'styling' menu in the toolbar of the tools to set the styling of the selection, like bold, italic or underline.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-history}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-insert}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-paragraph-format}}
+#. [Wiki] * {{msg-mw|visualeditor-toolbar-structure}}
+msgctxt "visualeditor-toolbar-text-style"
+msgid "Styling"
+msgstr "Stili"
+
+#. [Wiki] Name of CollabPad special page with a document subtitle
+msgctxt "collabpad-doctitle"
+msgid "CollabPad: $1"
+msgstr "CollabPad: $1"
+
+#. [Wiki] Subtitle of CollabPad page, linking to the page the content was imported from
+msgctxt "collabpad-import-subtitle"
+msgid "Imported from $1"
+msgstr "Importuar nga $1"
+
+#. [Wiki] Name of CollabPad special page
+msgctxt "collabpad"
+msgid "CollabPad"
+msgstr "CollabPad"
+
+#. [Wiki] Tooltip of the {{msg-mw|Visualeditor-ca-createsource}} tab, used if the page does not exist.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Tooltip-ca-editsource}} - tooltip of the {{msg-mw|Visualeditor-ca-editsource}} tab, used if the page already exists
+msgctxt "tooltip-ca-createsource"
+msgid "Create the source code of this page"
+msgstr "Krijo tekstin burimor të kësaj faqeje"
+
+#. [Wiki] Over-ridden tooltip of the wikitext "Edit source" tab.
+msgctxt "visualeditor-override-tooltip-ca-edit"
+msgid "Edit this page using wikitext"
+msgstr "Edito këtë faqe duke përdorur wikitext"
+
+#. [Wiki] Tooltip of the {{msg-mw|Visualeditor-ca-editsource}} tab, used if the page already exists.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Tooltip-ca-createsource}} - tooltip of the {{msg-mw|Visualeditor-ca-createsource}} tab, used if the page does not exist
+msgctxt "tooltip-ca-editsource"
+msgid "Edit the source code of this page"
+msgstr "Redakto tekstin burimor të kësaj faqeje"
+
+#. [Wiki] Tooltip of the dedicated VisualEditor "Edit" tab.
+#. [Wiki] {{Identical|Edit this page}}
+msgctxt "tooltip-ca-ve-edit"
+msgid "Edit this page"
+msgstr "Redakto këtë faqe"
+
+#. [Wiki] Tool for opening the advanced settings section of the meta dialog.
+#. [Wiki] {{Identical|Advanced settings}}
+msgctxt "visualeditor-advancedsettings-tool"
+msgid "Advanced settings"
+msgstr "Konfigurimet e avancuara"
+
+#. [Wiki] Button label in prompt to accept recovering their changes.
+msgctxt "visualeditor-autosave-modified-prompt-accept"
+msgid "Resume edit"
+msgstr ""
+
+#. [Wiki] Contents of prompt shown when recovering changes against an old document version.
+msgctxt "visualeditor-autosave-modified-prompt-message"
+msgid "This page was edited since you last loaded it. Would {{GENDER:|you}} like to resume {{GENDER:|your}} edit of the old version, or start a new edit of the latest version?"
+msgstr ""
+
+#. [Wiki] Button label in prompt to reject recovering their changes, and start a new edit.
+msgctxt "visualeditor-autosave-modified-prompt-reject"
+msgid "Start a new edit"
+msgstr ""
+
+#. [Wiki] Title of prompt asking user if they want to recover their changes.
+msgctxt "visualeditor-autosave-modified-prompt-title"
+msgid "Resume {{GENDER:|your}} edit?"
+msgstr ""
+
+#. [Wiki] Text shown when document recovery fails
+msgctxt "visualeditor-autosave-not-recovered-text"
+msgid "Your unsaved changes could not be recovered."
+msgstr ""
+
+#. [Wiki] Title shown when document recovery fails
+msgctxt "visualeditor-autosave-not-recovered-title"
+msgid "Change recovery failed"
+msgstr ""
+
+#. [Wiki] Text shown when document recovery is successful
+msgctxt "visualeditor-autosave-recovered-text"
+msgid "Your unsaved changes have been automatically recovered."
+msgstr ""
+
+#. [Wiki] Title shown when document recovery is successful
+msgctxt "visualeditor-autosave-recovered-title"
+msgid "Changes recovered"
+msgstr ""
+
+#. [Wiki] Tooltip text for back button taking user to reading mode and closing the editor.
+#. [Wiki] {{Identical|Go back}}
+msgctxt "visualeditor-backbutton-tooltip"
+msgid "Go back"
+msgstr ""
+
+#. [Wiki] Text of tool in the toolbar that highlights that VisualEditor is still in beta.
+#. [Wiki] {{Identical|Beta}}
+msgctxt "visualeditor-beta-label"
+msgid "beta"
+msgstr "provë"
+
+#. [Wiki] Note shown when user clicks on the 'help' label in the editor, asking users to report any technical issues they encounter in the software.
+msgctxt "visualeditor-beta-warning"
+msgid "If you encounter any technical issues as you edit, please report them."
+msgstr "Nëse shihni ndonjë gabim teknik gjatë editimit, ju lutemi raportoni ato."
+
+#. [Wiki] Edit notice shown when VisualEditor loads, warning users that their browser is not officially supported.
+msgctxt "visualeditor-browserwarning"
+msgid "You are using a browser which is not officially supported by this editor."
+msgstr "Jeni duke përdorur një shfletues i cili zyrtarisht nuk mbështetet nga ky editor."
+
+#. [Wiki] Text for the "Create local description source" tab, shown if the local description page of a file in a foreign repository (e.g. Wikimedia Commons) does not yet exist. The tab allows the user to edit the local description page in the wikitext source code editor.
+#. [Wiki] 
+#. [Wiki] Cf. {{msg-mw|Create-local}}
+msgctxt "visualeditor-ca-createlocaldescriptionsource"
+msgid "Add local description source"
+msgstr "Shtoni burimelokale përshkrimesh"
+
+#. [Wiki] Text for the create source link in the tab dropdown, if the page doesn't exist. It's shown next to the message {{msg-mw|vector-view-create}}, so they should be similar (for example, use a similar translation for "Create").
+#. [Wiki] 
+#. [Wiki] If the page exists, the following link text is used: {{msg-mw|Visualeditor-ca-editsource}}
+msgctxt "visualeditor-ca-createsource"
+msgid "Create source"
+msgstr "Krijo tekstin burimor"
+
+#. [Wiki] Text for the "Edit local description source" tab, if the page exists and the page is the local description of a file in a foreign repository (e.g. Wikimedia Commons). The tab allows the user to edit the local description page in the wikitext source code editor.
+#. [Wiki] 
+#. [Wiki] Cf. {{msg-mw|Edit-local}}
+msgctxt "visualeditor-ca-editlocaldescriptionsource"
+msgid "Edit local description source"
+msgstr "Modifiko burimin lokalt të përshkrimit"
+
+#. [Wiki] Text for the "Edit source" tab, if the page exists.
+#. [Wiki] 
+#. [Wiki] If the page doesn't exist, the following link text is used: {{msg-mw|Visualeditor-ca-createsource}}
+#. [Wiki] 
+#. [Wiki] Used in:
+#. [Wiki] * {{msg-mw|Visualeditor-beta-warning}}
+#. [Wiki] * {{msg-mw|Visualeditor-wikitext-warning}}
+#. [Wiki] {{Identical|Edit source}}
+msgctxt "visualeditor-ca-editsource"
+msgid "Edit source"
+msgstr "Redakto tekstin burimor"
+
+#. [Wiki] Used as link text for "edit source" mode of section edit links.
+#. [Wiki] 
+#. [Wiki] Corresponds to the {{msg-mw|editsection}} message for default mode.
+#. [Wiki] {{Identical|Edit source}}
+msgctxt "visualeditor-ca-editsource-section"
+msgid "edit source"
+msgstr "redakto tekstin burimor"
+
+#. [Wiki] Link text of the dedicated VisualEditor "Create" tab.
+#. [Wiki] {{Identical|VisualEditor}}
+msgctxt "visualeditor-ca-ve-create"
+msgid "VisualEditor"
+msgstr "VisualEditor"
+
+#. [Wiki] Link text of the dedicated VisualEditor {{msg-mw|Edit}} tab.
+#. [Wiki] {{Identical|VisualEditor}}
+msgctxt "visualeditor-ca-ve-edit"
+msgid "VisualEditor"
+msgstr "VisualEditor"
+
+#. [Wiki] {{Identical|VisualEditor}}
+msgctxt "visualeditor-ca-ve-edit-section"
+msgid "VisualEditor"
+msgstr "VisualEditor"
+
+#. [Wiki] Tool for opening the categories section of the meta dialog.
+#. [Wiki] {{Identical|Category}}
+msgctxt "visualeditor-categories-tool"
+msgid "Categories"
+msgstr "Kategoritë"
+
+#. [Wiki] Generic description of language variant markup that has been changed
+msgctxt "visualeditor-changedesc-mwlanguagevariant"
+msgid "Language variant markup changed"
+msgstr ""
+
+#. [Wiki] Description of a redirect that has been changed
+msgctxt "visualeditor-changedesc-mwredirect"
+msgid "Redirect target changed from $1 to $2"
+msgstr ""
+
+#. [Wiki] Generic description of a template that has had some parameters changed
+msgctxt "visualeditor-changedesc-mwtransclusion"
+msgid "Template parameters changed"
+msgstr ""
+
+#. [Wiki] {{desc|name=VisualEditor|url=https://www.mediawiki.org/wiki/Extension:VisualEditor}}
+msgctxt "visualeditor-desc"
+msgid "Visual editor for MediaWiki"
+msgstr "Redaktues vizual për MediaWikin"
+
+#. [Wiki] {{doc-important|Do not translate "Project"; it is automatically converted to the wiki's project namespace.}}
+#. [Wiki] Name of a page describing the use of VisualEditor in this project.
+#. [Wiki] 
+#. [Wiki] Used in:
+#. [Wiki] * {{msg-mw|Tag-visualeditor}}
+#. [Wiki] * {{msg-mw|Tag-visualeditor-description}}
+#. [Wiki] * {{msg-mw|Tag-visualeditor-needcheck}}
+#. [Wiki] * {{msg-mw|Tag-visualeditor-needcheck-description}}
+msgctxt "visualeditor-descriptionpagelink"
+msgid "Project:VisualEditor"
+msgstr "Project:VisualEditor"
+
+#. [Wiki] Label for the image alternative text sub-section.
+msgctxt "visualeditor-dialog-media-alttext-section"
+msgid "Alternative text"
+msgstr "Teksti alternativ"
+
+#. [Wiki] Message displayed as contextual help about the alternative text box to editors in the media editing dialog.
+msgctxt "visualeditor-dialog-media-alttext-section-help"
+msgid "You can use this to write a text description for people who can't see the item. The description should be enough for them to understand the purpose and information given by the media item. This is vital for blind users and other people using screen-reader software or text-only browsers."
+msgstr ""
+
+#. [Wiki] Label for the button to change the current image in the media edit dialog.
+msgctxt "visualeditor-dialog-media-change-image"
+msgid "Change image"
+msgstr "Ndrysho imazhin"
+
+#. [Wiki] Label for the button to use the selected image in the media edit dialog.
+msgctxt "visualeditor-dialog-media-choose-image"
+msgid "Use this image"
+msgstr "Përdor këtë imazh"
+
+#. [Wiki] Label for the image description page link.
+msgctxt "visualeditor-dialog-media-content-description-link"
+msgid "(description page)"
+msgstr ""
+
+#. [Wiki] Label for the image filename.
+#. [Wiki] {{Identical|Filename}}
+msgctxt "visualeditor-dialog-media-content-filename"
+msgid "File name"
+msgstr "Emri i skedarit"
+
+#. [Wiki] Label for the image content sub-section.
+#. [Wiki] {{Identical|Caption}}
+msgctxt "visualeditor-dialog-media-content-section"
+msgid "Caption"
+msgstr "Diçiturë"
+
+#. [Wiki] Message displayed as contextual help about the caption box to editors in the media editing dialog.
+msgctxt "visualeditor-dialog-media-content-section-help"
+msgid "You can use this to show a label that shows next to the item for all readers. This is often used to explain why the item is relevant to the context in which it is shown. It should be succinct and informative."
+msgstr ""
+
+#. [Wiki] Label for the button to go back to edit settings in the media dialog.
+#. [Wiki] {{Identical|Back}}
+msgctxt "visualeditor-dialog-media-goback"
+msgid "Back"
+msgstr "Prapa"
+
+#. [Wiki] Label for the uploader information for the image in the media dialog. $1 - Uploader name.
+msgctxt "visualeditor-dialog-media-info-artist"
+msgid "Uploaded by $1"
+msgstr "I ngarkuar nga $1"
+
+#. [Wiki] Label for denoting an audio file for the media info in the media dialog.
+msgctxt "visualeditor-dialog-media-info-audiofile"
+msgid "Audio file"
+msgstr "Audio skedar"
+
+#. [Wiki] Label for the image creation date in the media dialog. $1 - Date of creation.
+#. [Wiki] {{Identical|Created}}
+msgctxt "visualeditor-dialog-media-info-created"
+msgid "Created: $1"
+msgstr "Krijuar: $1"
+
+#. [Wiki] Label for the credit information for the image in the media dialog.
+#. [Wiki] {{Identical|Credit}}
+msgctxt "visualeditor-dialog-media-info-credit"
+msgid "Credit"
+msgstr "Krediti"
+
+#. [Wiki] Label laying out the date format for image details in the media dialog. $1 - Month, $2 - Day, $3 - Year
+#. [Wiki] {{Optional}}
+#, optional
+msgctxt "visualeditor-dialog-media-info-dateformat"
+msgid "$1 $2, $3"
+msgstr ""
+
+#. [Wiki] An ellipses symbol denoting a truncated string.
+#. [Wiki] {{Optional}}
+#, optional
+msgctxt "visualeditor-dialog-media-info-ellipsis"
+msgid "…"
+msgstr ""
+
+#. [Wiki] Label for the description for the image in the media dialog.
+msgctxt "visualeditor-dialog-media-info-imagedescription"
+msgid "Full description"
+msgstr "Përshkrimi i plotë"
+
+#. [Wiki] Label for the license information for the image in the media dialog.
+#. [Wiki] {{Identical|License}}
+msgctxt "visualeditor-dialog-media-info-licenseshortname"
+msgid "License"
+msgstr "Licenca"
+
+#. [Wiki] Label for the artist information for the image in the media dialog. $1 - Artist name.
+#. [Wiki] {{Identical|Artist}}
+msgctxt "visualeditor-dialog-media-info-meta-artist"
+msgid "Artist: $1"
+msgstr "Artist: $1"
+
+#. [Wiki] Label for the link to more information in the image data panel.
+#. [Wiki] {{Identical|More information}}
+msgctxt "visualeditor-dialog-media-info-moreinfo"
+msgid "More information"
+msgstr "Më shumë informata"
+
+#. [Wiki] Label for the link to expand the text in the image data panel.
+#. [Wiki] {{Identical|Read more}}
+msgctxt "visualeditor-dialog-media-info-readmore"
+msgid "Read more"
+msgstr "Lexo më shumë"
+
+#. [Wiki] Character separating information in the image info panel in the media dialog.
+#. [Wiki] {{Optional}}
+#, optional
+msgctxt "visualeditor-dialog-media-info-separator"
+msgid "·"
+msgstr ""
+
+#. [Wiki] Label for the image upload date in the media dialog. $1 - Date of last upload.
+#. [Wiki] {{Identical|Uploaded}}
+msgctxt "visualeditor-dialog-media-info-uploaded"
+msgid "Uploaded: $1"
+msgstr "Ngarkuar: $1"
+
+#. [Wiki] Label notifying the user no results were found for the media search.
+msgctxt "visualeditor-dialog-media-noresults"
+msgid "No results found."
+msgstr "Nuk është gjetur asnjë rezultat"
+
+#. [Wiki] Label for the advanced settings page in the media edit dialog.
+#. [Wiki] {{Identical|Advanced settings}}
+#, fuzzy
+msgctxt "visualeditor-dialog-media-page-advanced"
+msgid "Advanced"
+msgstr "Konfigurimet e avancuara"
+
+#. [Wiki] Label for the general settings page in the media edit dialog.
+#. [Wiki] {{Identical|General settings}}
+#, fuzzy
+msgctxt "visualeditor-dialog-media-page-general"
+msgid "General"
+msgstr "Konfigurimet e përgjithshme"
+
+#. [Wiki] Label for the image position option for aligning to the center.
+#. [Wiki] {{Related|Visualeditor-dialog-media-position}}
+#. [Wiki] {{Identical|Center}}
+msgctxt "visualeditor-dialog-media-position-center"
+msgid "Center"
+msgstr "Qendër"
+
+#. [Wiki] Label for the position checkbox, denoting whether to use a set float position.
+msgctxt "visualeditor-dialog-media-position-checkbox"
+msgid "Wrap text around this item"
+msgstr "Mbështjellë përmbajtjen me këtë element"
+
+#. [Wiki] Message displayed as contextual help about the checkbox control to enable floating display positions (<code>left</code>, <code>right</code>, etc.) to editors in the media editing dialog.
+msgctxt "visualeditor-dialog-media-position-checkbox-help"
+msgid "You can make this media item appear inline with the text of the page instead of floating. You should only do this rarely, as it will break up the flow of the text if you uncheck this box."
+msgstr "Ju mund të bëni që ky produkt medial që shfaqet brenda linjës me tekstin e faqes në vend se të rri në ajër. Ju duhet ta bëni kët rrallë herë, pasi që do të prish rrjedhjen e tekstit nëse nuk selektoni këtë kuti."
+
+#. [Wiki] Label for the image position option for aligning to the left.
+#. [Wiki] {{Related|Visualeditor-dialog-media-position}}
+#. [Wiki] {{Identical|Left}}
+msgctxt "visualeditor-dialog-media-position-left"
+msgid "Left"
+msgstr "Majtë"
+
+#. [Wiki] Label for the image position option for no alignment.
+#. [Wiki] {{Related|Visualeditor-dialog-media-position}}
+#. [Wiki] {{Identical|None}}
+msgctxt "visualeditor-dialog-media-position-none"
+msgid "None"
+msgstr "Asnjë"
+
+#. [Wiki] Label for the image position option for aligning to the right.
+#. [Wiki] {{Related|Visualeditor-dialog-media-position}}
+#. [Wiki] {{Identical|Right}}
+msgctxt "visualeditor-dialog-media-position-right"
+msgid "Right"
+msgstr "Djathtë"
+
+#. [Wiki] Label for the image position sub-section.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-media-position-center}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-media-position-left}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-media-position-none}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-media-position-right}}
+#. [Wiki] {{Identical|Position}}
+msgctxt "visualeditor-dialog-media-position-section"
+msgid "Position"
+msgstr "Pozita"
+
+#. [Wiki] Message displayed as contextual help about the control for which display position to use (<code>left</code>, <code>right</code>, etc.) to editors in the media editing dialog.
+msgctxt "visualeditor-dialog-media-position-section-help"
+msgid "You can set where this media item appears on the page. This is sometimes used to break up a long line of images on one side of the page."
+msgstr "Ju mund të vendosni se ku shfaqet ky media element në faqe. Kjo nganjëherë përdoret për të prishur një linjë të gjatë të imazheve në njërën anë të faqes."
+
+#. [Wiki] Label for the save button
+#. [Wiki] {{Identical|Save}}
+msgctxt "visualeditor-dialog-media-save"
+msgid "Save"
+msgstr ""
+
+#. [Wiki] Label for search tab on insert new media page
+#. [Wiki] {{Identical|Search}}
+msgctxt "visualeditor-dialog-media-search-tab-search"
+msgid "Search"
+msgstr ""
+
+#. [Wiki] Label for upload tab on insert new media page
+#. [Wiki] {{Identical|Upload}}
+msgctxt "visualeditor-dialog-media-search-tab-upload"
+msgid "Upload"
+msgstr ""
+
+#. [Wiki] Button for choosing media item from the search results in the media dialog.
+#. [Wiki] {{Identical|Select}}
+msgctxt "visualeditor-dialog-media-searchselect"
+msgid "Select"
+msgstr "Selekto"
+
+#. [Wiki] Label for setting image size to custom dimensions.
+#. [Wiki] {{Related|Visualeditor-dialog-media-size}}
+msgctxt "visualeditor-dialog-media-size-choosecustom"
+msgid "Set custom size"
+msgstr "Cakto gjatësinë"
+
+#. [Wiki] Label for setting image size to wiki default thumbnail dimensions.
+#. [Wiki] {{Related|Visualeditor-dialog-media-size}}
+msgctxt "visualeditor-dialog-media-size-choosedefault"
+msgid "Set to default size"
+msgstr "Cakto gjatësinë e parazgjedhur"
+
+#. [Wiki] Label for setting image size to full size.
+#. [Wiki] {{Related|Visualeditor-dialog-media-size}}
+msgctxt "visualeditor-dialog-media-size-choosefull"
+msgid "Set to full size"
+msgstr "Cakto gjatësinë e plotë"
+
+#. [Wiki] Label for the image size sub-section.
+#. [Wiki] {{Identical|Image size}}
+msgctxt "visualeditor-dialog-media-size-section"
+msgid "Image size"
+msgstr "Madhësia e imazhit"
+
+#. [Wiki] Message displayed as contextual help about the controls for display size to editors in the media editing dialog.
+msgctxt "visualeditor-dialog-media-size-section-help"
+msgid "You can set how large the media item appears on the page. This should almost always be the normal size, as a custom size will interfere with the layout of the page for readers and make it inconsistent."
+msgstr ""
+
+#. [Wiki] Label for the original dimensions of the image in the media search dialog.
+msgctxt "visualeditor-dialog-media-thumbdimensions"
+msgid "Thumbnail dimensions"
+msgstr "Dimensionet e thumbnail"
+
+#. [Wiki] Title for the editing dialog to set how a media item is displayed on the page
+msgctxt "visualeditor-dialog-media-title"
+msgid "Media settings"
+msgstr "Konfigurimet e skedarëve multimedialë"
+
+#. [Wiki] Label for the image type option for bordered image.
+#. [Wiki] {{Identical|Border}}
+msgctxt "visualeditor-dialog-media-type-border"
+msgid "Border"
+msgstr "Kufiri"
+
+#. [Wiki] Label for the image type option for framed image.
+#. [Wiki] {{Identical|Frame}}
+msgctxt "visualeditor-dialog-media-type-frame"
+msgid "Frame"
+msgstr "Kornizë"
+
+#. [Wiki] Label for the image type option for frameless.
+#. [Wiki] {{identical|Frameless}}
+msgctxt "visualeditor-dialog-media-type-frameless"
+msgid "Frameless"
+msgstr "Pa kornizë"
+
+#. [Wiki] Label for the image type option for basic image.
+#. [Wiki] {{Identical|Basic}}
+msgctxt "visualeditor-dialog-media-type-none"
+msgid "Basic"
+msgstr "Themelore"
+
+#. [Wiki] Label for the image type sub-section.
+#. [Wiki] 
+#. [Wiki] Followed by the following buttons:
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-media-type-thumb}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-media-type-frame}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-media-type-frameless}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-media-type-border}}
+msgctxt "visualeditor-dialog-media-type-section"
+msgid "Image type"
+msgstr "Tipi i imazhit"
+
+#. [Wiki] Message displayed as contextual help about the controls for display type (<code>thumb</code>, <code>frameless</code>, etc.) to editors in the media editing dialog.
+msgctxt "visualeditor-dialog-media-type-section-help"
+msgid "You can set how the media item appears on the page. This should be the thumbnail format to be consistent with other pages in almost all cases."
+msgstr "Ju mund të vendosni sesa e madhe do të jetë media elementi në faqe. Kjo duhet të jetë formati i thumbnail në mënyrë që të jetë konsistent me faqet tjera pothuajse në të gjitha rastet."
+
+#. [Wiki] Label for the image type option for thumbnail.
+#. [Wiki] {{Identical|Thumbnail}}
+msgctxt "visualeditor-dialog-media-type-thumb"
+msgid "Thumbnail"
+msgstr "Parapamje"
+
+#. [Wiki] Label for the upload button
+#. [Wiki] {{Identical|Upload}}
+msgctxt "visualeditor-dialog-media-upload"
+msgid "Upload"
+msgstr ""
+
+#. [Wiki] Title for the advanced settings dialog section.
+#. [Wiki] {{Identical|Advanced settings}}
+msgctxt "visualeditor-dialog-meta-advancedsettings-label"
+msgid "Advanced settings"
+msgstr "Konfigurimet e avancuara"
+
+#. [Wiki] Label for the advanced settings dialog section.
+#. [Wiki] {{Identical|Advanced settings}}
+msgctxt "visualeditor-dialog-meta-advancedsettings-section"
+msgid "Advanced settings"
+msgstr "Konfigurimet e avancuara"
+
+#. [Wiki] Text showing in page options in Visual Editor.
+msgctxt "visualeditor-dialog-meta-categories-addcategory-label"
+msgid "Add a category to this page"
+msgstr ""
+
+#. [Wiki] Title of popup for editing category options.
+#. [Wiki] {{Identical|Category}}
+msgctxt "visualeditor-dialog-meta-categories-category"
+msgid "Category"
+msgstr "Kategoria"
+
+#. [Wiki] Label for the categories sub-section.
+#. [Wiki] {{Identical|Category}}
+msgctxt "visualeditor-dialog-meta-categories-data-label"
+msgid "Categories"
+msgstr "Kategoritë"
+
+#. [Wiki] Message displayed as contextual help about the <nowiki>{{DEFAULTSORT:…}}</nowiki> control to editors in the page categories panel.
+msgctxt "visualeditor-dialog-meta-categories-defaultsort-help"
+msgid "You can override how this page is sorted when displayed within a category by setting a different index to sort with instead. This is often used to make pages about people show by last name, but be named with their first name shown first."
+msgstr ""
+
+#. [Wiki] Label for field setting the category default sort
+msgctxt "visualeditor-dialog-meta-categories-defaultsort-label"
+msgid "Sort this page by default as"
+msgstr "Rendite këtë faqe, në mënyrë të parapërcaktuar, si"
+
+#. [Wiki] Text shown on the category popup if the category is hidden
+msgctxt "visualeditor-dialog-meta-categories-hidden"
+msgid "This category is set not to show on pages to which it is added."
+msgstr "Kjo kategori është vendosur qe te mos tregohet ne faqet është shtuar."
+
+#. [Wiki] {{Identical|Hidden category}}
+msgctxt "visualeditor-dialog-meta-categories-input-hiddencategorieslabel"
+msgid "Hidden categories"
+msgstr "Kategori të fshehura"
+
+#. [Wiki] Label for hidden suggested category or categories
+msgctxt "visualeditor-dialog-meta-categories-input-matchingcategorieslabel"
+msgid "Matching categories"
+msgstr "Kategori korrespodente"
+
+#. [Wiki] Label for moving a given category or categories to end of list
+msgctxt "visualeditor-dialog-meta-categories-input-movecategorylabel"
+msgid "Move this category here"
+msgstr "Zhvendose kategorinë këtu"
+
+#. [Wiki] Label for a suggested uncreated category
+msgctxt "visualeditor-dialog-meta-categories-input-newcategorylabel"
+msgid "New category"
+msgstr "Kategori e re"
+
+#. [Wiki] Placeholder text for category input
+#. [Wiki] {{Identical|Add category}}
+msgctxt "visualeditor-dialog-meta-categories-input-placeholder"
+msgid "Add a category"
+msgstr "Shto kategori"
+
+#. [Wiki] Text shown on the category popup if the category does not have a description page.
+msgctxt "visualeditor-dialog-meta-categories-missing"
+msgid "This category lacks a description page."
+msgstr ""
+
+#. [Wiki] Label for the category options sub-section.
+#. [Wiki] {{Identical|Options}}
+msgctxt "visualeditor-dialog-meta-categories-options"
+msgid "Options"
+msgstr "Opsionet"
+
+#. [Wiki] Label for the categories dialog section.
+#. [Wiki] {{Identical|Category}}
+msgctxt "visualeditor-dialog-meta-categories-section"
+msgid "Categories"
+msgstr "Kategoritë"
+
+#. [Wiki] [[Image:VisualEditor - Category editing 1.png|thumb|Screenshot of the feature]]
+#. [Wiki] Label for setting the page's sort key for a given category; the new value of the sort key flows immediately from this label – effectively, "Sort this page as if it is called 'Foo'."
+msgctxt "visualeditor-dialog-meta-categories-sortkey-label"
+msgid "Sort this page as if it is called"
+msgstr "Rendite këtë faqe ashtu sic është quajtur"
+
+#. [Wiki] Column header for the language links table, giving the language code of the remote wiki
+#. [Wiki] 	{{Identical|Language code}}
+msgctxt "visualeditor-dialog-meta-languages-code-label"
+msgid "Language code"
+msgstr "Kodi i gjuhës"
+
+#. [Wiki] {{Identical|Language}}
+msgctxt "visualeditor-dialog-meta-languages-label"
+msgid "Languages"
+msgstr "Gjuhët"
+
+#. [Wiki] Column header for the language links table, giving the name of the remote page.
+#. [Wiki] {{Identical|Linked page}}
+msgctxt "visualeditor-dialog-meta-languages-link-label"
+msgid "Linked page"
+msgstr "Faqet e lidhura"
+
+#. [Wiki] Column header for the language links table, giving the language name of the remote wiki.
+#. [Wiki] {{Identical|Language}}
+msgctxt "visualeditor-dialog-meta-languages-name-label"
+msgid "Language"
+msgstr "Gjuha"
+
+#. [Wiki] Text of a note informing users that the language links cannot yet be edited.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Cite-ve-referenceslist-missingref}}
+msgctxt "visualeditor-dialog-meta-languages-readonlynote"
+msgid "This is a list of pages in other languages that are linked to this one. For now, it can only be edited in source mode or on Wikidata."
+msgstr "Kjo është një listë e faqeve në gjuhë të tjera të cilat lidhen me ketë faqe; për momentin, mund të redaktohen vetëm përmes tekstit burimor ose në Wikidata."
+
+#. [Wiki] Label for the language links dialog section.
+#. [Wiki] {{Identical|Language}}
+msgctxt "visualeditor-dialog-meta-languages-section"
+msgid "Languages"
+msgstr "Gjuhët"
+
+#. [Wiki] Label for the text box in which the user can set what the title of the page should be displayed as.
+msgctxt "visualeditor-dialog-meta-settings-displaytitle"
+msgid "Display title"
+msgstr "Shfaq titullin"
+
+#. [Wiki] Label for the checkbox to enable the use of the display title text box.
+msgctxt "visualeditor-dialog-meta-settings-displaytitle-enable"
+msgid "Enable display title"
+msgstr "Mundëso shfaqjen e titullit"
+
+#. [Wiki] Message displayed as contextual help about the <nowiki>{{DISPLAYTITLE:…}}</nowiki> control to editors in the advanced page settings panel.
+msgctxt "visualeditor-dialog-meta-settings-displaytitle-help"
+msgid "You can override how this page's title is displayed by setting a different label to show instead."
+msgstr ""
+
+#. [Wiki] Message displayed as contextual help about the <nowiki>__HIDDENCAT__</nowiki> tag to editors in the page settings panel on categories.
+msgctxt "visualeditor-dialog-meta-settings-hiddencat-help"
+msgid "You can prevent this category from showing up in the list of categories on member pages. This is useful for categories that are of interest to editors but not most readers, like pages which need an illustration."
+msgstr ""
+
+#. [Wiki] Prompt for the checkbox to let the user hide this category from pages.
+#. [Wiki] {{Identical|Hidden category}}
+msgctxt "visualeditor-dialog-meta-settings-hiddencat-label"
+msgid "Hidden category"
+msgstr "Kategori të fshehura"
+
+#. [Wiki] Label for the option to have default indexing behavior.
+#. [Wiki] {{Identical|Default}}
+msgctxt "visualeditor-dialog-meta-settings-index-default"
+msgid "Default"
+msgstr "Të paracaktuara"
+
+#. [Wiki] Label for the option for indexing to be forced off.
+#. [Wiki] {{Identical|No}}
+msgctxt "visualeditor-dialog-meta-settings-index-disable"
+msgid "No"
+msgstr "Jo"
+
+#. [Wiki] Label for the option for indexing to be forced on.
+#. [Wiki] {{Identical|Yes}}
+msgctxt "visualeditor-dialog-meta-settings-index-force"
+msgid "Yes"
+msgstr "Po"
+
+#. [Wiki] Message displayed as contextual help about the <nowiki>__INDEX__</nowiki> and <nowiki>__NOINDEX__</nowiki> tags to editors in the advanced page settings panel.
+msgctxt "visualeditor-dialog-meta-settings-index-help"
+msgid "You can force search engines to list this page in their relevant results, or force them to not do so. This option does not affect in-site search."
+msgstr ""
+
+#. [Wiki] Prompt to let the user set the indexing behaviour.
+msgctxt "visualeditor-dialog-meta-settings-index-label"
+msgid "Let this page be indexed by search engines"
+msgstr "Lejoni qe kjo faqja te indexohet nga motorët e kërkimit"
+
+#. [Wiki] Title for the page settings dialog section.
+#. [Wiki] 
+#. [Wiki] Followed by the following labels:
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-meta-settings-toc-default}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-meta-settings-toc-force}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-meta-settings-toc-disable}}
+#. [Wiki] {{Identical|Page settings}}
+msgctxt "visualeditor-dialog-meta-settings-label"
+msgid "Page settings"
+msgstr "Konfigurimet e faqes"
+
+#. [Wiki] Label for the option to have the namespace's default new section creating link behavior.
+#. [Wiki] {{Identical|Default}}
+msgctxt "visualeditor-dialog-meta-settings-newsectioneditlink-default"
+msgid "Default"
+msgstr "Të paracaktuara"
+
+#. [Wiki] Label for the option to prevent the display of a new section creating link.
+#. [Wiki] {{Identical|No}}
+msgctxt "visualeditor-dialog-meta-settings-newsectioneditlink-disable"
+msgid "No"
+msgstr "Jo"
+
+#. [Wiki] Label for the option to force the display of a new section creating link.
+#. [Wiki] {{Identical|Yes}}
+msgctxt "visualeditor-dialog-meta-settings-newsectioneditlink-force"
+msgid "Yes"
+msgstr "Po"
+
+#. [Wiki] Message displayed as contextual help about the <nowiki>__NEWSECTIONLINK__</nowiki> and <nowiki>__NONEWSECTIONLINK__</nowiki> tags to editors in the advanced page settings panel.
+#. [Wiki] 
+#. [Wiki] $1 – The label for the edit tab, normally {{msg-mw|vector-view-edit}}
+msgctxt "visualeditor-dialog-meta-settings-newsectioneditlink-help"
+msgid "You can force the display of an extra tab besides the \"$1\" tab on this page which will make it easy to add a new section, or force it to not appear if it otherwise would."
+msgstr ""
+
+#. [Wiki] Prompt to let the user set the new section creating link behavior.
+#. [Wiki] 
+#. [Wiki] Followed by the following buttons:
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-meta-settings-newsectioneditlink-force}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-meta-settings-newsectioneditlink-default}}
+#. [Wiki] * {{msg-mw|Visualeditor-dialog-meta-settings-newsectioneditlink-disable}}
+msgctxt "visualeditor-dialog-meta-settings-newsectioneditlink-label"
+msgid "Show a tab on this page to add a new section"
+msgstr "Trego një skedë në këtë faqe që të vendoset në një sekcion të ri"
+
+#. [Wiki] Message displayed as contextual help about the <nowiki>__NOCONTENTCONVERT__</nowiki> tag to editors in the advanced page settings panel, on wikis with language conversion.
+msgctxt "visualeditor-dialog-meta-settings-nocontentconvert-help"
+msgid "You can prevent this page's contents being automatically converted into other scripts."
+msgstr ""
+
+#. [Wiki] Prompt for the checkbox to let the user disable content conversion between language variants on the page.
+msgctxt "visualeditor-dialog-meta-settings-nocontentconvert-label"
+msgid "Don't convert content between language variants"
+msgstr ""
+
+#. [Wiki] Message displayed as contextual help about the <nowiki>__NOEDITSECTION__</nowiki> tag to editors in the page settings panel.
+msgctxt "visualeditor-dialog-meta-settings-noeditsection-help"
+msgid "You can stop the edit links from appearing next to each section in the unusual case where that is appropriate."
+msgstr ""
+
+#. [Wiki] Prompt for the checkbox to let the user disable section edit links on the page.
+msgctxt "visualeditor-dialog-meta-settings-noeditsection-label"
+msgid "Disable the edit links next to each heading on this page."
+msgstr "Çaktivizo linçet redaktuese të gjdo titulli në këtë faqe."
+
+#. [Wiki] Message displayed as contextual help about the <nowiki>__NOGALLERY__</nowiki> tag to editors in the page settings panel on categories.
+msgctxt "visualeditor-dialog-meta-settings-nogallery-help"
+msgid "You can prevent this category from displaying member files as a gallery, if that is inappropriate in this case."
+msgstr ""
+
+#. [Wiki] Prompt for the checkbox to let the user disable gallery on the page.
+msgctxt "visualeditor-dialog-meta-settings-nogallery-label"
+msgid "Disable gallery"
+msgstr "Çaktivizoni galerinë"
+
+#. [Wiki] Message displayed as contextual help about the <nowiki>__NOTITLECONVERT__</nowiki> tag to editors in the advanced page settings panel, on wikis with language conversion.
+msgctxt "visualeditor-dialog-meta-settings-notitleconvert-help"
+msgid "You can prevent this page's title being automatically converted into other scripts."
+msgstr ""
+
+#. [Wiki] Prompt for the checkbox to let the user disable title conversion between language variants on the page.
+msgctxt "visualeditor-dialog-meta-settings-notitleconvert-label"
+msgid "Don't convert title between language variants"
+msgstr ""
+
+#. [Wiki] Message displayed as contextual help about redirects to editors in the page settings panel.
+msgctxt "visualeditor-dialog-meta-settings-redirect-help"
+msgid "You can make this page into a redirect, a page which will automatically take readers to another page on this wiki. This is useful for mis-spellings and alternative names or concepts. If you do so, readers will not see the contents of this page."
+msgstr ""
+
+#. [Wiki] Label for the checkbox to let the user redirect the page.
+#. [Wiki] 
+#. [Wiki] Followed by input box which has the placeholder {{msg-mw|Visualeditor-dialog-meta-settings-redirect-placeholder}}.
+msgctxt "visualeditor-dialog-meta-settings-redirect-label"
+msgid "Redirect this page to"
+msgstr "Ridrejto këtë faqe në"
+
+#. [Wiki] Placeholder for the target search box letting the user redirect the page.
+#. [Wiki] 
+#. [Wiki] Preceded by the checkbox label {{msg-mw|Visualeditor-dialog-meta-settings-redirect-label}}.
+msgctxt "visualeditor-dialog-meta-settings-redirect-placeholder"
+msgid "Target page for redirection"
+msgstr "Faqe objektiv për ridrejtim"
+
+#. [Wiki] Message displayed as contextual help about the <nowiki>__STATICREDIRECT__</nowiki> tag to editors in the page settings panel.
+msgctxt "visualeditor-dialog-meta-settings-redirect-statichelp"
+msgid "You can prevent this redirect from being updated automatically when the page to which it redirects is moved, in the very rare case that this is needed."
+msgstr ""
+
+#. [Wiki] Label for the checkbox to let the user stop the redirect being updated on page moves.
+#. [Wiki] 
+#. [Wiki] Preceded by "Target page for redirection" search box.
+#, fuzzy
+msgctxt "visualeditor-dialog-meta-settings-redirect-staticlabel"
+msgid "Prevent this redirect from being updated when target page is moved."
+msgstr "Mos lejo që të rifreskohet ridrejtimi pasi faqja të jetë lëvizur"
+
+#. [Wiki] Label for the page settings dialog section.
+#. [Wiki] {{Identical|Page settings}}
+msgctxt "visualeditor-dialog-meta-settings-section"
+msgid "Page settings"
+msgstr "Konfigurimet e faqes"
+
+#. [Wiki] Label for the default TOC behavior option.
+#. [Wiki] {{Related|Visualeditor-dialog-meta-settings-toc}}
+msgctxt "visualeditor-dialog-meta-settings-toc-default"
+msgid "If needed"
+msgstr "Nëse është e nevojshme"
+
+#. [Wiki] Label for the TOC behavior option to never show.
+#. [Wiki] {{Related|Visualeditor-dialog-meta-settings-toc}}
+#. [Wiki] {{Identical|Never}}
+msgctxt "visualeditor-dialog-meta-settings-toc-disable"
+msgid "Never"
+msgstr "Kurrë"
+
+#. [Wiki] Label for the TOC behavior option to always show.
+#. [Wiki] {{Related|Visualeditor-dialog-meta-settings-toc}}
+#. [Wiki] {{Identical|Always}}
+msgctxt "visualeditor-dialog-meta-settings-toc-force"
+msgid "Always"
+msgstr "Gjithmonë"
+
+#. [Wiki] Message displayed as contextual help about the <nowiki>__FORCETOC__</nowiki> and <nowiki>__NOTOC__</nowiki> tags to editors in the page settings panel.
+msgctxt "visualeditor-dialog-meta-settings-toc-help"
+msgid "You can force a table of contents that lists each heading on the page to appear on pages with fewer than four headings, or force it to not appear at all. By default, it will appear if the page has four or more headings."
+msgstr ""
+
+#. [Wiki] Prompt to let the user set the Table Of Contents (TOC) behaviour.
+msgctxt "visualeditor-dialog-meta-settings-toc-label"
+msgid "Show the Table of Contents"
+msgstr "Shfaq tabelën e përmbajtjes"
+
+#. [Wiki] Message displayed when no existing templates found on the page.
+msgctxt "visualeditor-dialog-meta-templatesused-noresults"
+msgid "No templates found."
+msgstr ""
+
+#. [Wiki] Text of the title for the meta dialog to set categories, language links and other page settings.
+#. [Wiki] {{Identical|Options}}
+msgctxt "visualeditor-dialog-meta-title"
+msgid "Options"
+msgstr "Opcionet"
+
+#. [Wiki] Label for toggle to make a table collapsed initially
+msgctxt "visualeditor-dialog-table-collapsed"
+msgid "Collapsed initially"
+msgstr ""
+
+#. [Wiki] Label for toggle to make a table collapsible
+#. [Wiki] {{Identical|Collapsible}}
+msgctxt "visualeditor-dialog-table-collapsible"
+msgid "Collapsible"
+msgstr ""
+
+#. [Wiki] Label for toggle to make a table sortable
+msgctxt "visualeditor-dialog-table-sortable"
+msgid "Sortable"
+msgstr ""
+
+#. [Wiki] Label for toggle to make a table a wikitable
+msgctxt "visualeditor-dialog-table-wikitable"
+msgid "Styled (wikitable)"
+msgstr ""
+
+#. [Wiki] {{Identical|Template}}
+msgctxt "visualeditor-dialog-template-title"
+msgid "Template"
+msgstr "Stampa"
+
+#. [Wiki] Message to user that the template they have selected does not exist on this wiki.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the title of the template
+msgctxt "visualeditor-dialog-transclusion-absent-template"
+msgid "The \"$1\" template doesn't yet exist."
+msgstr ""
+
+#. [Wiki] Label for button that adds parameter content to a transclusion.
+msgctxt "visualeditor-dialog-transclusion-add-content"
+msgid "Add content"
+msgstr "Shto përmbajtje"
+
+#. [Wiki] Label for button that adds a parameter to a transcluded template.
+msgctxt "visualeditor-dialog-transclusion-add-param"
+msgid "Add more information"
+msgstr "Të shtoni më shumë informacion"
+
+#. [Wiki] Label for button that adds the specified template to the page.
+#. [Wiki] {{Identical|Add template}}
+msgctxt "visualeditor-dialog-transclusion-add-template"
+msgid "Add template"
+msgstr "Shto stampë"
+
+#. [Wiki] Label for editor of content between transclusion parts.
+#. [Wiki] {{Identical|Content}}
+msgctxt "visualeditor-dialog-transclusion-content"
+msgid "Content"
+msgstr "Përmbajtja"
+
+#. [Wiki] Message shown to an editor when they click on a template or group of templates that form a transclusion, listing the template(s) from which the transclusion is constructed.
+#. [Wiki] 
+#. [Wiki] * $1 – the name of the template, or a list of the names of the templates if there are multiple.
+#. [Wiki] * $2 - number of templates for PLURAL support.
+msgctxt "visualeditor-dialog-transclusion-contextitem-description"
+msgid "Generated from: $1"
+msgstr ""
+
+#. [Wiki] Tooltip for deprecated parameter indicator
+msgctxt "visualeditor-dialog-transclusion-deprecated-parameter"
+msgid "Deprecated field"
+msgstr "Fusha e mospajtimit"
+
+#. [Wiki] Label describing that a parameter is deprecated.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - Description given in TemplateData for why parameter is deprecated, which may be empty.
+msgctxt "visualeditor-dialog-transclusion-deprecated-parameter-description"
+msgid "Field is deprecated. $1"
+msgstr ""
+
+#. [Wiki] Title for the transclusion dialog while its contents are loading.
+#. [Wiki] {{Identical|Loading}}
+msgctxt "visualeditor-dialog-transclusion-loading"
+msgid "Loading..."
+msgstr "Po ngarkohet..."
+
+#. [Wiki] Message to user that additional template information might be available for a template.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the title of the template
+msgctxt "visualeditor-dialog-transclusion-more-template-description"
+msgid "There might be some additional information about the \"$1\" template on [[{{ns:template}}:$1|its page]]."
+msgstr ""
+
+#. [Wiki] Label for button that shows advanced options in transclusion dialog
+msgctxt "visualeditor-dialog-transclusion-multiple-mode"
+msgid "Show options"
+msgstr "Shfaq mundësitë"
+
+#. [Wiki] Message to user that no template information is available for the template.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the title of the template
+msgctxt "visualeditor-dialog-transclusion-no-template-description"
+msgid "The \"$1\" template doesn't yet have a description, but there might be some information on the [[$1|template's page]]."
+msgstr ""
+
+#. [Wiki] Label for section with options for templates, content or parameters.
+#. [Wiki] {{Identical|Options}}
+msgctxt "visualeditor-dialog-transclusion-options"
+msgid "Options"
+msgstr "Opsionet"
+
+#. [Wiki] Label for parameter's default value in the template dialog. $1 - Parameter's default value.
+#. [Wiki] {{Identical|Default}}
+#, fuzzy
+msgctxt "visualeditor-dialog-transclusion-param-default"
+msgid "Default: $1"
+msgstr "Vlera e parazgjedhur: $1"
+
+#. [Wiki] Label for parameter's example value in the template dialog. $1 - Parameter's example value.
+msgctxt "visualeditor-dialog-transclusion-param-example"
+msgid "e.g. $1"
+msgstr "p.sh. $1"
+
+#. [Wiki] Title of button that hides and shows parameter descriptions
+msgctxt "visualeditor-dialog-transclusion-param-info"
+msgid "Field description"
+msgstr "Përshkrimi i fushës"
+
+#. [Wiki] Title of button that hides and shows parameter descriptions when no description is available
+msgctxt "visualeditor-dialog-transclusion-param-info-missing"
+msgid "No field description available"
+msgstr ""
+
+#. [Wiki] Label for section with options for adding a new template to a multi part transclusion.
+#. [Wiki] {{Identical|Add template}}
+msgctxt "visualeditor-dialog-transclusion-placeholder"
+msgid "Add a template"
+msgstr "Shto një mostër"
+
+#. [Wiki] Label of the button that converts complex validation-required type-based inputs back into plain wikitext inputs.
+msgctxt "visualeditor-dialog-transclusion-raw-fallback"
+msgid "Fall back to plain wikitext"
+msgstr ""
+
+#. [Wiki] Label for button that removes content between transclusion parts
+msgctxt "visualeditor-dialog-transclusion-remove-content"
+msgid "Remove content"
+msgstr "Fshi përmbajtjen"
+
+#. [Wiki] Label for button that removes a parameter from a template
+msgctxt "visualeditor-dialog-transclusion-remove-param"
+msgid "Remove field"
+msgstr "Hiqni fushën"
+
+#. [Wiki] Label for button that removes a template from a transclusion.
+#. [Wiki] {{Identical|Remove template}}
+msgctxt "visualeditor-dialog-transclusion-remove-template"
+msgid "Remove template"
+msgstr "Fshi stampë"
+
+#. [Wiki] Tooltip for required parameter indicator
+#. [Wiki] {{Identical|Required field}}
+msgctxt "visualeditor-dialog-transclusion-required-parameter"
+msgid "Required field"
+msgstr "Fushë e nevojshme"
+
+#. [Wiki] Label describing that a parameter is required.
+msgctxt "visualeditor-dialog-transclusion-required-parameter-description"
+msgid "Field is required."
+msgstr "Fusha është e nevojshme."
+
+#. [Wiki] Label for the Cancel button on the confirmation dialog opened if the user tries to insert/edit a template without filling all required fields.
+#. [Wiki] {{Identical|Go back}}
+msgctxt "visualeditor-dialog-transclusion-required-parameter-dialog-cancel"
+msgid "Go back"
+msgstr "Kthehu"
+
+#. [Wiki] Label for the OK button on the confirmation dialog opened if the user tries to insert/edit a template without filling all required fields.
+#. [Wiki] {{Identical|Continue anyway}}
+msgctxt "visualeditor-dialog-transclusion-required-parameter-dialog-ok"
+msgid "Continue anyway"
+msgstr "Vazhdo gjithsesi"
+
+#. [Wiki] Title for the confirmation dialog opened if the user tries to insert/edit a template without filling all required fields.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - Number of parameters missing, for PLURAL support.
+#, fuzzy
+msgctxt "visualeditor-dialog-transclusion-required-parameter-dialog-title"
+msgid "Required {{PLURAL:$1|field|fields}} missing"
+msgstr "Kërkohet {{PLURAL:$1|parametër|parametrat}} zhdukur"
+
+#. [Wiki] Label for the confirmation dialog opened if the user tries to insert/edit a template without filling all required fields.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - Parameters missing, as a list using {{msg-mw|and}}, {{msg-mw|comma-separator}} and {{msg-mw|word-separator}}.
+#. [Wiki] * $2 - Number of parameters missing, for PLURAL support.
+#, fuzzy
+msgctxt "visualeditor-dialog-transclusion-required-parameter-is-blank"
+msgid "Are you sure you want to continue without filling the $1 {{PLURAL:$2|field|fields}}?"
+msgstr "A jeni të sigurt që ju doni të vazhdoni pa plotësimin e $1 {{PLURAL:$2|parametër|parametrat}}?"
+
+#. [Wiki] Label for button that hides advanced options in transclusion dialog
+msgctxt "visualeditor-dialog-transclusion-single-mode"
+msgid "Hide options"
+msgstr "Fshih mundësitë"
+
+#. [Wiki] {{Identical|Transclusion}}
+msgctxt "visualeditor-dialog-transclusion-title"
+msgid "Transclusion"
+msgstr "Përfshirja"
+
+#. [Wiki] {{Identical|Media}}
+msgctxt "visualeditor-dialogbutton-media-tooltip"
+msgid "Media"
+msgstr "Skeda multimediale"
+
+#. [Wiki] {{Identical|Page settings}}
+msgctxt "visualeditor-dialogbutton-meta-tooltip"
+msgid "Page settings"
+msgstr "Konfigurimet e faqes"
+
+#. [Wiki] {{Identical|Template}}
+msgctxt "visualeditor-dialogbutton-template-tooltip"
+msgid "Template"
+msgstr "Shabllon"
+
+#. [Wiki] {{Identical|Transclusion}}
+msgctxt "visualeditor-dialogbutton-transclusion-tooltip"
+msgid "Transclusion"
+msgstr "Përfshirja"
+
+#. [Wiki] Tooltip text for done editing button in mobile, closing the edit toolbar and blurring the surface.
+msgctxt "visualeditor-donebutton-tooltip"
+msgid "Done editing"
+msgstr ""
+
+#. [Wiki] Alert message when saving a page causes an edit conflict
+msgctxt "visualeditor-editconflict"
+msgid "Your changes could not be saved because of an edit conflict. Would {{GENDER:|you}} like to resolve the conflict manually?"
+msgstr "Ndryshimet tuaja nuk mund të ruhen për shkak të një konflikti në redaktim. A dëshiron {{GENDER:|you}} ta zgjidhësh konfliktin maualisht?"
+
+#. [Wiki] Text shown to users to explain the single edit tab and give them the option to change. You can use <nowiki>{{GENDER:}}</nowiki> to refer to the current user.
+msgctxt "visualeditor-editingtabdialog-body"
+msgid "{{SITENAME}} now remembers which editor you prefer. You can switch edit modes as you edit, and change your preference later."
+msgstr ""
+
+#. [Wiki] Label of the button shown to users in the editing tab dialog to close the dialog and leave the default preference.
+msgctxt "visualeditor-editingtabdialog-ok"
+msgid "Use the editor I used in my last edit"
+msgstr ""
+
+#. [Wiki] Title of the editing tab dialog.
+msgctxt "visualeditor-editingtabdialog-title"
+msgid "Editing tabs"
+msgstr ""
+
+#. [Wiki] Text of tool in the toolbar that shows edit notices (such as [[MediaWiki:Editnotice-0]] and [[MediaWiki:Editnotice-8/en]]) as a pop-up.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the number of notices
+#. [Wiki] {{Identical|Notice}}
+msgctxt "visualeditor-editnotices-tool"
+msgid "$1 {{PLURAL:$1|notice|notices}}"
+msgstr "$1 {{PLURAL:$1|njoftim|njoftime}}"
+
+#. [Wiki] Text of tooltip for the tool in the toolbar that shows edit notices (i.e. “messages about the editing”), e.g. the “you are not currently logged in” notice
+msgctxt "visualeditor-editnotices-tooltip"
+msgid "Edit notices"
+msgstr "Redakto njoftimet"
+
+#. [Wiki] Label for the edit summary box
+msgctxt "visualeditor-editsummary"
+msgid "Describe what you changed"
+msgstr "Përshkruaj çfare ke ndryshuar"
+
+#. [Wiki] Tooltip for the number of bytes remaining in the edit summary
+msgctxt "visualeditor-editsummary-bytes-remaining"
+msgid "The number of bytes remaining"
+msgstr "Numri i bajtëve të mbetur"
+
+#. [Wiki] Tooltip for the number of characters remaining in the edit summary
+msgctxt "visualeditor-editsummary-characters-remaining"
+msgid "The number of characters remaining"
+msgstr ""
+
+#. [Wiki] Text on dismiss button shown on the educational popups drawing user attention to specific tools.
+msgctxt "visualeditor-educationpopup-dismiss"
+msgid "Okay, got it"
+msgstr ""
+
+#. [Wiki] Default message text for the feedback dialog.
+#. [Wiki] Parameters:
+#. [Wiki] 
+#. [Wiki] * $1 - URL of the page
+#. [Wiki] {{Identical|URL}}
+msgctxt "visualeditor-feedback-defaultmessage"
+msgid "URL: $1"
+msgstr ""
+
+#. [Wiki] Item in the MediaWiki formatting dropdown for a level 1 heading (page title).
+#. [Wiki] {{Related|Visualeditor-formatdropdown}}
+#. [Wiki] {{Identical|Page title}}
+msgctxt "visualeditor-formatdropdown-format-mw-heading1"
+msgid "Page title"
+msgstr "Titulli i faqes"
+
+#. [Wiki] Item in the MediaWiki formatting dropdown for a level 2 heading (section).
+#. [Wiki] {{Related|Visualeditor-formatdropdown}}
+#. [Wiki] {{Identical|Heading}}
+msgctxt "visualeditor-formatdropdown-format-mw-heading2"
+msgid "Heading"
+msgstr "Mbishkrimi"
+
+#. [Wiki] Item in the MediaWiki formatting dropdown for a level 3 heading (sub-section)
+#. [Wiki] {{Related|Visualeditor-formatdropdown}}
+msgctxt "visualeditor-formatdropdown-format-mw-heading3"
+msgid "Sub-heading 1"
+msgstr "Nën-titulli 1"
+
+#. [Wiki] Item in the MediaWiki formatting dropdown for a level 4 heading (sub-section)
+#. [Wiki] {{Related|Visualeditor-formatdropdown}}
+msgctxt "visualeditor-formatdropdown-format-mw-heading4"
+msgid "Sub-heading 2"
+msgstr "Nën-titulli 2"
+
+#. [Wiki] Item in the MediaWiki formatting dropdown for a level 5 heading (sub-section)
+#. [Wiki] {{Related|Visualeditor-formatdropdown}}
+msgctxt "visualeditor-formatdropdown-format-mw-heading5"
+msgid "Sub-heading 3"
+msgstr "Nën-titulli 3"
+
+#. [Wiki] Item in the MediaWiki formatting dropdown for a level 6 heading (sub-section)
+#. [Wiki] {{Related|Visualeditor-formatdropdown}}
+msgctxt "visualeditor-formatdropdown-format-mw-heading6"
+msgid "Sub-heading 4"
+msgstr "Nën-titulli 4"
+
+#. [Wiki] Label for progress bar shown while generating wikitext.
+msgctxt "visualeditor-generating-wikitext-progress"
+msgid "Generating wikitext"
+msgstr ""
+
+#. [Wiki] Tool for opening the languages links section of the meta dialog.
+#. [Wiki] {{Identical|Language}}
+msgctxt "visualeditor-languages-tool"
+msgid "Languages"
+msgstr "Gjuhët"
+
+#. [Wiki] Button label for entering an external link.
+#. [Wiki] {{Identical|External link}}
+msgctxt "visualeditor-linkinspector-button-link-external"
+msgid "External link"
+msgstr "Vegëz e jashtme"
+
+#. [Wiki] Button label for entering an internal link.
+msgctxt "visualeditor-linkinspector-button-link-internal"
+msgid "Search pages"
+msgstr "Kërko faqet"
+
+#. [Wiki] Button label for converting a simple link to a ISBN magic link.
+msgctxt "visualeditor-linkinspector-convert-link-isbn"
+msgid "Convert to ISBN link"
+msgstr ""
+
+#. [Wiki] Button label for converting a simple link to a PMID magic link.
+msgctxt "visualeditor-linkinspector-convert-link-pmid"
+msgid "Convert to PMID link"
+msgstr ""
+
+#. [Wiki] Button label for converting a simple link to a RFC magic link.
+msgctxt "visualeditor-linkinspector-convert-link-rfc"
+msgid "Convert to RFC link"
+msgstr ""
+
+#. [Wiki] Text shown in education popup for the link inspector tool.
+msgctxt "visualeditor-linkinspector-educationpopup-text"
+msgid "Link important words to other wiki articles or even other websites. It will help readers understand the context."
+msgstr ""
+
+#. [Wiki] Title shown at the top of education popup for the link inspector tool.
+#. [Wiki] {{Identical|Link}}
+msgctxt "visualeditor-linkinspector-educationpopup-title"
+msgid "Links"
+msgstr ""
+
+#. [Wiki] Warning that the entered text is not a valid page title.
+msgctxt "visualeditor-linkinspector-illegal-title"
+msgid "Invalid page title"
+msgstr "Titull faqeje i pavlefshëm"
+
+#. [Wiki] Label of button that converts an auto-numbered, external, labelless link into a labeled external link
+msgctxt "visualeditor-linknodeinspector-add-label"
+msgid "Add label"
+msgstr "Shto tiketë"
+
+#. [Wiki] Title of inspector for editing auto-numbered, external, labelless links.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-linknode-tooltip}}
+msgctxt "visualeditor-linknodeinspector-title"
+msgid "Simple link"
+msgstr "Vegëz mostër"
+
+#. [Wiki] Text shown in a message box when the editor fails to load properly due to a RESTBase call failing.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - an error message
+msgctxt "visualeditor-loaderror-message"
+msgid "Error loading data from server: $1."
+msgstr ""
+
+#. [Wiki] Text shown as the title of a message box when the editor fails to load properly for some reason.
+msgctxt "visualeditor-loaderror-title"
+msgid "The editor could not load"
+msgstr ""
+
+#. [Wiki] Text (JavaScript confirm()) shown when the editor fails to load properly.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the error message from the server, in English. e.g. "docserver-http-error"
+msgctxt "visualeditor-loadwarning"
+msgid "Error loading data from server: $1. Would you like to retry?"
+msgstr "Gabim në ngarkimin e të dhënave nga serveri: $1. Dëshiron të riprovosh?"
+
+#. [Wiki] Error shown in {{msg-mw|visualeditor-loadwarning}} when the editor fails to load due to a connection issue.
+msgctxt "visualeditor-loadwarning-noconnect"
+msgid "Could not connect to the server"
+msgstr ""
+
+#. [Wiki] Text (JavaScript confirm()) shown when the editor fails to load properly.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the error message from the server.
+msgctxt "visualeditor-loadwarning-token"
+msgid "Error loading edit token from server: $1. Would you like to retry?"
+msgstr "Gabim në ngarkimin e redaktimit nga serveri: $1. Dëshiron të riprovosh?"
+
+#. [Wiki] Label of button that converts a magic link into a normal labeled link
+msgctxt "visualeditor-magiclinknodeinspector-convert-link"
+msgid "Convert to simple link"
+msgstr ""
+
+#. [Wiki] Title of inspector for editing ISBN magic links.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-magiclinknode-tooltip-isbn}}
+msgctxt "visualeditor-magiclinknodeinspector-title-isbn"
+msgid "ISBN link"
+msgstr ""
+
+#. [Wiki] Title of inspector for editing PMID magic links.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-magiclinknode-tooltip-pmid}}
+msgctxt "visualeditor-magiclinknodeinspector-title-pmid"
+msgid "PMID link"
+msgstr ""
+
+#. [Wiki] Title of inspector for editing RFC magic links.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-annotationbutton-magiclinknode-tooltip-rfc}}
+msgctxt "visualeditor-magiclinknodeinspector-title-rfc"
+msgid "RFC link"
+msgstr ""
+
+#. [Wiki] Name of a page describing the main namespace (NS0) in this project.
+#. [Wiki] {{doc-important|Do not translate "Project"; it is automatically converted to the wiki's project namespace.}}
+msgctxt "visualeditor-mainnamespacepagelink"
+msgid "Project:Main namespace"
+msgstr "Project:Main namespace"
+
+#. [Wiki] Place holder text for media search input
+msgctxt "visualeditor-media-input-placeholder"
+msgid "Search for media"
+msgstr "Kërko për skedarë multimedialë"
+
+#. [Wiki] Title of context item for embedded audio
+#. [Wiki] {{Identical|Audio}}
+msgctxt "visualeditor-media-title-audio"
+msgid "Audio"
+msgstr ""
+
+#. [Wiki] Title of context item for an image
+#. [Wiki] {{Identical|Image}}
+msgctxt "visualeditor-media-title-image"
+msgid "Image"
+msgstr ""
+
+#. [Wiki] Title of context item for embedded video
+#. [Wiki] {{Identical|Video}}
+msgctxt "visualeditor-media-title-video"
+msgid "Video"
+msgstr ""
+
+#. [Wiki] Text of tool in the toolbar the lets users set categories, language links and other page settings.
+#. [Wiki] {{Identical|Options}}
+msgctxt "visualeditor-meta-tool"
+msgid "Options"
+msgstr "Opsionet"
+
+#. [Wiki] Tooltip text for editor switching menu.
+msgctxt "visualeditor-mweditmode-tooltip"
+msgid "Switch editor"
+msgstr ""
+
+#. [Wiki] Title of progress bar shown while switching to source mode.
+msgctxt "visualeditor-mweditmodesource-progress"
+msgid "Switching to source editing…"
+msgstr ""
+
+#. [Wiki] Title of dialog to confirm switching to source mode.
+msgctxt "visualeditor-mweditmodesource-title"
+msgid "Switch to source editing?"
+msgstr "Kalo në redaktimin e tekstit burimor"
+
+#. [Wiki] Label for tool that changes edit mode to source editing (or describes the mode if the user is already in that mode).
+msgctxt "visualeditor-mweditmodesource-tool-current"
+msgid "Source editing"
+msgstr ""
+
+#. [Wiki] '''Please translate "Source" as meaning "Source codes", not source of references.''' Label for tool that changes edit mode to source editing when it is not available.
+msgctxt "visualeditor-mweditmodesource-tool-unavailable"
+msgid "Source editing is not available here"
+msgstr ""
+
+#. [Wiki] Warning message show before changing edit mode to source editing. It may allow the user to keep the changes using the message {{msg-mw|Visualeditor-mweditmodesource-warning-switch}} or cancel.
+#, fuzzy
+msgctxt "visualeditor-mweditmodesource-warning"
+msgid "You are switching to source editing.\nDo you want to continue?"
+msgstr "Jeni duke kaluar në redaktimin e tekstit burimor.\nÇdo ndryshim që ju keni bërë në këtë dokument do të ruhet, por ju nuk do të mundni të riktheheni prapa në VisualEditor pa kryer ndryshimet apo pa ringarkuar faqen.\nDëshironi të vazhdoni?"
+
+#. [Wiki] Label for the button on the confirmation dialog for switching to source editing to cancel and return to editing.
+#. [Wiki] {{Identical|Cancel}}
+msgctxt "visualeditor-mweditmodesource-warning-cancel"
+msgid "Cancel"
+msgstr "Anulo"
+
+#. [Wiki] Label for the button on the confirmation dialog for switching to source editing to continue and switch editors.
+#. [Wiki] {{Identical|Switch}}
+#, fuzzy
+msgctxt "visualeditor-mweditmodesource-warning-switch"
+msgid "Switch"
+msgstr "Mbani ndryshimet"
+
+#. [Wiki] Label for the button on the confirmation dialog for switching to source editing to continue and switch editors when doing so will throw away your changes.
+#, fuzzy
+msgctxt "visualeditor-mweditmodesource-warning-switch-discard"
+msgid "Discard my changes and switch"
+msgstr "Hidhni ndryshimet"
+
+#. [Wiki] Body text of popup shown after switching to source mode from visual mode
+msgctxt "visualeditor-mweditmodeve-popup-body"
+msgid "You can switch back to visual editing at any time by clicking on this icon."
+msgstr ""
+
+#. [Wiki] Title of popup shown after switching to source mode from visual mode
+msgctxt "visualeditor-mweditmodeve-popup-title"
+msgid "You have switched to source editing"
+msgstr ""
+
+#. [Wiki] Title of progress bar shown while switching to visual mode.
+msgctxt "visualeditor-mweditmodeve-progress"
+msgid "Switching to visual editing…"
+msgstr ""
+
+#. [Wiki] Label for the checkboxes to not show one of the 'switched to visual mode' or 'switched to source mode' popups again
+msgctxt "visualeditor-mweditmodeve-showagain"
+msgid "Don't show this message again"
+msgstr ""
+
+#. [Wiki] Title of dialog to confirm switching to visual mode.
+msgctxt "visualeditor-mweditmodeve-title"
+msgid "Switch to visual editing?"
+msgstr ""
+
+#. [Wiki] Label for tool that changes edit mode to visual editing (or describes the mode if the user is already in that mode).
+msgctxt "visualeditor-mweditmodeve-tool-current"
+msgid "Visual editing"
+msgstr ""
+
+#. [Wiki] Label for tool that changes edit mode to visual editing when it is not available.
+msgctxt "visualeditor-mweditmodeve-tool-unavailable"
+msgid "Visual editing is not available here"
+msgstr ""
+
+#. [Wiki] Warning message show before changing edit mode to visual editing. It may allow the user to keep the changes using the message {{msg-mw|Visualeditor-mweditmodesource-warning-switch}}, or instaed that they'd need to start source editing from scratch using {{msg-mw|Visualeditor-mweditmodesource-warning-switch-discard}}.
+msgctxt "visualeditor-mweditmodeve-warning"
+msgid "You are switching to visual editing.\nDo you want to continue?"
+msgstr ""
+
+#. [Wiki] Body text of popup shown after switching to visual mode from source mode
+msgctxt "visualeditor-mweditmodewt-popup-body"
+msgid "You can switch back to source editing at any time by clicking on this icon."
+msgstr ""
+
+#. [Wiki] Title of popup shown after switching to visual mode from source mode
+msgctxt "visualeditor-mweditmodewt-popup-title"
+msgid "You have switched to visual editing"
+msgstr ""
+
+#. [Wiki] Label for the caption field of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-caption-field-label"
+msgid "Gallery caption"
+msgstr ""
+
+#. [Wiki] Placeholder for the caption input of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-caption-input-placeholder"
+msgid "Caption for the whole gallery"
+msgstr ""
+
+#. [Wiki] Title for the images card of the gallery dialog
+#. [Wiki] {{Identical|Image}}
+msgctxt "visualeditor-mwgallerydialog-card-images"
+msgid "Images"
+msgstr ""
+
+#. [Wiki] Title for the options card of the gallery dialog
+#. [Wiki] {{Identical|Options}}
+msgctxt "visualeditor-mwgallerydialog-card-options"
+msgid "Options"
+msgstr ""
+
+#. [Wiki] Label for the classes field of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-classes-field-label"
+msgid "CSS classes"
+msgstr ""
+
+#. [Wiki] Placeholder for the classes input of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-classes-input-placeholder"
+msgid "Class names, space-separated"
+msgstr ""
+
+#. [Wiki] Empty gallery message for the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-empty-gallery-message"
+msgid "The gallery is empty."
+msgstr ""
+
+#. [Wiki] Label for the heights field of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-heights-field-label"
+msgid "Image height"
+msgstr ""
+
+#. [Wiki] Placeholder for the heights input
+msgctxt "visualeditor-mwgallerydialog-heights-input-placeholder"
+msgid "Default height: $1 px"
+msgstr ""
+
+#. [Wiki] Placeholder for an image caption
+msgctxt "visualeditor-mwgallerydialog-image-caption-placeholder"
+msgid "Image caption"
+msgstr ""
+
+#. [Wiki] Label for the nolines option in the mode dropdown of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-mode-dropdown-label-nolines"
+msgid "Traditional with no outlines"
+msgstr ""
+
+#. [Wiki] Label for the packed option in the mode dropdown of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-mode-dropdown-label-packed"
+msgid "Packed"
+msgstr ""
+
+#. [Wiki] Label for the packed-hover option in the mode dropdown of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-mode-dropdown-label-packed-hover"
+msgid "Packed with captions on hover"
+msgstr ""
+
+#. [Wiki] Label for the packed-overlay option in the mode dropdown of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-mode-dropdown-label-packed-overlay"
+msgid "Packed with overlaid captions"
+msgstr ""
+
+#. [Wiki] Label for the slideshow option in the mode dropdown of the gallery dialog
+#. [Wiki] {{Identical|Slideshow}}
+msgctxt "visualeditor-mwgallerydialog-mode-dropdown-label-slideshow"
+msgid "Slideshow"
+msgstr ""
+
+#. [Wiki] Label for the traditional option in the mode dropdown of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-mode-dropdown-label-traditional"
+msgid "Traditional"
+msgstr ""
+
+#. [Wiki] Label for the mode field of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-mode-field-label"
+msgid "Display mode"
+msgstr ""
+
+#. [Wiki] Label for the perrow field of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-perrow-field-label"
+msgid "Images per row"
+msgstr ""
+
+#. [Wiki] Label for the remove image button of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-remove-button-label"
+msgid "Remove image"
+msgstr ""
+
+#. [Wiki] Label for the show search panel button of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-search-button-label"
+msgid "Add new image"
+msgstr ""
+
+#. [Wiki] Label for the show filename field of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-show-filename-field-label"
+msgid "Show filenames"
+msgstr ""
+
+#. [Wiki] Label for the styles field of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-styles-field-label"
+msgid "CSS styles"
+msgstr ""
+
+#. [Wiki] Placeholder for the styles input of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-styles-input-placeholder"
+msgid "CSS rules, semicolon-separated"
+msgstr ""
+
+#. [Wiki] Title for the gallery dialog
+#. [Wiki] {{Identical|Gallery}}
+msgctxt "visualeditor-mwgallerydialog-title"
+msgid "Gallery"
+msgstr "Galeria"
+
+#. [Wiki] Label for the widths field of the gallery dialog
+msgctxt "visualeditor-mwgallerydialog-widths-field-label"
+msgid "Image width"
+msgstr ""
+
+#. [Wiki] Placeholder for the widths input
+msgctxt "visualeditor-mwgallerydialog-widths-input-placeholder"
+msgid "Default width: $1 px"
+msgstr ""
+
+#. [Wiki] Description of text where language variant conversion is disabled
+msgctxt "visualeditor-mwlanguagevariant-disabled"
+msgid "Variant conversion disabled"
+msgstr ""
+
+#. [Wiki] Description of a text where language variant conversion is filtered to a specific set of variants
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the specific set of language variants
+msgctxt "visualeditor-mwlanguagevariant-filter"
+msgid "Variants filtered to $1"
+msgstr ""
+
+#. [Wiki] Description of a language variant rule displaying the localized name of a language code
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the localized language name
+msgctxt "visualeditor-mwlanguagevariant-name"
+msgid "Language name: $1"
+msgstr ""
+
+#. [Wiki] Description of a one-way language variant conversion rule
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the language variants named in the rule
+msgctxt "visualeditor-mwlanguagevariant-oneway"
+msgid "One-way conversion: $1"
+msgstr ""
+
+#. [Wiki] Description of a standard language variant conversion rule
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - the language variants named in the rule
+msgctxt "visualeditor-mwlanguagevariant-twoway"
+msgid "Language conversion: $1"
+msgstr ""
+
+#. [Wiki] Description of a language variant rule of unknown type
+msgctxt "visualeditor-mwlanguagevariant-unknown"
+msgid "Language variant"
+msgstr ""
+
+#. [Wiki] Text at the bottom of language variant conversion rule context item explaining that the rule sets the describe flag
+msgctxt "visualeditor-mwlanguagevariantcontextitem-flag-describe"
+msgid "This is a described rule."
+msgstr ""
+
+#. [Wiki] Text at the bottom of language variant conversion rule context item explaining that the rule is not shown
+msgctxt "visualeditor-mwlanguagevariantcontextitem-flag-hidden"
+msgid "This is a hidden rule."
+msgstr ""
+
+#. [Wiki] Text at the bottom of language variant conversion rule context item explaining that the rule sets the title flag
+msgctxt "visualeditor-mwlanguagevariantcontextitem-flag-title"
+msgid "This rule affects the page title."
+msgstr ""
+
+#. [Wiki] Column header for language variant rule table, giving the language code for a rule.
+#. [Wiki] {{Identical|Language code}}
+msgctxt "visualeditor-mwlanguagevariantcontextitem-rule-code-label"
+msgid "Language code"
+msgstr ""
+
+#. [Wiki] Label indicating the given language code is invalid.
+#. [Wiki] {{Identical|Invalid}}
+msgctxt "visualeditor-mwlanguagevariantcontextitem-rule-invalid-language-label"
+msgid "<Invalid>"
+msgstr ""
+
+#. [Wiki] Column header for language variant rule table, giving language name for a rule.
+#. [Wiki] {{Identical|Language}}
+msgctxt "visualeditor-mwlanguagevariantcontextitem-rule-name-label"
+msgid "Language"
+msgstr ""
+
+#. [Wiki] Column header for language variant rule table, giving source text for a one-way rule
+#. [Wiki] {{Identical|Source}}
+msgctxt "visualeditor-mwlanguagevariantcontextitem-rule-text-from-label"
+msgid "Source"
+msgstr ""
+
+#. [Wiki] Column header for language variant rule table, giving destination text for a one-way rule
+#. [Wiki] {{Identical|Destination}}
+msgctxt "visualeditor-mwlanguagevariantcontextitem-rule-text-to-label"
+msgid "Destination"
+msgstr ""
+
+#. [Wiki] Column header for language variant rule table, giving destination text for a conversion rule
+#. [Wiki] {{Identical|Text}}
+msgctxt "visualeditor-mwlanguagevariantcontextitem-rule-text-twoway-label"
+msgid "Text"
+msgstr ""
+
+#. [Wiki] Title shown at top of context item where language variant conversion is disabled
+msgctxt "visualeditor-mwlanguagevariantcontextitem-title-disabled"
+msgid "Variant conversion disabled"
+msgstr ""
+
+#. [Wiki] Title shown at top of context item where language variants are filtered for conversion
+msgctxt "visualeditor-mwlanguagevariantcontextitem-title-filter"
+msgid "Variant filter"
+msgstr ""
+
+#. [Wiki] Title shown at top of context item where localized name of language is converted
+#. [Wiki] {{Identical|Language name}}
+msgctxt "visualeditor-mwlanguagevariantcontextitem-title-name"
+msgid "Language name"
+msgstr ""
+
+#. [Wiki] Title shown at top of context item for a one-way language variant conversion rule
+msgctxt "visualeditor-mwlanguagevariantcontextitem-title-oneway"
+msgid "One-way conversion rule"
+msgstr ""
+
+#. [Wiki] Title shown at top of context item for a standard language variant conversion rule
+msgctxt "visualeditor-mwlanguagevariantcontextitem-title-twoway"
+msgid "Language conversion rule"
+msgstr ""
+
+#. [Wiki] Title shown at top of context item for a language variant markup of unknown type
+msgctxt "visualeditor-mwlanguagevariantcontextitem-title-unknown"
+msgid "Language variant"
+msgstr ""
+
+#. [Wiki] Placeholder text shown when there are no contents in a language variant markup disabled region
+msgctxt "visualeditor-mwlanguagevariantinspector-disabled-placeholder"
+msgid "Text protected from variant conversion"
+msgstr ""
+
+#. [Wiki] Label shown above list of languages for a language variant filter
+#. [Wiki] {{Identical|Language}}
+msgctxt "visualeditor-mwlanguagevariantinspector-filter-langs-label"
+msgid "Languages"
+msgstr ""
+
+#. [Wiki] Placeholder text shown in the language selection list
+msgctxt "visualeditor-mwlanguagevariantinspector-filter-langs-placeholder"
+msgid "Language code"
+msgstr ""
+
+#. [Wiki] Label shown above area used to edit the contents of a language variant filter
+#. [Wiki] {{Identical|Content}}
+msgctxt "visualeditor-mwlanguagevariantinspector-filter-text-label"
+msgid "Contents"
+msgstr ""
+
+#. [Wiki] Placeholder text shown when there are no contents in a language variant filter
+msgctxt "visualeditor-mwlanguagevariantinspector-filter-text-placeholder"
+msgid "Filtered text"
+msgstr ""
+
+#. [Wiki] Label on button to add a new case to a one-way language conversion rule.
+msgctxt "visualeditor-mwlanguagevariantinspector-oneway-add-button"
+msgid "Add new case"
+msgstr ""
+
+#. [Wiki] Label on button to remove a case from a one-way language conversion rule.
+msgctxt "visualeditor-mwlanguagevariantinspector-oneway-clear-button"
+msgid "Remove case"
+msgstr ""
+
+#. [Wiki] Placeholder for source text on a new one-way conversion rule case.
+msgctxt "visualeditor-mwlanguagevariantinspector-oneway-from-text-placeholder"
+msgid "Source text"
+msgstr ""
+
+#. [Wiki] Placeholder for destination text on a new one-way conversion rule case.
+msgctxt "visualeditor-mwlanguagevariantinspector-oneway-to-text-placeholder"
+msgid "Variant text"
+msgstr ""
+
+#. [Wiki] Title shown at top of inspector where language variant conversion is disabled.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-mwlanguagevariantcontextitem-title-disabled}}
+msgctxt "visualeditor-mwlanguagevariantinspector-title-disabled"
+msgid "Variant conversion disabled"
+msgstr ""
+
+#. [Wiki] Title shown at top of inspector where language variants are filtered for conversion.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-mwlanguagevariantcontextitem-title-filter}}
+msgctxt "visualeditor-mwlanguagevariantinspector-title-filter"
+msgid "Variant filter"
+msgstr ""
+
+#. [Wiki] Title shown at top of inspector where localized name of language is converted.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-mwlanguagevariantcontextitem-title-name}}
+msgctxt "visualeditor-mwlanguagevariantinspector-title-name"
+msgid "Language name"
+msgstr ""
+
+#. [Wiki] Title shown at top of inspector for a one-way language variant conversion rule.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-mwlanguagevariantcontextitem-title-oneway}}
+msgctxt "visualeditor-mwlanguagevariantinspector-title-oneway"
+msgid "One-way conversion rule"
+msgstr ""
+
+#. [Wiki] Title shown at top of inspector for a standard language variant conversion rule.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-mwlanguagevariantcontextitem-title-twoway}}
+msgctxt "visualeditor-mwlanguagevariantinspector-title-twoway"
+msgid "Language conversion rule"
+msgstr ""
+
+#. [Wiki] Label on button to add a new case to a language conversion rule.
+msgctxt "visualeditor-mwlanguagevariantinspector-twoway-add-button"
+msgid "Add new case"
+msgstr ""
+
+#. [Wiki] Label on button to remove a case from a language conversion rule.
+msgctxt "visualeditor-mwlanguagevariantinspector-twoway-clear-button"
+msgid "Remove case"
+msgstr ""
+
+#. [Wiki] Placeholder for text on a new conversion rule case.
+msgctxt "visualeditor-mwlanguagevariantinspector-twoway-text-placeholder"
+msgid "Variant text"
+msgstr ""
+
+#. [Wiki] Label for a button which will convert the preformatted text block into a form which can have text styles applied (e.g. bold, italic, links).
+msgctxt "visualeditor-mwpredialog-convert"
+msgid "Allow text styling"
+msgstr ""
+
+#. [Wiki] Title for the preformatted text dialog. It appears when clicking on a <nowiki><pre></nowiki> element.
+msgctxt "visualeditor-mwpredialog-title"
+msgid "Preformatted plain text"
+msgstr ""
+
+#. [Wiki] Used as name of the tool for inserting signatures.
+msgctxt "visualeditor-mwsignature-tool"
+msgid "Your signature"
+msgstr ""
+
+#. [Wiki] Tooltip text for the page menu which has the following items:
+#. [Wiki] * {{msg-mw|visualeditor-meta-tool}}
+#. [Wiki] * {{msg-mw|visualeditor-settings-tool}}
+#. [Wiki] * {{msg-mw|visualeditor-advancedsettings-tool}}
+#. [Wiki] * {{msg-mw|visualeditor-categories-tool}}
+#. [Wiki] * {{msg-mw|visualeditor-languages-tool}}
+#. [Wiki] * {{msg-mw|visualeditor-mweditmodesource-title}}
+#. [Wiki] * {{msg-mw|visualeditor-dialog-command-help-title}}
+msgctxt "visualeditor-pagemenu-tooltip"
+msgid "Page options"
+msgstr "Opcionet e faqes"
+
+#. [Wiki] Edit notice shown when VisualEditor loads, warning users editing a translated page that it is not officially supported.
+#, fuzzy
+msgctxt "visualeditor-pagetranslationwarning"
+msgid "You are editing a translatable page. Editing these in this editor is not yet officially supported."
+msgstr "Ju jeni duke redaktuar një faqe që përkthehet. Redaktimi i tyre në VisualEditor nuk përkrahet ende zyrtarisht."
+
+#. [Wiki] Placeholder text label for an input for adding a parameter to a template.
+#. [Wiki] {{Identical|Field name}}
+msgctxt "visualeditor-parameter-input-placeholder"
+msgid "Field name"
+msgstr "Emri i parametrit"
+
+#. [Wiki] Label for item in parameter list that, when clicked, reveals additional parameters that had been truncated to save space.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - number of fields (parameters)
+msgctxt "visualeditor-parameter-search-more"
+msgid "Show {{PLURAL:$1|one more field|$1 more fields}}"
+msgstr ""
+
+#. [Wiki] Message displayed in the transclusion dialog when no known parameters are unused by this template.
+msgctxt "visualeditor-parameter-search-no-unused"
+msgid "No unused fields"
+msgstr "Asnjë fushë e papërdorur"
+
+#. [Wiki] {{Identical|Unknown parameter}}
+msgctxt "visualeditor-parameter-search-unknown"
+msgid "Unknown field"
+msgstr "Fushë e panjohur"
+
+#. [Wiki] Label for the temporary user preference to disable VisualEditor while it is in beta.
+#, fuzzy
+msgctxt "visualeditor-preference-betatempdisable"
+msgid "Temporarily disable the visual editor while it is in beta"
+msgstr "Çaktivizo përkohësisht VisualEditor për sa kohë është në fazën e provës"
+
+#. [Wiki] Used in [[Special:Preferences]].
+#. [Wiki] 
+#. [Wiki] Used as description for the checkbox to enable the visual editor.
+#. [Wiki] 
+#. [Wiki] The label for this checkbox is {{msg-mw|Visualeditor-preference-core-label}}.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-preference-enable}}
+#, fuzzy
+msgctxt "visualeditor-preference-core-description"
+msgid "Enable the visual editor. It will not be available on talk pages and some other namespaces."
+msgstr "Aktivizo VisualEditor. Mund të mos jetë në dispozicion në faqet e diskutimit dhe në disa hapësira të tjera."
+
+#. [Wiki] {{optional|Used on [[Special:Preferences]] as a link to a page where users can discuss this Beta Feature. Defaults to a page on MediaWiki.org.}}
+#, optional
+msgctxt "visualeditor-preference-core-discussion-link"
+msgid "//mediawiki.org/wiki/Special:MyLanguage/VisualEditor/Feedback"
+msgstr ""
+
+#. [Wiki] {{optional|Used on [[Special:Preferences]] as a link to a page where users can learn about this Beta Feature. Defaults to a page on MediaWiki.org.}}
+#, optional
+msgctxt "visualeditor-preference-core-info-link"
+msgid "//mediawiki.org/wiki/Special:MyLanguage/VisualEditor/Beta_Features/General"
+msgstr ""
+
+#. [Wiki] Used in [[Special:Preferences]].
+#. [Wiki] 
+#. [Wiki] Used as label for checkbox to enable the visual editor.
+#. [Wiki] 
+#. [Wiki] The description for this checkbox is: {{msg-mw|Visualeditor-preference-core-description}}
+msgctxt "visualeditor-preference-core-label"
+msgid "Visual editing"
+msgstr "Redaktim vizual"
+
+#. [Wiki] Label for the user preference to enable VisualEditor while it is in alpha (opt-in) mode.
+#. [Wiki] Links are in {{msg-mw|Visualeditor-mainnamespacepagelink}} and {{msg-mw|visualeditor-usernamespacepagelink}}.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - Comma separated list of namespace names.
+#. [Wiki] * $2 - Number of namespaces in which it will be used.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-preference-core-description}}
+#, fuzzy
+msgctxt "visualeditor-preference-enable"
+msgid "Enable the visual editor. It will be available in the following {{PLURAL:$2|namespace|namespaces}}: $1"
+msgstr "Aktivizo VisualEditor. Nuk do të jetë e disponueshme ne faqet e bisedës dhe disa faqe të tjera."
+
+#. [Wiki] Used in [[Special:Preferences]].
+#. [Wiki] 
+#. [Wiki] Used as description for the checkbox to enable the new wikitext editor.
+#. [Wiki] 
+#. [Wiki] The label for this checkbox is {{msg-mw|Visualeditor-preference-newwikitexteditor-label}}.
+msgctxt "visualeditor-preference-newwikitexteditor-description"
+msgid "Enable the new wikitext mode inside the visual editor. It has many of the tools present in the visual editor, uses a similar design, and allows better switching between the two."
+msgstr ""
+
+#. [Wiki] Label for the user preference to use the wikitext mode inside the visual editor. It replaces the wikitext editor software.
+msgctxt "visualeditor-preference-newwikitexteditor-enable"
+msgid "Use the wikitext mode inside the visual editor, instead of a different wikitext editor."
+msgstr ""
+
+#. [Wiki] Used in [[Special:Preferences]].
+#. [Wiki] 
+#. [Wiki] Used as label for checkbox to enable the new wikitext editor.
+#. [Wiki] 
+#. [Wiki] The description for this checkbox is {{msg-mw|Visualeditor-preference-newwikitexteditor-description}}
+msgctxt "visualeditor-preference-newwikitexteditor-label"
+msgid "New wikitext mode"
+msgstr ""
+
+#. [Wiki] Label for the user preference to change how VisualEditor tabs display to the user
+msgctxt "visualeditor-preference-tabs"
+msgid "Editing mode:"
+msgstr ""
+
+#. [Wiki] Used in [[Special:Preferences]].
+#. [Wiki] 
+#. [Wiki] Used as label for a radio button to have VisualEditor always use a separate tab. Shown together with the following buttons, so consider formulating them consistently:
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-prefer-ve}}
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-prefer-wt}}
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-remember-last}}
+msgctxt "visualeditor-preference-tabs-multi-tab"
+msgid "Show me both editor tabs"
+msgstr ""
+
+#. [Wiki] Used in [[Special:Preferences]].
+#. [Wiki] 
+#. [Wiki] Used as label for a radio button to have VisualEditor be the preferred editor. Shown together with the following buttons, so consider formulating them consistently:
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-multi-tab}}
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-prefer-wt}}
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-remember-last}}
+msgctxt "visualeditor-preference-tabs-prefer-ve"
+msgid "Always give me the visual editor if possible"
+msgstr ""
+
+#. [Wiki] Used in [[Special:Preferences]].
+#. [Wiki] 
+#. [Wiki] Used as label for a radio button to have the wikitext editor be the preferred editor. Shown together with the following buttons, so consider formulating them consistently:
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-multi-tab}}
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-prefer-ve}}
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-remember-last}}
+msgctxt "visualeditor-preference-tabs-prefer-wt"
+msgid "Always give me the source editor"
+msgstr ""
+
+#. [Wiki] Used in [[Special:Preferences]].
+#. [Wiki] 
+#. [Wiki] Used as label for a radio button to have VisualEditor remember whether it was the last editor or not. Shown together with the following buttons, so consider formulating them consistently:
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-multi-tab}}
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-prefer-ve}}
+#. [Wiki] * {{msg-mw|Visualeditor-preference-tabs-prefer-wt}}
+msgctxt "visualeditor-preference-tabs-remember-last"
+msgid "Remember my last editor"
+msgstr ""
+
+#. [Wiki] Used in [[Special:Preferences]].
+#. [Wiki] 
+#. [Wiki] Used as description for the checkbox to enable the new visual difference mode.
+#. [Wiki] 
+#. [Wiki] The label for this checkbox is {{msg-mw|Visualeditor-preference-visualdiffpage-label}}.
+msgctxt "visualeditor-preference-visualdiffpage-description"
+msgid "Enable the new visual mode on revision difference pages."
+msgstr ""
+
+#. [Wiki] {{optional|Used on [[Special:Preferences]] as a link to a page where users can discuss this Beta Feature. Defaults to a page on MediaWiki.org.}}
+#, optional
+msgctxt "visualeditor-preference-visualdiffpage-discussion-link"
+msgid "//www.mediawiki.org/wiki/Talk:VisualEditor/Diffs"
+msgstr ""
+
+#. [Wiki] {{optional|Used on [[Special:Preferences]] as a link to a page where users can learn about this Beta Feature. Defaults to a page on MediaWiki.org.}}
+#, optional
+msgctxt "visualeditor-preference-visualdiffpage-info-link"
+msgid "//www.mediawiki.org/wiki/VisualEditor/Diffs"
+msgstr ""
+
+#. [Wiki] Used in [[Special:Preferences]].
+#. [Wiki] 
+#. [Wiki] Used as label for checkbox to enable the new visual difference mode.
+#. [Wiki] 
+#. [Wiki] The description for this checkbox is {{msg-mw|Visualeditor-preference-visualdiffpage-description}}
+msgctxt "visualeditor-preference-visualdiffpage-label"
+msgid "Visual differences"
+msgstr ""
+
+#. [Wiki] Label for button to export a document
+#. [Wiki] {{Identical|Export}}
+msgctxt "visualeditor-rebase-client-export"
+msgid "Export"
+msgstr ""
+
+#. [Wiki] Label for button to import a document from the wiki
+msgctxt "visualeditor-rebase-client-import"
+msgid "Import"
+msgstr ""
+
+#. [Wiki] Label import document input
+msgctxt "visualeditor-rebase-client-import-name"
+msgid "Page title"
+msgstr ""
+
+#. [Wiki] Text shown when the editor fails to save the page due to it having been deleted since they opened VE. $1 is the message {{msg-mw|ooui-dialog-process-continue}}.
+msgctxt "visualeditor-recreate"
+msgid "The page has been deleted since you started editing. Press \"$1\" to recreate it."
+msgstr "Kjo faqe është fshirë qysh prej se keni filluar ju editimin. Shtypni \"$1\" për ta rikthtyer."
+
+#. [Wiki] Title shown as the description of redirect nodes.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - Target title of redirect
+msgctxt "visualeditor-redirect-description"
+msgid "Redirect to $1"
+msgstr ""
+
+#. [Wiki] Error displayed in the save dialog if saving the edit failed due to an invalid edit token (likely due to the user having logged out in a separate window, or logged in again)
+#, fuzzy
+msgctxt "visualeditor-savedialog-error-badtoken"
+msgid "We could not save your edit because the session was no longer valid."
+msgstr "Nuk mundëm të përpunojmë redaktimin tuaj sepse sesioni nuk është më i vlefshëm."
+
+#. [Wiki] Displayed in the save dialog if saving failed because the session expired and the session is now an anonymous user. Warning about IP address being recorded is based on {{msg-mw|anoneditwarning}}.
+#. [Wiki] 
+#. [Wiki] {{format|jquerymsg}}
+msgctxt "visualeditor-savedialog-identify-anon"
+msgid "Do you want to save this page as an anonymous user instead? Your IP address will be recorded in this page's edit history."
+msgstr "Dëshironi të kryeni ndryshimet në këtë faqe si përdorues anonim? Adresa juaj IP do të regjistrohent në historikun e faqes."
+
+#. [Wiki] Displayed in the save dialog if saving failed because the session expired and we also encountered an error while trying to figure out for which user the current session. This is usually due to the user getting logged out on a private wiki.
+msgctxt "visualeditor-savedialog-identify-trylogin"
+msgid "You are no longer logged in. Please log back in from a different tab and try again."
+msgstr ""
+
+#. [Wiki] Displayed in the save dialog if saving failed because the session expired and the session is now for a different user account.
+#. [Wiki] {{format|jquerymsg}}
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - username
+msgctxt "visualeditor-savedialog-identify-user"
+msgid "You are now logged in as [[User:$1|$1]]. Your edit will be associated with this account if you save this edit."
+msgstr "Ju jeni kyçur me emrin [[User:$1|$1]]. Nëse ruani ndryshimet, ky redaktim do të shoqërohet në llogarinë tuaj."
+
+#. [Wiki] Message shown when the user tried to submit the Save dialog using the Enter key, advising them to use Ctrl+Enter/Cmd+Enter (depending on the platform) instead.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 - either Ctrl+Enter or Cmd+Enter
+msgctxt "visualeditor-savedialog-keyboard-shortcut-submit"
+msgid "You can press $1 to save your edit."
+msgstr ""
+
+#. [Wiki] Label text for save button when the user is creating a new page
+#. [Wiki] {{Identical|Create page}}
+msgctxt "visualeditor-savedialog-label-create"
+msgid "Create page"
+msgstr "Krijo faqe"
+
+#. [Wiki] Label in front of a save dialog error sentence, separated by {{msg-mw|colon-separator}}.
+#. [Wiki] {{Identical|Error}}
+msgctxt "visualeditor-savedialog-label-error"
+msgid "Error"
+msgstr "Gabim"
+
+#. [Wiki] Short label text for save button on public wikis for use on width-restricted devices like mobile phones. This should be as short as possible.
+#. [Wiki] {{Identical|Publish}}
+msgctxt "visualeditor-savedialog-label-publish-short"
+msgid "Publish"
+msgstr ""
+
+#. [Wiki] Short label text for button to start publish process. Usually just {{msg-mw|visualeditor-savedialog-label-publish-short}} with an ellipsis (…).
+#. [Wiki] {{Identical|Publish}}
+msgctxt "visualeditor-savedialog-label-publish-short-start"
+msgid "Publish…"
+msgstr ""
+
+#. [Wiki] Label for button to trigger report
+msgctxt "visualeditor-savedialog-label-report"
+msgid "Report problem"
+msgstr "Raporto një problem"
+
+#. [Wiki] Label for button to start resoliving an edit conflict
+msgctxt "visualeditor-savedialog-label-resolve-conflict"
+msgid "Resolve conflict"
+msgstr "Zgjidh konfliktin"
+
+#. [Wiki] Label for button to exit the save dialog without saving, and return to editing.
+msgctxt "visualeditor-savedialog-label-resume-editing"
+msgid "Resume editing"
+msgstr "Rinisni redaktimi"
+
+#. [Wiki] Label for button to go to the review dialog to review the diff
+msgctxt "visualeditor-savedialog-label-review"
+msgid "Review your changes"
+msgstr "Rishiko ndryshimet"
+
+#. [Wiki] Label for button to go back to a page in order to save form
+msgctxt "visualeditor-savedialog-label-review-good"
+msgid "Return to save form"
+msgstr "Rikthehu në mudulin e ruajtjes"
+
+#. [Wiki] Short label text for save button on private wikis for use on width-restricted devices like mobile phones. This should be as short as possible.
+#. [Wiki] {{Identical|Save}}
+msgctxt "visualeditor-savedialog-label-save-short"
+msgid "Save"
+msgstr "Ruaje"
+
+#. [Wiki] Short label text for button to start save process. Usually just {{msg-mw|visualeditor-savedialog-label-save-short}} with an ellipsis (…).
+#. [Wiki] {{Identical|Save}}
+msgctxt "visualeditor-savedialog-label-save-short-start"
+msgid "Save…"
+msgstr ""
+
+#. [Wiki] Label for button to report a problem with the visual diff
+msgctxt "visualeditor-savedialog-label-visual-diff-report"
+msgid "Report incorrect display for this change"
+msgstr ""
+
+#. [Wiki] Label in front of a save dialog warning sentence, separated by {{msg-mw|colon-separator}}.
+#. [Wiki] {{Identical|Warning}}
+msgctxt "visualeditor-savedialog-label-warning"
+msgid "Warning"
+msgstr "Paralajmërim"
+
+#. [Wiki] Message shown when no edit summary was provided.
+msgctxt "visualeditor-savedialog-review-nosummary"
+msgid "No edit summary"
+msgstr ""
+
+#. [Wiki] Label for button to select visual diff mode.
+msgctxt "visualeditor-savedialog-review-visual"
+msgid "Visual"
+msgstr ""
+
+#. [Wiki] Label for button to select wikitext diff mode.
+#. [Wiki] {{Identical|Wikitext}}
+msgctxt "visualeditor-savedialog-review-wikitext"
+msgid "Wikitext"
+msgstr ""
+
+#. [Wiki] Title for save dialog slide if there is an edit conflict
+#. [Wiki] {{Identical|Conflict}}
+msgctxt "visualeditor-savedialog-title-conflict"
+msgid "Conflict"
+msgstr "Konflikt"
+
+#. [Wiki] Title for save dialog slide for the HTML preview from wikitext mode
+msgctxt "visualeditor-savedialog-title-preview"
+msgid "Preview your changes"
+msgstr ""
+
+#. [Wiki] Title for save dialog slide for the wikitext diff
+msgctxt "visualeditor-savedialog-title-review"
+msgid "Review your changes"
+msgstr "Rishiko ndryshimet"
+
+#. [Wiki] Title for save dialog slide for the final save step. Appears between the buttons {{msg-mw|visualeditor-toolbar-savedialog}} and {{msg-mw|visualeditor-dialog-action-cancel}}.
+msgctxt "visualeditor-savedialog-title-save"
+msgid "Save your changes"
+msgstr "Kryej ndryshimet"
+
+#. [Wiki] Note displayed to users in the save dialog if VisualEditor believes that it may have corrupted the page.
+msgctxt "visualeditor-savedialog-warning-dirty"
+msgid "Your edit may have been corrupted – please review before saving."
+msgstr "Redaktimi juaj mund të ketë qënë i dëmtuar – ju lutem shikojeni para se të kryeni ndryshimet."
+
+#. [Wiki] Text shown when the editor fails to save properly.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 is an error message, in English.
+msgctxt "visualeditor-saveerror"
+msgid "Error saving data to server: $1."
+msgstr "Gabim gjatë ruajtjes së të dhënave nga serveri: $1."
+
+#. [Wiki] Text shown when the editor fails to save properly due to an unknown extension abort.
+msgctxt "visualeditor-saveerror-hookaborted"
+msgid "Error saving page: An extension on the server prevented you from saving."
+msgstr ""
+
+#. [Wiki] Placeholder for surface when adding a new section
+msgctxt "visualeditor-section-body-placeholder"
+msgid "New section"
+msgstr ""
+
+#. [Wiki] Placeholder for title input when adding a new section
+#. [Wiki] {{Identical|Subject}}
+msgctxt "visualeditor-section-title-placeholder"
+msgid "Subject"
+msgstr ""
+
+#. [Wiki] Text shown when the editor fails to load the wikitext for saving.
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 is an error message, in English.
+msgctxt "visualeditor-serializeerror"
+msgid "Error loading data from server: $1."
+msgstr "Gabim gjatë ngarkimit të të dhënave nga serveri: $1."
+
+#. [Wiki] Text of tool in the toolbar the lets users set specific page settings.
+#. [Wiki] {{Identical|Page settings}}
+msgctxt "visualeditor-settings-tool"
+msgid "Page settings"
+msgstr "Konfigurimet e faqes"
+
+#. [Wiki] Label of the special character group shown if the wiki has visualeditor-quick-access-characters.json set up.
+msgctxt "visualeditor-special-characters-group-other"
+msgid "Often used"
+msgstr "Shpesh përdoret"
+
+#. [Wiki] Label of toolbar tool that shows templates used on this page.
+msgctxt "visualeditor-templatesused-tool"
+msgid "Templates used"
+msgstr ""
+
+#. [Wiki] Error displayed when a page title is invalid.
+msgctxt "visualeditor-title-error"
+msgid "Invalid title."
+msgstr ""
+
+#. [Wiki] Text shown to the user in place of the wikitext editor on action=edit/submit when VisualEditor is expected to load.
+#. [Wiki] 
+#. [Wiki] Parameters
+#. [Wiki] * $1 is the URL which points to a page with a fallback to the wikitext editor if necessary.
+msgctxt "visualeditor-toload"
+msgid "The editor will now load. If you still see this message after a few seconds, please [$1 reload the page]."
+msgstr ""
+
+#. [Wiki] Label text for button to open save dialog.
+#. [Wiki] 
+#. [Wiki] Used in:
+#. [Wiki] * {{msg-mw|Guidedtour-tour-gettingstartedtasktoolbarve-click-save-description}}.
+#. [Wiki] {{Identical|Save page}}
+msgctxt "visualeditor-toolbar-savedialog"
+msgid "Save page"
+msgstr "Kryej ndryshimet"
+
+#. [Wiki] Short label text for button to open save dialog on width-restricted devices
+#. [Wiki] {{Identical|Save}}
+msgctxt "visualeditor-toolbar-savedialog-short"
+msgid "Save"
+msgstr ""
+
+#. [Wiki] Name of a page describing the user namespace (NS2) in this project.
+#. [Wiki] {{doc-important|Do not translate "Project"; it is automatically converted to the wiki's project namespace.}}
+msgctxt "visualeditor-usernamespacepagelink"
+msgid "Project:User namespace"
+msgstr "Project:Main namespace"
+
+#. [Wiki] Label text for version number
+#. [Wiki] {{Identical|Version}}
+msgctxt "visualeditor-version-label"
+msgid "Version"
+msgstr "Versioni"
+
+#. [Wiki] Label for progress bar shown while converting pasted wikitext.
+msgctxt "visualeditor-wikitext-progress"
+msgid "Converting wikitext"
+msgstr ""
+
+#. [Wiki] Contents of notification displayed when Wikitext has been detected.
+#. [Wiki] 
+#. [Wiki] Refers to:
+#. [Wiki] * {{msg-mw|Visualeditor-wikitext-warning-link}}
+#. [Wiki] * {{msg-mw|Visualeditor-toolbar-cancel}}
+#. [Wiki] * {{msg-mw|Visualeditor-mweditmodesource-title}}
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Visualeditor-beta-warning}}
+#, fuzzy
+msgctxt "visualeditor-wikitext-warning"
+msgid "You are using the visual editor - [[{{MediaWiki:visualeditor-wikitext-warning-link}}|wikitext]] does not work here. To switch to source editing at any time without losing your changes, click on the switch button."
+msgstr "Jeni duke përdorur VisualEditor - [[{{MediaWiki:visualeditor-wikitext-warning-link}}|wikiteksti]] nuk suprtohet nga ky mjet. Shtyp \"{{int:visualeditor-ca-editsource}}\" për të redaktuar tekstin burimor të faqes – ndryshimet e paruajtura do të fshihen."
+
+#. [Wiki] Title of notification displayed when Wikitext has been detected
+msgctxt "visualeditor-wikitext-warning-title"
+msgid "Wikitext markup detected"
+msgstr "U zbulua wikitekst"
+
+#. [Wiki] Title of prompt displayed when rich markup is pasted into a source mode editor.
+msgctxt "visualeditor-wikitextconvert-title"
+msgid "Convert formatting to wikitext?"
+msgstr ""
+
+#. [Wiki] Message displayed when asking whether to convert rich markup to wikitext or use just the plain text content of the markup.
+msgctxt "visualeditor-wikitextconvert-message"
+msgid "Your pasted content contains formatting. Should it be converted to wikitext, or inserted as plain text?"
+msgstr ""
+
+#. [Wiki] Label text for button to paste just plain text
+msgctxt "visualeditor-wikitextconvert-plain"
+msgid "Use plain text"
+msgstr ""
+
+#. [Wiki] Label text for button to convert pasted content to wikitext
+msgctxt "visualeditor-wikitextconvert-convert"
+msgid "Convert to wikitext"
+msgstr ""
+
+#. [Wiki] {{doc-apierror}}
+msgctxt "apierror-visualeditor-api-langlinks-error"
+msgid "Error querying MediaWiki API"
+msgstr ""
+
+#. [Wiki] {{doc-apierror}}
+msgctxt "apierror-visualeditor-badcachekey"
+msgid "No cached serialization found with that key"
+msgstr ""
+
+#. [Wiki] {{doc-apierror}}
+msgctxt "apierror-visualeditor-difffailed"
+msgid "Diff failed"
+msgstr ""
+
+#. [Wiki] {{doc-apierror}}
+msgctxt "apierror-visualeditor-docserver-unconfigured"
+msgid "The VirtualRESTService for the document server is not defined; see https://www.mediawiki.org/wiki/Extension:VisualEditor"
+msgstr ""
+
+#. [Wiki] {{doc-apierror}}
+msgctxt "apierror-visualeditor-docserver"
+msgid "Error contacting the Parsoid/RESTbase server"
+msgstr ""
+
+#. [Wiki] {{doc-apierror}}
+msgctxt "apierror-visualeditor-latestnotfound"
+msgid "Could not find latest revision for title"
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-description|visualeditor}}
+msgctxt "apihelp-visualeditor-description"
+msgid "Returns HTML5 for a page from the Parsoid service."
+msgstr "Kthen një faqe HTML5 prej një shërbimi Parsoid."
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|basetimestamp}}
+msgctxt "apihelp-visualeditor-param-basetimestamp"
+msgid "When saving, set this to the timestamp of the revision that was edited. Used to detect edit conflicts."
+msgstr "Kur ruani, vendosni këtë kohë të momentit të redaktimit. Përdoret për të detektuar konfliktet e redaktimit."
+
+#. [Wiki] In computer science, in the context of data storage, serialization is the process of translating data structures or object state into a format that can be stored (for example, in a file or memory buffer, or transmitted across a network connection link) and reconstructed later in the same or another computer environment.
+#. [Wiki] {{doc-apihelp-param|visualeditor|cachekey}}
+msgctxt "apihelp-visualeditor-param-cachekey"
+msgid "For serialize or diff, use the result of a previous serializeforcache request with this key. Overrides $1html."
+msgstr "Për serializim ose diferencim, përdorni rezultatin e një serializimi të kaluar për kërkesën me këtë çelës. Mbishkruan $1html."
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|editintro}}
+msgctxt "apihelp-visualeditor-param-editintro"
+msgid "Edit intro to add to notices."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|etag}}
+msgctxt "apihelp-visualeditor-param-etag"
+msgid "ETag to send."
+msgstr "ETag për të dërguar."
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|format}}
+msgctxt "apihelp-visualeditor-param-format"
+msgid "The format of the output."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|html}}
+msgctxt "apihelp-visualeditor-param-html"
+msgid "HTML to send to Parsoid to convert to wikitext."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|oldid}}
+msgctxt "apihelp-visualeditor-param-oldid"
+msgid "The revision number to use (defaults to latest revision)."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|paction}}
+msgctxt "apihelp-visualeditor-param-paction"
+msgid "Action to perform."
+msgstr "Veprim për tu kryer."
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|page}}
+msgctxt "apihelp-visualeditor-param-page"
+msgid "The page to perform actions on."
+msgstr "Faqja do të kryej veprime në."
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|preload}}
+msgctxt "apihelp-visualeditor-param-preload"
+msgid "The page to use content from if the fetched page has no content yet."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|preloadparams}}
+msgctxt "apihelp-visualeditor-param-preloadparams"
+msgid "Parameters to substitute into the preload page, if present."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|pst}}
+msgctxt "apihelp-visualeditor-param-pst"
+msgid "Pre-save transform wikitext before sending it to Parsoid (paction=parsefragment)."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|section}}
+msgctxt "apihelp-visualeditor-param-section"
+msgid "The section on which to act."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|starttimestamp}}
+msgctxt "apihelp-visualeditor-param-starttimestamp"
+msgid "When saving, set this to the timestamp of when the page was loaded. Used to detect edit conflicts."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditor|wikitext}}
+msgctxt "apihelp-visualeditor-param-wikitext"
+msgid "Wikitext to send to Parsoid to convert to HTML (paction=parsefragment)."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-summary|visualeditor}}
+msgctxt "apihelp-visualeditor-summary"
+msgid "Returns HTML5 for a page from the Parsoid service."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-description|visualeditoredit}}
+msgctxt "apihelp-visualeditoredit-description"
+msgid "Save an HTML5 page to MediaWiki (converted to wikitext via the Parsoid service)."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|basetimestamp}}
+msgctxt "apihelp-visualeditoredit-param-basetimestamp"
+msgid "When saving, set this to the timestamp of the revision that was edited. Used to detect edit conflicts."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|cachekey}}
+msgctxt "apihelp-visualeditoredit-param-cachekey"
+msgid "Use the result of a previous serializeforcache request with this key. Overrides $1html."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|captchaid}}
+msgctxt "apihelp-visualeditoredit-param-captchaid"
+msgid "Captcha ID (when saving with a captcha response)."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|captchaword}}
+msgctxt "apihelp-visualeditoredit-param-captchaword"
+msgid "Answer to the captcha (when saving with a captcha response)."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|etag}}
+msgctxt "apihelp-visualeditoredit-param-etag"
+msgid "ETag to send."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|html}}
+msgctxt "apihelp-visualeditoredit-param-html"
+msgid "HTML to send to Parsoid in exchange for wikitext."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|minor}}
+msgctxt "apihelp-visualeditoredit-param-minor"
+msgid "Flag for minor edit."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|needcheck}}
+msgctxt "apihelp-visualeditoredit-param-needcheck"
+msgid "When saving, set this parameter if the revision might have roundtrip problems. This will result in the edit being tagged."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|oldid}}
+msgctxt "apihelp-visualeditoredit-param-oldid"
+msgid "The revision number to use. Defaults to latest revision. Use 0 for a new page."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|paction}}
+msgctxt "apihelp-visualeditoredit-param-paction"
+msgid "Action to perform."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|page}}
+msgctxt "apihelp-visualeditoredit-param-page"
+msgid "The page to perform actions on."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|section}}
+msgctxt "apihelp-visualeditoredit-param-section"
+msgid "The section on which to act."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|sectiontitle}}
+msgctxt "apihelp-visualeditoredit-param-sectiontitle"
+msgid "Title for new section."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|starttimestamp}}
+msgctxt "apihelp-visualeditoredit-param-starttimestamp"
+msgid "When saving, set this to the timestamp of when the page was loaded. Used to detect edit conflicts."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|summary}}
+#. [Wiki] {{Identical|Edit summary}}
+msgctxt "apihelp-visualeditoredit-param-summary"
+msgid "Edit summary."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|watch}}
+msgctxt "apihelp-visualeditoredit-param-watch"
+msgid "Add the page to the current user's watchlist."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-param|visualeditoredit|wikitext}}
+msgctxt "apihelp-visualeditoredit-param-wikitext"
+msgid "The wikitext to act with."
+msgstr ""
+
+#. [Wiki] {{doc-apihelp-summary|visualeditoredit}}
+msgctxt "apihelp-visualeditoredit-summary"
+msgid "Save an HTML5 page to MediaWiki (converted to wikitext via the Parsoid service)."
+msgstr ""
+
+#. [Wiki] Short description of the visualeditor tag.
+#. [Wiki] 
+#. [Wiki] Shown on lists of changes (history, recentchanges, etc.) for each edit made using VisualEditor.
+#. [Wiki] 
+#. [Wiki] Refers to {{msg-mw|Visualeditor-descriptionpagelink}}.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Tag-visualeditor-needcheck}}
+#. [Wiki] {{Related|Tag-visualeditor}}
+#. [Wiki] {{Identical|VisualEditor}}
+msgctxt "tag-visualeditor"
+msgid "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Visual edit]]"
+msgstr "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Visual edit]]"
+
+#. [Wiki] Long description of the visualeditor tag ({{msg-mw|Tag-visualeditor}}).
+#. [Wiki] 
+#. [Wiki] Shown on [[Special:Tags]].
+#. [Wiki] 
+#. [Wiki] Refers to {{msg-mw|Visualeditor-descriptionpagelink}}.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Tag-visualeditor-needcheck-description}}
+#. [Wiki] {{Related|Tag-visualeditor}}
+#, fuzzy
+msgctxt "tag-visualeditor-description"
+msgid "Edit made using the [[{{MediaWiki:visualeditor-descriptionpagelink}}|visual editor]]"
+msgstr "Redaktim i kryer duke përdorur [[{{MediaWiki:visualeditor-descriptionpagelink}}|VisualEditor]]"
+
+#. [Wiki] "Check" indicates "Check needed".
+#. [Wiki] 
+#. [Wiki] See {{msg-mw|Tag-visualeditor-needcheck-description}}.
+#. [Wiki] 
+#. [Wiki] Refers to {{msg-mw|Visualeditor-descriptionpagelink}}.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Tag-visualeditor|similar message}}
+#. [Wiki] {{Related|Tag-visualeditor}}
+#, fuzzy
+msgctxt "tag-visualeditor-needcheck"
+msgid "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Visual edit: Check]]"
+msgstr "[[{{MediaWiki:visualeditor-descriptionpagelink}}|VisualEditor: Kontrollo]]"
+
+#. [Wiki] Long description of the visualeditor-needcheck tag ({{msg-mw|Tag-visualeditor-needcheck}}).
+#. [Wiki] 
+#. [Wiki] Shown on [[Special:Tags]].
+#. [Wiki] 
+#. [Wiki] Refers to {{msg-mw|Visualeditor-descriptionpagelink}}.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Tag-visualeditor-description}}
+#. [Wiki] {{Related|Tag-visualeditor}}
+#, fuzzy
+msgctxt "tag-visualeditor-needcheck-description"
+msgid "Edit made using the [[{{MediaWiki:visualeditor-descriptionpagelink}}|visual editor]] where the system detected the wikitext possibly having unintended changes."
+msgstr "Redaktim i kryer duke përdorur [[{{MediaWiki:visualeditor-descriptionpagelink}}|VisualEditor]] ku sistemi zbuloi wikitekst i cili ndoshta ka ndryshime të padëshiruara."
+
+#. [Wiki] Short description of the visualeditor-wikitext tag.
+#. [Wiki] 
+#. [Wiki] Shown on lists of changes (history, recentchanges, etc.) for each edit made using VisualEditor in wikitext editor mode.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Tag-visualeditor-wikitext-description}}
+#. [Wiki] * {{Related|tag-visualeditor}}
+msgctxt "tag-visualeditor-wikitext"
+msgid "2017 source edit"
+msgstr ""
+
+#. [Wiki] Long description of the visualeditor-wikitext tag ({{msg-mw|Tag-visualeditor-wikitext}}).
+#. [Wiki] 
+#. [Wiki] Shown on [[Special:Tags]].
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Tag-visualeditor-wikitext}}
+#. [Wiki] * {{Related|tag-visualeditor-description}}
+msgctxt "tag-visualeditor-wikitext-description"
+msgid "Edit made using the 2017 wikitext editor"
+msgstr ""
+
+#. [Wiki] Short description of the visualeditor-switched tag.
+#. [Wiki] 
+#. [Wiki] Shown on lists of changes (history, recentchanges, etc.) for each edit which was started using VisualEditor and then was moved to the wikitext editor.
+#. [Wiki] 
+#. [Wiki] Refers to {{msg-mw|Visualeditor-descriptionpagelink}}.
+#. [Wiki] {{Related|Tag-visualeditor}}
+msgctxt "tag-visualeditor-switched"
+msgid "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Visual edit: Switched]]"
+msgstr "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Redaktim pamor: është ndryshuar]]"
+
+#. [Wiki] Long description of the visualeditor-switched tag ({{msg-mw|Tag-visualeditor-switched}}).
+#. [Wiki] 
+#. [Wiki] Shown on [[Special:Tags]].
+#. [Wiki] 
+#. [Wiki] Refers to {{msg-mw|Visualeditor-descriptionpagelink}}.
+#. [Wiki] 
+#. [Wiki] See also:
+#. [Wiki] * {{msg-mw|Tag-visualeditor-description}}
+#. [Wiki] {{Related|Tag-visualeditor}}
+msgctxt "tag-visualeditor-switched-description"
+msgid "User started to edit using the visual editor, then changed to the wikitext editor."
+msgstr "Përdoruesi ka filluar editimin me VisualEditor pastaj ka ndryshuar në editorin wikitext."
+
+#. [Wiki] Link to a page where users can leave feedback that is automatically posted using this tool. This should be a sub-page of {{msg-mw|visualeditor-descriptionpagelink}}
+msgctxt "visualeditor-feedback-link"
+msgid "Project:VisualEditor/Feedback"
+msgstr "Project:VisualEditor/Komente"
+
+#. [Wiki] Text of tool in the toolbar that lets users provide feedback.
+msgctxt "visualeditor-feedback-tool"
+msgid "Leave feedback about this software"
+msgstr "Lër një koment"
+
+#. [Wiki] Display text for the link to the user guide.
+#. [Wiki] {{Identical|User guide}}
+msgctxt "visualeditor-help-label"
+msgid "Read the user guide"
+msgstr "Lexoni udhëzuesin e përdoruesit"
+
+#. [Wiki] {{optional}}
+#. [Wiki] 
+#. [Wiki] This is the page title with interwiki link of the [[:mw:Help:VisualEditor/User guide|VisualEditor user guide in mediawiki.org]].
+#. [Wiki] 
+#. [Wiki] If the user guide is translated to your language there, you can put a link to the translated user guide here. Just copy the English string without "Special:MyLanguage" and add a slash and your language code in the end. For example, for Japanese write "mw:Help:VisualEditor/User guide/ja".
+#, optional
+msgctxt "visualeditor-help-link"
+msgid "mw:Special:MyLanguage/Help:VisualEditor/User guide"
+msgstr ""
+
+#. [Wiki] Title (hover) text for the link to the user guide
+msgctxt "visualeditor-help-title"
+msgid "Guide for how to use the editor"
+msgstr "Lexo guidën e përdoruesit për të mësuar se si të përdorni redaktorin"
+
+#. [Wiki] Label for the 'Start editing' button used to close the welcome dialog and start using the editor.
+#. [Wiki] {{Identical|Start editing}}
+msgctxt "visualeditor-welcomedialog-action"
+msgid "Start editing"
+msgstr "Fillo redaktimin"
+
+#. [Wiki] Text welcoming the user to editing.
+msgctxt "visualeditor-welcomedialog-content"
+msgid "Anyone can edit, and every improvement helps."
+msgstr ""
+
+#. [Wiki] This message expresses gratitude for the user's upcoming edit. It may be translated in the context of "Thank you for this action which helps others discover new things" or "(By doing this) you're helping readers learn new things".
+msgctxt "visualeditor-welcomedialog-content-thanks"
+msgid "Thank you for helping the world discover more!"
+msgstr ""
+
+#. [Wiki] Label for the button to switch from the visual editor to the wikitext editor in the welcome dialog.
+msgctxt "visualeditor-welcomedialog-switch"
+msgid "Switch to the source editor"
+msgstr "Kaloni në editorin burimor"
+
+#. [Wiki] Label for the button to switch from the wikitext editor to the visualeditor editor in the welcome dialog.
+msgctxt "visualeditor-welcomedialog-switch-ve"
+msgid "Switch to the visual editor"
+msgstr "Kaloni në editorin vizual"
+
+#. [Wiki] Title of the welcome dialog. Parameters:
+#. [Wiki] * $1 - username or empty string, for GENDER support
+#. [Wiki] * $2 - value of the SITENAME parser function.
+msgctxt "visualeditor-welcomedialog-title"
+msgid "{{GENDER:$1|Welcome}} to $2"
+msgstr "{{GENDER:$1|Mirë se vini}} në $2"
+
