@@ -6,7 +6,7 @@
 # Author: Liridon
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-24 14:58+0200\n"
+"PO-Revision-Date: 2018-12-24 16:27+0200\n"
 "POT-Creation-Date: 2018-12-23 10:15:39+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -119,7 +119,7 @@ msgstr "Shërbyesi u përgjigj: $1"
 #. [Wiki] {{related|Wikibase-no-external-page}}
 msgctxt "wikibase-error-ui-no-external-page"
 msgid "A page \"$2\" could not be found on \"$1\"."
-msgstr "S’u gjet faqe sfondi Te \"$1\" s’u gjet dot faqe \"$2\"."
+msgstr "S’u gjet faqe sfondi te \"$1\" s’u gjet dot faqe \"$2\"."
 
 #. [Wiki] This is a human readable version of the API error "edit-conflict" which is shown in the UI.
 #. [Wiki] Note that the default message says the user shall "reload and save", but after a reload the content that should be saved will be lost.
@@ -379,7 +379,7 @@ msgstr "Jashtë intervali, s’duhet të jetë më poshtë se $1"
 #. [Wiki] {{Related|Wikibase-validator}}
 msgctxt "wikibase-validator-malformed-value"
 msgid "Malformed input: $1"
-msgstr "Dhënie keqformuar: $1"
+msgstr "Dhënie e keqformuar: $1"
 
 #. [Wiki] Input validation error shown when the entity ID given by the user is malformed.
 #. [Wiki]
@@ -487,7 +487,7 @@ msgstr "Skema \"$1\" për URL nuk mbulohet."
 #. [Wiki] {{Related|Wikibase-validator}}
 msgctxt "wikibase-validator-unknown-unit"
 msgid "Unknown unit: $1"
-msgstr "Njësie panjohur: $1"
+msgstr "Njësi e panjohur: $1"
 
 #. [Wiki] Input validation error when the given value is not found in the known list of allowed values.
 #. [Wiki]
@@ -670,7 +670,7 @@ msgstr "$1s"
 #. [Wiki] {{Related|Wikibase-time-precision}}
 msgctxt "wikibase-time-precision-BCE-Gannum"
 msgid "$1 billion years BCE"
-msgstr "$1 miliardë vjet PEE"
+msgstr "$1 miliard vjet PEE"
 
 #. [Wiki] Used to present a point in time BCE (before current era) with the precession of 1 million of years. $1 is the point in time in million years, rounded to million years.
 #. [Wiki] {{Related|Wikibase-time-precision}}
@@ -694,7 +694,7 @@ msgstr "Mijëvjeçari $1. PEE"
 #. [Wiki] {{Related|Wikibase-time-precision}}
 msgctxt "wikibase-time-precision-BCE-century"
 msgid "$1. century BCE"
-msgstr "Shekulli $1 PEE"
+msgstr "Shekulli $1. PEE"
 
 #. [Wiki] Used to present a point in time BCE (before current era) with the precession of 10 years. $1 is the point in time in years, rounded down to the nearest ten.
 #. [Wiki] {{Related|Wikibase-time-precision}}
@@ -710,8 +710,7 @@ msgstr "$1s PEE"
 #. [Wiki] * $3 - the name of the language of the text, in the user's language.
 msgctxt "wikibase-monolingualtext"
 msgid "<span lang=\"$2\" class=\"wb-monolingualtext-value\">$1</span> <span class=\"wb-monolingualtext-language-name\" dir=\"auto\">($3)</span>"
-msgstr ""
-"<span lang=\"$2\" class=\"wb-monolingualtext-value\">$1</span> <span class=\"wb-monolingualtext-language-name\" dir=\"auto\">($3)</span>"
+msgstr "<span lang=\"$2\" class=\"wb-monolingualtext-value\">$1</span> <span class=\"wb-monolingualtext-language-name\" dir=\"auto\">($3)</span>"
 
 #. [Wiki] Warning shown when if the data value type used by a Snak's (see [[d:Wikidata:Glossary]]) property's data type is different from the type of the Snak's actual value.
 #. [Wiki]
@@ -816,7 +815,7 @@ msgstr "Hoqi etiketën [$2]"
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetdescription-add"
 msgid "Added [$2] description"
-msgstr "Shtoi përshkrimin  [$2]"
+msgstr "Shtoi përshkrimin [$2]"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when editing an entity description. Example edit summary is "Updated [en] description:  a country in Africa".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
@@ -1005,7 +1004,7 @@ msgstr "Krijoi {{PLURAL:$3|pretendim|pretendime}}"
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetclaim-update-qualifiers"
 msgid "Changed {{PLURAL:$4|one qualifier|$4 qualifiers}} of {{PLURAL:$3|claim|claims}}"
-msgstr "Ndryshoi {{PLURAL:$4|një cilësues|$4 cilësues}} të {{PLURAL:$3|pretendimitcpretendimeve}}"
+msgstr "Ndryshoi {{PLURAL:$4|një cilësues|$4 cilësues}} të {{PLURAL:$3|pretendimit|pretendimeve}}"
 
 #. [Wiki] Automatic edit summary generated when modifying the references of a claim using setclaim. Parameters:
 #. [Wiki] * $3 - number of claims changed
@@ -1020,7 +1019,7 @@ msgstr "Ndryshoi {{PLURAL:$4|një referencë|$4 referenca}} të {{PLURAL:$3|pret
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetclaim-update-rank"
 msgid "Changed rank of {{PLURAL:$3|claim|claims}}"
-msgstr "Ndryshoi ranguk e {{PLURAL:$3|pretendimit|pretendimeve}}"
+msgstr "Ndryshoi rangun e {{PLURAL:$3|pretendimit|pretendimeve}}"
 
 #. [Wiki] Automatic edit summary (autocomment) when a language link has been automatically updated after a page move. Parameters:
 #. [Wiki] * $3 - siteid and name of the old page name (like enwiki:Foo)
