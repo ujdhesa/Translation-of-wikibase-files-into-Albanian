@@ -6,7 +6,7 @@
 # Author: Liridon
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-24 16:22+0200\n"
+"PO-Revision-Date: 2018-12-24 17:00+0200\n"
 "POT-Creation-Date: 2018-12-23 10:15:39+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -143,12 +143,12 @@ msgstr "Sasi"
 #. [Wiki] Label used for the "upper bound" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
 msgctxt "wikibase-quantitydetails-upperbound"
 msgid "Upper bound"
-msgstr ""
+msgstr "Cak i sipërm"
 
 #. [Wiki] Label used for the "lower bound" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
 msgctxt "wikibase-quantitydetails-lowerbound"
 msgid "Lower bound"
-msgstr ""
+msgstr "Cak i poshtëm"
 
 #. [Wiki] Label used for the "unit" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
 #. [Wiki] {{Identical|Unit}}
@@ -737,7 +737,7 @@ msgstr "Gabim formatimi: $1."
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetitem"
 msgid "Created a new Item"
-msgstr "Krijoi një Objekt të ri"
+msgstr "U krijua një Objekt të ri"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when creating a new entity. This is for backwards compatibility for edits already made and in the database with this message.}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
@@ -780,37 +780,37 @@ msgstr "U hoq një njësi"
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetreference"
 msgid "Set a reference"
-msgstr "Caktoni një referencë"
+msgstr "U caktua një referencë"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when adding a reference.}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetreference-add"
 msgid "Added reference to claim"
-msgstr "Shtoi një referencë"
+msgstr "U shtua një referencë"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when editing a reference.}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetreference-set"
 msgid "Changed reference of claim"
-msgstr "Ndryshoi referencë pretendimi"
+msgstr "U ndryshua referencë pretendimi"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when creating an entity label, which appears in the ''h1'' heading at top of the item-page. Example of a full edit summary is "Added [en] label:  Egypt".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetlabel-add"
 msgid "Added [$2] label"
-msgstr "Shtoi etiketën [$2]"
+msgstr "U shtua etiketa [$2]"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when editing an entity label, which appears in the ''h1'' heading at top of the item-page. Example of a full edit summary is "Updated [en] label:  Egypt".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetlabel-set"
 msgid "Changed [$2] label"
-msgstr "Ndryshoi etiketën [$2]"
+msgstr "U ndryshua etiketa [$2]"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when removing an entity label. Example edit summary is "Removed [en] label".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetlabel-remove"
 msgid "Removed [$2] label"
-msgstr "Hoqi etiketën [$2]"
+msgstr "U hoq etiketa [$2]"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when creating an entity description. Example edit summary is "Added [en] description:  a country in Africa".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
@@ -822,7 +822,7 @@ msgstr "U shtua përshkrimi [$2]"
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetdescription-set"
 msgid "Changed [$2] description"
-msgstr "Ndryshoi përshkrimin [$2]"
+msgstr "U ndryshua përshkrimi [$2]"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when removing an entity description. Example edit summary is "Removed [en] description".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
@@ -864,40 +864,40 @@ msgstr "U përditësua [$2] {{PLURAL:$1|alias|aliase}}"
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetlabeldescriptionaliases"
 msgid "Changed [$2] label, description and aliases"
-msgstr "Ndryshoi etiketën, përshkrimin dhe aliase të [$2]"
+msgstr "U ndryshua etiketa, përshkrimi dhe aliase të [$2]"
 
 #. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when adding a language link. Such a summary could appear in English as "Added link to [itwiki]:  Italia".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetsitelink-add"
 msgid "Added link to [$2]"
-msgstr "Shtoi lidhje te [$2]"
+msgstr "U shtua lidhje te [$2]"
 
 #. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when adding a language link with badges. Such a summary could appear in English as "Added link to [itwiki]:  Italia, Q2, Q3".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetsitelink-add-both"
 msgid "Added link with badges to [$2]"
-msgstr "Shtoi te [$2] lidhje me stema"
+msgstr "U shtua te [$2] lidhje me stema"
 
 #. [Wiki] {{doc-important|Translate this as "Changed link which points to <nowiki>[$2]</nowiki>".}}
 #. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when editing a language link. Such a summary could appear in English as "Changed link to [itwiki]:  Italia".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetsitelink-set"
 msgid "Changed link to [$2]"
-msgstr "Ndryshoi lidhjen në [$2]"
+msgstr "U ndryshua lidhje në [$2]"
 
 #. [Wiki] {{doc-important|Translate this as "Changed badges for link which points to <nowiki>[$2]</nowiki>".}}
 #. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when editing badges of a language link. Such a summary could appear in English as "Changed badges for [itwiki]:  Q2, Q3".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetsitelink-set-badges"
 msgid "Changed badges for [$2]"
-msgstr "Ndryshoi stemat për [$2]"
+msgstr "U ndryshuan stemat për [$2]"
 
 #. [Wiki] {{doc-important|Translate this as "Changed link which points to <nowiki>[$2]</nowiki> and its badges".}}
 #. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when editing a language link and its badges. Such a summary could appear in English as "Changed link and badges for [itwiki]:  Italia, Q2, Q3".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetsitelink-set-both"
 msgid "Changed link and badges for [$2]"
-msgstr "Ndryshoi lidhje dhe stema për [$2]"
+msgstr "U ndryshua lidhje dhe stema për [$2]"
 
 #. [Wiki] {{wikibase summary messages|sitelinks|Automatic edit summary (autocomment) when removing a language link from a Wikidata entity (page). Such a summary could appear in English as "Removed link to [itwiki]".}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
@@ -1044,14 +1044,14 @@ msgstr "Faqja te [$3] u fshi"
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetqualifier-add"
 msgid "Added {{PLURAL:$1|qualifier|qualifiers}}"
-msgstr "Shtoi {{PLURAL:$1|cilësues|cilësues}}"
+msgstr "U shhtua {{PLURAL:$1|cilësues|cilësues}}"
 
 #. [Wiki] Automatic edit summary when setting qualifiers. Parameters:
 #. [Wiki] * $1 is the number of qualifiers updated.
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetqualifier-update"
 msgid "Changed {{PLURAL:$1|qualifier|qualifiers}}"
-msgstr "Ndryshoi {{PLURAL:$1|cilësues|cilësues}}"
+msgstr "U ndryshua {{PLURAL:$1|cilësues|cilësues}}"
 
 #. [Wiki] Automatic edit summary when removing qualifiers. Parameters:
 #. [Wiki] * $1 is the number of qualifiers removed.
@@ -1097,37 +1097,37 @@ msgstr "U përzje objekt te $3"
 #. [Wiki] {{Related|Wikibase-item-summary}}
 msgctxt "wikibase-item-summary-wbcreate-new"
 msgid "Created a new Item"
-msgstr "Krijoi një Objekt të ri"
+msgstr "U krijua një Objekt të ri"
 
 #. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when creating a new item. This is a legacy message.}}
 #. [Wiki] {{Related|Wikibase-item-summary}}
 msgctxt "wikibase-item-summary-wbeditentity"
 msgid "Created a new Item"
-msgstr "Krijoi një Objekt të ri"
+msgstr "U krijua një Objekt të ri"
 
 #. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when creating a new item.}}
 #. [Wiki] {{Related|Wikibase-item-summary}}
 msgctxt "wikibase-item-summary-wbeditentity-create"
 msgid "Created a new Item"
-msgstr "Krijoi një Objekt të ri"
+msgstr "U krijua një Objekt të ri"
 
 #. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when creating a new item.}}
 #. [Wiki] {{Identical|Wikibase-item-summary-wbeditentity-create}}
 msgctxt "wikibase-item-summary-wbeditentity-create-item"
 msgid "Created a new Item"
-msgstr "Krijoi një Objekt të ri"
+msgstr "U krijua një Objekt të ri"
 
 #. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when updating an existing item.}}
 #. [Wiki] {{Related|Wikibase-item-summary}}
 msgctxt "wikibase-item-summary-wbeditentity-update"
 msgid "Changed an Item"
-msgstr "Ndryshoi një Objekt"
+msgstr "U ndryshua një Objekt"
 
 #. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when overriding an existing item. This is when a user specifically marks an edit in such a way that the data they provide will override any current data on the item.}}
 #. [Wiki] {{Related|Wikibase-item-summary}}
 msgctxt "wikibase-item-summary-wbeditentity-override"
 msgid "Cleared an Item"
-msgstr "Pastroi një Objekt"
+msgstr "U pastrua një Objekt"
 
 #. [Wiki] {{wikibase summary messages|item|Automatic edit summary when connecting page(s) by creating a new data item.}}
 #. [Wiki]
@@ -1135,7 +1135,7 @@ msgstr "Pastroi një Objekt"
 #. [Wiki] {{Related|Wikibase-item-summary}}
 msgctxt "wikibase-item-summary-wblinktitles-create"
 msgid "Created this Item to connect pages"
-msgstr "Krijoi këtë objekt që të lidhen faqe"
+msgstr "U krijua ky objekt që të lidhen faqe"
 
 #. [Wiki] {{wikibase summary messages|item|Automatic edit summary when connecting page(s).}}
 #. [Wiki]
@@ -1143,7 +1143,7 @@ msgstr "Krijoi këtë objekt që të lidhen faqe"
 #. [Wiki] {{Related|Wikibase-item-summary}}
 msgctxt "wikibase-item-summary-wblinktitles-connect"
 msgid "Added a language link to connect pages"
-msgstr "Shtoi një lidhje gjuhe për të lidhur faqe"
+msgstr "U shtua një lidhje gjuhe për të lidhur faqe"
 
 #. [Wiki] {{wikibase summary messages|item|Automatic edit summary generated when creating a new item. This is for backwards compatibility for edits already made and in the database with this message.}}
 #. [Wiki] {{Related|Wikibase-property-summary}}

@@ -6,7 +6,7 @@
 # Author: Liridon
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-24 16:27+0200\n"
+"PO-Revision-Date: 2018-12-24 17:01+0200\n"
 "POT-Creation-Date: 2018-12-23 10:15:39+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -143,12 +143,12 @@ msgstr "Sasi"
 #. [Wiki] Label used for the "upper bound" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
 msgctxt "wikibase-quantitydetails-upperbound"
 msgid "Upper bound"
-msgstr ""
+msgstr "Cak i sipërm"
 
 #. [Wiki] Label used for the "lower bound" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
 msgctxt "wikibase-quantitydetails-lowerbound"
 msgid "Lower bound"
-msgstr ""
+msgstr "Cak i poshtëm"
 
 #. [Wiki] Label used for the "unit" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
 #. [Wiki] {{Identical|Unit}}
@@ -779,7 +779,7 @@ msgstr "Hoqi një njësi"
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetreference"
 msgid "Set a reference"
-msgstr "Caktoni një referencë"
+msgstr "Caktoi një referencë"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when adding a reference.}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
