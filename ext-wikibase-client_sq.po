@@ -36,10 +36,9 @@ msgstr "Lidhje për te objekt depoje të dhënash i lidhur"
 #. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the link for the associated Wikibase item.
-#, fuzzy
 msgctxt "wikibase-after-page-move"
 msgid "Your move should now be [$1 reflected in the {{WBREPONAME}} item] language link. We ask that you check this has occurred."
-msgstr "Lëvizja juaj do të duhej të qe pasqyruar te lidhje gjuhe [$1 objekt {{WBREPONAME}}]. Ju kërkojmë të kontrolloni nëse ka ndodhur."
+msgstr "Lëvizja juaj do të duhej të qe pasqyruar te lidhje gjuhe [objekti {{WBREPONAME $1}}]. Ju kërkojmë të kontrolloni nëse ka ndodhur."
 
 #. [Wiki] Message after a successful page move, telling the user that the Wikidata item belonging to the page will be automatically updated soon.
 #. [Wiki]
@@ -47,7 +46,7 @@ msgstr "Lëvizja juaj do të duhej të qe pasqyruar te lidhje gjuhe [$1 objekt {
 #. [Wiki] * $1 - the link for the associated Wikibase item.
 msgctxt "wikibase-after-page-move-queued"
 msgid "The [$1 {{WBREPONAME}} item] associated with this page will be automatically updated. Please note that this might not happen instantaneously."
-msgstr "[Objekti $1 {{WBREPONAME}}] përshoqëruar kësaj faqeje do të përditësohet automatikisht. Ju lutemi, kini parasysh që kjo mund të mos ndodhë menjëherë."
+msgstr "[Objekti {{WBREPONAME}} $1] përshoqëruar kësaj faqeje do të përditësohet automatikisht. Ju lutemi, kini parasysh që kjo mund të mos ndodhë menjëherë."
 
 #. [Wiki] Message after a successful page deletion, inviting the user to remove the link to the deleted page from the associated Wikibase repository item.
 #. [Wiki]
@@ -55,13 +54,13 @@ msgstr "[Objekti $1 {{WBREPONAME}}] përshoqëruar kësaj faqeje do të përdit�
 #. [Wiki] * $1 - the link for the associated Wikibase item.
 msgctxt "wikibase-after-page-delete"
 msgid "Link to this page should have been removed from [$1 the associated {{WBREPONAME}} item]. We ask that you check this has occurred."
-msgstr "Lidhja për te kjo faqe duhet të jetë hequr prej [objektit $1 {{WBREPONAME}} të përshoqëruar]. Ju kërkojmë të kontrolloni nëse ka ndodhur."
+msgstr "Lidhja për te kjo faqe duhet të jetë hequr prej [objektit {{WBREPONAME}} $1 të përshoqëruar]. Ju kërkojmë të kontrolloni nëse ka ndodhur."
 
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the link for the associated Wikibase item.
 msgctxt "wikibase-after-page-delete-queued"
 msgid "The [$1 {{WBREPONAME}} item] associated with this page will be automatically updated. Please note that this might not happen instantaneously."
-msgstr "[Objekti $1 {{WBREPONAME}}] përshoqëruar kësaj faqeje do të përditësohet automatikisht. Ju lutemi, kini parasysh që kjo mund të mos ndodhë menjëherë."
+msgstr "[Objekti {{WBREPONAME $1}}] përshoqëruar kësaj faqeje do të përditësohet automatikisht. Ju lutemi, kini parasysh që kjo mund të mos ndodhë menjëherë."
 
 #. [Wiki] Autocomment message in the client for when an item is created (and then is linked to the client page).
 msgctxt "wikibase-comment-add"
@@ -150,13 +149,13 @@ msgstr "Përpunoni lidhje ndërgjuhësore"
 #. [Wiki] The link text is {{msg-mw|Wikibase-linkitem-addlinks}}.
 msgctxt "wikibase-addlinkstitle"
 msgid "Add interlanguage links"
-msgstr "Shto lidhje ndërgjuhësore"
+msgstr "Shtoni lidhje ndërgjuhësore"
 
 #. [Wiki] Link in the sidebar asking to add language links and link the current page with pages on other sites. Only visible in case the current page has no langlinks.
 #. [Wiki] {{Identical|Add link}}
 msgctxt "wikibase-linkitem-addlinks"
 msgid "Add links"
-msgstr "Shto lidhje"
+msgstr "Shtoni lidhje"
 
 #. [Wiki] Tells that the page which the user wanted to link with the current one is already attached to an item on the central data repository. That item already links to an article on this site while items can only have one page per site attached.
 #. [Wiki]
@@ -165,12 +164,12 @@ msgstr "Shto lidhje"
 #. [Wiki] * $2 - the name of the page in the current wiki the item already links to
 msgctxt "wikibase-linkitem-alreadylinked"
 msgid "The page you wanted to link with is already attached to an [$1 item] on the central data repository which links to $2 on this site. Items can only have one page per site attached. Please choose a different page to link with."
-msgstr "Faqja që donit të lidhnit i është bashkëngjitur tashmë një [objekti $1] te depoja qendrore e të dhënave që lidh me $2 në këtë sajt. Objektet mund të kenë të bashkëngjitur vetëm një faqe për sajt. Ju lutemi, zgjidhni një faqe tjetër për ta lidhur."
+msgstr "Faqja që donit të lidhnit i është bashkëngjitur tashmë një [objekti $1] te depoja qendrore e të dhënave që është e lidhur me $2 në këtë sajt. Objektet mund të kenë të bashkëngjitur vetëm një faqe për sajt. Ju lutemi, zgjidhni një faqe tjetër për ta lidhur."
 
 #. [Wiki] Button text asking to close the current dialog and to reload the page.
 msgctxt "wikibase-linkitem-close"
 msgid "Close dialog and reload page"
-msgstr "Mbylle dialogun dhe ringarko faqen"
+msgstr "Mbylleni dialogun dhe ringarkoni faqen"
 
 #. [Wiki] Shown in case an error occurred which is not an API error (like a linking conflict)
 msgctxt "wikibase-linkitem-failure"
@@ -185,7 +184,7 @@ msgstr "Lidhje me faqe"
 #. [Wiki] Button in the dialog which allows linking the current page with a page on another site. Usable after the user inserted a site and a page to link.
 msgctxt "wikibase-linkitem-linkpage"
 msgid "Link with page"
-msgstr "Lidhje me faqe"
+msgstr "Lidheni me faqe"
 
 #. [Wiki] Explaining the user that he can choose a site and a page that should be linked with the one he's currently on.
 msgctxt "wikibase-linkitem-selectlink"
@@ -285,7 +284,7 @@ msgstr "Fshihe"
 #. [Wiki] {{Identical|Show}}
 msgctxt "wikibase-rc-hide-wikidata-show"
 msgid "Show"
-msgstr "Shfaqe"
+msgstr "Shfaqi"
 
 #. [Wiki] Option in the recent changes section of preferences to show wikibase changes by default in recent changes.
 msgctxt "wikibase-rc-show-wikidata-pref"
@@ -399,7 +398,7 @@ msgstr "Ju lutemi, kini parasysh që mund të duhen disa minuta derisa ndryshime
 #. [Wiki] And so on.
 msgctxt "wikibase-watchlist-show-changes-pref"
 msgid "Show {{WBREPONAME}} edits in your watchlist"
-msgstr "Shfaq përpunime {{WBREPONAME}} te lista juaj e vëzhgimeve"
+msgstr "Shfaqni përpunime {{WBREPONAME}} te lista juaj e vëzhgimeve"
 
 #. [Wiki] Generic error when invalid (undeserializable) data has been given.
 msgctxt "wikibase-error-deserialize-error"
@@ -453,7 +452,7 @@ msgstr "($1 {{PLURAL:$1|lidhje ndërgjuhësore|lidhje ndërgjuhësore}} në faqe
 #. [Wiki] Label for the button that activates the action
 msgctxt "wikibase-unconnectedpages-submit"
 msgid "Show pages"
-msgstr "Shfaq faqe"
+msgstr "Shfaqi faqet"
 
 #. [Wiki] {{doc-special|PagesWithBadges}}
 msgctxt "pageswithbadges"
@@ -485,7 +484,7 @@ msgstr "Stemë:"
 #. [Wiki] Label for the button that activates the action
 msgctxt "wikibase-pageswithbadges-submit"
 msgid "Show pages"
-msgstr "Shfaq faqe"
+msgstr "Shfaqi faqet"
 
 #. [Wiki] {{doc-special|EntityUsage}}
 msgctxt "entityusage"
@@ -517,7 +516,7 @@ msgstr "Njësi:"
 #. [Wiki] Label for the button that activates the action
 msgctxt "wikibase-entityusage-submit"
 msgid "Show pages"
-msgstr "Shfaq faqe"
+msgstr "Shfaqi faqet"
 
 #. [Wiki] A link to the corresponding Wikibase Item
 msgctxt "wikibase-pageinfo-entity-id"
@@ -646,7 +645,7 @@ msgstr "Anështyllë projektesh të tjera"
 #. [Wiki] {{related|Wikibase-otherprojects}}
 msgctxt "wikibase-otherprojects-beta-description"
 msgid "Adds an \"{{int:wikibase-otherprojects}}\" section to the sidebar that provides links to the other Wikimedia projects based on {{WBREPONAME}} data."
-msgstr "Shton një te anështylla një ndarje \"{{int:wikibase-otherprojects}}\" që furnizon lidhje për te projekte të tjerë Wikimedia të bazuar në të dhëna {{WBREPONAME}}."
+msgstr "Shton te anështylla një ndarje \"{{int:wikibase-otherprojects}}\" që furnizon lidhje për te projekte të tjerë Wikimedia të bazuar në të dhëna {{WBREPONAME}}."
 
 #. [Wiki] {{doc-echo-category-title|tooltip=Echo-pref-tooltip-wikibase-action}}
 msgctxt "echo-category-title-wikibase-action"
@@ -670,7 +669,7 @@ msgctxt "notification-header-page-connection"
 msgid "The page <strong>$3</strong> was {{GENDER:$2|connected}} to {{PLURAL:$4|-1=a {{WBREPONAME}} item|the {{WBREPONAME}} item $4}}, which contains data relevant to the topic."
 msgstr "Faqja <strong>$3</strong> u {{GENDER:$2|lidh}} te {{PLURAL:$4|-1=një objekt {{WBREPONAME}}|objekti {{WBREPONAME}}  $4}}, i cili përmban të dhëna që lidhen me temën."
 
-#. [Wiki] Bundled message for the page connection notification. Parameters:
+#. [Wiki] Bundled message for the page connection notification. Parameters:ext-
 #. [Wiki] * $1 – formatted username of the person who connected the first page
 #. [Wiki] * $2 – raw username of the person who connected the first page, for GENDER support
 #. [Wiki] * $3 – title of the first page that was connected
@@ -856,7 +855,7 @@ msgstr "Merrni etiketa dhe aliase të objektit Q84."
 #. [Wiki] {{doc-apihelp-param|query+pageterms|terms}}
 msgctxt "apihelp-query+pageterms-param-terms"
 msgid "The types of terms to get, e.g. 'description', each returned as an array of strings keyed by their type, e.g. {\"description\": [\"foo\"]}. If not specified, all types are returned."
-msgstr "Llojet e termave që duhen marrë, p.sh. 'përshkrim', secili sjellë si një matricë vargjesh të dhënë sipas llojit të tyre, p.sh. {\"përshkrim\": [\"foo\"]}. Nëse s’përcaktohet, sillen krejt llojet."
+msgstr "Llojet e termave që duhen marrë, p.sh. 'përshkrim', secili i sjellë si një matricë vargjesh të dhënë sipas llojit të tyre, p.sh. {\"përshkrim\": [\"foo\"]}. Nëse s’përcaktohet, sillen krejt llojet."
 
 #. [Wiki] {{doc-apihelp-summary|query+description}}
 msgctxt "apihelp-query+description-summary"
