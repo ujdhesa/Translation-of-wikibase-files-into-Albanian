@@ -40,7 +40,7 @@ msgstr "Wikibase"
 #. [Wiki] * {{msg-mw|Wikibase-deletedentity-query}}
 msgctxt "wikibase-deletedentity-item"
 msgid "Deleted Item"
-msgstr "U fshi Objekt"
+msgstr "Objekt i Fshirë"
 
 #. [Wiki] Message displayed instead of a Property's label if the Property has been deleted (see [[d:Wikidata:Glossary]]).
 #. [Wiki]
@@ -50,7 +50,7 @@ msgstr "U fshi Objekt"
 #. [Wiki] * {{msg-mw|Wikibase-deletedentity-query}}
 msgctxt "wikibase-deletedentity-property"
 msgid "Deleted Property"
-msgstr "U fshi Veti"
+msgstr "Veti e Fshirë"
 
 #. [Wiki] Message displayed instead of a Query's label if the Query has been deleted (see [[d:Wikidata:Glossary]]).
 #. [Wiki]
@@ -60,7 +60,7 @@ msgstr "U fshi Veti"
 #. [Wiki] * {{msg-mw|Wikibase-deletedentity-property}}
 msgctxt "wikibase-deletedentity-query"
 msgid "Deleted query"
-msgstr "U fshi kërkim"
+msgstr "Kërkim i fshirë"
 
 #. [Wiki] Generic error messaged used for reporting unknown exception.
 #. [Wiki]
@@ -119,7 +119,7 @@ msgstr "Shërbyesi u përgjigj: $1"
 #. [Wiki] {{related|Wikibase-no-external-page}}
 msgctxt "wikibase-error-ui-no-external-page"
 msgid "A page \"$2\" could not be found on \"$1\"."
-msgstr "S’u gjet faqe sfondi Te \"$1\" s’u gjet dot faqe \"$2\"."
+msgstr "Te \"$1\" s’u gjet dot faqe \"$2\"."
 
 #. [Wiki] This is a human readable version of the API error "edit-conflict" which is shown in the UI.
 #. [Wiki] Note that the default message says the user shall "reload and save", but after a reload the content that should be saved will be lost.
@@ -132,13 +132,13 @@ msgstr "Ndërkohë, e njëjta vlerë u përpunua gjetkë, duke shkaktuar një p�
 #. [Wiki] * $2 - the name of the resulting language
 msgctxt "wikibase-language-fallback-transliteration-hint"
 msgid "$1 (transliterated)"
-msgstr ""
+msgstr "$1 (e transliteruar)"
 
 #. [Wiki] Label used for the "amount" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
 #. [Wiki] {{Identical|Amount}}
 msgctxt "wikibase-quantitydetails-amount"
 msgid "Amount"
-msgstr "Sasi"
+msgstr "Madhësi"
 
 #. [Wiki] Label used for the "upper bound" field of a quantity value when showing a detailed representation of the quantity, e.g. in a diff.
 msgctxt "wikibase-quantitydetails-upperbound"
@@ -154,7 +154,7 @@ msgstr "Cak i poshtëm"
 #. [Wiki] {{Identical|Unit}}
 msgctxt "wikibase-quantitydetails-unit"
 msgid "Unit"
-msgstr "Njësi"
+msgstr "Njësi matëse"
 
 #. [Wiki] Label used for the rendered version of a time value when showing a detailed representation of the time, e.g. in a diff.
 #. [Wiki] {{Identical|Time}}
@@ -265,7 +265,7 @@ msgstr "Gjuhë"
 #. [Wiki] {{Identical|Linked page}}
 msgctxt "wikibase-sitelinks-link-columnheading"
 msgid "Linked page"
-msgstr "U lidh një faqe"
+msgstr "Faqe e lidhur"
 
 #. [Wiki] Short descriptive title of a some-value snak (see [[d:Wikidata:Glossary]]) used in a drop-down menu allowing to select the snak type when adding or editing a snak. The drop-down menu can be opened by clicking an anchor right next to the input element(s) used to specify a claim's value. Although this is regarded a 'special', seldom used feature, the term 'snak' should be avoided here since the concept of snaks is a technical abstraction that does not give any additional meaning within the user interface. The basic meaning of this option is that a value exists but it is unknown.
 msgctxt "wikibase-snakview-snaktypeselector-somevalue"
@@ -406,7 +406,7 @@ msgstr "Lloj i papritur $1 njësie"
 #. [Wiki] {{Related|Wikibase-validator}}
 msgctxt "wikibase-validator-no-such-entity"
 msgid "$1 not found"
-msgstr "$1 s’u gjet"
+msgstr "S’u gjet $1"
 
 #. [Wiki] Input validation error shown when the property used for a statement could not be found.
 #. [Wiki]
@@ -460,7 +460,7 @@ msgstr "Lloj i gabuar të dhënash: $1"
 #. [Wiki] {{Related|Wikibase-validator}}
 msgctxt "wikibase-validator-bad-url"
 msgid "URLs are not allowed to contain certain characters like spaces or square brackets: $1"
-msgstr "Nuk lejohet që URL-të të përmbajnë disa shenja, f.v. hapësira ose kllapa katrore: $1"
+msgstr "URL-ve nuk u lejohet të përmbajnë disa shenja të caktuara, f.v. hapësira ose kllapa katrore: $1"
 
 #. [Wiki] Input validation error shown when the value does not start with a protocol (scheme).
 #. [Wiki]
@@ -487,7 +487,7 @@ msgstr "Skema \"$1\" për URL nuk mbulohet."
 #. [Wiki] {{Related|Wikibase-validator}}
 msgctxt "wikibase-validator-unknown-unit"
 msgid "Unknown unit: $1"
-msgstr "Njësi e panjohur: $1"
+msgstr "Njësi matëse e panjohur: $1"
 
 #. [Wiki] Input validation error when the given value is not found in the known list of allowed values.
 #. [Wiki]
@@ -552,7 +552,7 @@ msgstr "Titull MediaWiki"
 #. [Wiki] {{Identical|Unspecified}}
 msgctxt "datatypes-type-unknown"
 msgid "Unspecified"
-msgstr "E papërcaktuar"
+msgstr "I papërcaktuar"
 
 #. [Wiki] The name of a data type
 #. [Wiki] {{related|Datatypes-type}}
@@ -670,7 +670,7 @@ msgstr "$1s"
 #. [Wiki] {{Related|Wikibase-time-precision}}
 msgctxt "wikibase-time-precision-BCE-Gannum"
 msgid "$1 billion years BCE"
-msgstr "$1 miliardë vjet PEE"
+msgstr "$1 miliard vjet PEE"
 
 #. [Wiki] Used to present a point in time BCE (before current era) with the precession of 1 million of years. $1 is the point in time in million years, rounded to million years.
 #. [Wiki] {{Related|Wikibase-time-precision}}
@@ -750,7 +750,7 @@ msgstr "U krijua një njësi e re"
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbcreateredirect"
 msgid "Redirected to $4"
-msgstr "U ridrejtua te $4"
+msgstr "U bë ridrejtim te $4"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary generated when creating a new entity. This is a legacy message.}}
 #. [Wiki] {{Related|Wikibase-entity-summary}}
@@ -911,7 +911,7 @@ msgstr "U hoq lidhja për te [$2]"
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wblinktitles-create"
 msgid "Created this entity to connect pages"
-msgstr "U krijua kjo njësi që të lidhen faqe"
+msgstr "U krijua kjo njësi për të lidhur faqe"
 
 #. [Wiki] {{wikibase summary messages|entity|Automatic edit summary when connecting page(s).}}
 #. [Wiki]
@@ -1044,7 +1044,7 @@ msgstr "Faqja te [$3] u fshi"
 #. [Wiki] {{Related|Wikibase-entity-summary}}
 msgctxt "wikibase-entity-summary-wbsetqualifier-add"
 msgid "Added {{PLURAL:$1|qualifier|qualifiers}}"
-msgstr "U shhtua {{PLURAL:$1|cilësues|cilësues}}"
+msgstr "U shtua {{PLURAL:$1|cilësues|cilësues}}"
 
 #. [Wiki] Automatic edit summary when setting qualifiers. Parameters:
 #. [Wiki] * $1 is the number of qualifiers updated.
@@ -1127,7 +1127,7 @@ msgstr "U ndryshua një Objekt"
 #. [Wiki] {{Related|Wikibase-item-summary}}
 msgctxt "wikibase-item-summary-wbeditentity-override"
 msgid "Cleared an Item"
-msgstr "U pastrua një Objekt"
+msgstr "U mbishkrua një Objekt"
 
 #. [Wiki] {{wikibase summary messages|item|Automatic edit summary when connecting page(s) by creating a new data item.}}
 #. [Wiki]
@@ -1135,7 +1135,7 @@ msgstr "U pastrua një Objekt"
 #. [Wiki] {{Related|Wikibase-item-summary}}
 msgctxt "wikibase-item-summary-wblinktitles-create"
 msgid "Created this Item to connect pages"
-msgstr "U krijua ky objekt që të lidhen faqe"
+msgstr "U krijua ky objekt për të lidhur faqe"
 
 #. [Wiki] {{wikibase summary messages|item|Automatic edit summary when connecting page(s).}}
 #. [Wiki]
