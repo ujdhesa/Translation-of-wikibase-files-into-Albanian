@@ -6,48 +6,51 @@
 # Author: Liridon
 msgid ""
 msgstr ""
-""
-"PO-Revision-Date: 2018-12-23 17:21:49+0000\n"
-"POT-Creation-Date: 2018-12-23 17:21:49+0000\n"
+"PO-Revision-Date: 2018-12-27 00:12+0200\n"
+"POT-Creation-Date: 2018-12-23 10:15:08+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sq\n"
-"X-Generator: MediaWiki 1.33.0-alpha; Translate 2018-11-05\n"
+"X-Generator: Poedit 2.2\n"
 "X-Language-Code: sq\n"
 "X-Message-Group: ext-wikibase-repo\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: \n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
 
 #. [Wiki] {{desc|name=Wikibase|url=https://www.mediawiki.org/wiki/Extension:Wikibase}}
 #. [Wiki] See also [[d:Wikidata:Glossary#Wikidata|Wikidata]] in the Wikidata glossary.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] "Structured" refers to "data", not to "repository".
 msgctxt "wikibase-desc"
 msgid "Structured data repository"
-msgstr "Depozitimi i strukturuar i të dhënave"
+msgstr "Depo të dhënash të strukturuara"
 
 #. [Wiki] How we refer to entities. See also the Wikidata glossary on [[d:Wikidata:Glossary#entity|entity]].
 #. [Wiki] {{Identical|Entity}}
 msgctxt "wikibase-entity"
 msgid "Entity"
-msgstr "entitet"
+msgstr "Njësi"
 
 #. [Wiki] How we refer to entities of type item. See also the Wikidata glossary on [[d:Wikidata:Glossary#item|item]].
 #. [Wiki] {{Identical|Item}}
 msgctxt "wikibase-entity-item"
 msgid "Item"
-msgstr "artikull"
+msgstr "Objekt"
 
 #. [Wiki] How we refer to entities of type property. See also the Wikidata glossary on [[d:Wikidata:Glossary#entity|entity]].
 #. [Wiki] {{Identical|Property}}
 msgctxt "wikibase-entity-property"
 msgid "Property"
-msgstr "tipar"
+msgstr "Veti"
 
 #. [Wiki] How we refer to entities of type query. See also the Wikidata glossary on [[d:Wikidata:Glossary#entity|entity]].
 #. [Wiki] {{Identical|Query}}
 msgctxt "wikibase-entity-query"
 msgid "Query"
-msgstr "Pyetje e fshirë"
+msgstr ""
 
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 F.png|right|0x150px]]
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 A.png|right|0x150px]]
@@ -55,11 +58,11 @@ msgstr "Pyetje e fshirë"
 #. [Wiki] {{Identical|Edit}}
 msgctxt "wikibase-edit"
 msgid "edit"
-msgstr "redakto"
+msgstr "përpunoni"
 
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 G.png|right|0x150px]]
 #. [Wiki] This is a generic text used for a link (fig. 2 on [[m:Wikidata/Notes/JavaScript ui implementation]]) that saves what the user has done while the user interface has been in edit mode.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Used as <code>$1</code> in {{msg-mw|Wikibase-shortcopyrightwarning}}.
 #. [Wiki] {{Identical|Save}}
 msgctxt "wikibase-save"
@@ -67,12 +70,12 @@ msgid "save"
 msgstr "ruaje"
 
 #. [Wiki] This is the generic text used for the link that saves and publishes what the user has done while the user interface has been in edit mode.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Used as <code>$1</code> in {{msg-mw|Wikibase-shortcopyrightwarning}}.
 #. [Wiki] {{Identical|Publish}}
 msgctxt "wikibase-publish"
 msgid "publish"
-msgstr "publiko"
+msgstr "publikoje"
 
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 G.png|right|0x150px]]
 #. [Wiki] This is a generic text used for a link (fig. 2 on [[m:Wikidata/Notes/JavaScript ui implementation]]) that cancels what the user has done while the user interface has been in edit mode.
@@ -84,7 +87,7 @@ msgstr "anuloje"
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 F.png|right|0x150px]]
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 A.png|right|0x150px]]
 #. [Wiki] This is a generic text used for a link (fig. 3 on [[m:Wikidata/Notes/JavaScript ui implementation]]) that puts the user interface into edit mode for an additional element of some kind.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] {{Identical|Add}}
 msgctxt "wikibase-add"
 msgid "add"
@@ -107,12 +110,12 @@ msgstr "shto referencë"
 #. [Wiki] {{Identical|Saving}}
 msgctxt "wikibase-save-inprogress"
 msgid "Saving…"
-msgstr "Duke ruajtur…"
+msgstr "Po ruhet…"
 
 #. [Wiki] This is a generic placeholder message used while a saving and publishing is in progress, and replaces the publish and cancel links.
 msgctxt "wikibase-publish-inprogress"
 msgid "Publishing…"
-msgstr "Duke publikuar..."
+msgstr "Po publikohet…"
 
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-25 L.png|right|350px]]
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-25 M.png|right|350px]]
@@ -120,27 +123,27 @@ msgstr "Duke publikuar..."
 #. [Wiki] {{Identical|Removing}}
 msgctxt "wikibase-remove-inprogress"
 msgid "Removing…"
-msgstr "Duke u fshirë..."
+msgstr "Po fshihet…"
 
 #. [Wiki] This is a text used for a link that allows the user to add a new statement with the existing property id.
 msgctxt "wikibase-statementlistview-add"
 msgid "add value"
-msgstr "shto vlerë"
+msgstr "shtoje vlerën"
 
 #. [Wiki] This is a tooltip text used for a link that allows the user to add a new statement with the existing property id.
 msgctxt "wikibase-statementlistview-add-tooltip"
 msgid "Add a new value"
-msgstr "Shto vlerë të re"
+msgstr "Shtoni vlerë të re"
 
 #. [Wiki] This is a text used for a link that allows the user to add a new statement.
 msgctxt "wikibase-statementgrouplistview-add"
 msgid "add statement"
-msgstr "shto deklaratë"
+msgstr "shtoni pohim"
 
 #. [Wiki] This is a tooltip text used for a link that allows the user to add a new statement.
 msgctxt "wikibase-statementgrouplistview-add-tooltip"
 msgid "Add a new statement"
-msgstr "Shto një deklaratë të re"
+msgstr "Shtoni një pohim të ri"
 
 #. [Wiki] Link to show/hide the list of labels, aliases and descriptions in the user's languages. The list is part of an entity's user interface representation header and may be used to view and alter labels, aliases and descriptions in the languages configured by the user.
 msgctxt "wikibase-entitytermsview-entitytermsforlanguagelistview-toggler"
@@ -151,47 +154,46 @@ msgstr "Në më shumë gjuhë"
 #. [Wiki] {{Identical|Configure}}
 msgctxt "wikibase-entitytermsview-entitytermsforlanguagelistview-configure-link-label"
 msgid "Configure"
-msgstr "Konfiguro"
+msgstr "Formësojini"
 
 #. [Wiki] Label for the user setting that allows showing labels, aliases and descriptions in all of the user's languages on page load. The settings is available only if the [[mw:Extension:Babel|Babel extension]] is installed.
 msgctxt "wikibase-setting-entitytermsview-showEntitytermslistview"
 msgid "Show labels, aliases and descriptions in all my languages on page load"
-msgstr "Shfaqni etiketat, emërtimet dhe përshkrimet në të gjitha gjuhët e mia në hapje të faqes"
+msgstr "Shfaqni etiketat, aliaset dhe përshkrimet në krejt gjuhët e mia gjatë ngarkimit të faqes"
 
 #. [Wiki] Help message for the user setting that allows showing labels, aliases and descriptions in all of the user's languages on page load. The settings is available only if the [[mw:Extension:Babel|Babel extension]] is installed. Hence, the help message may contain advice on how to activate languages additional to the user interface language.
-#, fuzzy
 msgctxt "wikibase-setting-entitytermsview-showEntitytermslistview-help"
 msgid "Personal languages additional to the user interface language can be set using the [[mw:Extension:Babel|Babel extension]] syntax on the user page."
-msgstr "Gjuhë shtesë përveç gjuhës së përdoruesit të ndërfaqes mund të vendosen duke përdorur [[mw: Extension:Babel| Shtojcën Babel]] në faqen e përdoruesit."
+msgstr ""
 
 #. [Wiki] List of labels, aliases and descriptions in one or more languages: Heading of the "aliases" column. (see [[d:Wikidata:Glossary]])
 msgctxt "wikibase-entitytermsforlanguagelistview-aliases"
 msgid "Also known as"
-msgstr "Gjithashtu njihet si"
+msgstr "I njohur edhe si"
 
 #. [Wiki] List of labels, aliases and descriptions in one or more languages: Heading of the "description" column. (see [[d:Wikidata:Glossary]])
 #. [Wiki] {{Identical|Description}}
 msgctxt "wikibase-entitytermsforlanguagelistview-description"
 msgid "Description"
-msgstr "Përshkrimi"
+msgstr "Përshkrim"
 
 #. [Wiki] List of labels, aliases and descriptions in one or more languages: Heading of the "label" column. (see [[d:Wikidata:Glossary]])
 #. [Wiki] {{Identical|Label}}
 msgctxt "wikibase-entitytermsforlanguagelistview-label"
 msgid "Label"
-msgstr "Emërtimi"
+msgstr "Etiketë"
 
 #. [Wiki] List of labels, aliases and descriptions in one or more languages: Heading of the "language" column. (see [[d:Wikidata:Glossary]])
 #. [Wiki] {{Identical|Language}}
 msgctxt "wikibase-entitytermsforlanguagelistview-language"
 msgid "Language"
-msgstr "Gjuha"
+msgstr "Gjuhë"
 
 #. [Wiki] List of labels, aliases and descriptions in one or more languages: Label for the button to show all non-empty sets of terms.
 #. [Wiki] {{Identical|More languages}}
 msgctxt "wikibase-entitytermsforlanguagelistview-more"
 msgid "All entered languages"
-msgstr "Të gjitha gjuhët e futura"
+msgstr "Krejt gjuhët e dhëna"
 
 #. [Wiki] List of labels, aliases and descriptions in one or more languages: Label for the button to hide all but the default terms.
 msgctxt "wikibase-entitytermsforlanguagelistview-less"
@@ -201,114 +203,114 @@ msgstr "Më pak gjuhë"
 #. [Wiki] Placeholder message displayed instead of the item's label in case no label has been specified yet. This message is displayed only when the user has JavaScript disabled. (When JavaScript is enabled, an input box will be displayed instead.)
 msgctxt "wikibase-label-empty"
 msgid "No label defined"
-msgstr "Nuk ka emërtim të përkufizuar"
+msgstr "S’ka etiketë të përkufizuar"
 
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 G.png|right|0x150px]]
 #. [Wiki] This is a generic text used as a placeholder while editing a new label. See also the Wikidata glossary on [[d:Wikidata:Glossary#languageattribute-label|label]].
 msgctxt "wikibase-label-edit-placeholder"
 msgid "enter a label"
-msgstr "shkruaj një emërtim"
+msgstr "jepni një etiketë"
 
 #. [Wiki] Like {{msg-mw|Wikibase-label-edit-placeholder}}, but language aware. $1 is the autonym of the language.
 msgctxt "wikibase-label-edit-placeholder-language-aware"
 msgid "enter a label in $1"
-msgstr "shkruaj një emërtim në $1"
+msgstr "jepni një etiketë në $1"
 
 #. [Wiki] Placeholder message displayed instead of the item's description in case no description has been specified yet.  This message is displayed only when the user has JavaScript disabled. (When JavaScript is enabled, an input box will be displayed instead.)
 msgctxt "wikibase-description-empty"
 msgid "No description defined"
-msgstr "Asnjë përshkrim i përcaktuar"
+msgstr "S’ka përshkrim të përkufizuar"
 
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 G.png|right|0x150px]]
 #. [Wiki] This is a generic text used as a placeholder while editing a new description. See also the Wikidata glossary on [[d:Wikidata:Glossary#languageattribute-description|description]].
 msgctxt "wikibase-description-edit-placeholder"
 msgid "enter a description"
-msgstr "shkruaj një përshkrim"
+msgstr "jepni një përshkrim"
 
 #. [Wiki] Like {{msg-mw|Wikibase-description-edit-placeholder}}, but language ($1) aware.
 msgctxt "wikibase-description-edit-placeholder-language-aware"
 msgid "enter a description in $1"
-msgstr "shkruaj një përshkrim në $1"
+msgstr "jepni një përshkrim në $1"
 
 #. [Wiki] This is a generic text used as a placeholder while editing a new list of pipe-separated aliases.
 msgctxt "wikibase-aliases-edit-placeholder"
 msgid "enter some aliases"
-msgstr "shkruaj disa emërtime të tjera"
+msgstr "jepni ca aliase"
 
 #. [Wiki] Like {{msg-mw|Wikibase-aliases-edit-placeholder}}, but language ($1) aware.
 msgctxt "wikibase-aliases-edit-placeholder-language-aware"
 msgid "enter some aliases in $1"
-msgstr "shkruaj disa emërtime të tjera në $1"
+msgstr "jepni disa aliase në $1"
 
 #. [Wiki] Generic label for the "aliases" text field holding the pipe-separated aliases.
 msgctxt "wikibase-aliases-edit-label"
 msgid "Aliases, pipe-separated:"
-msgstr "Llagapet, të ndara me |"
+msgstr "Aliase, ndarë me vijë vertikale (|):"
 
 #. [Wiki] Generic label for the "language" field.
 #. [Wiki] {{Identical|Language}}
 msgctxt "wikibase-content-language-edit-label"
 msgid "Language:"
-msgstr "Gjuha:"
+msgstr "Gjuhë:"
 
 #. [Wiki] Error message shown when a user enters an unknown language code into a "language" field.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikibase-api-not-recognized-language}}
 msgctxt "wikibase-content-language-edit-not-recognized-language"
 msgid "The supplied language code was not recognized."
-msgstr "Kodi i gjuhës i dhënë nuk u njoft."
+msgstr "Kodi i gjuhës i dhënë s’u njoh."
 
 #. [Wiki] Label within the header of a diff-operation on the entity diff view to describe that the diff-operation affects a reference. Will be shown as e.g. "claim / property q1 / reference".
 #. [Wiki] {{Identical|Reference}}
 msgctxt "wikibase-diffview-reference"
 msgid "reference"
-msgstr "referenca"
+msgstr "referencë"
 
 #. [Wiki] Label within the header of a diff-operation on the entity diff view to describe that the diff-operation affects the rank of the statement. Will be shown as e.g. "claim / property q1 / rank".
 #. [Wiki] {{Identical|Rank}}
 msgctxt "wikibase-diffview-rank"
 msgid "rank"
-msgstr "renditja"
+msgstr "renditje"
 
 #. [Wiki] The [[d:Wikidata:Glossary#Rank-preferred|Preferred Rank]] to be shown in diffs.
 msgctxt "wikibase-diffview-rank-preferred"
 msgid "Preferred rank"
-msgstr "Renditja e preferuar"
+msgstr "Renditje e parapëlqyer"
 
 #. [Wiki] The [[d:Wikidata:Glossary#Rank-normal|Normal Rank]] to be shown in diffs.
 msgctxt "wikibase-diffview-rank-normal"
 msgid "Normal rank"
-msgstr "Renditja normale"
+msgstr "Renditje normale"
 
 #. [Wiki] The [[d:Wikidata:Glossary#Rank-deprecated|Deprecated Rank]] to be shown in diffs.
 msgctxt "wikibase-diffview-rank-deprecated"
 msgid "Deprecated rank"
-msgstr "Rangim i ulur"
+msgstr "Renditje e nxjerrë nga përdorimi"
 
 #. [Wiki] Label within the header of a diff-operation on the entity diff view to describe that the diff-operation affects a qualifier. Will be shown as e.g. "claim / property q1 / qualifier".
 #. [Wiki] {{Identical|Qualifier}}
 msgctxt "wikibase-diffview-qualifier"
 msgid "qualifier"
-msgstr "kualifikues"
+msgstr "cilësues"
 
 #. [Wiki] Sub heading for label changes in a diff.
 #. [Wiki] {{Identical|Label}}
 msgctxt "wikibase-diffview-label"
 msgid "label"
-msgstr "emërtim"
+msgstr "etiketë"
 
 #. [Wiki] Sub heading for alias changes in a diff
 #. [Wiki] {{Identical|Alias}}
 msgctxt "wikibase-diffview-alias"
 msgid "aliases"
-msgstr "emërtime tjera"
+msgstr "aliase"
 
 #. [Wiki] Sub heading for description changes in a diff.
 #. [Wiki] {{Identical|Description}}
 msgctxt "wikibase-diffview-description"
 msgid "description"
-msgstr "përshkrimi"
+msgstr "përshkrim"
 
 #. [Wiki] Sub heading for sitelink changes in a diff.
 #. [Wiki] {{Identical|Link}}
@@ -320,13 +322,13 @@ msgstr "lidhje"
 #. [Wiki] {{Identical|Name}}
 msgctxt "wikibase-diffview-link-name"
 msgid "name"
-msgstr "emri"
+msgstr "emër"
 
 #. [Wiki] Sub heading for changes to the badges of a sitelink in a diff.
 #. [Wiki] {{Identical|Badge}}
 msgctxt "wikibase-diffview-link-badges"
 msgid "badges"
-msgstr "shenjat dalluese"
+msgstr "stema"
 
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 E.png|right|0x150px]]
 #. [Wiki] This is a generic text used as a placeholder while defining the site for a new sitelink. See also the Wikidata glossary on [[d:Wikidata:Glossary#sitelink|sitelink]].
@@ -340,75 +342,75 @@ msgstr "wiki"
 #. [Wiki] {{Identical|Page}}
 msgctxt "wikibase-sitelink-page-edit-placeholder"
 msgid "page"
-msgstr "faqja"
+msgstr "faqe"
 
 #. [Wiki] This is a generic placeholder message used while editing the list of aliases of an item. It is displayed in an empty input box which can be used to define a new alias.
 msgctxt "wikibase-alias-edit-placeholder"
 msgid "enter an alias"
-msgstr "shkruaj një emërtim tjetër"
+msgstr "jepni një alias"
 
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 I.png|right|0x150px]]
 #. [Wiki] Bubble help message for entering the label of the data set used for a specific item. Takes on additional argument ($1) that is the language name, i.e. "English" in the nominative singular form.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also the Wikidata glossary for [[d:Wikidata:Glossary#Label|label]] and [[d:Wikidata:Glossary#Item|item]].
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - language name
 #. [Wiki] {{Related|Wikibase-input-help-message}}
 msgctxt "wikibase-label-input-help-message"
 msgid "Enter the label of this entity in $1."
-msgstr "Shkruaje emërtimin e këtij entiteti në $1."
+msgstr "Jepni etiketën e kësaj njësie në $1."
 
 #. [Wiki] Bubble help message for simultaneously editing label, description and aliases of the entity in multiple languages via the "In other languages" box.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also the Wikidata glossary for [[d:Wikidata:Glossary#Language_attributes|language attributes]] and [[d:Wikidata:Glossary#Item|item]].
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] {{Related|Wikibase-input-help-message}}
 msgctxt "wikibase-entitytermsview-input-help-message"
 msgid "Enter a label of this entity, a short description and aliases per language."
-msgstr "Shkruaje emërtimin e këtij entiteti, në përshkrim të shkurtër dhe emërtime të tjera për çdo gjuhën."
+msgstr "Jepni një etiketë të kësaj njësie, një përshkrim të shkurtër dhe aliase për gjuhë."
 
 #. [Wiki] Heading for the list of statements giving specific information about the currently viewed item. See also the Wikidata glossary for [[m:d:Wikidata:Glossary#Statement|statements]] and [[m:d:Wikidata:Glossary#Item|item]].
 #. [Wiki] {{Identical|Statement}}
 msgctxt "wikibase-statementsection-statements"
 msgid "Statements"
-msgstr "Deklarata"
+msgstr "Pohime"
 
 #. [Wiki] Heading for the list of sitelinks to Wikipedia and other sister projects. This heading is only shown on mobile devices.
 #. [Wiki] {{Identical|Sitelink}}
 msgctxt "wikibase-sitelinks"
 msgid "Sitelinks"
-msgstr "Sitelinks"
+msgstr "Lidhje sajti"
 
 #. [Wiki] Bubble help message for editing a group of sitelinks which involves simultaneous editing and removing of existing sitelinks as well as adding new sitelinks to the group. See also the Wikidata glossary for [[d:Wikidata:Glossary#Sitelinks|sitelinks]].
 msgctxt "wikibase-sitelinkgroupview-input-help-message"
 msgid "Add a sitelink by specifying a site and a page of that site, edit or remove existing sitelinks."
-msgstr "Shto një lidhje duke specifikuar një websajt dhe një faqe të atij sajti, modifiko ose hiq lidhjet ekzistuese."
+msgstr ""
 
 #. [Wiki] Used in the heading for a sitelink group (see [[d:Wikidata:Glossary]]). The heading is giving information about how many sitelinks exist in that sitelink group. This is the counter part of the heading without the parentheses.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the number of saved sitelinks
 #. [Wiki] {{Identical|Entry}}
 msgctxt "wikibase-sitelinks-counter"
 msgid "$1 {{PLURAL:$1|entry|entries}}"
-msgstr ""
+msgstr "$1 {{PLURAL:$1|zë|zëra}}"
 
 #. [Wiki] There are no sitelinks for any of the language specific pages on the given cluster.  See also the Wikidata glossary for [[d:Wikidata:Glossary#sitelinks|sitelinks]] and [[d:Wikidata:Glossary#sitelinks-title|title]].
 msgctxt "wikibase-sitelinks-empty"
 msgid "No page is linked to this Item."
-msgstr "Asnjë faqe nuk është lidhur në këtë artikull."
+msgstr "S’ka faqe të lidhur me këtë Objekt."
 
 #. [Wiki] Section header for a section containing links to various sites being arbitrary grouped.
 #. [Wiki] {{related|Wikibase-sitelinks}}
 msgctxt "wikibase-sitelinks-special"
 msgid "Other sites"
-msgstr "Faqe të tjera"
+msgstr "Sajte të tjerë"
 
 #. [Wiki] Text displayed when hovering the placeholder for an actual badge (HTML title attribute). The badge placeholder is visible when editing a sitelink that has no badge assigned. As soon as a badge is assigned, the placeholder is replaced by the badge. The placeholder is not visible while not editing a sitelink. See also the Wikidata glossary for [[d:Wikidata:Glossary#Sitelinks|sitelinks]] and [[d:Wikidata:Glossary#Badges|badges]] in particular.
 msgctxt "wikibase-badgeselector-badge-placeholder-title"
 msgid "Click to assign a badge."
-msgstr "Kliko për të shtuar një shenjë dalluese."
+msgstr "Klikoni që t’i caktoni një stemë."
 
 #. [Wiki] [[File:Screenshot WikidataRepo 2012-05-13 A.png|right|0x150px]]
 #. [Wiki] This is a generic text used for a link (fig. 3 on [[m:Wikidata/Notes/JavaScript ui implementation]]) that removes an element of some kind, without the the user interface being put in edit mode.
@@ -418,42 +420,42 @@ msgid "remove"
 msgstr "hiqe"
 
 #. [Wiki] Label of a link to move a list item one step up within an ordered list. The label should be a rather generic expression since it is used for lists featuring various content.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikibase-move-down}}
 #. [Wiki] {{Identical|Move up}}
 msgctxt "wikibase-move-up"
 msgid "move up"
-msgstr "lëvize lart"
+msgstr "ngjite sipër"
 
 #. [Wiki] Label of a link to move a list item one step down within an ordered list. The label should be a rather generic expression since it is used for lists featuring various content.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikibase-move-up}}
 #. [Wiki] {{Identical|Move down}}
 msgctxt "wikibase-move-down"
 msgid "move down"
-msgstr "lëvize poshtë"
+msgstr "zbrite poshtë"
 
 #. [Wiki] Title shown on the form for undoing edits. Example is Undoing edit to "Spain". Parameters:
 #. [Wiki] * $1 is the item label.
 msgctxt "wikibase-undo-title"
 msgid "Undoing edit to \"$1\""
-msgstr "Zhbërja e editimeve në \"$1\""
+msgstr "Zhbërje përpunimi te \"$1\""
 
 #. [Wiki] Title shown on the form for restoring old revisions. Example is Restoring Old Revision of "Spain". Parameters:
 #. [Wiki] * $1 is the item label.
 msgctxt "wikibase-restore-title"
 msgid "Restoring old revision of \"$1\""
-msgstr "Kthimi i revidimeve të vjetra të \"$1\""
+msgstr "Rikthim rishikimi të vjetër të \"$1\""
 
 #. [Wiki] Message indicating that an edit can only partially be undone. This happens when the respective value has been changed again after the edit that is being undone.
 msgctxt "wikibase-partial-undo"
 msgid "The edit can partially be undone."
-msgstr "Editimi mund të kthehet pjesërisht."
+msgstr "Përpunimi mund të zhbëhet pjesërisht."
 
 #. [Wiki] Message indicating the number of operations that could not be undone. This happens when the respective value has been changed again after the edit that is being undone.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the number of changes that cannot be undone
 msgctxt "wikibase-omitted-undo-ops"
@@ -463,7 +465,7 @@ msgstr ""
 #. [Wiki] Message shown in case the edit cannot be undone.
 msgctxt "wikibase-empty-undo"
 msgid "There is nothing that can be undone here."
-msgstr "Nuk ka asgjë që mund të zhbëhet këtu."
+msgstr "Këtu s’ka asgjë që mund të zhbëhet."
 
 #. [Wiki] Title shown when undo or restore failed
 msgctxt "wikibase-undo-revision-error"
@@ -473,21 +475,21 @@ msgstr "Zhbërja dështoi"
 #. [Wiki] Message shown when the user attempts to undo the difference between two revisions which are both the same.
 msgctxt "wikibase-undo-samerev"
 msgid "Two different revisions must be specified to undo an edit."
-msgstr "Dy rishikime të ndryshme duhet të specifikohen për të zhbërë një redaktim."
+msgstr "Për të zhbërë një përpunim duhet të specifikohen dy rishikime të ndryshme."
 
 #. [Wiki] Message shown when the user attempts to undo the difference between two revisions belonging to different pages. The first argument is the name of the page, the second is the revision id.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the title of the page
 #. [Wiki] * $2 - the revision id number
 msgctxt "wikibase-undo-badpage"
 msgid "Bad revision: Revision $2 does not belong to [[$1]]."
-msgstr "Revidim i gabuar: Revidimi $2 nuk i përket [[$1]]."
+msgstr ""
 
 #. [Wiki] Message shown when the user attempts to undo the very first revision of a page, that is, the page's creation.
 msgctxt "wikibase-undo-firstrev"
 msgid "Cannot undo the page's creation"
-msgstr "Nuk mund të zhbëhet krijimi i faqes"
+msgstr "S’mund të zhbëhet krijimi i faqes"
 
 #. [Wiki] Message shown when the content of one of the revisions needed for undo could not be loaded.
 #. [Wiki] This may happen if there is an error in the storage backend, or if the respective revision has been hidden (oversighted) or deleted.
@@ -495,7 +497,7 @@ msgstr "Nuk mund të zhbëhet krijimi i faqes"
 #. [Wiki] * $2 - the revision ID
 msgctxt "wikibase-undo-nocontent"
 msgid "Cannot load content of revision $2 of page $1"
-msgstr "Nuk mund të ngarkohet përmbajtja e revidimit $2 të faqes $1"
+msgstr "S’mund të ngarkohet lënda e rishikimit $2 të faqes $1"
 
 #. [Wiki] Label of the field for the edit summary, shown when undoing an edit/restoring a revision of a Wikibase entity
 msgctxt "wikibase-summary-generated"
@@ -509,7 +511,7 @@ msgid "Disambiguation for \"$1\""
 msgstr ""
 
 #. [Wiki] Message displayed when a new item was created on [[d:Special:NewItem]] and the user has been redirected to the new items page.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the new items id
 #. [Wiki] * $2 - a link back to the special page with "special-newitem" as label
@@ -518,7 +520,7 @@ msgid "New Item $1 created and redirected to its page. Back to $2."
 msgstr ""
 
 #. [Wiki] Bubble help message for entering the aliases of the data set used for a specific item.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - (Unused) language name
 #. [Wiki] {{Related|Wikibase-input-help-message}}
@@ -527,21 +529,21 @@ msgid "To make this entity easier to find, you can enter alternative names."
 msgstr ""
 
 #. [Wiki] Heading used on a page displaying a [[d:Wikidata:Glossary#Property|Property]] for the [[d:Wikidata:Glossary#Datatypes|data type]] applied to a property.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] The section below the heading contains a data type label. (See [[d:Special:ListDatatypes|List of all data types available]].)
 #. [Wiki] {{Identical|Data type}}
 msgctxt "wikibase-propertypage-datatype"
 msgid "Data type"
-msgstr ""
+msgstr "Lloj të dhënash"
 
 #. [Wiki] Error message shown on the property page when the property has an unknown data type.
 #. [Wiki] * $1 the ID of the unknown data type.
 msgctxt "wikibase-propertypage-bad-datatype"
 msgid "Unknown data type: $1"
-msgstr ""
+msgstr "Lloj i panjohur të dhënash: $1"
 
 #. [Wiki] Tooltip message displayed when hovering/clicking the help icon next to the save, cancel and remove links of a claim (see [[d:Wikidata:Glossary#Claim]]).
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the property name the user is about to edit a value of or add another value to
 msgctxt "wikibase-claimview-snak-tooltip"
@@ -556,7 +558,7 @@ msgstr ""
 #. [Wiki] Label of the [[d:Wikidata:Glossary#Rank-preferred|Preferred Rank]] item within the menu that allows adjusting a [[d:Wikidata:Glossary#Statement|Statement's]] [[d:Wikidata:Glossary#Rank|Rank]]. The message is additionally used as tooltip on the rank icon when the statement has assigned the Preferred rank.
 msgctxt "wikibase-statementview-rank-preferred"
 msgid "Preferred rank"
-msgstr ""
+msgstr "Rang i parapëlqyer"
 
 #. [Wiki] Tooltip of the [[d:Wikidata:Glossary#Rank-preferred|Preferred Rank]] item within the menu that allows adjusting a [[d:Wikidata:Glossary#Statement|Statement's]] [[d:Wikidata:Glossary#Rank|Rank]].
 msgctxt "wikibase-statementview-rank-tooltip-preferred"
@@ -566,7 +568,7 @@ msgstr ""
 #. [Wiki] Label of the [[d:Wikidata:Glossary#Rank-normal|Normal Rank]] item within the menu that allows adjusting a [[d:Wikidata:Glossary#Statement|Statement's]] [[d:Wikidata:Glossary#Rank|Rank]]. The message is additionally used as tooltip on the rank icon when the statement has assigned the Normal Rank.
 msgctxt "wikibase-statementview-rank-normal"
 msgid "Normal rank"
-msgstr "Rangimi normal"
+msgstr "Rang normal"
 
 #. [Wiki] Tooltip of the [[d:Wikidata:Glossary#Rank-normal|Normal Rank]] item within the menu that allows adjusting a [[d:Wikidata:Glossary#Statement|Statement's]] [[d:Wikidata:Glossary#Rank|Rank]].
 msgctxt "wikibase-statementview-rank-tooltip-normal"
@@ -576,7 +578,7 @@ msgstr ""
 #. [Wiki] Label of the [[d:Wikidata:Glossary#Rank-deprecated|Deprecated Rank]] item within the menu that allows adjusting a [[d:Wikidata:Glossary#Statement|Statement's]] [[d:Wikidata:Glossary#Rank|Rank]]. The message is additionally used as tooltip on the rank icon when the statement has assigned the Deprecated Rank.
 msgctxt "wikibase-statementview-rank-deprecated"
 msgid "Deprecated rank"
-msgstr ""
+msgstr "Rang i nxjerrë nga përdorimi"
 
 #. [Wiki] Tooltip of the [[d:Wikidata:Glossary#Rank-deprecated|Deprecated Rank]] item within the menu that allows adjusting a [[d:Wikidata:Glossary#Statement|Statement's]] [[d:Wikidata:Glossary#Rank|Rank]].
 msgctxt "wikibase-statementview-rank-tooltip-deprecated"
@@ -584,7 +586,7 @@ msgid "Value is known to be wrong but (used to be) commonly believed"
 msgstr ""
 
 #. [Wiki] Used in the heading for the references associated with a statement (see [[d:Wikidata:Glossary]]). The heading is giving information about how many references exist for that statement. This is the whole heading.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the number of saved references
 #. [Wiki] {{Identical|Reference}}
@@ -596,14 +598,14 @@ msgstr "$1 {{PLURAL:$1|referencë|referenca}}"
 #. [Wiki] {{Identical|Property}}
 msgctxt "wikibase-snakview-property-input-placeholder"
 msgid "Property"
-msgstr ""
+msgstr "Veti"
 
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - snak type
 #. [Wiki] See [[d:Wikidata:Glossary#Snak]].
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Snaks are the basic information structures used to describe Entities in Wikidata. They are an integral part of each Statement (which can be viewed as collection of Snaks about an Entity, together with a list of references).
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Ex:
 #. [Wiki] *Berlin (subject) has a population (property) of 3499879 (value).
 #. [Wiki] *Georgia (subject) has the capital (property) Tbilisi (value).
@@ -613,13 +615,13 @@ msgid "Snak of type \"$1\". Handling for this kind of Snak is not yet supported.
 msgstr ""
 
 #. [Wiki] Message prompting the user to select a Snak type (see [[d:Wikidata:Glossary]]) when adding or editing a Snak.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Since a default Snak type should always be selected when adding a Snak, the message is visible on rare occasions only.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Since "Snak" or "Snak type" does not express any meaning for the user, these phrases should be avoided in the message.
 msgctxt "wikibase-snakview-choosesnaktype"
 msgid "Choose a value type."
-msgstr ""
+msgstr "Zgjidhni një lloj vlere."
 
 #. [Wiki] Warning displayed if the data value type used by a Snak's (see [[d:Wikidata:Glossary]]) property's data type is different from the data value type of the same Snak's actual value. This should only appear after internal changes or after a property's data type has changed and no scripts for updating the data were executed (there might not even be any scripts for handling all possible causes of this).
 msgctxt "wikibase-snakview-variation-datavaluetypemismatch"
@@ -627,7 +629,7 @@ msgid "The value does not comply with the Property's definition."
 msgstr ""
 
 #. [Wiki] Details of the warning displayed if the data value type used by a Snak's (see [[d:Wikidata:Glossary]]) property's data type is different from the data value type of the same Snak's actual value.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - data value type of the property-value Snak's value.
 #. [Wiki] * $2 - data value type used by the data type used in the property which is used by the property-value Snak
@@ -643,37 +645,37 @@ msgstr ""
 #. [Wiki] Message displayed for 'some value' Snaks (see [[d:Wikidata:Glossary]]) instead of the input element(s) that are displayed for 'value' Snaks.
 msgctxt "wikibase-snakview-variations-somevalue-label"
 msgid "unknown value"
-msgstr ""
+msgstr "vlerë e panjohur"
 
 #. [Wiki] Message displayed for 'no value' Snaks (see [[d:Wikidata:Glossary]]) instead of the input element(s) that are displayed for 'value' Snaks.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also {{msg-mw|Wikibase-snakview-snaktypeselector-novalue}}
 msgctxt "wikibase-snakview-variations-novalue-label"
 msgid "no value"
-msgstr ""
+msgstr "s’ka vlerë"
 
 #. [Wiki] Short descriptive title of a 'value' snak (see [[d:Wikidata:Glossary]]) used in a drop-down menu allowing to select the snak type when adding or editing a snak. The drop-down menu can be opened by clicking an anchor right next to the input element(s) used to specify a claim's value. Although this is regarded a 'special', seldom used feature, the term 'snak' should be avoided here since the concept of snaks is a technical abstraction that does not give any additional meaning within the user interface. The basic meaning of this option - which is the default when adding a claim - is allowing the user to specify a value.
 msgctxt "wikibase-snakview-snaktypeselector-value"
 msgid "custom value"
-msgstr ""
+msgstr "vlerë vetjake"
 
 #. [Wiki] Error message displayed on item page for property value that has an invalid or mismatching property type and cannot be displayed.
 msgctxt "wikibase-snakformat-invalid-value"
 msgid "Invalid value."
-msgstr ""
+msgstr "Vlerë e pavlefshme."
 
 #. [Wiki] Error message displayed on item page for snak with a property that cannot be found.
 msgctxt "wikibase-snakformat-propertynotfound"
 msgid "Property not found."
-msgstr ""
+msgstr "Vetia s’u gjet."
 
 #. [Wiki] A short copyright warning displayed during editing in the JavaScript UI. The copyright warning is displayed within a tooltip next to the save button.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the name of the button the message is referring to, set in the {{msg-mw|Wikibase-save}} message
 #. [Wiki] * $2 - the name of the wiki's page describing the terms of use
 #. [Wiki] * $3 - an external link to the license with the license's name as link text (set in [[mw:Manual:$wgRightsText|$wgRightsText]])
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikidata-shortcopyrightwarning}}
 msgctxt "wikibase-shortcopyrightwarning"
@@ -689,17 +691,17 @@ msgstr ""
 #. [Wiki] {{Identical|More}}
 msgctxt "wikibase-entityselector-more"
 msgid "more"
-msgstr ""
+msgstr "më tepër"
 
 #. [Wiki] The entity selector is a user interface widget that allows selecting an entity (see [[d:Wikidata:Glossary]]). It consists out of an input field and a list of suggestions that is filled according to the text typed into the input field. Initially, the list of suggestions is filled with a certain number of suggestions. This message will be shown if the search for items did not return any matches
 msgctxt "wikibase-entityselector-notfound"
 msgid "No match was found"
-msgstr ""
+msgstr "S’u gjet përputhje"
 
 #. [Wiki] Warning message that is displayed using the MediaWiki notification system each time the user starts to edit something on an entity (see [[d:Wikidata:Glossary]]) page (e.g. by clicking an edit button).
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Basically, the message shall make the user aware that his/her IP will be recorded when saving as long as not being logged in.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - (Optional) any one of the following messages:
 #. [Wiki] ** {{msg-mw|Wikibase-entity-item}}
@@ -708,7 +710,9 @@ msgstr ""
 #. [Wiki] * {{msg-mw|Anoneditwarning}}
 #. [Wiki] * {{msg-mw|Sf autoedit anoneditwarning}}
 msgctxt "wikibase-anonymouseditwarning"
-msgid "Warning: You are not logged in.\nYour IP address will be recorded in the edit history of this entity."
+msgid ""
+"Warning: You are not logged in.\n"
+"Your IP address will be recorded in the edit history of this entity."
 msgstr ""
 
 #. [Wiki] The data namespace is blocked against moving pages within it and moving pages into it, because that will make the content inconsistent both within it and on external wikis. The message uses "pages" in this case as name for whats moved, but within the data namespace usually contains "items". See also the Wikidata glossary on [[d:Wikidata:Glossary#page|page]] and [[d:Wikidata:Glossary#item|item]].
@@ -717,7 +721,7 @@ msgid "You cannot move pages that are in a data namespace, and you cannot move p
 msgstr ""
 
 #. [Wiki] Error message shown when an item contains a sitelink already used by another item.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - an external wiki link to the sitelink's target
 #. [Wiki] * $2 - a local wiki link to the conflicting item.
@@ -726,7 +730,7 @@ msgid "The link $1 is already used by Item $2. You may remove it from $2 if it d
 msgstr ""
 
 #. [Wiki] Error message shown when a user tries to save a property that has a non-unique label.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - label text
 #. [Wiki] * $2 - the label's language code
@@ -738,7 +742,7 @@ msgid "Property $3 already has label \"$1\" associated with language code $2."
 msgstr ""
 
 #. [Wiki] Error message shown when a user tries to save an item that has a non-unique label+description pair.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - label text
 #. [Wiki] * $2 - the label's language code
@@ -753,7 +757,7 @@ msgstr ""
 #. [Wiki] * $1 is the label.
 msgctxt "wikibase-validator-label-no-entityid"
 msgid "The label must not be a valid entity ID."
-msgstr ""
+msgstr "Etiketa s’duhet të jetë një ID njësie e vlefshme."
 
 #. [Wiki] Validator error message shown when a user tries to link to a Wikimedia Commons media file, but the file name contains illegal special characters such as slashes or colons.
 msgctxt "wikibase-validator-illegal-file-chars"
@@ -763,7 +767,7 @@ msgstr ""
 #. [Wiki] Validator error message shown when a user tries to link to a Wikimedia Commons media file, but file extension is missing.
 msgctxt "wikibase-validator-check-file-type"
 msgid "File extension is missing."
-msgstr ""
+msgstr "Mungon zgjatim kartele."
 
 #. [Wiki] {{doc-important|Do not translate "Data:" and ".map". When translating to a right-to-left language, use <code><nowiki><code dir="ltr"></nowiki></code>.}}
 #. [Wiki] Validator error message shown when a user tries to link to a geo-shape page, but the page title contains illegal special characters such as hash.
@@ -785,7 +789,7 @@ msgstr ""
 
 #. [Wiki] Error message shown when a user tries to edit a badges for the site on which the item has no sitelink. Parameters:
 #. [Wiki] * $1 - the site id
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|wikibase-api-no-such-sitelink}}
 msgctxt "wikibase-validator-no-such-sitelink"
@@ -796,7 +800,7 @@ msgstr ""
 #. [Wiki] * $1 is the name of the page.
 msgctxt "wikibase-validator-page-not-exists"
 msgid "The page \"$1\" does not exist."
-msgstr ""
+msgstr "Faqja \"$1\" s’ekziston."
 
 #. [Wiki] Validation error message shown when a user tries to use a language code that is not known to the system.
 #. [Wiki] * $1 - the invalid language code
@@ -804,42 +808,38 @@ msgstr ""
 #. [Wiki] * {{msg-mw|wikibase-wikibaserepopage-invalid-langcode}}
 msgctxt "wikibase-validator-not-a-language"
 msgid "\"$1\" is not a known language code."
-msgstr ""
+msgstr "\"$1\" s’është kod gjuhe i njohur."
 
 #. [Wiki] {{optional}}
 #. [Wiki] used to generate the link text for links to items. $1 is the items label, $2 the id given to "wikibase-itemlink-id-wrapper". This message can be altered to change the position of the single parts within the link. Params:
 #. [Wiki] * $1 is label on a html form
 #. [Wiki] * $2 is id on a html form
-#, optional
 msgctxt "wikibase-itemlink"
 msgid "$1 $2"
-msgstr ""
+msgstr "$1 $2"
 
 #. [Wiki] {{optional}}
 #. [Wiki] Used to wrap the items id for a link to an item in parentheses or similar. Params:
 #. [Wiki] * $1 is the prefixed id of the item
-#, optional
 msgctxt "wikibase-itemlink-id-wrapper"
 msgid "($1)"
-msgstr ""
+msgstr "($1)"
 
 #. [Wiki] {{optional}}
 #. [Wiki] Used to wrap the language and label for an additional entry when the language are different from the user's own. Parameters:
 #. [Wiki] * $1 is the label;s language name
 #. [Wiki] * $2 is the label text
-#, optional
 msgctxt "wikibase-itemlink-userlang-wrapper"
 msgid "&nbsp;($1: $2)"
-msgstr ""
+msgstr "&nbsp;($1: $2)"
 
 #. [Wiki] {{optional}}
 #. [Wiki] Title attribute set in links to an item. $1 is the items label or (if not available) the prefixed page title of the item. $2 is the items description. Parameters:
 #. [Wiki] * $1 label as a directional string
 #. [Wiki] * $2 description as a directional string
-#, optional
 msgctxt "wikibase-itemlink-title"
 msgid "$1 | $2"
-msgstr ""
+msgstr "$1 | $2"
 
 #. [Wiki] This is a generic text used as a placeholder while editing an item reference field.
 msgctxt "wikibase-item-reference-edit-placeholder"
@@ -857,18 +857,18 @@ msgid "Item with this ID does not exist"
 msgstr ""
 
 #. [Wiki] Error message when an entity id, other than item id, is entered. The message advises users that the id is invalid.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the invalid id
 msgctxt "wikibase-wikibaserepopage-not-itemid"
 msgid "\"$1\" is not a valid Item ID."
-msgstr ""
+msgstr "\"$1\" s’është ID Objekti e vlefshme."
 
 #. [Wiki] Response informing that the language code is not valid. Could give an example of a valid language code. Feel free to change "en" to your language code(s).
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the invalid code
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] "language identifier" is the same as "language code".
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|wikibase-validator-not-a-language}}
@@ -877,19 +877,19 @@ msgid "The language code \"$1\" is unknown. Please use a language code known to 
 msgstr ""
 
 #. [Wiki] Response informing that the selected entity ID is not valid.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the invalid ID
 msgctxt "wikibase-wikibaserepopage-invalid-id"
 msgid "The ID \"$1\" is unknown to the system. Please use a valid entity ID."
-msgstr ""
+msgstr "ID-ja \"$1\" është e panjohur për sistemin. Ju lutemi, përdorni një ID të vlefshme njësish."
 
 #. [Wiki] Error message shown when the user supplied an entity ID that refers to a redirect.
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the entity ID
 msgctxt "wikibase-wikibaserepopage-unresolved-redirect"
 msgid "$1 is a redirect."
-msgstr ""
+msgstr "$1 është një ridrejtim."
 
 #. [Wiki] Error message shown when an entity could not be loaded due to a storage layer exception.
 #. [Wiki] Parameters:
@@ -897,47 +897,47 @@ msgstr ""
 #. [Wiki] * $2 - the (unlocalized and possibly technical) error message.
 msgctxt "wikibase-wikibaserepopage-storage-exception"
 msgid "An error occurred while trying to load $1: $2."
-msgstr ""
+msgstr "Ndodhi një gabim teksa provohej të ngarkohej $1: $2."
 
 #. [Wiki] {{doc-special|AvailableBadges}}
 #. [Wiki] Title of the page containing a list of all available badges
 msgctxt "special-availablebadges"
 msgid "Available badges"
-msgstr ""
+msgstr "Stema të gatshme"
 
 #. [Wiki] Message indicating that there are no available badges.
 msgctxt "wikibase-availablebadges-emptylist"
 msgid "There are no badges configured on this wiki."
-msgstr ""
+msgstr "Në këtë wiki s’ka stema të formësuara."
 
 #. [Wiki] {{doc-special|ItemByTitle}}
 #. [Wiki] The item is identified through use of the site and title, but the lookup failed and further qualification must be done. See also the Wikidata glossary for [[d:Wikidata:Glossary#languageattribute-label|label]] and [[d:Wikidata:Glossary#Items|items]].
 msgctxt "special-itembytitle"
 msgid "Item by title"
-msgstr ""
+msgstr "Objekt sipas titujsh"
 
 #. [Wiki] This is the title for the fieldset on the special page for further refining the search. This is the search by site and title.
 msgctxt "wikibase-itembytitle-lookup-fieldset"
 msgid "Search for Items by site and title"
-msgstr ""
+msgstr "Kërkoni për Objekte sipas sajti dhe titulli"
 
 #. [Wiki] Label for the textfield holding the site id. See also the Wikidata glossary for [[d:Wikidata:Glossary#sitelinks|sitelinks]].
 #. [Wiki] {{Identical|Site}}
 msgctxt "wikibase-itembytitle-lookup-site"
 msgid "Site:"
-msgstr ""
+msgstr "Sajt:"
 
 #. [Wiki] Label for the textfield holding the external page title. See also the Wikidata glossary for [[d:Wikidata:Glossary#sitelinks|sitelinks]].
 #. [Wiki] {{Identical|Page}}
 msgctxt "wikibase-itembytitle-lookup-page"
 msgid "Page:"
-msgstr ""
+msgstr "Faqe:"
 
 #. [Wiki] Text for the submit button in the search form.
 #. [Wiki] {{Identical|Search}}
 msgctxt "wikibase-itembytitle-submit"
 msgid "Search"
-msgstr ""
+msgstr "Kërkoje"
 
 #. [Wiki] Response informing that the given site identifier is not valid. Could give an example of a valid site identifier.
 msgctxt "wikibase-itembytitle-error-site"
@@ -950,12 +950,12 @@ msgid "An Item that links to the given page was not found."
 msgstr ""
 
 #. [Wiki] Information about how to proceede to create a new item. This message is presented when a user searched (or requested by URL) for an item by site and page title (e.g. item, linked to a particular Wikipedia page in a particular language), but no item was found that linked to that page.  This gives the user the option to create a new item with the page title as the item label.  The user will be sent to the Create item page and the label would be pre-populated.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the URL string with the site identifier and page name
 msgctxt "wikibase-itembytitle-create"
 msgid "You can also [$1 create an Item]."
-msgstr ""
+msgstr "Mund edhe [$1 të krijoni një Objekt]."
 
 #. [Wiki] Summary what the Item By Title page is about. Should explain what can be entered in the fields.
 msgctxt "wikibase-itembytitle-summary"
@@ -966,7 +966,7 @@ msgstr ""
 #. [Wiki] Title of the special page. The linked page (sitelink) is identified through use of the site and item ID. The lookup may have failed because there was no sitelink for that item and site. See also the Wikidata glossary for [[d:Wikidata:Glossary#Sitelinks|sitelink]] and [[d:Wikidata:Glossary#Items|items]].
 msgctxt "special-gotolinkedpage"
 msgid "Go to linked page"
-msgstr ""
+msgstr "Shko te faqe e lidhur"
 
 #. [Wiki] This is the title for the fieldset on the special page for specifiying the search arguments. This is the search for a linked page (sitelink) by site and item ID.
 msgctxt "wikibase-gotolinkedpage-lookup-fieldset"
@@ -977,12 +977,12 @@ msgstr ""
 #. [Wiki] {{Identical|Site}}
 msgctxt "wikibase-gotolinkedpage-lookup-site"
 msgid "Site:"
-msgstr ""
+msgstr "Sajt:"
 
 #. [Wiki] Label for the textfield holding the item ID. See also the Wikidata glossary for [[d:Wikidata:Glossary#Items|items]].
 msgctxt "wikibase-gotolinkedpage-lookup-item"
 msgid "Item ID:"
-msgstr ""
+msgstr "ID objekti:"
 
 #. [Wiki] Text for the submit button in the search form which if successfully will go (redirect) to the specified linked page (sitelink).
 #. [Wiki] {{Identical|Go}}
@@ -1019,28 +1019,28 @@ msgstr ""
 #. [Wiki] This is the title for the fieldset on the special page for further refining the search. This is the search by language and label.
 msgctxt "wikibase-itemdisambiguation-lookup-fieldset"
 msgid "Search for Items by language and label"
-msgstr ""
+msgstr "Kërkoni për Objekte sipas gjuhe dhe etikete"
 
 #. [Wiki] Label for the textfield holding the language id.
 #. [Wiki] {{Identical|Language code}}
 msgctxt "wikibase-itemdisambiguation-lookup-language"
 msgid "Language code:"
-msgstr ""
+msgstr "Kod gjuhe:"
 
 #. [Wiki] Label for the textfield holding the language specific label. See also the Wikidata glossary for [[d:Wikidata:Glossary#Label|Label]].
 #. [Wiki] {{Identical|Label}}
 msgctxt "wikibase-itemdisambiguation-lookup-label"
 msgid "Label:"
-msgstr ""
+msgstr "Etiketë:"
 
 #. [Wiki] Text for the submit button in the search form.
 #. [Wiki] {{Identical|Search}}
 msgctxt "wikibase-itemdisambiguation-submit"
 msgid "Search"
-msgstr ""
+msgstr "Kërkoje"
 
 #. [Wiki] Informative text shown in the query form of Special:ItemDisambiguation, below the input fields.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the maximum number of results show.
 msgctxt "wikibase-itemdisambiguation-form-hints"
@@ -1050,18 +1050,18 @@ msgstr ""
 #. [Wiki] Response if the search failed because no such items have been found.
 msgctxt "wikibase-itemdisambiguation-nothing-found"
 msgid "Sorry, no Item with that label was found."
-msgstr ""
+msgstr "Na ndjeni, s’u gjet Objekt me atë etiketë."
 
 #. [Wiki] Invitation to click a link and search for an item with the given label using Special:Search.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the URL string with the specified label
 msgctxt "wikibase-itemdisambiguation-search"
 msgid "You can [$1 search for the Item]."
-msgstr ""
+msgstr "Mund [$1 të kërkoni për Objektin]."
 
 #. [Wiki] Invitation to click a link and create an item with the given label.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the URL string with the specified label
 msgctxt "wikibase-itemdisambiguation-create"
@@ -1069,7 +1069,7 @@ msgid "You can [$1 create the Item]."
 msgstr ""
 
 #. [Wiki] Response informing that the language code is not valid. Could give an example of a valid language code. Feel free to change "en" to your language code(s).
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] "language identifier" is the same as "language code".
 msgctxt "wikibase-itemdisambiguation-invalid-langcode"
 msgid "Sorry, the language code you have provided is unknown to the system. Please use a valid language code like \"en\"."
@@ -1089,10 +1089,10 @@ msgstr ""
 #. [Wiki] The special page is for creating new properties.
 msgctxt "special-newproperty"
 msgid "Create a new Property"
-msgstr ""
+msgstr "Krijoni një Veti të re"
 
 #. [Wiki] Summary text for the NewProperty special page. This message could contain links to policy pages and guidelines for this specific type of entity.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikibase-newitem-summary}}
 msgctxt "wikibase-newproperty-summary"
@@ -1102,13 +1102,13 @@ msgstr ""
 #. [Wiki] Title for the fieldset on the CreateProperty special page.
 msgctxt "wikibase-newproperty-fieldset"
 msgid "Create a new Property"
-msgstr ""
+msgstr "Krijoni një Veti të re"
 
 #. [Wiki] Label for the data-type-dropdown holding the data type of the new property.
 #. [Wiki] {{Identical|Data type}}
 msgctxt "wikibase-newproperty-datatype"
 msgid "Data type:"
-msgstr ""
+msgstr "Lloj të dhënash:"
 
 #. [Wiki] Error message shown when the page gets an invalid datatype
 msgctxt "wikibase-newproperty-invalid-datatype"
@@ -1123,29 +1123,29 @@ msgstr ""
 #. [Wiki] Label for default value of data type selector asking user to pick a data type
 msgctxt "wikibase-newproperty-pick-data-type"
 msgid "(pick a data type)"
-msgstr ""
+msgstr "(zgjidhni një lloj të dhënash)"
 
 #. [Wiki] {{doc-important|Do not change the <code>Help:</code> part.}}
 #. [Wiki] The name of the local help page about using and editing labels.
 msgctxt "wikibase-description-helppage"
 msgid "Help:Description"
-msgstr ""
+msgstr "Ndihmë:Përshkrim"
 
 #. [Wiki] {{doc-important|Do not change the <code>Help:</code> part.}}
 #. [Wiki] The name of the local help page about using and editing descriptions.
 msgctxt "wikibase-label-helppage"
 msgid "Help:Label"
-msgstr ""
+msgstr "Ndihmë:Etiketë"
 
 #. [Wiki] {{doc-special|NewItem}}
 #. [Wiki] The special page is for creating new items.
 #. [Wiki] {{Identical|Create new item}}
 msgctxt "special-newitem"
 msgid "Create a new Item"
-msgstr ""
+msgstr "Krijoni një objekt të ri"
 
 #. [Wiki] Summary text for the CreateItem special page. This message could contain links to policy pages and guidelines for this specific type of entity.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikibase-newproperty-summary}}
 msgctxt "wikibase-newitem-summary"
@@ -1156,35 +1156,35 @@ msgstr ""
 #. [Wiki] {{Identical|Create new item}}
 msgctxt "wikibase-newitem-fieldset"
 msgid "Create a new Item"
-msgstr ""
+msgstr "Krijoni një Objekt të ri"
 
 #. [Wiki] Label for the site-textfield holding the site id of the first linked page to add to the new item.
 msgctxt "wikibase-newitem-site"
 msgid "Site of the first linked page"
-msgstr ""
+msgstr "Sajt i faqes së parë të lidhur"
 
 #. [Wiki] Label for the page-textfield holding the page name of the first linked page to add to the new item
 msgctxt "wikibase-newitem-page"
 msgid "Name of the first linked page"
-msgstr ""
+msgstr "Emër i faqes së parë të lidhur"
 
 #. [Wiki] Error message shown when a user tries to add a page that does not exist on the site chosen.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - global site ID, known to be valid
 #. [Wiki] * $2 - requested page name that could not be found on the site
 #. [Wiki] {{Related|Wikibase-no-external-page}}
 msgctxt "wikibase-newitem-no-external-page"
 msgid "A page \"$2\" could not be found on \"$1\"."
-msgstr ""
+msgstr "S’u gjet dot faqe \"$2\" te \"$1\"."
 
 #. [Wiki] Error message shown when a user tries to add a link to a site with an unknown identifier.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikibase-api-not-recognized-siteid}}
 msgctxt "wikibase-newitem-not-recognized-siteid"
 msgid "The provided site identifier was not recognized."
-msgstr ""
+msgstr "Identifikuesi i sajtit i ofruar nuk u njoh."
 
 #. [Wiki] Error message shown when a user tries to create an item with the same label and description
 msgctxt "wikibase-newitem-same-label-and-description"
@@ -1200,34 +1200,34 @@ msgstr ""
 #. [Wiki] {{Identical|Language}}
 msgctxt "wikibase-newentity-language"
 msgid "Language:"
-msgstr ""
+msgstr "Gjuhë:"
 
 #. [Wiki] Label for the "label" textfield holding the label of the new item.
 #. [Wiki] {{Identical|Label}}
 msgctxt "wikibase-newentity-label"
 msgid "Label:"
-msgstr ""
+msgstr "Etiketë:"
 
 #. [Wiki] Label for the "description" textfield holding the description of the new item.
 #. [Wiki] {{Identical|Description}}
 msgctxt "wikibase-newentity-description"
 msgid "Description:"
-msgstr ""
+msgstr "Përshkrim:"
 
 #. [Wiki] Text for the submit button on the CreateItem special page.
 #. [Wiki] {{Identical|Create}}
 msgctxt "wikibase-newentity-submit"
 msgid "Create"
-msgstr ""
+msgstr "Krijoje"
 
 #. [Wiki] {{doc-special|SetLabel}}
 #. [Wiki] The special page allows the user to set an entity's label in a particular language.
 msgctxt "special-setlabel"
 msgid "Set a label"
-msgstr ""
+msgstr "Caktoni një etiketë"
 
 #. [Wiki] Statistics display as part of search result. Parameters:
-#. [Wiki] * $1 - Statements count, 
+#. [Wiki] * $1 - Statements count,
 #. [Wiki] * $2 - Sitelinks count.
 msgctxt "wikibase-search-result-stats"
 msgid "$1 {{PLURAL:$1|statement|statements}}, $2 {{PLURAL:$2|sitelink|sitelinks}}"
@@ -1249,18 +1249,18 @@ msgstr ""
 #. [Wiki] {{Identical|Label}}
 msgctxt "wikibase-setlabel-label"
 msgid "Label:"
-msgstr ""
+msgstr "Etiketë:"
 
 #. [Wiki] Label for the button that activates the action.
 msgctxt "wikibase-setlabel-submit"
 msgid "Set label"
-msgstr ""
+msgstr "Caktoni etiketë"
 
 #. [Wiki] {{doc-special|SetDescription}}
 #. [Wiki] The special page allows the user to set a description for an entity.
 msgctxt "special-setdescription"
 msgid "Set a description"
-msgstr ""
+msgstr "Caktoni një përshkrim"
 
 #. [Wiki] Intro text when a description is to be set. Parameters:
 #. [Wiki] * $1 - the ID that links to the entity
@@ -1278,18 +1278,18 @@ msgstr ""
 #. [Wiki] {{Identical|Description}}
 msgctxt "wikibase-setdescription-label"
 msgid "Description:"
-msgstr ""
+msgstr "Përshkrim:"
 
 #. [Wiki] Label for the button that activates the action.
 msgctxt "wikibase-setdescription-submit"
 msgid "Set description"
-msgstr ""
+msgstr "Caktoni përshkrim"
 
 #. [Wiki] {{doc-special|SetAliases}}
 #. [Wiki] The special page allows the user to set aliases for an entity.
 msgctxt "special-setaliases"
 msgid "Set aliases"
-msgstr ""
+msgstr "Caktoni aliase"
 
 #. [Wiki] Intro text when aliases are to be set. Parameters:
 #. [Wiki] * $1 - the ID that links to the entity.
@@ -1307,18 +1307,18 @@ msgstr ""
 #. [Wiki] {{Identical|Alias}}
 msgctxt "wikibase-setaliases-label"
 msgid "Aliases:"
-msgstr ""
+msgstr "Aliase:"
 
 #. [Wiki] Label for the button that activates the action.
 msgctxt "wikibase-setaliases-submit"
 msgid "Set aliases"
-msgstr ""
+msgstr "Caktoni aliase"
 
 #. [Wiki] {{doc-special|SetLabelDescriptionAliases}}
 #. [Wiki] The special page allows the user to set label, description and aliases for an entity.
 msgctxt "special-setlabeldescriptionaliases"
 msgid "Set label, description and aliases"
-msgstr ""
+msgstr "Caktoni etiketë, përshkrim dhe aliase"
 
 #. [Wiki] Intro text when a label, description and aliases are to be set. Parameters:
 #. [Wiki] * $1 - the ID that links to the entity
@@ -1335,17 +1335,17 @@ msgstr ""
 #. [Wiki] {{Identical|Label}}
 msgctxt "wikibase-setlabeldescriptionaliases-label-label"
 msgid "Label:"
-msgstr ""
+msgstr "Etiketë:"
 
 #. [Wiki] {{Identical|Description}}
 msgctxt "wikibase-setlabeldescriptionaliases-description-label"
 msgid "Description:"
-msgstr ""
+msgstr "Përshkrim:"
 
 #. [Wiki] {{Identical|Alias}}
 msgctxt "wikibase-setlabeldescriptionaliases-aliases-label"
 msgid "Aliases:"
-msgstr ""
+msgstr "Aliase:"
 
 #. [Wiki] Label for the button that activates the action.
 msgctxt "wikibase-setlabeldescriptionaliases-submit"
@@ -1356,7 +1356,7 @@ msgstr ""
 #. [Wiki] The special page allows the user to set a sitelink for an item.
 msgctxt "special-setsitelink"
 msgid "Set a sitelink"
-msgstr ""
+msgstr "Caktoni një lidhje sajti"
 
 #. [Wiki] Intro text when a sitelink is to be set. Parameters:
 #. [Wiki] * $1 - the ID that links to the item
@@ -1378,26 +1378,26 @@ msgstr ""
 #. [Wiki] Label for the input field to type the site id to set the sitelink to.
 msgctxt "wikibase-setsitelink-site"
 msgid "Site ID:"
-msgstr ""
+msgstr "ID sajti:"
 
 #. [Wiki] Label for the input field to type the sitelink to set the item to.
 msgctxt "wikibase-setsitelink-label"
 msgid "Sitelink:"
-msgstr ""
+msgstr "Lidhje sajti:"
 
 #. [Wiki] Label for the input field to type the badges to set the item to.
 #. [Wiki] {{Identical|Badge}}
 msgctxt "wikibase-setsitelink-badges"
 msgid "Badges:"
-msgstr ""
+msgstr "Stema:"
 
 #. [Wiki] Label for the button that activates the action.
 msgctxt "wikibase-setsitelink-submit"
 msgid "Set the sitelink"
-msgstr ""
+msgstr "Caktoni lidhjen e sajtit"
 
 #. [Wiki] Response informing that the site id is not valid. Could give an example of a valid site id.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the invalid id
 msgctxt "wikibase-setsitelink-invalid-site"
@@ -1405,50 +1405,50 @@ msgid "The site ID \"$1\" is unknown. Please use an existing site ID, such as \"
 msgstr ""
 
 #. [Wiki] Response informing that the given id does not belong to an item.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the invalid id
 msgctxt "wikibase-setsitelink-not-item"
 msgid "The ID $1 does not belong to an Item."
-msgstr ""
+msgstr "ID-ja $1 s’i përket ndonjë Objekti."
 
 #. [Wiki] Response informing that the given item is not specified to be used as a badge.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the invalid item's id
 msgctxt "wikibase-setsitelink-not-badge"
 msgid "The Item $1 is not a badge."
-msgstr ""
+msgstr "Objekti $1 s’është stemë."
 
 #. [Wiki] Error message when the sitelink could not be saved.
 msgctxt "wikibase-setsitelink-add-failed"
 msgid "The sitelink could not be saved."
-msgstr ""
+msgstr "Lidhja e sajtit s’u ruajt dot."
 
 #. [Wiki] Error message when the sitelink could not be removed.
 msgctxt "wikibase-setsitelink-remove-failed"
 msgid "The sitelink could not be removed."
-msgstr ""
+msgstr "Lidhja e sajtit s’u hoq dot."
 
 #. [Wiki] Label for the input field to select the ID of the entity.
 #. [Wiki] {{Identical|ID}}
 msgctxt "wikibase-modifyentity-id"
 msgid "ID:"
-msgstr ""
+msgstr "ID:"
 
 #. [Wiki] Label for the input field to select the language code the label should be set in.
 #. [Wiki] {{Identical|Language code}}
 msgctxt "wikibase-modifyterm-language"
 msgid "Language code:"
-msgstr ""
+msgstr "Kod gjuhe:"
 
 #. [Wiki] {{doc-special|MergeItems}}
 msgctxt "special-mergeitems"
 msgid "Merge two Items"
-msgstr ""
+msgstr "Përzieni dy Objekte"
 
 #. [Wiki] A short text at the top of the page that allows users to merge two items, explaining the form.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Followed by the following input box labels:
 #. [Wiki] * {{msg-mw|Wikibase-mergeitems-fromid}}
 #. [Wiki] * {{msg-mw|Wikibase-mergeitems-toid}}
@@ -1460,23 +1460,23 @@ msgstr ""
 #. [Wiki] * {{msg-mw|Wikibase-mergeitems-toid}}
 msgctxt "wikibase-mergeitems-fromid"
 msgid "The ID to merge from"
-msgstr ""
+msgstr "ID-ja prej nga të përzihet"
 
 #. [Wiki] Label for the input field to select the ID of the entity to merge to. See also:
 #. [Wiki] * {{msg-mw|Wikibase-mergeitems-fromid}}
 msgctxt "wikibase-mergeitems-toid"
 msgid "The ID to merge to"
-msgstr ""
+msgstr "ID-ja për t’u përzierë"
 
 #. [Wiki] Label for the button that activates the action.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Preceded by the following input box labels:
 #. [Wiki] * {{msg-mw|Wikibase-mergeitems-fromid}}
 #. [Wiki] * {{msg-mw|Wikibase-mergeitems-toid}}
 #. [Wiki] {{Identical|Merge item}}
 msgctxt "wikibase-mergeitems-submit"
 msgid "Merge Items"
-msgstr ""
+msgstr "Përzie Objekte"
 
 #. [Wiki] Message shown when an item has successfully been merged and redirected into another item.
 #. [Wiki] Parameters:
@@ -1485,17 +1485,17 @@ msgstr ""
 #. [Wiki] * $3: the ID of the item where the pages has been merged
 msgctxt "wikibase-mergeitems-success"
 msgid "$1 was merged into $3 and redirected."
-msgstr ""
+msgstr "$1 u përzie në $3 dhe u ridrejtua."
 
 #. [Wiki] Error message shown when user tries to merge items, and one of them is a redirect. In most cases this occurs when these items are already merged.
 msgctxt "wikibase-itemmerge-redirect"
 msgid "These Items might be already merged."
-msgstr ""
+msgstr "Këto Objekte mund të jenë të përziera tashmë."
 
 #. [Wiki] Error message shown when a required field was not provided.
 msgctxt "wikibase-itemmerge-missing-parameter"
 msgid "Incomplete input."
-msgstr ""
+msgstr "Dhënie e paplotë."
 
 #. [Wiki] Error message shown when a provided entity id did not refer to an item.
 msgctxt "wikibase-itemmerge-not-item"
@@ -1505,13 +1505,13 @@ msgstr ""
 #. [Wiki] Error message shown when the merged items could not be saved.
 msgctxt "wikibase-itemmerge-failed-save"
 msgid "Failed to save Item."
-msgstr ""
+msgstr "S’u arrit të ruhej Objekt."
 
 #. [Wiki] Error message shown when the user does not have sufficient permissions to merge items.
 #. [Wiki] {{Identical|Permission denied}}
 msgctxt "wikibase-itemmerge-permissiondenied"
 msgid "Permission denied."
-msgstr ""
+msgstr "Leje e mohuar."
 
 #. [Wiki] Error message shown when the two items could not be merged (due to conflicts).
 msgctxt "wikibase-itemmerge-failed-modify"
@@ -1521,22 +1521,22 @@ msgstr ""
 #. [Wiki] Error message shown when one of the items involved in the merge could not be found.
 msgctxt "wikibase-itemmerge-no-such-entity"
 msgid "Item not found."
-msgstr ""
+msgstr "S’u gjet objekt."
 
 #. [Wiki] Error message shown when one of the items involved in the merge could not be loaded. This likely indicates some kind of databvase corruption.
 msgctxt "wikibase-itemmerge-cant-load-entity-content"
 msgid "Failed to load Item."
-msgstr ""
+msgstr "S’u arrit të ngarkohej Objekt."
 
 #. [Wiki] Error message shown when attempting to merge an item with itself.
 msgctxt "wikibase-itemmerge-cant-merge-self"
 msgid "Cannot merge an Item with itself."
-msgstr ""
+msgstr "S’mund të përzihet një Objekt me vetveten."
 
 #. [Wiki] Error message shown when no edit token was provided.
 msgctxt "wikibase-tokencheck-missingtoken"
 msgid "Edit token required."
-msgstr ""
+msgstr "Lypset token përpunimi."
 
 #. [Wiki] Error message shown when the edit token was not submited using POST.
 msgctxt "wikibase-tokencheck-mustposttoken"
@@ -1555,7 +1555,7 @@ msgid "Change dispatch statistics"
 msgstr ""
 
 #. [Wiki] Intro text for [[Special:DispatchStats]].
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Refers to:
 #. [Wiki] * {{msg-mw|wikibase-dispatchstats-changes}}
 #. [Wiki] * {{msg-mw|wikibase-dispatchstats-stats}}
@@ -1565,18 +1565,27 @@ msgstr ""
 #. [Wiki] * {{msg-mw|wikibase-dispatchstats-lag-time}}
 #. [Wiki] * {{msg-mw|wikibase-dispatchstats-touched}}
 msgctxt "wikibase-dispatchstats-intro"
-msgid "This page provides statistics about dispatching changes to the clients.\nA client wiki is notified of a change on {{SITENAME}} once the change has been dispatched on that wiki, and the job queue on that wiki has processed that notification.\n* {{int:wikibase-dispatchstats-changes}} shows the number and the date for the oldest and the most recent items currently in the queue.\n* {{int:wikibase-dispatchstats-stats}} provides information about the most lagged and the least lagged client wiki, and one with median lag. For each wiki, the following information is provided:\n** \"{{int:wikibase-dispatchstats-site-id}}\" is the internal ID of the client wiki.\n** \"{{int:wikibase-dispatchstats-pos}}\" is the ID of the last change dispatched to that wiki.\n** \"{{int:wikibase-dispatchstats-lag-num}}\" is the number of changes not yet dispatched to that wiki.\n** \"{{int:wikibase-dispatchstats-lag-time}}\" is the time between the change last dispatched to the wiki, and the last change performed on {{SITENAME}}.\n** \"{{int:wikibase-dispatchstats-touched}}\" is the time when the last batch of changes got dispatched to the wiki."
+msgid ""
+"This page provides statistics about dispatching changes to the clients.\n"
+"A client wiki is notified of a change on {{SITENAME}} once the change has been dispatched on that wiki, and the job queue on that wiki has processed that notification.\n"
+"* {{int:wikibase-dispatchstats-changes}} shows the number and the date for the oldest and the most recent items currently in the queue.\n"
+"* {{int:wikibase-dispatchstats-stats}} provides information about the most lagged and the least lagged client wiki, and one with median lag. For each wiki, the following information is provided:\n"
+"** \"{{int:wikibase-dispatchstats-site-id}}\" is the internal ID of the client wiki.\n"
+"** \"{{int:wikibase-dispatchstats-pos}}\" is the ID of the last change dispatched to that wiki.\n"
+"** \"{{int:wikibase-dispatchstats-lag-num}}\" is the number of changes not yet dispatched to that wiki.\n"
+"** \"{{int:wikibase-dispatchstats-lag-time}}\" is the time between the change last dispatched to the wiki, and the last change performed on {{SITENAME}}.\n"
+"** \"{{int:wikibase-dispatchstats-touched}}\" is the time when the last batch of changes got dispatched to the wiki."
 msgstr ""
 
 #. [Wiki] Message shown when there are no statistics to be shown.
 msgctxt "wikibase-dispatchstats-no-stats"
 msgid "There are currently no statistics available."
-msgstr ""
+msgstr "Hëpërhë s’ka statistika të gatshme."
 
 #. [Wiki] Section header (<code><nowiki><h2></nowiki></code>) for statistics about the change log
 msgctxt "wikibase-dispatchstats-changes"
 msgid "Change log statistics"
-msgstr ""
+msgstr "Statistika regjistri ndryshimesh"
 
 #. [Wiki] Section header for statistics about the dispatcher
 msgctxt "wikibase-dispatchstats-stats"
@@ -1587,13 +1596,13 @@ msgstr ""
 #. [Wiki] {{Identical|ID}}
 msgctxt "wikibase-dispatchstats-change-id"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. [Wiki] Column header for change timestamps.
 #. [Wiki] {{Identical|Timestamp}}
 msgctxt "wikibase-dispatchstats-change-timestamp"
 msgid "Timestamp"
-msgstr ""
+msgstr "Vulë kohore"
 
 #. [Wiki] Row header for the oldest recorded change.
 #. [Wiki] {{Identical|Oldest}}
@@ -1611,24 +1620,24 @@ msgstr ""
 #. [Wiki] {{Identical|Site}}
 msgctxt "wikibase-dispatchstats-site-id"
 msgid "Site"
-msgstr ""
+msgstr "Sajt"
 
 #. [Wiki] Column header for dispatch position (given as change ID).
 #. [Wiki] {{Identical|Position}}
 msgctxt "wikibase-dispatchstats-pos"
 msgid "Position"
-msgstr ""
+msgstr "Pozicion"
 
 #. [Wiki] Column header. "Pending" is an adjective that refers to the number of changes not yet dispatched to this client wiki.
 #. [Wiki] {{Identical|Pending}}
 msgctxt "wikibase-dispatchstats-lag-num"
 msgid "Pending"
-msgstr ""
+msgstr "Pezull"
 
 #. [Wiki] Column header for the time since between the change last dispatched to the client and the latest known change on the repo.
 msgctxt "wikibase-dispatchstats-lag-time"
 msgid "Lag"
-msgstr ""
+msgstr "Vonesë"
 
 #. [Wiki] Column header for the time a dispatcher last visited this client wiki
 msgctxt "wikibase-dispatchstats-touched"
@@ -1641,7 +1650,7 @@ msgid "(very large)"
 msgstr ""
 
 #. [Wiki] Row header for the freshest (most recently updated) client wiki.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikibase-dispatchstats-stalest}}
 #. [Wiki] {{Identical|Freshest}}
@@ -1650,7 +1659,7 @@ msgid "Freshest"
 msgstr ""
 
 #. [Wiki] Row header for the stalest (least recently updated) client wiki.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikibase-dispatchstats-freshest}}
 #. [Wiki] {{Identical|Stalest}}
@@ -1667,13 +1676,13 @@ msgstr ""
 #. [Wiki] {{Identical|Average}}
 msgctxt "wikibase-dispatchstats-average"
 msgid "Average"
-msgstr ""
+msgstr "Mesatare"
 
 #. [Wiki] {{doc-special|ListDataTypes}}
 #. [Wiki] This special page returns a list of available datatypes (such as commonsMedia)
 msgctxt "special-listdatatypes"
 msgid "List of all data types available"
-msgstr ""
+msgstr "Listë e krejt llojeve të të dhënave të gatshme"
 
 #. [Wiki] Intro text for the ListDatatypes special page.
 msgctxt "wikibase-listdatatypes-intro"
@@ -1683,7 +1692,7 @@ msgstr ""
 #. [Wiki] Text of a link that goes to a list of properties for that data type
 msgctxt "wikibase-listdatatypes-listproperties"
 msgid "List of Properties with this data type"
-msgstr ""
+msgstr "Listë Vetish me këtë lloj të dhënash"
 
 #. [Wiki] The title of the history page with label and prefixed id. Parameters:
 #. [Wiki] * $1 - the prefixed id, the id is usually in parenthesis
@@ -1691,123 +1700,123 @@ msgstr ""
 #. [Wiki] {{Identical|Revision history of}}
 msgctxt "wikibase-history-title-with-label"
 msgid "Revision history of \"$2\" ($1)"
-msgstr ""
+msgstr "Historik rishikimesh për \"$2\" ($1)"
 
 #. [Wiki] The title of the history page with only a prefixed id. Parameters:
 #. [Wiki] * $1 - the prefixed id, the id is usually in parenthesis
 msgctxt "wikibase-history-title-without-label"
 msgid "Revision history of ($1)"
-msgstr ""
+msgstr "Historik rishikimesh për ($1)"
 
 #. [Wiki] {{doc-special|ListProperties}}
 #. [Wiki] This special page returns a list of properties for a given datatype (such as commonsMedia)
 msgctxt "special-listproperties"
 msgid "List of Properties"
-msgstr ""
+msgstr "Listë e Vetive"
 
 #. [Wiki] Legend for the ListProperties special page.
 msgctxt "wikibase-listproperties-legend"
 msgid "Get a list of Properties by data type"
-msgstr ""
+msgstr "Merrni një listë Vetish sipas llojesh të dhënash"
 
 #. [Wiki] Label for the datatype dropdown.
 #. [Wiki] {{Identical|Data type}}
 msgctxt "wikibase-listproperties-datatype"
 msgid "Data type:"
-msgstr ""
+msgstr "Lloj të dhënash:"
 
 #. [Wiki] Option to select that properties with all data types should be shown.
 msgctxt "wikibase-listproperties-all"
 msgid "All data types"
-msgstr ""
+msgstr "Krejt llojet e të dhënave"
 
 #. [Wiki] Label for the button that activates the action.
 #. [Wiki] {{Identical|Find}}
 msgctxt "wikibase-listproperties-submit"
 msgid "Find"
-msgstr ""
+msgstr "Gjej"
 
 #. [Wiki] Error message shown when the data type passed in parameter is invalid.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - data type
 msgctxt "wikibase-listproperties-invalid-datatype"
 msgid "\"$1\" is not a valid data type."
-msgstr ""
+msgstr "\"$1\" s’është lloj i vlefshëm të dhënash."
 
 #. [Wiki] {{doc-special|EntitiesWithoutDescription}}
 #. [Wiki] This special page returns a list of entities without description for a given language
 msgctxt "special-entitieswithoutdescription"
 msgid "Entities without description"
-msgstr ""
+msgstr "Njësi pa përshkrim"
 
 #. [Wiki] Legend of the form that allow to change the language.
 msgctxt "wikibase-entitieswithoutdescription-legend"
 msgid "Get list of entities without description"
-msgstr ""
+msgstr "Merrni listë njësish pa përshkrim"
 
 #. [Wiki] {{doc-special|EntitiesWithoutLabel}}
 #. [Wiki] This special page returns a list of entities without label for a given language
 msgctxt "special-entitieswithoutlabel"
 msgid "Entities without label"
-msgstr ""
+msgstr "Njësi pa etiketë"
 
 #. [Wiki] Legend of the form that allow to change the language.
 msgctxt "wikibase-entitieswithoutlabel-legend"
 msgid "Get list of entities without label"
-msgstr ""
+msgstr "Merrni listë njësish pa etiketë"
 
 #. [Wiki] Label for the input field to change the language code.
 #. [Wiki] {{Identical|Language code}}
 msgctxt "wikibase-entitieswithoutlabel-label-language"
 msgid "Language code:"
-msgstr ""
+msgstr "Kod gjuhe:"
 
 #. [Wiki] Label of the entity type selector that allows to restrict the request to one type.
 #. [Wiki] {{Identical|Type}}
 msgctxt "wikibase-entitieswithoutlabel-label-type"
 msgid "Type:"
-msgstr ""
+msgstr "Lloj:"
 
 #. [Wiki] Label for the button that activate the action.
 #. [Wiki] {{Identical|Find}}
 msgctxt "wikibase-entitieswithoutlabel-submit"
 msgid "Find"
-msgstr ""
+msgstr "Gjej"
 
 #. [Wiki] Error message shown when the language code passed in parameter is invalid.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - language code
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikibase-unconnectedpages-invalid-language}}
 msgctxt "wikibase-entitieswithoutlabel-invalid-language"
 msgid "\"$1\" is not a valid language code."
-msgstr ""
+msgstr "s’është kod gjuhe i vlefshëm."
 
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - an invalid entity type. Valid entity types are: item, property and query.
 msgctxt "wikibase-entitieswithoutlabel-invalid-type"
 msgid "\"$1\" is not a valid entity type."
-msgstr ""
+msgstr "\"$1\" s’është lloj njësie i vlefshëm."
 
 #. [Wiki] {{doc-special|ItemsWithoutSitelinks}}
 #. [Wiki] This special page returns a list of items without any sitelinks.
 msgctxt "special-itemswithoutsitelinks"
 msgid "Items without sitelinks"
-msgstr ""
+msgstr "Objekte pa lidhje sajti"
 
 #. [Wiki] {{doc-special|EntityData}}
 #. [Wiki] The special page provides a linked data interface and easy way to get the JSON data representation for an entity.
 msgctxt "special-entitydata"
 msgid "Entity data"
-msgstr ""
+msgstr "Të dhëna njësie"
 
 #. [Wiki] Error shown when no entity with the given ID could be found (HTTP error 404). Paramters:
 #. [Wiki] * $1 - the given ID
 msgctxt "wikibase-entitydata-not-found"
 msgid "No entity with ID $1 was found."
-msgstr ""
+msgstr "S’u gjet njësi me ID-në $1."
 
 #. [Wiki] Error shown when none of the formats acceptable to the client is suppoerted (HTTP error 406). Parameters:
 #. [Wiki] * $1 - the list of supported MIME types
@@ -1816,7 +1825,7 @@ msgid "No matching format found. Supported MIME types: $1"
 msgstr ""
 
 #. [Wiki] Error shown when the requested revision of a data entity was not found or was not suitable.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the entity ID
 #. [Wiki] * $2 - the requested revision ID
@@ -1830,10 +1839,10 @@ msgstr ""
 #. [Wiki] * $1: the malformed ID
 msgctxt "wikibase-entitydata-bad-id"
 msgid "Invalid ID: $1."
-msgstr ""
+msgstr "ID e pavlefshme: $1."
 
 #. [Wiki] Error shown when the requested output format is not supported for entity data (HTTP error 415).
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the specified data format name
 msgctxt "wikibase-entitydata-unsupported-format"
@@ -1841,7 +1850,7 @@ msgid "The data format $1 is not supported by this interface."
 msgstr ""
 
 #. [Wiki] Error shown when the requested entity could not be loaded.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - entity ID
 #. [Wiki] * $2 - (Unused) revision ID
@@ -1849,29 +1858,32 @@ msgstr ""
 #. [Wiki] * {{msg-mw|Wikibase-entitydata-bad-revision}}
 msgctxt "wikibase-entitydata-storage-error"
 msgid "Failed to load entity $1."
-msgstr ""
+msgstr "S’u arrit të ngarkohej njësia $1."
 
 #. [Wiki] Title shown on the special page when a form or text is presented
 msgctxt "wikibase-entitydata-title"
 msgid "Entity Data"
-msgstr ""
+msgstr "Të dhëna Njësie"
 
 #. [Wiki] Explanatory text shown on the special page.
 #. [Wiki] * $1: List of supported formats
 msgctxt "wikibase-entitydata-text"
-msgid "This page provides a linked data interface to entity values. Please provide the entity ID in the URL, using subpage syntax.\n* Content negotiation applies based on you client's Accept header. This means that the entity data will be provided in the format preferred by your client. For a web browser, this will be HTML, causing your browser to be redirected to the regular entity page.\n* You can explicitly request a specific data format by adding the appropriate file extension to the entity ID: Q23.json will return data in the JSON format, Q23.ttl will return RDF/Turtle, and so on. Supported formats are: $1."
+msgid ""
+"This page provides a linked data interface to entity values. Please provide the entity ID in the URL, using subpage syntax.\n"
+"* Content negotiation applies based on you client's Accept header. This means that the entity data will be provided in the format preferred by your client. For a web browser, this will be HTML, causing your browser to be redirected to the regular entity page.\n"
+"* You can explicitly request a specific data format by adding the appropriate file extension to the entity ID: Q23.json will return data in the JSON format, Q23.ttl will return RDF/Turtle, and so on. Supported formats are: $1."
 msgstr ""
 
 #. [Wiki] {{doc-special|EntityPage}}
 #. [Wiki] This special page redirects to the actual entity page on the repository the entity belongs to.
 msgctxt "special-entitypage"
 msgid "Entity page"
-msgstr ""
+msgstr "Faqe njësie"
 
 #. [Wiki] Title shown on Special:EntityPage when the explanatory text is presented
 msgctxt "wikibase-entitypage-title"
 msgid "Entity Page"
-msgstr ""
+msgstr "Faqe Njësie"
 
 #. [Wiki] Explanatory text shown on Special:EntityPage when no ID has been provided.
 msgctxt "wikibase-entitypage-text"
@@ -1882,12 +1894,12 @@ msgstr ""
 #. [Wiki] * $1: the malformed ID
 msgctxt "wikibase-entitypage-bad-id"
 msgid "Invalid ID: $1."
-msgstr ""
+msgstr "ID e pavlefshme: $1."
 
 #. [Wiki] {{doc-special|RedirectEntity}}
 msgctxt "special-redirectentity"
 msgid "Redirect an entity"
-msgstr ""
+msgstr "Ridrejtoni një njësi"
 
 #. [Wiki] Message shown when an entity has successfully been redirect to another entity.
 #. [Wiki] Parameters:
@@ -1895,30 +1907,30 @@ msgstr ""
 #. [Wiki] * $2: the ID of the target entity
 msgctxt "wikibase-redirectentity-success"
 msgid "$1 was redirected to $2."
-msgstr ""
+msgstr "$1 qe ridrejtuar te $2."
 
 #. [Wiki] Label for the input field to select the ID of the entity to redirect from. See also:
 #. [Wiki] * {{msg-mw|Wikibase-redirectentity-toid}}
 msgctxt "wikibase-redirectentity-fromid"
 msgid "The ID to redirect from"
-msgstr ""
+msgstr "ID-ja prej nga të ridrejtohet"
 
 #. [Wiki] Label for the input field to select the ID of the entity to redirect to. See also:
 #. [Wiki] * {{msg-mw|Wikibase-redirectentity-fromid}}
 msgctxt "wikibase-redirectentity-toid"
 msgid "The ID to redirect to"
-msgstr ""
+msgstr "ID-ja ku të ridrejtohet"
 
 #. [Wiki] Label for the button that activates the action.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Preceded by the following input box labels:
 #. [Wiki] * {{msg-mw|Wikibase-redirectentity-fromid}}
 #. [Wiki] * {{msg-mw|Wikibase-redirectentity-toid}}
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] {{Identical|Redirect}}
 msgctxt "wikibase-redirectentity-submit"
 msgid "Redirect"
-msgstr ""
+msgstr "Ridrejtim"
 
 #. [Wiki] Error message shown when trying to create a redirect but the origin Entity is not empty.
 #. [Wiki] Parameters:
@@ -1932,7 +1944,7 @@ msgstr ""
 #. [Wiki] * $1: the ID of the entity
 msgctxt "wikibase-redirect-no-such-entity"
 msgid "Could not find entity $1"
-msgstr ""
+msgstr "S’u gjet dot njësi $1"
 
 #. [Wiki] Error message shown when one of the items involved in the merge could not be loaded. This likely indicates some kind of database corruption.
 msgctxt "wikibase-redirect-cant-load-entity-content"
@@ -1942,19 +1954,19 @@ msgstr ""
 #. [Wiki] Error message shown when redirect is attempted between incompatible entity types
 msgctxt "wikibase-redirect-target-is-incompatible"
 msgid "Incompatible entity types"
-msgstr ""
+msgstr "Lloje të papërputhshëm njësish"
 
 #. [Wiki] Error message shown when target of redirect is a redirect.
 #. [Wiki] Parameters:
 #. [Wiki] * $1: the ID of the entity that is the target of the redirect
 msgctxt "wikibase-redirect-target-is-redirect"
 msgid "Entity $1 is a redirect"
-msgstr ""
+msgstr "Njësia $1 është ridrejtim"
 
 #. [Wiki] Error message shown when redirect fails because of edit filter hook
 msgctxt "wikibase-redirect-cant-redirect-due-to-edit-filter-hook"
 msgid "EditFilterHook stopped redirect creation"
-msgstr ""
+msgstr "Krijimi i ridrejtimit u ndal nga EditFilterHook"
 
 #. [Wiki] Error message shown when redirect fails because of technical problems
 msgctxt "wikibase-redirect-cant-redirect"
@@ -1964,7 +1976,7 @@ msgstr ""
 #. [Wiki] Error message shown when redirection fails due to permission failure
 msgctxt "wikibase-redirect-permissiondenied"
 msgid "Permission Denied"
-msgstr ""
+msgstr "Leje e Mohuar"
 
 #. [Wiki] {{doc-special|MyLanguageFallbackChain}}
 #. [Wiki] The special page display the language fallback chain used to display Wikibase data for current context.
@@ -1978,7 +1990,7 @@ msgid "The language fallback chain used to display entity labels for you is show
 msgstr ""
 
 #. [Wiki] More explanatory text shown on the special page. Only displayed when Extension:Babel is installed and the user is logged in.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - User name for GENDER
 msgctxt "wikibase-mylanguagefallbackchain-babel"
@@ -1986,17 +1998,16 @@ msgid "You can edit it by putting <nowiki>{{#babel: }}</nowiki> on {{GENDER:$1|y
 msgstr ""
 
 #. [Wiki] A "verbatim" (taken from database and displayed as-is) fallback chain item.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - Language code
 #. [Wiki] * $2 - Language name
-#, optional
 msgctxt "wikibase-mylanguagefallbackchain-verbatim-item"
 msgid "$1 - $2"
-msgstr ""
+msgstr "$1 - $2"
 
 #. [Wiki] A "converted" (taken from data in another language and converted to another language on display) fallback chain item.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - Language code
 #. [Wiki] * $2 - Language name
@@ -2048,7 +2059,7 @@ msgstr ""
 #. [Wiki] * $1 - the entity ID
 msgctxt "wikibase-api-no-such-entity"
 msgid "Could not find an entity with the ID \"$1\"."
-msgstr ""
+msgstr "S’u gjet dot njësi me ID-në \"$1\"."
 
 #. [Wiki] Could not find such a sitelink, this could be to the user entering the wrong data
 #. [Wiki] * $1 - the site id
@@ -2070,7 +2081,7 @@ msgstr ""
 #. [Wiki] API error message indicating that the target entity of a redirect is already a redirect.
 msgctxt "wikibase-api-target-is-redirect"
 msgid "The redirect's target must not be a redirect too."
-msgstr ""
+msgstr "Objektivi i ridrejtimit s’duhet të jetë edhe ai ridrejtim."
 
 #. [Wiki] API error message indicating that the target entity of a redirect has the wrong type.
 msgctxt "wikibase-api-target-is-incompatible"
@@ -2090,7 +2101,7 @@ msgstr ""
 #. [Wiki] Warning issued when an edit is made based on an old revision, but the edit conflict could be resolved by patching. This warning is usually not displayed.
 msgctxt "wikibase-conflict-patched"
 msgid "Your edit was patched into the latest version."
-msgstr ""
+msgstr "Versioni më i ri u arnuar me përpunimin tuaj."
 
 #. [Wiki] Error shown when an unresolved redirect was encountered while trying to save a change to an entity. Parameters:
 #. [Wiki] * $1 - the source id
@@ -2103,7 +2114,7 @@ msgstr ""
 #. [Wiki] {{Identical|Restore}}
 msgctxt "wikibase-restoreold"
 msgid "restore"
-msgstr ""
+msgstr "riktheje"
 
 #. [Wiki] Edit summary for a restore action. Parameters:
 #. [Wiki] * $3 - the revision id number
@@ -2128,7 +2139,7 @@ msgid "Can not diff an entity with a non-entity content."
 msgstr ""
 
 #. [Wiki] Error messages if a direct (full-text) edit is attempted in an entity names.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - the name of the namespace for which direct editing was denied
 msgctxt "wikibase-no-direct-editing"
@@ -2141,9 +2152,9 @@ msgid "This entity does not exist. You can [{{fullurl:{{#Special:Log}}|page={{FU
 msgstr ""
 
 #. [Wiki] Put immediately after {{msg-mw|wikibase-noentity}} if the user has the right to create an entity of the given type.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] This message tells the user that he can create one and gives a link in $1 to the special page where this can be done.
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Parameters:
 #. [Wiki] * $1 - link to the special page which is used to create
 msgctxt "wikibase-noentity-createone"
@@ -2159,10 +2170,10 @@ msgstr ""
 #. [Wiki] {{Identical|Item}}
 msgctxt "wikibase-listdatatypes-wikibase-item-head"
 msgid "Item"
-msgstr ""
+msgstr "Objekt"
 
 #. [Wiki] {{Wikibase-datatype-body|Item}}
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] For information about "Iri" and related terms, see [[:w:Internationalized resource identifier|Internationalized resource identifier]] and [[:w:URI scheme|URI scheme]].
 msgctxt "wikibase-listdatatypes-wikibase-item-body"
 msgid "Link to other Items on the project. When a value is entered, the project's \"Item\" namespace will be searched for matching Items."
@@ -2172,10 +2183,10 @@ msgstr ""
 #. [Wiki] {{Identical|Property}}
 msgctxt "wikibase-listdatatypes-wikibase-property-head"
 msgid "Property"
-msgstr ""
+msgstr "Veti"
 
 #. [Wiki] {{Wikibase-datatype-body|Property}}
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] For information about "Iri" and related terms, see [[:w:Internationalized resource identifier|Internationalized resource identifier]] and [[:w:URI scheme|URI scheme]].
 msgctxt "wikibase-listdatatypes-wikibase-property-body"
 msgid "Link to Properties on the project. When a value is entered, the project's \"Property\" namespace will be searched for matching Properties."
@@ -2184,10 +2195,10 @@ msgstr ""
 #. [Wiki] {{Wikibase-datatype-head|Commons media|commonsMedia}}
 msgctxt "wikibase-listdatatypes-commonsmedia-head"
 msgid "Commons media"
-msgstr ""
+msgstr "Media Commons"
 
 #. [Wiki] {{Wikibase-datatype-body|Commons media}}
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] For information about "Iri" and related terms, see [[:w:Internationalized resource identifier|Internationalized resource identifier]] and [[:w:URI scheme|URI scheme]].
 msgctxt "wikibase-listdatatypes-commonsmedia-body"
 msgid "Link to files stored at Wikimedia Commons. When a value is entered, the \"File\" namespace on Commons will be searched for matching files."
@@ -2196,18 +2207,23 @@ msgstr ""
 #. [Wiki] {{Wikibase-datatype-head|Globe coordinate|globe-coordinate}}
 msgctxt "wikibase-listdatatypes-globe-coordinate-head"
 msgid "Globe coordinate"
-msgstr ""
+msgstr "Koordinatë rruzulli"
 
 #. [Wiki] {{Wikibase-datatype-body|Globe coordinate}}
 msgctxt "wikibase-listdatatypes-globe-coordinate-body"
-msgid "Literal data for a geographical position given as a latitude-longitude pair in gms or decimal degrees for the given stellar body. Defaults to \"Earth\" and then \"WGS84\". It adds a resolution and range.\n* latitude – implicit first part (float, dms, dm, dd) of the coordinate string, direction is either given by prefixed sign or by postfixed N/S\n* longitude – implicit second part (float, dms, dm, dd) of the coordinate string, direction is either given by prefixed sign or by postfixed E/W\n* globe – explicit (?) data value, given as stellar body that defaults to Earth \"http://www.wikidata.org/entity/Q2\"\n* precision - numeric precision of the coordinate"
+msgid ""
+"Literal data for a geographical position given as a latitude-longitude pair in gms or decimal degrees for the given stellar body. Defaults to \"Earth\" and then \"WGS84\". It adds a resolution and range.\n"
+"* latitude – implicit first part (float, dms, dm, dd) of the coordinate string, direction is either given by prefixed sign or by postfixed N/S\n"
+"* longitude – implicit second part (float, dms, dm, dd) of the coordinate string, direction is either given by prefixed sign or by postfixed E/W\n"
+"* globe – explicit (?) data value, given as stellar body that defaults to Earth \"http://www.wikidata.org/entity/Q2\"\n"
+"* precision - numeric precision of the coordinate"
 msgstr ""
 
 #. [Wiki] {{Wikibase-datatype-head|Geo shape|geo-shape}}
 #. [Wiki] {{Identical|Geographic shape}}
 msgctxt "wikibase-listdatatypes-geo-shape-head"
 msgid "Geographic shape"
-msgstr ""
+msgstr "Formë gjeografike"
 
 #. [Wiki] {{Wikibase-datatype-body|Geo shape}}
 msgctxt "wikibase-listdatatypes-geo-shape-body"
@@ -2218,7 +2234,7 @@ msgstr ""
 #. [Wiki] {{Identical|Tabular data}}
 msgctxt "wikibase-listdatatypes-tabular-data-head"
 msgid "Tabular data"
-msgstr ""
+msgstr "Të dhëna tabelash"
 
 #. [Wiki] {{Wikibase-datatype-body|Tabular data}}
 msgctxt "wikibase-listdatatypes-tabular-data-body"
@@ -2229,68 +2245,88 @@ msgstr ""
 #. [Wiki] {{Identical|Quantity}}
 msgctxt "wikibase-listdatatypes-quantity-head"
 msgid "Quantity"
-msgstr ""
+msgstr "Sasi"
 
 #. [Wiki] {{Wikibase-datatype-body|Quantity}}
 msgctxt "wikibase-listdatatypes-quantity-body"
-msgid "Literal data field for a quantity that relates to some kind of well-defined unit. The actual unit goes in the data values that is entered.\n* amount – implicit part of the string (mapping of unit prefix is unclear)\n* unit – implicit part of the string that defaults to \"1\" (mapping to standardizing body is unclear)\n* upperbound - quantity's upper bound\n* lowerbound - quantity's lower bound"
+msgid ""
+"Literal data field for a quantity that relates to some kind of well-defined unit. The actual unit goes in the data values that is entered.\n"
+"* amount – implicit part of the string (mapping of unit prefix is unclear)\n"
+"* unit – implicit part of the string that defaults to \"1\" (mapping to standardizing body is unclear)\n"
+"* upperbound - quantity's upper bound\n"
+"* lowerbound - quantity's lower bound"
 msgstr ""
 
 #. [Wiki] {{Wikibase-datatype-head|Monolingual text|monolingualtext}}
 #. [Wiki] {{Identical|Monolingual text}}
 msgctxt "wikibase-listdatatypes-monolingualtext-head"
 msgid "Monolingual text"
-msgstr ""
+msgstr "Tekst njëgjuhësh"
 
 #. [Wiki] {{Wikibase-datatype-body|Monolingual text}}
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikibase-listdatatypes-monolingualtext-head}}
 msgctxt "wikibase-listdatatypes-monolingualtext-body"
-msgid "Literal data field for a string that is not translated into other languages. This type of string is defined once and reused across all languages. Typical use is a geographical names written in the local language, an identifier of some kind, a chemical formula or a Latin scientific name.\n* language – explicit value for identifying the language for the text part\n* value – explicit value for the language specific variant string"
+msgid ""
+"Literal data field for a string that is not translated into other languages. This type of string is defined once and reused across all languages. Typical use is a geographical names written in the local language, an identifier of some kind, a chemical formula or a Latin scientific name.\n"
+"* language – explicit value for identifying the language for the text part\n"
+"* value – explicit value for the language specific variant string"
 msgstr ""
 
 #. [Wiki] {{Wikibase-datatype-head|Multilingual text|multilingualtext}}
 #. [Wiki] {{Identical|Multilingual text}}
 msgctxt "wikibase-listdatatypes-multilingualtext-head"
 msgid "Multilingual text"
-msgstr ""
+msgstr "Tekst shumëgjuhësh"
 
 #. [Wiki] {{Wikibase-datatype-body|Multilingual text}}
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] See also:
 #. [Wiki] * {{msg-mw|Wikibase-listdatatypes-multilingualtext-head}}
 msgctxt "wikibase-listdatatypes-multilingualtext-body"
-msgid "Literal data field for a string that must be translated into other languages. Typical use is an entity name of global interest that has non-local written forms. Those can differ both in languages and script systems.\n* language – explicit value for identifying the language for the text part\n* value – explicit value for the language specific variant string"
+msgid ""
+"Literal data field for a string that must be translated into other languages. Typical use is an entity name of global interest that has non-local written forms. Those can differ both in languages and script systems.\n"
+"* language – explicit value for identifying the language for the text part\n"
+"* value – explicit value for the language specific variant string"
 msgstr ""
 
 #. [Wiki] {{Wikibase-datatype-head|String}}
 #. [Wiki] {{Identical|String}}
 msgctxt "wikibase-listdatatypes-string-head"
 msgid "String"
-msgstr ""
+msgstr "Varg"
 
 #. [Wiki] {{Wikibase-datatype-body|String}}
 msgctxt "wikibase-listdatatypes-string-body"
-msgid "Literal data field for a string of glyphs. Typical use are identifiers that have written forms which do not depend on the language of the reader.\n* value – explicit value for the language specific variant string"
+msgid ""
+"Literal data field for a string of glyphs. Typical use are identifiers that have written forms which do not depend on the language of the reader.\n"
+"* value – explicit value for the language specific variant string"
 msgstr ""
 
 #. [Wiki] {{Wikibase-datatype-head|Time}}
 #. [Wiki] {{Identical|Time}}
 msgctxt "wikibase-listdatatypes-time-head"
 msgid "Time"
-msgstr ""
+msgstr "Kohë"
 
 #. [Wiki] {{Wikibase-datatype-body|Time}}
 msgctxt "wikibase-listdatatypes-time-body"
-msgid "Literal data field for a point in time. Given as a date and time with some precision and boundaries. The time is saved internally in the specified calendar model.\n* time – explicit value for point in time, represented as a timestamp resembling ISO 8601, e.g. +2013-01-01T00:00:00Z. The year is always signed and padded to have between 4 and 16 digits.\n* timezone – explicit value as a signed integer. Timezone information as an offset from UTC in minutes.\n* before – explicit integer value for how many units after the given time it could be. The unit is given by the precision.\n* after – explicit integer value for how many units before the given time it could be. The unit is given by the precision.\n* precision – explicit value encoded in a shortint. The numbers have the following meaning: 0 - billion years, 1 - hundred million years, ..., 6 - millennium, 7 - century, 8 - decade, 9 - year, 10 - month, 11 - day, 12 - hour, 13 - minute, 14 - second.\n* calendarmodel – explicit value given as a URI. It identifies the calendar model of the timestamp."
+msgid ""
+"Literal data field for a point in time. Given as a date and time with some precision and boundaries. The time is saved internally in the specified calendar model.\n"
+"* time – explicit value for point in time, represented as a timestamp resembling ISO 8601, e.g. +2013-01-01T00:00:00Z. The year is always signed and padded to have between 4 and 16 digits.\n"
+"* timezone – explicit value as a signed integer. Timezone information as an offset from UTC in minutes.\n"
+"* before – explicit integer value for how many units after the given time it could be. The unit is given by the precision.\n"
+"* after – explicit integer value for how many units before the given time it could be. The unit is given by the precision.\n"
+"* precision – explicit value encoded in a shortint. The numbers have the following meaning: 0 - billion years, 1 - hundred million years, ..., 6 - millennium, 7 - century, 8 - decade, 9 - year, 10 - month, 11 - day, 12 - hour, 13 - minute, 14 - second.\n"
+"* calendarmodel – explicit value given as a URI. It identifies the calendar model of the timestamp."
 msgstr ""
 
 #. [Wiki] {{Wikibase-datatype-head|Url}}
 #. [Wiki] {{Identical|URL}}
 msgctxt "wikibase-listdatatypes-url-head"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. [Wiki] {{Wikibase-datatype-body|Url}}
 msgctxt "wikibase-listdatatypes-url-body"
@@ -2300,7 +2336,7 @@ msgstr ""
 #. [Wiki] {{Wikibase-datatype-head|External identifier|external-id}}
 msgctxt "wikibase-listdatatypes-external-id-head"
 msgid "External identifier"
-msgstr ""
+msgstr "Identifikues i jashtëm"
 
 #. [Wiki] {{Wikibase-datatype-body|External identifier}}
 msgctxt "wikibase-listdatatypes-external-id-body"
@@ -2310,7 +2346,7 @@ msgstr ""
 #. [Wiki] Label for a link in the toolbox on entity pages. Target of the link is the one and specific URI for the entity's concept ("canonical concept link").
 msgctxt "wikibase-concept-uri"
 msgid "Concept URI"
-msgstr ""
+msgstr "URI koncepti"
 
 #. [Wiki] Text for the canonical concept link in toolbox on entity pages.
 msgctxt "wikibase-concept-uri-tooltip"
@@ -2329,10 +2365,10 @@ msgstr ""
 
 #. [Wiki] "Rescore" is not a verb. So translate as "profile of rescore" and not as "to rescore a profile".
 #. [Wiki] :''([https://www.mediawiki.org/w/index.php?title=Extension:CirrusSearch/Profiles#Wikibase Reference] states: "Added '''rescore profiles''' that are used for Wikibase entities")''
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] "Completion search" referred [[MediaWiki:Wikibaselexeme-rescore-profile-prefix/en|here]] as "Prefix (completion) search" is a search to find possible completions for the existing typed characters (the "prefix", one guesses).
 #. [Wiki] :''([https://www.mediawiki.org/w/index.php?title=Extension:CirrusSearch/Profiles#Context Reference] states: "a '''rescore profile''' can be applied to regular search, '''prefix search''', Wikibase search, etc.")''
-#. [Wiki] 
+#. [Wiki]
 #. [Wiki] Apparently related:
 #. [Wiki] * [[MediaWiki:Wikibaselexeme-rescore-profile-prefix/en]]
 msgctxt "wikibase-rescore-profile-prefix-boost"
@@ -2354,17 +2390,17 @@ msgstr ""
 #. [Wiki] {{Identical|URL}}
 msgctxt "datatypes-type-url"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. [Wiki] The name for Wikibase item content model, used when describing what type of content a page contains.
 msgctxt "content-model-wikibase-item"
 msgid "Wikibase Item"
-msgstr ""
+msgstr "Objekt Wikibase"
 
 #. [Wiki] The name for Wikibase property content model, used when describing what type of content a page contains.
 msgctxt "content-model-wikibase-property"
 msgid "Wikibase Property"
-msgstr ""
+msgstr "Veti Wikibase"
 
 #. [Wiki] The name for Wikibase query content model, used when describing what type of content a page contains.
 msgctxt "content-model-wikibase-query"
@@ -2382,13 +2418,13 @@ msgstr ""
 #. [Wiki] {{Identical|Merge item}}
 msgctxt "right-item-merge"
 msgid "Merge Items"
-msgstr ""
+msgstr "Përzie Objekte"
 
 #. [Wiki] {{doc-right|item-redirect}}
 #. [Wiki] Right to create [[d:Special:MyLanguage/Wikidata:Glossary#Item|item]] redirects after merging items.
 msgctxt "right-item-redirect"
 msgid "Create Item redirects"
-msgstr ""
+msgstr "Krijoni ridrejtime Objekti"
 
 #. [Wiki] {{doc-right|property-term}}
 #. [Wiki] Right to alter the [[d:Wikidata:Glossary#Term|terms]] of [[d:Wikidata:Glossary#Item|items]].
@@ -2400,12 +2436,12 @@ msgstr ""
 #. [Wiki] Right to create new [[d:Wikidata:Glossary#Property|properties]].
 msgctxt "right-property-create"
 msgid "Create Properties"
-msgstr ""
+msgstr "Krijoni Veti"
 
 #. [Wiki] Page title on the error page saying that content can't be displayed.
 msgctxt "wikibase-entity-not-viewable-title"
 msgid "Content type mismatch: Cannot display content"
-msgstr ""
+msgstr "Ngatërrim lloji lënde: S’shfaqet dot lënda"
 
 #. [Wiki] Error message saying that some content can't be rendered. $1 is the content model of the content that can't be displayed (e.g. wikitext).
 msgctxt "wikibase-entity-not-viewable"
@@ -2415,12 +2451,12 @@ msgstr ""
 #. [Wiki] {{Doc-action|item-merge}}
 msgctxt "action-item-merge"
 msgid "merge Items"
-msgstr ""
+msgstr "përzieji Objektet"
 
 #. [Wiki] {{Doc-action|property-create}}
 msgctxt "action-property-create"
 msgid "create Properties"
-msgstr ""
+msgstr "krijoni Veti"
 
 #. [Wiki] Text to put in action=info for entity usage
 msgctxt "wikibase-pageinfo-subscription"
@@ -2431,12 +2467,12 @@ msgstr ""
 #. [Wiki] {{Identical|None}}
 msgctxt "wikibase-pageinfo-subscription-none"
 msgid "None"
-msgstr ""
+msgstr "Asnjë"
 
 #. [Wiki] Error message displayed when user supplies bad entity type to wbsearchentities
 msgctxt "wikibase-search-bad-entity-type"
 msgid "Bad entity type: $1"
-msgstr ""
+msgstr "Lloj i gabuar njësie: $1"
 
 #. [Wiki] Error message displayed when user supplies bad search profile name
 msgctxt "wikibase-search-bad-profile-name"
@@ -2481,16 +2517,18 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-description|wbcreateclaim}}
 msgctxt "apihelp-wbcreateclaim-description"
 msgid "Creates Wikibase claims."
-msgstr ""
+msgstr "Krijon pretendime Wikibase."
 
 #. [Wiki] {{doc-apihelp-summary|wbcreateclaim}}
 msgctxt "apihelp-wbcreateclaim-summary"
 msgid "Creates Wikibase claims."
-msgstr ""
+msgstr "Krijon pretendime Wikibase."
 
 #. [Wiki] {{doc-apihelp-param|wbcreateclaim|baserevid}}
 msgctxt "apihelp-wbcreateclaim-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-important|Do not translate the 'bot' literal, only translate the text! So leave "<code>bot</code>" as is.}}{{doc-apihelp-param|wbcreateclaim|bot}}
@@ -2522,7 +2560,9 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbcreateclaim|summary}}
 msgctxt "apihelp-wbcreateclaim-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-example|wbcreateclaim}}
@@ -2548,25 +2588,25 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-description|wbcreateredirect}}
 msgctxt "apihelp-wbcreateredirect-description"
 msgid "Creates Entity redirects."
-msgstr ""
+msgstr "Krijon ridrejtime njësie."
 
 #. [Wiki] {{doc-apihelp-summary|wbcreateredirect}}
 msgctxt "apihelp-wbcreateredirect-summary"
 msgid "Creates Entity redirects."
-msgstr ""
+msgstr "Krijon ridrejtime Njësie."
 
 #. [Wiki] {{doc-apihelp-param|wbcreateredirect|from}}
 msgctxt "apihelp-wbcreateredirect-param-from"
 msgid "Entity ID to make a redirect"
-msgstr ""
+msgstr "ID njësie për të bërë një ridrejtim"
 
 #. [Wiki] {{doc-apihelp-param|wbcreateredirect|to}}
-#. [Wiki] 
-#. [Wiki] for Indonesian: 
+#. [Wiki]
+#. [Wiki] for Indonesian:
 #. [Wiki] The Entity ID that will be the redirect target (proper English)
 msgctxt "apihelp-wbcreateredirect-param-to"
 msgid "Entity ID to point the redirect to"
-msgstr ""
+msgstr "ID njësie ku të shpihet ridrejtimi"
 
 #. [Wiki] {{doc-apihelp-param|wbcreateredirect|bot}}
 msgctxt "apihelp-wbcreateredirect-param-bot"
@@ -2590,27 +2630,37 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbeditentity|id}}
 msgctxt "apihelp-wbeditentity-param-id"
-msgid "The identifier for the entity, including the prefix.\nUse either <var>id</var> or <var>site</var> and <var>title</var> together."
+msgid ""
+"The identifier for the entity, including the prefix.\n"
+"Use either <var>id</var> or <var>site</var> and <var>title</var> together."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbeditentity|site}}
 msgctxt "apihelp-wbeditentity-param-site"
-msgid "An identifier for the site on which the page resides.\nUse together with <var>title</var> to make a complete sitelink."
+msgid ""
+"An identifier for the site on which the page resides.\n"
+"Use together with <var>title</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbeditentity|title}}
 msgctxt "apihelp-wbeditentity-param-title"
-msgid "Title of the page to associate.\nUse together with <var>site</var> to make a complete sitelink."
+msgid ""
+"Title of the page to associate.\n"
+"Use together with <var>site</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbeditentity|baserevid}}
 msgctxt "apihelp-wbeditentity-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbeditentity|summary}}
 msgctxt "apihelp-wbeditentity-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbeditentity|bot}}
@@ -2620,17 +2670,24 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbeditentity|data}}
 msgctxt "apihelp-wbeditentity-param-data"
-msgid "The serialized object that is used as the data source.\nA newly created entity will be assigned an 'id'."
+msgid ""
+"The serialized object that is used as the data source.\n"
+"A newly created entity will be assigned an 'id'."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbeditentity|clear}}
 msgctxt "apihelp-wbeditentity-param-clear"
-msgid "If set, the complete entity is emptied before proceeding.\nThe entity will not be saved before it is filled with the \"<code>data</code>\", possibly with parts excluded."
+msgid ""
+"If set, the complete entity is emptied before proceeding.\n"
+"The entity will not be saved before it is filled with the \"<code>data</code>\", possibly with parts excluded."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbeditentity|new}}
 msgctxt "apihelp-wbeditentity-param-new"
-msgid "If set, a new entity will be created.\nSet this to the type of the entity to be created.\nIt is not allowed to have this set when <var>id</var> is also set."
+msgid ""
+"If set, a new entity will be created.\n"
+"Set this to the type of the entity to be created.\n"
+"It is not allowed to have this set when <var>id</var> is also set."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-example|wbeditentity}}
@@ -2691,7 +2748,7 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-example|wbeditentity}}
 msgctxt "apihelp-wbeditentity-example-12"
 msgid "Removes a label"
-msgstr ""
+msgstr "Heq një etiketë"
 
 #. [Wiki] {{doc-apihelp-description|wbformatvalue}}
 msgctxt "apihelp-wbformatvalue-description"
@@ -2706,7 +2763,7 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-param|wbformatvalue|generate}}
 msgctxt "apihelp-wbformatvalue-param-generate"
 msgid "The desired output format to generate."
-msgstr ""
+msgstr "Formati i përfundimeve i dëshiruar që të prodhohet."
 
 #. [Wiki] {{doc-apihelp-param|wbformatvalue|datatype}}
 msgctxt "apihelp-wbformatvalue-param-datatype"
@@ -2731,22 +2788,22 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-example|wbformatvalue}}
 msgctxt "apihelp-wbformatvalue-example-1"
 msgid "Format a simple string value."
-msgstr ""
+msgstr "Formatoni një vlerë vargu të thjeshtë."
 
 #. [Wiki] {{doc-apihelp-example|wbformatvalue}}
 msgctxt "apihelp-wbformatvalue-example-2"
 msgid "Format a string value as a URL in HTML."
-msgstr ""
+msgstr "Formatoni një vlerë vargu si një URL në HTML."
 
 #. [Wiki] {{doc-apihelp-description|wbgetclaims}}
 msgctxt "apihelp-wbgetclaims-description"
 msgid "Gets Wikibase claims."
-msgstr ""
+msgstr "Merr pretendime Wikibase."
 
 #. [Wiki] {{doc-apihelp-summary|wbgetclaims}}
 msgctxt "apihelp-wbgetclaims-summary"
 msgid "Gets Wikibase claims."
-msgstr ""
+msgstr "WikibaseMerr pretendime Wikibase."
 
 #. [Wiki] {{doc-apihelp-param|wbgetclaims|entity}}
 msgctxt "apihelp-wbgetclaims-param-entity"
@@ -2806,31 +2863,41 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-param|wbgetentities|ids}}
 msgctxt "apihelp-wbgetentities-param-ids"
 msgid "The IDs of the entities to get the data from"
-msgstr ""
+msgstr "ID-të e njësive prej nga të merren të dhënat"
 
 #. [Wiki] {{doc-apihelp-param|wbgetentities|sites}}
 msgctxt "apihelp-wbgetentities-param-sites"
-msgid "Identifier for the site on which the corresponding page resides\nUse together with <code>title</code>, but only give one site for several titles or several sites for one title."
+msgid ""
+"Identifier for the site on which the corresponding page resides\n"
+"Use together with <code>title</code>, but only give one site for several titles or several sites for one title."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbgetentities|titles}}
 msgctxt "apihelp-wbgetentities-param-titles"
-msgid "The title of the corresponding page\nUse together with <code>sites</code>, but only give one site for several titles or several sites for one title."
+msgid ""
+"The title of the corresponding page\n"
+"Use together with <code>sites</code>, but only give one site for several titles or several sites for one title."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbgetentities|redirects}}
 msgctxt "apihelp-wbgetentities-param-redirects"
-msgid "Whether redirects shall be resolved.\nIf set to \"no\", redirects will be treated like deleted entities."
+msgid ""
+"Whether redirects shall be resolved.\n"
+"If set to \"no\", redirects will be treated like deleted entities."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbgetentities|props}}
 msgctxt "apihelp-wbgetentities-param-props"
-msgid "The names of the properties to get back from each entity.\nWill be further filtered by any languages given."
+msgid ""
+"The names of the properties to get back from each entity.\n"
+"Will be further filtered by any languages given."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbgetentities|languages}}
 msgctxt "apihelp-wbgetentities-param-languages"
-msgid "By default the internationalized values are returned in all available languages.\nThis parameter allows filtering these down to one or more languages by providing one or more language codes."
+msgid ""
+"By default the internationalized values are returned in all available languages.\n"
+"This parameter allows filtering these down to one or more languages by providing one or more language codes."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbgetentities|languagefallback}}
@@ -2840,7 +2907,9 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbgetentities|normalize}}
 msgctxt "apihelp-wbgetentities-param-normalize"
-msgid "Try to normalize the page title against the client site.\nThis only works if exactly one site and one page have been given."
+msgid ""
+"Try to normalize the page title against the client site.\n"
+"This only works if exactly one site and one page have been given."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbgetentities|sitefilter}}
@@ -2925,22 +2994,30 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wblinktitles|tosite}}
 msgctxt "apihelp-wblinktitles-param-tosite"
-msgid "An identifier for the site on which the page resides.\nUse together with <var>totitle</var> to make a complete sitelink."
+msgid ""
+"An identifier for the site on which the page resides.\n"
+"Use together with <var>totitle</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wblinktitles|totitle}}
 msgctxt "apihelp-wblinktitles-param-totitle"
-msgid "Title of the page to associate.\nUse together with <var>tosite</var> to make a complete sitelink."
+msgid ""
+"Title of the page to associate.\n"
+"Use together with <var>tosite</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wblinktitles|fromsite}}
 msgctxt "apihelp-wblinktitles-param-fromsite"
-msgid "An identifier for the site on which the page resides.\nUse together with <var>fromtitle</var> to make a complete sitelink."
+msgid ""
+"An identifier for the site on which the page resides.\n"
+"Use together with <var>fromtitle</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wblinktitles|fromtitle}}
 msgctxt "apihelp-wblinktitles-param-fromtitle"
-msgid "Title of the page to associate.\nUse together with <var>fromsite</var> to make a complete sitelink."
+msgid ""
+"Title of the page to associate.\n"
+"Use together with <var>fromsite</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wblinktitles|bot}}
@@ -2956,22 +3033,22 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-description|wbmergeitems}}
 msgctxt "apihelp-wbmergeitems-description"
 msgid "Merges multiple items."
-msgstr ""
+msgstr "Përzien disa objekte njëherësh."
 
 #. [Wiki] {{doc-apihelp-summary|wbmergeitems}}
 msgctxt "apihelp-wbmergeitems-summary"
 msgid "Merges multiple items."
-msgstr ""
+msgstr "Përzien shumë objekte njëherësh."
 
 #. [Wiki] {{doc-apihelp-param|wbmergeitems|fromid}}
 msgctxt "apihelp-wbmergeitems-param-fromid"
 msgid "The ID to merge from"
-msgstr ""
+msgstr "ID-ja prej nga të përzihet"
 
 #. [Wiki] {{doc-apihelp-param|wbmergeitems|toid}}
 msgctxt "apihelp-wbmergeitems-param-toid"
 msgid "The ID to merge to"
-msgstr ""
+msgstr "ID-ja për t’u përzierë"
 
 #. [Wiki] {{doc-apihelp-param|wbmergeitems|ignoreconflicts}}
 msgctxt "apihelp-wbmergeitems-param-ignoreconflicts"
@@ -2980,7 +3057,9 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbmergeitems|summary}}
 msgctxt "apihelp-wbmergeitems-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbmergeitems|bot}}
@@ -3037,7 +3116,7 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-param|wbparsevalue|values}}
 msgctxt "apihelp-wbparsevalue-param-values"
 msgid "The values to parse"
-msgstr ""
+msgstr "Vlerat që duhen përtypur"
 
 #. [Wiki] {{doc-apihelp-param|wbparsevalue|options}}
 msgctxt "apihelp-wbparsevalue-param-options"
@@ -3062,16 +3141,18 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-description|wbremoveclaims}}
 msgctxt "apihelp-wbremoveclaims-description"
 msgid "Removes Wikibase claims."
-msgstr ""
+msgstr "Heq pretendime Wikibase."
 
 #. [Wiki] {{doc-apihelp-summary|wbremoveclaims}}
 msgctxt "apihelp-wbremoveclaims-summary"
 msgid "Removes Wikibase claims."
-msgstr ""
+msgstr "Heq pretendime Wikibase."
 
 #. [Wiki] {{doc-apihelp-param|wbremoveclaims|baserevid}}
 msgctxt "apihelp-wbremoveclaims-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbremoveclaims|bot}}
@@ -3081,12 +3162,16 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbremoveclaims|claim}}
 msgctxt "apihelp-wbremoveclaims-param-claim"
-msgid "One GUID or several (pipe-separated) GUIDs identifying the claims to be removed.\nAll claims must belong to the same entity."
+msgid ""
+"One GUID or several (pipe-separated) GUIDs identifying the claims to be removed.\n"
+"All claims must belong to the same entity."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbremoveclaims|summary}}
 msgctxt "apihelp-wbremoveclaims-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-example|wbremoveclaims}}
@@ -3097,16 +3182,18 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-description|wbremovequalifiers}}
 msgctxt "apihelp-wbremovequalifiers-description"
 msgid "Removes a qualifier from a claim."
-msgstr ""
+msgstr "Heq një cilësues nga një pretendim."
 
 #. [Wiki] {{doc-apihelp-summary|wbremovequalifiers}}
 msgctxt "apihelp-wbremovequalifiers-summary"
 msgid "Removes a qualifier from a claim."
-msgstr ""
+msgstr "Heq një cilësues nga një pretendim."
 
 #. [Wiki] {{doc-apihelp-param|wbremovequalifiers|baserevid}}
 msgctxt "apihelp-wbremovequalifiers-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbremovequalifiers|bot}}
@@ -3126,7 +3213,9 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbremovequalifiers|summary}}
 msgctxt "apihelp-wbremovequalifiers-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-example|wbremovequalifiers}}
@@ -3146,7 +3235,9 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbremovereferences|baserevid}}
 msgctxt "apihelp-wbremovereferences-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbremovereferences|bot}}
@@ -3161,7 +3252,9 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbremovereferences|summary}}
 msgctxt "apihelp-wbremovereferences-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbremovereferences|references}}
@@ -3176,7 +3269,11 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-description|wbsearchentities}}
 msgctxt "apihelp-wbsearchentities-description"
-msgid "Searches for entities using labels, aliases or IDs.\nReturns a label and description for the entity in the user language if possible.\nReturns details of the matched term.\nThe matched term text is also present in the aliases key if different from the display label."
+msgid ""
+"Searches for entities using labels, aliases or IDs.\n"
+"Returns a label and description for the entity in the user language if possible.\n"
+"Returns details of the matched term.\n"
+"The matched term text is also present in the aliases key if different from the display label."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-summary|wbsearchentities}}
@@ -3186,18 +3283,21 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-extended-description|wbsearchentities}}
 msgctxt "apihelp-wbsearchentities-extended-description"
-msgid "Returns a label and description for the entity in the user language if possible.\nReturns details of the matched term.\nThe matched term text is also present in the aliases key if different from the display label."
+msgid ""
+"Returns a label and description for the entity in the user language if possible.\n"
+"Returns details of the matched term.\n"
+"The matched term text is also present in the aliases key if different from the display label."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsearchentities|search}}
 msgctxt "apihelp-wbsearchentities-param-search"
 msgid "Search for this text."
-msgstr ""
+msgstr "Kërko për këtë tekst."
 
 #. [Wiki] {{doc-apihelp-param|wbsearchentities|language}}
 msgctxt "apihelp-wbsearchentities-param-language"
 msgid "Search in this language."
-msgstr ""
+msgstr "Kërkoni në këtë gjuhë."
 
 #. [Wiki] {{doc-apihelp-param|wbsearchentities|strictlanguage|info = This message is used [https://www.wikidata.org/wiki/Special:ApiSandbox#action=wbsearchentities here] at param 3. If enabled only matches in the current language are shown}}
 msgctxt "apihelp-wbsearchentities-param-strictlanguage"
@@ -3207,7 +3307,7 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-param|wbsearchentities|type}}
 msgctxt "apihelp-wbsearchentities-param-type"
 msgid "Search for this type of entity."
-msgstr ""
+msgstr "Kërko për këtë lloj njësie."
 
 #. [Wiki] {{doc-apihelp-param|wbsearchentities|props}}
 msgctxt "apihelp-wbsearchentities-param-props"
@@ -3217,7 +3317,7 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-param|wbsearchentities|limit}}
 msgctxt "apihelp-wbsearchentities-param-limit"
 msgid "Maximal number of results"
-msgstr ""
+msgstr "Numër maksimum përfundimesh"
 
 #. [Wiki] {{doc-apihelp-param|wbsearchentities|continue}}
 msgctxt "apihelp-wbsearchentities-param-continue"
@@ -3267,12 +3367,12 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-paramvalue|query+wbcontentlanguages|context|term}}
 msgctxt "apihelp-query+wbcontentlanguages-paramvalue-context-term"
 msgid "The terms (label, description, aliases) of an entity."
-msgstr ""
+msgstr "Termat (etiketë, përshkrim, aliase) të një njësie."
 
 #. [Wiki] {{doc-apihelp-paramvalue|query+wbcontentlanguages|context|monolingualtext}}
 msgctxt "apihelp-query+wbcontentlanguages-paramvalue-context-monolingualtext"
 msgid "A monolingual text value in a statement."
-msgstr ""
+msgstr "Vlerë teksti njëgjuhësh në një pohim."
 
 #. [Wiki] {{doc-apihelp-param|query+wbcontentlanguages|prop}}
 msgctxt "apihelp-query+wbcontentlanguages-param-prop"
@@ -3282,7 +3382,7 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-paramvalue|query+wbcontentlanguages|prop|code}}
 msgctxt "apihelp-query+wbcontentlanguages-paramvalue-prop-code"
 msgid "The language code."
-msgstr ""
+msgstr "Kodi i gjuhës."
 
 #. [Wiki] {{doc-apihelp-paramvalue|query+wbcontentlanguages|prop|autonym}}
 msgctxt "apihelp-query+wbcontentlanguages-paramvalue-prop-autonym"
@@ -3306,7 +3406,10 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-description|query+wbsearch}}
 msgctxt "apihelp-query+wbsearch-description"
-msgid "Searches for entities using labels and aliases.\nThis can be used as a generator for other queries.\nReturns the matched term that should be displayed."
+msgid ""
+"Searches for entities using labels and aliases.\n"
+"This can be used as a generator for other queries.\n"
+"Returns the matched term that should be displayed."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-summary|query+wbsearch}}
@@ -3316,18 +3419,20 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-extended-description|query+wbsearch}}
 msgctxt "apihelp-query+wbsearch-extended-description"
-msgid "This can be used as a generator for other queries.\nReturns the matched term that should be displayed."
+msgid ""
+"This can be used as a generator for other queries.\n"
+"Returns the matched term that should be displayed."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|query+wbsearch|search}}
 msgctxt "apihelp-query+wbsearch-param-search"
 msgid "Search for this text."
-msgstr ""
+msgstr "Kërko për këtë tekst."
 
 #. [Wiki] {{doc-apihelp-param|query+wbsearch|language}}
 msgctxt "apihelp-query+wbsearch-param-language"
 msgid "Search in this language."
-msgstr ""
+msgstr "Kërkoni në këtë gjuhë."
 
 #. [Wiki] {{doc-apihelp-param|query+wbsearch|strictlanguage}}
 msgctxt "apihelp-query+wbsearch-param-strictlanguage"
@@ -3337,12 +3442,12 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-param|query+wbsearch|type}}
 msgctxt "apihelp-query+wbsearch-param-type"
 msgid "Search for this type of entity."
-msgstr ""
+msgstr "Kërkoni për këtë lloj njësie."
 
 #. [Wiki] {{doc-apihelp-param|query+wbsearch|limit}}
 msgctxt "apihelp-query+wbsearch-param-limit"
 msgid "Maximal number of results"
-msgstr ""
+msgstr "Numër maksimum përfundimesh"
 
 #. [Wiki] {{doc-apihelp-example|query+wbsearch}}
 msgctxt "apihelp-query+wbsearch-example-1"
@@ -3367,27 +3472,27 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-description|query+wbsubscribers}}
 msgctxt "apihelp-query+wbsubscribers-description"
 msgid "Get subscriptions to given entities."
-msgstr ""
+msgstr "Merrni pajtime te njësitë e dhënave."
 
 #. [Wiki] {{doc-apihelp-summary|query+wbsubscribers}}
 msgctxt "apihelp-query+wbsubscribers-summary"
 msgid "Get subscriptions to given entities."
-msgstr ""
+msgstr "Merrni pajtime te njësitë e dhënave."
 
 #. [Wiki] {{doc-apihelp-param|query+wbsubscribers|entities}}
 msgctxt "apihelp-query+wbsubscribers-param-entities"
 msgid "Entities to get subscribers"
-msgstr ""
+msgstr "Njësi për të marrë pajtimtarë"
 
 #. [Wiki] {{doc-apihelp-param|query+wbsubscribers|prop}}
 msgctxt "apihelp-query+wbsubscribers-param-prop"
 msgid "Properties to add to result"
-msgstr ""
+msgstr "Veti për t’u shtuar te përfundimi"
 
 #. [Wiki] {{doc-apihelp-param|query+wbsubscribers|limit}}
 msgctxt "apihelp-query+wbsubscribers-param-limit"
 msgid "Maximal number of results"
-msgstr ""
+msgstr "Numër maksimum përfundimesh"
 
 #. [Wiki] {{doc-apihelp-example|query+wbsubscribers}}
 msgctxt "apihelp-query+wbsubscribers-example-1"
@@ -3411,32 +3516,44 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetaliases|id}}
 msgctxt "apihelp-wbsetaliases-param-id"
-msgid "The identifier for the entity, including the prefix.\nUse either <var>id</var> or <var>site</var> and <var>title</var> together."
+msgid ""
+"The identifier for the entity, including the prefix.\n"
+"Use either <var>id</var> or <var>site</var> and <var>title</var> together."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetaliases|new}}
 msgctxt "apihelp-wbsetaliases-param-new"
-msgid "If set, a new entity will be created.\nSet this to the type of the entity you want to create."
+msgid ""
+"If set, a new entity will be created.\n"
+"Set this to the type of the entity you want to create."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetaliases|site}}
 msgctxt "apihelp-wbsetaliases-param-site"
-msgid "An identifier for the site on which the page resides.\nUse together with <var>title</var> to make a complete sitelink."
+msgid ""
+"An identifier for the site on which the page resides.\n"
+"Use together with <var>title</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetaliases|title}}
 msgctxt "apihelp-wbsetaliases-param-title"
-msgid "Title of the page to associate.\nUse together with <var>site</var> to make a complete sitelink."
+msgid ""
+"Title of the page to associate.\n"
+"Use together with <var>site</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetaliases|baserevid}}
 msgctxt "apihelp-wbsetaliases-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetaliases|summary}}
 msgctxt "apihelp-wbsetaliases-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetaliases|bot}}
@@ -3462,7 +3579,7 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-param|wbsetaliases|language}}
 msgctxt "apihelp-wbsetaliases-param-language"
 msgid "The language for which to set the aliases"
-msgstr ""
+msgstr "Gjuha për të cilën të caktohen aliaset"
 
 #. [Wiki] {{doc-apihelp-example|wbsetaliases}}
 msgctxt "apihelp-wbsetaliases-example-1"
@@ -3506,12 +3623,16 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetclaim|summary}}
 msgctxt "apihelp-wbsetclaim-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetclaim|baserevid}}
 msgctxt "apihelp-wbsetclaim-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetclaim|bot}}
@@ -3561,12 +3682,16 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetclaimvalue|summary}}
 msgctxt "apihelp-wbsetclaimvalue-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetclaimvalue|baserevid}}
 msgctxt "apihelp-wbsetclaimvalue-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetclaimvalue|bot}}
@@ -3591,32 +3716,44 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetdescription|id}}
 msgctxt "apihelp-wbsetdescription-param-id"
-msgid "The identifier for the entity, including the prefix.\nUse either <var>id</var> or <var>site</var> and <var>title</var> together."
+msgid ""
+"The identifier for the entity, including the prefix.\n"
+"Use either <var>id</var> or <var>site</var> and <var>title</var> together."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetdescription|new}}
 msgctxt "apihelp-wbsetdescription-param-new"
-msgid "If set, a new entity will be created.\nSet this to the type of the entity you want to create."
+msgid ""
+"If set, a new entity will be created.\n"
+"Set this to the type of the entity you want to create."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetdescription|site}}
 msgctxt "apihelp-wbsetdescription-param-site"
-msgid "An identifier for the site on which the page resides.\nUse together with <var>title</var> to make a complete sitelink."
+msgid ""
+"An identifier for the site on which the page resides.\n"
+"Use together with <var>title</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetdescription|title}}
 msgctxt "apihelp-wbsetdescription-param-title"
-msgid "Title of the page to associate.\nUse together with <var>site</var> to make a complete sitelink."
+msgid ""
+"Title of the page to associate.\n"
+"Use together with <var>site</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetdescription|baserevid}}
 msgctxt "apihelp-wbsetdescription-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetdescription|summary}}
 msgctxt "apihelp-wbsetdescription-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetdescription|bot}}
@@ -3627,12 +3764,12 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-param|wbsetdescription|language}}
 msgctxt "apihelp-wbsetdescription-param-language"
 msgid "Language of the description"
-msgstr ""
+msgstr "Gjuhë e përshkrimit"
 
 #. [Wiki] {{doc-apihelp-param|wbsetdescription|value}}
 msgctxt "apihelp-wbsetdescription-param-value"
 msgid "The value to set for the description"
-msgstr ""
+msgstr "Vlera që duhet caktuar për përshkrimin"
 
 #. [Wiki] {{doc-apihelp-example|wbsetdescription}}
 msgctxt "apihelp-wbsetdescription-example-1"
@@ -3656,32 +3793,44 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetlabel|id}}
 msgctxt "apihelp-wbsetlabel-param-id"
-msgid "The identifier for the entity, including the prefix.\nUse either <var>id</var> or <var>site</var> and <var>title</var> together."
+msgid ""
+"The identifier for the entity, including the prefix.\n"
+"Use either <var>id</var> or <var>site</var> and <var>title</var> together."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetlabel|new}}
 msgctxt "apihelp-wbsetlabel-param-new"
-msgid "If set, a new entity will be created.\nSet this to the type of the entity you want to create."
+msgid ""
+"If set, a new entity will be created.\n"
+"Set this to the type of the entity you want to create."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetlabel|site}}
 msgctxt "apihelp-wbsetlabel-param-site"
-msgid "An identifier for the site on which the page resides.\nUse together with <var>title</var> to make a complete sitelink."
+msgid ""
+"An identifier for the site on which the page resides.\n"
+"Use together with <var>title</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetlabel|title}}
 msgctxt "apihelp-wbsetlabel-param-title"
-msgid "Title of the page to associate.\nUse together with <var>site</var> to make a complete sitelink."
+msgid ""
+"Title of the page to associate.\n"
+"Use together with <var>site</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetlabel|baserevid}}
 msgctxt "apihelp-wbsetlabel-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetlabel|summary}}
 msgctxt "apihelp-wbsetlabel-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetlabel|bot}}
@@ -3692,12 +3841,12 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-param|wbsetlabel|language}}
 msgctxt "apihelp-wbsetlabel-param-language"
 msgid "Language of the label"
-msgstr ""
+msgstr "Gjuhë e etiketës"
 
 #. [Wiki] {{doc-apihelp-param|wbsetlabel|value}}
 msgctxt "apihelp-wbsetlabel-param-value"
 msgid "The value of the label"
-msgstr ""
+msgstr "Vlera e etiketës"
 
 #. [Wiki] {{doc-apihelp-example|wbsetlabel}}
 msgctxt "apihelp-wbsetlabel-example-1"
@@ -3726,32 +3875,44 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetqualifier|property}}
 msgctxt "apihelp-wbsetqualifier-param-property"
-msgid "ID of the snaks property.\nShould only be provided when creating a new qualifier or changing the property of an existing one"
+msgid ""
+"ID of the snaks property.\n"
+"Should only be provided when creating a new qualifier or changing the property of an existing one"
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetqualifier|value}}
 msgctxt "apihelp-wbsetqualifier-param-value"
-msgid "The new value of the qualifier.\nShould only be provided for PropertyValueSnak qualifiers"
+msgid ""
+"The new value of the qualifier.\n"
+"Should only be provided for PropertyValueSnak qualifiers"
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetqualifier|snaktype}}
 msgctxt "apihelp-wbsetqualifier-param-snaktype"
-msgid "The type of the snak.\nShould only be provided when creating a new qualifier or changing the type of an existing one"
+msgid ""
+"The type of the snak.\n"
+"Should only be provided when creating a new qualifier or changing the type of an existing one"
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetqualifier|snakhash}}
 msgctxt "apihelp-wbsetqualifier-param-snakhash"
-msgid "The hash of the snak to modify.\nShould only be provided for existing qualifiers"
+msgid ""
+"The hash of the snak to modify.\n"
+"Should only be provided for existing qualifiers"
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetqualifier|summary}}
 msgctxt "apihelp-wbsetqualifier-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetqualifier|baserevid}}
 msgctxt "apihelp-wbsetqualifier-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetqualifier|bot}}
@@ -3801,12 +3962,16 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetreference|summary}}
 msgctxt "apihelp-wbsetreference-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetreference|baserevid}}
 msgctxt "apihelp-wbsetreference-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetreference|bot}}
@@ -3841,32 +4006,44 @@ msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetsitelink|id}}
 msgctxt "apihelp-wbsetsitelink-param-id"
-msgid "The identifier for the entity, including the prefix.\nUse either <var>id</var> or <var>site</var> and <var>title</var> together."
+msgid ""
+"The identifier for the entity, including the prefix.\n"
+"Use either <var>id</var> or <var>site</var> and <var>title</var> together."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetsitelink|new}}
 msgctxt "apihelp-wbsetsitelink-param-new"
-msgid "If set, a new entity will be created.\nSet this to the type of the entity you want to create."
+msgid ""
+"If set, a new entity will be created.\n"
+"Set this to the type of the entity you want to create."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetsitelink|site}}
 msgctxt "apihelp-wbsetsitelink-param-site"
-msgid "An identifier for the site on which the page resides.\nUse together with <var>title</var> to make a complete sitelink."
+msgid ""
+"An identifier for the site on which the page resides.\n"
+"Use together with <var>title</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetsitelink|title}}
 msgctxt "apihelp-wbsetsitelink-param-title"
-msgid "Title of the page to associate.\nUse together with <var>site</var> to make a complete sitelink."
+msgid ""
+"Title of the page to associate.\n"
+"Use together with <var>site</var> to make a complete sitelink."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetsitelink|baserevid}}
 msgctxt "apihelp-wbsetsitelink-param-baserevid"
-msgid "The numeric identifier for the revision to base the modification on.\nThis is used for detecting conflicts during save."
+msgid ""
+"The numeric identifier for the revision to base the modification on.\n"
+"This is used for detecting conflicts during save."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetsitelink|summary}}
 msgctxt "apihelp-wbsetsitelink-param-summary"
-msgid "Summary for the edit.\nWill be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
+msgid ""
+"Summary for the edit.\n"
+"Will be prepended by an automatically generated comment. The length limit of the autocomment together with the summary is 260 characters. Be aware that everything above that limit will be cut off."
 msgstr ""
 
 #. [Wiki] {{doc-apihelp-param|wbsetsitelink|bot}}
@@ -3907,7 +4084,7 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-example|wbsetsitelink}}
 msgctxt "apihelp-wbsetsitelink-example-4"
 msgid "Remove the German sitelink from the item"
-msgstr ""
+msgstr "Hiqeni lidhjen e sajtit në gjermanisht prej objektit"
 
 #. [Wiki] {{doc-apihelp-example|wbsetsitelink}}
 msgctxt "apihelp-wbsetsitelink-example-5"
@@ -3932,7 +4109,7 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-summary|wbformatentities}}
 msgctxt "apihelp-wbformatentities-summary"
 msgid "Formats entity IDs to HTML."
-msgstr ""
+msgstr "Formaton ID njësish në HTML."
 
 #. [Wiki] {{doc-apihelp-extended-description|wbformatentities}}
 msgctxt "apihelp-wbformatentities-extended-description"
@@ -3942,25 +4119,24 @@ msgstr ""
 #. [Wiki] {{doc-apihelp-param|wbformatentities|ids}}
 msgctxt "apihelp-wbformatentities-param-ids"
 msgid "The entity IDs to format."
-msgstr ""
+msgstr "ID-ra njësish për t’u formatuar."
 
 #. [Wiki] {{doc-apihelp-example|wbformatentities}}
 msgctxt "apihelp-wbformatentities-example-1"
 msgid "Format a single item ID."
-msgstr ""
+msgstr "Formatoni një ID objekti njësh."
 
 #. [Wiki] {{doc-apihelp-example|wbformatentities}}
 msgctxt "apihelp-wbformatentities-example-2"
 msgid "Format an item ID and a property ID."
-msgstr ""
+msgstr "Formatoni një ID objekti dhe një ID vetie."
 
 #. [Wiki] {{doc-apihelp-example|wbformatentities}}
 msgctxt "apihelp-wbformatentities-example-3"
 msgid "Format an item ID, a property ID and a lexeme ID."
-msgstr ""
+msgstr "Formatoni një ID objekti, një ID vetie dhe një ID lekseme."
 
 #. [Wiki] {{doc-apihelp-example|wbformatentities}}
 msgctxt "apihelp-wbformatentities-example-4"
 msgid "Format three item IDs in French."
 msgstr ""
-
